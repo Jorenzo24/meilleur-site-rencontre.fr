@@ -765,29 +765,32 @@ section { padding: 3rem 0; }
 
 .review-page-head {
   margin-bottom: 1.5rem;
-  padding-bottom: 1.5rem;
+  padding-bottom: 1.25rem;
   border-bottom: 1px solid var(--border);
 }
-.review-page-head .eyebrow { margin: 0 0 .75rem; }
+.review-page-head .eyebrow { margin: 0 0 .5rem; }
 .review-page-head h1 {
   font-size: clamp(1.75rem, 5vw, 2.4rem);
-  margin: 0 0 .9rem;
+  margin: 0 0 .75rem;
 }
 .review-page-head .lede {
   font-size: 1.1rem;
   color: var(--text-muted);
   line-height: 1.7;
-  margin: 0 0 1.25rem;
+  margin: 0 0 1rem;
+}
+.review-page-head .rating-inline {
+  margin: 0;
 }
 .review-page .site-screenshot {
-  margin: 0 0 2rem;
+  margin: 0 0 1.5rem;
 }
 
 .verdict-card {
   background: var(--brand-soft);
   border-radius: var(--radius);
   padding: 1.5rem 1.75rem;
-  margin: 0 0 2.5rem;
+  margin: 0 0 2rem;
 }
 .verdict-card h2 {
   font-size: .8rem;
@@ -819,20 +822,21 @@ section { padding: 3rem 0; }
 }
 
 .review-section {
-  margin-bottom: 2.5rem;
+  margin-bottom: 2rem;
 }
 .review-section h2 {
-  font-size: 1.45rem;
-  margin: 0 0 1rem;
+  font-size: 1.4rem;
+  margin: 0 0 .85rem;
 }
 .review-section p {
-  line-height: 1.75;
+  line-height: 1.7;
   color: var(--text);
-  margin: 0 0 1rem;
+  margin: 0 0 .85rem;
   font-size: 1rem;
 }
+.review-section p:last-child { margin-bottom: 0; }
 .review-section .highlights {
-  margin: 1rem 0 1.25rem;
+  margin: .85rem 0 0;
 }
 
 .pros-cons {
