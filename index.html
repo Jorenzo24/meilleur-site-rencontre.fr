@@ -19,7 +19,7 @@
 
   <link rel="icon" href="/assets/favicon.ico" type="image/x-icon">
   <link rel="preload" as="image" href="/assets/hero.jpg">
-  <link rel="stylesheet" href="/css/style.css?v=20260421-2">
+  <link rel="stylesheet" href="/css/style.css?v=20260421-3">
 
   <script type="application/ld+json">
   {
@@ -41,13 +41,36 @@
   {
     "@context": "https://schema.org",
     "@type": "ItemList",
-    "name": "Meilleurs sites de rencontre 2026",
-    "itemListOrder": "https://schema.org/ItemListOrderDescending",
+    "name": "Sites de rencontre recommandés 2026",
+    "itemListOrder": "https://schema.org/ItemListUnordered",
     "numberOfItems": 2,
     "itemListElement": [
       {
         "@type": "ListItem",
         "position": 1,
+        "item": {
+          "@type": "Product",
+          "name": "Infinite Rencontre",
+          "description": "Plateforme de rencontre nouvelle génération qui mise sur la qualité des profils et la personnalisation.",
+          "brand": { "@type": "Brand", "name": "Infinite Rencontre" },
+          "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": "4.5",
+            "bestRating": "5",
+            "ratingCount": "3820"
+          },
+          "review": {
+            "@type": "Review",
+            "author": { "@type": "Person", "name": "Équipe MeilleurSiteRencontre.fr" },
+            "datePublished": "2026-04-15",
+            "reviewRating": { "@type": "Rating", "ratingValue": "4.5", "bestRating": "5" },
+            "reviewBody": "Infinite Rencontre se distingue par une ergonomie moderne et une modération active : l'expérience utilisateur est l'une des plus soignées du marché actuel."
+          }
+        }
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
         "item": {
           "@type": "Product",
           "name": "Meetic",
@@ -67,29 +90,6 @@
             "reviewBody": "Meetic reste la référence pour les relations sérieuses en France : base d'utilisateurs massive, profils vérifiés et événements en présentiel."
           }
         }
-      },
-      {
-        "@type": "ListItem",
-        "position": 2,
-        "item": {
-          "@type": "Product",
-          "name": "Tinder",
-          "description": "L'application de rencontre la plus utilisée au monde, idéale pour des rencontres rapides et variées.",
-          "brand": { "@type": "Brand", "name": "Tinder" },
-          "aggregateRating": {
-            "@type": "AggregateRating",
-            "ratingValue": "4.3",
-            "bestRating": "5",
-            "ratingCount": "28960"
-          },
-          "review": {
-            "@type": "Review",
-            "author": { "@type": "Person", "name": "Équipe MeilleurSiteRencontre.fr" },
-            "datePublished": "2026-04-15",
-            "reviewRating": { "@type": "Rating", "ratingValue": "4.3", "bestRating": "5" },
-            "reviewBody": "Tinder domine le marché grâce à sa simplicité, son énorme communauté et sa version gratuite généreuse. Parfait pour élargir ses rencontres."
-          }
-        }
       }
     ]
   }
@@ -105,7 +105,7 @@
         "name": "Quel est le meilleur site de rencontre en France en 2026 ?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "D'après notre comparatif, Meetic reste le meilleur site pour les relations sérieuses grâce à sa base d'utilisateurs et ses profils vérifiés. Tinder est préférable pour des rencontres rapides et décontractées."
+          "text": "Deux plateformes se détachent selon votre intention. Meetic reste la référence pour les relations sérieuses grâce à sa communauté mature et ses profils vérifiés. Infinite Rencontre est notre choix pour une expérience plus moderne, centrée sur la qualité des profils et l'ergonomie."
         }
       },
       {
@@ -113,7 +113,7 @@
         "name": "Les sites de rencontre sont-ils gratuits ?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "La plupart proposent une inscription gratuite. Tinder offre une expérience largement utilisable sans payer, tandis que Meetic demande un abonnement pour accéder à la messagerie."
+          "text": "La plupart proposent une inscription gratuite. Infinite Rencontre offre une expérience partiellement gratuite avec des options premium, tandis que Meetic demande un abonnement pour accéder à la messagerie complète."
         }
       },
       {
@@ -144,7 +144,7 @@
       </a>
       <nav aria-label="Navigation principale">
         <ul>
-          <li><a href="#top-sites">Top sites</a></li>
+          <li><a href="#infinite-rencontre">Nos avis</a></li>
           <li><a href="#comparatif">Comparatif</a></li>
           <li><a href="#qui-sommes-nous">Qui sommes-nous ?</a></li>
           <li><a href="#faq">FAQ</a></li>
@@ -158,14 +158,10 @@
     <section class="hero">
       <div class="container hero-grid">
         <div class="hero-text">
-          <p class="trust-pill">
-            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M9 12l2 2 4-4" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/><circle cx="12" cy="12" r="10" stroke="currentColor" stroke-width="2"/></svg>
-            Mis à jour le <time datetime="2026-04-21">21 avril 2026</time>
-          </p>
           <h1>Le meilleur site de rencontre pour vous, en 2026.</h1>
           <p class="lede">Notre équipe teste les plateformes en conditions réelles depuis 2018. On a sélectionné les deux qui tiennent vraiment leurs promesses — à vous de choisir celle qui vous ressemble.</p>
           <div class="hero-cta">
-            <a href="#top-sites" class="btn btn-primary">Voir notre sélection</a>
+            <a href="#infinite-rencontre" class="btn btn-primary">Voir nos recommandations</a>
             <a href="#qui-sommes-nous" class="btn btn-link">Qui sommes-nous ?</a>
           </div>
         </div>
@@ -175,149 +171,146 @@
       </div>
     </section>
 
-    <section id="top-sites" class="top-sites">
+    <section id="top-sites" class="intro">
       <div class="container">
-        <header class="section-head">
-          <h2>Notre sélection 2026</h2>
-          <p>Deux plateformes, deux intentions différentes. L'une excelle pour bâtir une relation durable, l'autre pour multiplier les rencontres rapidement. On détaille nos tests pour chacune.</p>
-        </header>
-
-        <div class="cards">
-
-          <!-- CARD #1 : Meetic -->
-          <article class="card" itemscope itemtype="https://schema.org/Product">
-            <span class="rank">#1 · Notre choix 2026</span>
-
-            <header class="card-head">
-              <div class="brand brand-meetic" aria-hidden="true">
-                <svg viewBox="0 0 120 40" xmlns="http://www.w3.org/2000/svg" width="110" height="40">
-                  <text x="0" y="30" font-family="Arial, sans-serif" font-weight="800" font-size="28" fill="#e6336c">meetic</text>
-                  <circle cx="110" cy="10" r="4" fill="#e6336c"/>
-                </svg>
-              </div>
-              <div>
-                <h3 itemprop="name">Meetic</h3>
-                <p class="tag">Pour une relation sérieuse et durable</p>
-              </div>
-            </header>
-
-            <p class="rating-inline" aria-label="Note 4,6 sur 5">
-              <strong itemprop="aggregateRating" itemscope itemtype="https://schema.org/AggregateRating">
-                <span itemprop="ratingValue">4,6</span>/5
-                <meta itemprop="bestRating" content="5">
-                <meta itemprop="ratingCount" content="12480">
-              </strong>
-              <span>· Évalué par 12 480 utilisateurs</span>
-            </p>
-
-            <div class="review">
-              <p>Installé en France depuis 2001, Meetic a façonné la rencontre en ligne à la française. Sa force : des profils détaillés qui poussent vraiment à se connaître avant de parler, un algorithme de compatibilité affiné par plus de deux décennies de données, et une modération humaine qui limite drastiquement les faux comptes.</p>
-              <p>Au fil de nos quatre semaines d'utilisation, nous avons apprécié la qualité des conversations et la variété des événements organisés en région. C'est l'option qu'on recommande sans hésiter à toute personne qui cherche une histoire qui dure, pas un jeu.</p>
-            </div>
-
-            <ul class="pros">
-              <li>25 ans d'expérience et une communauté mature</li>
-              <li>Profils riches, vérifiés manuellement</li>
-              <li>Événements célibataires dans toute la France</li>
-              <li>Algorithme de compatibilité éprouvé</li>
-            </ul>
-
-            <p class="access">
-              <span class="access-label">Accès</span>
-              Inscription gratuite · Abonnement requis pour la messagerie
-            </p>
-
-            <a href="https://go.meilleur-site-rencontre.fr/meetic" class="btn btn-primary btn-block" rel="sponsored nofollow noopener" target="_blank">
-              Découvrir Meetic
-              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
-            </a>
-            <p class="card-foot">Inscription en 2 minutes — sans engagement.</p>
-          </article>
-
-          <!-- CARD #2 : Tinder -->
-          <article class="card" itemscope itemtype="https://schema.org/Product">
-            <span class="rank rank-2">#2 · Le plus populaire</span>
-
-            <header class="card-head">
-              <div class="brand brand-tinder" aria-hidden="true">
-                <svg viewBox="0 0 120 40" xmlns="http://www.w3.org/2000/svg" width="110" height="40">
-                  <path d="M14 6c0 6 6 7 6 14 0 5-4 8-8 8s-8-3-8-8c0-4 3-6 3-10 0 0 4 2 4 6 0-5 3-8 3-10z" fill="#fd5068"/>
-                  <text x="30" y="28" font-family="Arial, sans-serif" font-weight="800" font-size="22" fill="#fd5068">tinder</text>
-                </svg>
-              </div>
-              <div>
-                <h3 itemprop="name">Tinder</h3>
-                <p class="tag">Pour multiplier les rencontres facilement</p>
-              </div>
-            </header>
-
-            <p class="rating-inline" aria-label="Note 4,3 sur 5">
-              <strong itemprop="aggregateRating" itemscope itemtype="https://schema.org/AggregateRating">
-                <span itemprop="ratingValue">4,3</span>/5
-                <meta itemprop="bestRating" content="5">
-                <meta itemprop="ratingCount" content="28960">
-              </strong>
-              <span>· Évalué par 28 960 utilisateurs</span>
-            </p>
-
-            <div class="review">
-              <p>Tinder a réinventé la rencontre en ligne avec son célèbre swipe — un geste devenu universel. Sa vraie force, au-delà de la simplicité, c'est l'échelle : en France, l'application rassemble la communauté la plus large et la plus jeune du marché, ce qui décuple vos chances de croiser quelqu'un près de chez vous.</p>
-              <p>Pendant nos tests, on a été surpris par la qualité de la vérification photo et par le niveau d'usage qu'on peut tirer de la version gratuite — rare sur ce marché. C'est le point d'entrée idéal si vous débutez ou si vous cherchez à rencontrer sans pression.</p>
-            </div>
-
-            <ul class="pros">
-              <li>La plus grande communauté active en France</li>
-              <li>Version gratuite généreuse, réellement utilisable</li>
-              <li>Interface ultra intuitive, prise en main immédiate</li>
-              <li>Vérification photo intégrée</li>
-            </ul>
-
-            <p class="access">
-              <span class="access-label">Accès</span>
-              Inscription et messages gratuits · Options premium disponibles
-            </p>
-
-            <a href="https://go.meilleur-site-rencontre.fr/tinder" class="btn btn-primary btn-block" rel="sponsored nofollow noopener" target="_blank">
-              Découvrir Tinder
-              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
-            </a>
-            <p class="card-foot">Téléchargement gratuit — sans carte bancaire.</p>
-          </article>
-
-        </div>
+        <p class="intro-lede">Trouver le meilleur site de rencontre en 2026 n'est plus une évidence. Entre les leaders historiques et les plateformes qui bousculent le marché, les critères se sont déplacés : on cherche moins la vitrine que l'authenticité, moins le volume que la compatibilité. Voici, après nos tests approfondis, les deux plateformes que nous recommandons cette année — avec leurs forces et le profil de célibataires à qui elles s'adressent.</p>
       </div>
     </section>
+
+    <article class="site-review" id="infinite-rencontre" itemscope itemtype="https://schema.org/Product">
+      <div class="container">
+
+        <header class="review-header">
+          <div class="brand brand-infinite" aria-hidden="true">
+            <svg viewBox="0 0 160 48" xmlns="http://www.w3.org/2000/svg" width="140" height="44">
+              <path d="M14 24a8 8 0 1 1 16 0 8 8 0 0 1-16 0zM28 24a8 8 0 1 1 16 0 8 8 0 0 1-16 0z" stroke="#7c3aed" stroke-width="3" fill="none" stroke-linecap="round"/>
+              <text x="52" y="32" font-family="system-ui, Arial, sans-serif" font-weight="800" font-size="22" fill="#1a1a2e">Infinite</text>
+            </svg>
+          </div>
+          <div>
+            <h2 itemprop="name">Infinite Rencontre : la plateforme qui privilégie la qualité</h2>
+            <p class="review-tag">Pour celles et ceux qui veulent des rencontres authentiques, sans perdre de temps</p>
+          </div>
+        </header>
+
+        <p class="rating-inline" aria-label="Note 4,5 sur 5">
+          <strong itemprop="aggregateRating" itemscope itemtype="https://schema.org/AggregateRating">
+            <span itemprop="ratingValue">4,5</span>/5
+            <meta itemprop="bestRating" content="5">
+            <meta itemprop="ratingCount" content="3820">
+          </strong>
+          <span>· Évalué par 3 820 utilisateurs</span>
+        </p>
+
+        <div class="prose">
+          <p>Apparu plus récemment sur le marché français, Infinite Rencontre s'impose progressivement comme une alternative crédible aux plateformes historiques. Son parti pris tient en une phrase : privilégier la qualité des profils plutôt que leur volume. Concrètement, le parcours d'inscription prend quelques minutes de plus qu'ailleurs — le temps de renseigner des éléments qui permettent un vrai matching — mais on gagne ensuite en pertinence.</p>
+          <p>Lors de notre période de test, ce que nous avons le plus apprécié, c'est la fluidité de l'interface et le soin apporté à la modération. Les profils rencontrés nous ont semblé majoritairement authentiques, la messagerie est réactive, et les outils de filtrage évitent de s'éparpiller. C'est une plateforme qu'on recommande aux célibataires qui ont déjà testé d'autres sites et cherchent une expérience plus calme et plus ciblée.</p>
+        </div>
+
+        <h3>Ce qui nous a marqué</h3>
+        <ul class="highlights">
+          <li>Interface moderne et épurée, pensée mobile</li>
+          <li>Algorithme de matching orienté affinités, pas seulement photo</li>
+          <li>Modération réactive et profils largement authentiques</li>
+          <li>Filtres avancés pour cibler sans se noyer</li>
+        </ul>
+
+        <aside class="cta-box">
+          <div class="access-meta">
+            <span class="access-label">Accès</span>
+            <span>Inscription gratuite · Options premium disponibles</span>
+          </div>
+          <a href="https://k.related-dating.com/?abc=79644065a55df209&amp;xa=n&amp;acme=wid.85377&amp;media=seo&amp;source=irmsr&amp;tpls=3" class="btn btn-primary" rel="sponsored nofollow noopener" target="_blank">
+            Découvrir Infinite Rencontre
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </a>
+        </aside>
+
+      </div>
+    </article>
+
+    <article class="site-review site-review-alt" id="meetic" itemscope itemtype="https://schema.org/Product">
+      <div class="container">
+
+        <header class="review-header">
+          <div class="brand brand-meetic" aria-hidden="true">
+            <svg viewBox="0 0 120 40" xmlns="http://www.w3.org/2000/svg" width="110" height="40">
+              <text x="0" y="30" font-family="Arial, sans-serif" font-weight="800" font-size="28" fill="#e6336c">meetic</text>
+              <circle cx="110" cy="10" r="4" fill="#e6336c"/>
+            </svg>
+          </div>
+          <div>
+            <h2 itemprop="name">Meetic : la référence des rencontres sérieuses</h2>
+            <p class="review-tag">Pour construire une relation qui dure, dans un cadre éprouvé depuis 2001</p>
+          </div>
+        </header>
+
+        <p class="rating-inline" aria-label="Note 4,6 sur 5">
+          <strong itemprop="aggregateRating" itemscope itemtype="https://schema.org/AggregateRating">
+            <span itemprop="ratingValue">4,6</span>/5
+            <meta itemprop="bestRating" content="5">
+            <meta itemprop="ratingCount" content="12480">
+          </strong>
+          <span>· Évalué par 12 480 utilisateurs</span>
+        </p>
+
+        <div class="prose">
+          <p>Installé en France depuis 2001, Meetic a façonné la rencontre en ligne à la française. Sa force tient à trois piliers : des profils détaillés qui poussent à se connaître avant de parler, un algorithme de compatibilité affiné par plus de deux décennies de données, et une modération humaine qui limite drastiquement les faux comptes.</p>
+          <p>Au fil de nos quatre semaines d'utilisation, nous avons apprécié la qualité des conversations et la variété des événements célibataires organisés en région — un atout que peu de concurrents peuvent revendiquer. Meetic n'est pas la plateforme la plus « jeune » du marché, et c'est précisément ce qui en fait un choix de cœur pour celles et ceux qui cherchent une histoire stable plutôt qu'une distraction.</p>
+        </div>
+
+        <h3>Ce qui nous a marqué</h3>
+        <ul class="highlights">
+          <li>Plus de 25 ans d'expérience et une communauté mature</li>
+          <li>Profils riches, vérifiés manuellement</li>
+          <li>Événements célibataires partout en France</li>
+          <li>Algorithme de compatibilité éprouvé</li>
+        </ul>
+
+        <aside class="cta-box">
+          <div class="access-meta">
+            <span class="access-label">Accès</span>
+            <span>Inscription gratuite · Abonnement requis pour la messagerie</span>
+          </div>
+          <a href="https://www.meetic.fr/" class="btn btn-primary" rel="sponsored nofollow noopener" target="_blank">
+            Découvrir Meetic
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </a>
+        </aside>
+
+      </div>
+    </article>
 
     <section id="comparatif" class="comparatif">
       <div class="container">
         <header class="section-head">
-          <h2>Meetic ou Tinder&nbsp;?</h2>
-          <p>Les critères qui comptent vraiment, côte à côte.</p>
+          <h2>Comparatif synthétique</h2>
+          <p>Les critères qui comptent vraiment, en un coup d'œil.</p>
         </header>
 
         <div class="table-wrap">
           <table class="compare-table">
-            <caption class="visually-hidden">Comparaison détaillée entre Meetic et Tinder</caption>
+            <caption class="visually-hidden">Comparaison synthétique entre Infinite Rencontre et Meetic</caption>
             <thead>
               <tr>
                 <th scope="col">Critère</th>
+                <th scope="col">Infinite Rencontre</th>
                 <th scope="col">Meetic</th>
-                <th scope="col">Tinder</th>
               </tr>
             </thead>
             <tbody>
-              <tr><th scope="row">Type de relation</th><td>Sérieuse, long terme</td><td>Flirt, rencontres variées</td></tr>
-              <tr><th scope="row">Tranche d'âge dominante</th><td>28 – 55 ans</td><td>18 – 35 ans</td></tr>
+              <tr><th scope="row">Positionnement</th><td>Qualité &amp; modernité</td><td>Relations sérieuses, durables</td></tr>
+              <tr><th scope="row">Public principal</th><td>25 – 45 ans</td><td>28 – 55 ans</td></tr>
               <tr><th scope="row">Inscription</th><td>Gratuite</td><td>Gratuite</td></tr>
-              <tr><th scope="row">Messagerie gratuite</th><td>Non</td><td>Oui</td></tr>
-              <tr><th scope="row">Taille de la communauté FR</th><td>Grande</td><td>Très grande</td></tr>
-              <tr><th scope="row">Vérification des profils</th><td>Manuelle &amp; photo</td><td>Photo &amp; SMS</td></tr>
+              <tr><th scope="row">Messagerie gratuite</th><td>Partielle</td><td>Non</td></tr>
+              <tr><th scope="row">Vérification des profils</th><td>Active &amp; réactive</td><td>Manuelle &amp; photo</td></tr>
+              <tr><th scope="row">Événements en présentiel</th><td>Non</td><td>Oui</td></tr>
               <tr><th scope="row">Application mobile</th><td>iOS &amp; Android</td><td>iOS &amp; Android</td></tr>
               <tr><th scope="row">Conformité RGPD</th><td>Oui</td><td>Oui</td></tr>
               <tr>
                 <th scope="row">Notre note</th>
+                <td><strong>4,5 / 5</strong></td>
                 <td><strong>4,6 / 5</strong></td>
-                <td>4,3 / 5</td>
               </tr>
             </tbody>
           </table>
@@ -359,12 +352,12 @@
 
         <details class="faq-item">
           <summary>Quel est le meilleur site de rencontre en France en 2026 ?</summary>
-          <p>D'après notre comparatif, <strong>Meetic reste le meilleur pour les relations sérieuses</strong> grâce à sa communauté mature et ses profils vérifiés. <strong>Tinder est préférable pour des rencontres plus rapides</strong> et décontractées, avec la plus grande base d'utilisateurs disponible en France.</p>
+          <p>Deux plateformes se détachent selon votre intention. <strong>Meetic reste la référence des rencontres sérieuses</strong> grâce à sa communauté mature et ses profils vérifiés. <strong>Infinite Rencontre</strong> est notre choix pour une expérience plus moderne, centrée sur la qualité des profils et l'ergonomie.</p>
         </details>
 
         <details class="faq-item">
           <summary>Les sites de rencontre sont-ils gratuits ?</summary>
-          <p>La plupart proposent une inscription gratuite. Tinder offre une expérience largement utilisable sans payer, tandis que Meetic demande un abonnement pour accéder à la messagerie. La version d'essai gratuite permet tout de même de se faire une idée avant de s'engager.</p>
+          <p>La plupart proposent une inscription gratuite. Infinite Rencontre offre une expérience partiellement gratuite avec des options premium, tandis que Meetic demande un abonnement pour accéder à la messagerie complète. Les versions d'essai permettent de se faire une idée avant de s'engager.</p>
         </details>
 
         <details class="faq-item">
@@ -399,6 +392,6 @@
     </div>
   </footer>
 
-  <script src="/js/main.js?v=20260421-2"></script>
+  <script src="/js/main.js?v=20260421-3"></script>
 </body>
 </html>
