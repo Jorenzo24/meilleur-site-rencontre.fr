@@ -485,12 +485,13 @@ section { padding: 3rem 0; }
 .site-review-alt .review-synthesis {
   background: #fff;
 }
-.review-synthesis-label {
+.review-synthesis .review-synthesis-label {
   font-size: .72rem;
   font-weight: 800;
   text-transform: uppercase;
   letter-spacing: .14em;
   color: var(--brand);
+  line-height: 1.2;
   margin: 0 0 .5rem;
 }
 .review-synthesis-body {
