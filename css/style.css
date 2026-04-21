@@ -476,6 +476,12 @@ section { padding: 3rem 0; }
   padding: 1.1rem 1.35rem;
   margin: 1.25rem 0 1.75rem;
 }
+.rating-inline + .review-synthesis {
+  margin-top: .25rem;
+}
+.site-screenshot + .rating-inline {
+  margin: 0 0 .5rem;
+}
 .site-review-alt .review-synthesis {
   background: #fff;
 }
