@@ -405,7 +405,7 @@ section { padding: 3rem 0; }
 .compare-table {
   width: 100%;
   border-collapse: collapse;
-  min-width: 520px;
+  min-width: 760px;
 }
 .compare-table th,
 .compare-table td {
