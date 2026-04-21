@@ -5,6 +5,8 @@ deployment:
     - /bin/cp -R css $DEPLOYPATH
     - /bin/cp -R js $DEPLOYPATH
     - /bin/cp -R assets $DEPLOYPATH
+    - /bin/cp -R mentions-legales $DEPLOYPATH
+    - /bin/cp -R politique-confidentialite $DEPLOYPATH
     - /bin/cp index.html $DEPLOYPATH
     - /bin/cp 404.html $DEPLOYPATH
     - /bin/cp .htaccess $DEPLOYPATH
