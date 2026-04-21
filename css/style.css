@@ -263,6 +263,76 @@ section { padding: 3rem 0; }
 }
 
 /* ==========================================================================
+   Sommaire (table of contents)
+   ========================================================================== */
+
+.toc { padding: 1rem 0 2rem; }
+.toc .container { max-width: 46rem; }
+
+.toc-title {
+  font-size: .85rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: .08em;
+  color: var(--text-muted);
+  margin: 0 0 1rem;
+  text-align: center;
+}
+
+.toc-list {
+  list-style: none;
+  counter-reset: toc;
+  padding: 1rem 1.25rem;
+  margin: 0;
+  background: var(--brand-soft);
+  border-radius: var(--radius);
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: .15rem;
+}
+.toc-list li { counter-increment: toc; }
+
+.toc-list a {
+  display: flex;
+  align-items: baseline;
+  gap: .75rem;
+  padding: .55rem .5rem;
+  border-radius: var(--radius-sm);
+  color: var(--text);
+  font-weight: 500;
+  transition: background-color .15s ease, color .15s ease;
+}
+.toc-list a::before {
+  content: counter(toc, decimal-leading-zero);
+  font-variant-numeric: tabular-nums;
+  color: var(--brand);
+  font-weight: 700;
+  font-size: .8rem;
+  min-width: 1.75rem;
+}
+.toc-list a::after {
+  content: "→";
+  margin-left: auto;
+  color: var(--brand);
+  opacity: 0;
+  transform: translateX(-4px);
+  transition: opacity .15s ease, transform .15s ease;
+}
+.toc-list a:hover {
+  background: #fff;
+  text-decoration: none;
+  color: var(--brand-dark);
+}
+.toc-list a:hover::after {
+  opacity: 1;
+  transform: translateX(0);
+}
+
+@media (min-width: 640px) {
+  .toc-list { grid-template-columns: 1fr 1fr; column-gap: 1.25rem; }
+}
+
+/* ==========================================================================
    Site reviews (format éditorial)
    ========================================================================== */
 
