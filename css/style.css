@@ -297,12 +297,24 @@ section { padding: 3rem 0; }
 }
 
 .brand {
-  width: 140px;
-  height: 48px;
   display: flex;
   align-items: center;
   justify-content: flex-start;
   flex-shrink: 0;
+}
+.brand img {
+  max-width: 160px;
+  height: auto;
+}
+
+.site-screenshot {
+  margin: 0 0 1.5rem;
+}
+.site-screenshot img {
+  width: 100%;
+  border-radius: var(--radius);
+  box-shadow: var(--shadow-md);
+  border: 1px solid var(--border);
 }
 
 .rating-inline {
@@ -469,6 +481,34 @@ section { padding: 3rem 0; }
   background: var(--brand);
 }
 .about-points strong { color: var(--text); }
+
+/* ==========================================================================
+   Guide — Comment bien choisir ?
+   ========================================================================== */
+
+.guide { background: #fff; }
+
+.guide-points {
+  display: grid;
+  gap: 1.25rem;
+  max-width: 46rem;
+  margin: 0 auto;
+}
+
+.guide-item {
+  border-left: 3px solid var(--brand-soft);
+  padding: .25rem 0 .25rem 1.25rem;
+}
+.guide-item h3 {
+  font-size: 1.1rem;
+  margin: 0 0 .5rem;
+}
+.guide-item p {
+  color: var(--text-muted);
+  font-size: .98rem;
+  line-height: 1.7;
+  margin: 0;
+}
 
 /* ==========================================================================
    FAQ
