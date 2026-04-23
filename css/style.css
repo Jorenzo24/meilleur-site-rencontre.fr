@@ -401,6 +401,12 @@ section { padding: 3rem 0; }
   max-width: 160px;
   height: auto;
 }
+.brand-inverse {
+  background: var(--brand);
+  padding: .7rem 1rem;
+  border-radius: var(--radius-sm);
+  align-self: flex-start;
+}
 
 .site-screenshot {
   margin: 0 0 1.5rem;
@@ -550,6 +556,14 @@ section { padding: 3rem 0; }
   padding: 1rem 1.35rem;
   background: var(--bg-alt);
   border-bottom: 1px solid var(--border);
+}
+.compare-card-head--brand {
+  background: var(--brand);
+  border-bottom-color: var(--brand-dark);
+}
+.compare-card-head--brand .compare-card-rating,
+.compare-card-head--brand .compare-card-rating span {
+  color: #fff;
 }
 .compare-card-brand {
   margin: 0;
