@@ -555,6 +555,70 @@ section { padding: 3rem 0; }
 .compare-table tbody tr:last-child th,
 .compare-table tbody tr:last-child td { border-bottom: 0; }
 
+.compare-preview-note {
+  font-size: .88rem;
+  color: var(--text-muted);
+  margin: 0 0 .75rem;
+  font-style: italic;
+}
+
+.compare-card {
+  background: #fff;
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 1.25rem 1.35rem;
+  margin-bottom: 1.5rem;
+  box-shadow: var(--shadow-sm);
+}
+.compare-card-head {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 1rem;
+  padding-bottom: .85rem;
+  margin-bottom: .85rem;
+  border-bottom: 1px solid var(--border);
+}
+.compare-card-head h3 {
+  margin: 0;
+  font-size: 1.15rem;
+  font-weight: 800;
+}
+.compare-card-rating {
+  font-size: 1.1rem;
+  font-weight: 800;
+  color: var(--accent);
+  white-space: nowrap;
+}
+.compare-card-rating span {
+  font-size: .85rem;
+  font-weight: 600;
+  color: var(--text-muted);
+}
+.compare-card-list {
+  margin: 0;
+  display: grid;
+  gap: .6rem;
+}
+.compare-card-list > div {
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+  align-items: baseline;
+  font-size: .95rem;
+}
+.compare-card-list dt {
+  color: var(--text-muted);
+  font-weight: 500;
+  flex: 0 0 auto;
+}
+.compare-card-list dd {
+  margin: 0;
+  text-align: right;
+  font-weight: 600;
+  color: var(--text);
+}
+
 /* ==========================================================================
    About (Qui sommes-nous ?)
    ========================================================================== */
