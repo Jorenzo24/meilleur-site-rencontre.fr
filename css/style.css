@@ -519,48 +519,8 @@ section { padding: 3rem 0; }
 }
 
 /* ==========================================================================
-   Comparatif table
+   Comparatif cards
    ========================================================================== */
-
-.table-wrap {
-  overflow-x: auto;
-  border: 1px solid var(--border);
-  border-radius: var(--radius);
-  background: #fff;
-}
-
-.compare-table {
-  width: 100%;
-  border-collapse: collapse;
-  min-width: 1040px;
-}
-.compare-table th,
-.compare-table td {
-  padding: 1rem 1.25rem;
-  text-align: left;
-  border-bottom: 1px solid var(--border);
-  font-size: .95rem;
-  vertical-align: middle;
-}
-.compare-table thead th {
-  font-size: 1rem;
-  font-weight: 800;
-  background: var(--bg-alt);
-}
-.compare-table tbody th {
-  font-weight: 500;
-  color: var(--text-muted);
-  width: 38%;
-}
-.compare-table tbody tr:last-child th,
-.compare-table tbody tr:last-child td { border-bottom: 0; }
-
-.compare-preview-note {
-  font-size: .88rem;
-  color: var(--text-muted);
-  margin: 0 0 .75rem;
-  font-style: italic;
-}
 
 .compare-cards {
   display: grid;
