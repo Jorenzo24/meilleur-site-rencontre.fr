@@ -1,6 +1,4 @@
 ---
 deployment:
   tasks:
-    - export DEPLOYPATH=/home/meilleursiterenc/public_html/
-    - /bin/cp -R ./* $DEPLOYPATH
-    - /bin/cp .htaccess $DEPLOYPATH
+    - /bin/true
