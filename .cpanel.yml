@@ -2,8 +2,5 @@
 deployment:
   tasks:
     - export DEPLOYPATH=/home/meilleursiterenc/public_html/
-    # Copie tout le contenu du dépôt (dossiers + fichiers non cachés).
-    # Les nouvelles pages sont ainsi déployées automatiquement, sans modifier ce fichier.
     - /bin/cp -R ./* $DEPLOYPATH
-    # Fichiers cachés à déployer explicitement (exclus par le glob ci-dessus)
     - /bin/cp .htaccess $DEPLOYPATH
