@@ -29,14 +29,36 @@
   {
     "@context": "https://schema.org",
     "@type": "WebSite",
+    "@id": "https://meilleur-site-rencontre.fr/#website",
     "name": "MeilleurSiteRencontre.fr",
     "url": "https://meilleur-site-rencontre.fr/",
     "inLanguage": "fr-FR",
-    "publisher": {
-      "@type": "Organization",
-      "name": "MeilleurSiteRencontre.fr",
-      "url": "https://meilleur-site-rencontre.fr/",
-      "foundingDate": "2018"
+    "publisher": { "@id": "https://meilleur-site-rencontre.fr/#organization" }
+  }
+  </script>
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "@id": "https://meilleur-site-rencontre.fr/#organization",
+    "name": "MeilleurSiteRencontre.fr",
+    "url": "https://meilleur-site-rencontre.fr/",
+    "foundingDate": "2018",
+    "description": "Comparatif indépendant des sites de rencontre en France depuis 2018, fondé sur des tests menés en conditions réelles sur quatre semaines minimum par plateforme.",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://meilleur-site-rencontre.fr/assets/favicon-512.png",
+      "width": 512,
+      "height": 512
+    },
+    "knowsAbout": ["Sites de rencontre", "Rencontre en ligne", "Applications de rencontre"],
+    "areaServed": { "@type": "Country", "name": "France" },
+    "contactPoint": {
+      "@type": "ContactPoint",
+      "contactType": "Rédaction",
+      "email": "contact@meilleur-site-rencontre.fr",
+      "availableLanguage": ["fr"]
     }
   }
   </script>
