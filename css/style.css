@@ -1854,3 +1854,67 @@ section { padding: 3rem 0; }
   text-underline-offset: 2px;
 }
 .see-also a:hover { color: var(--brand); }
+
+/* ============================================================
+   Composants editoriaux (page etalon avis) - v2
+   ============================================================ */
+
+/* Notation qualitative par critere */
+.scorecard { margin: 2rem 0; padding: 1.5rem; background: var(--bg-alt); border-radius: var(--radius); }
+.scorecard-title { font-size: 1.1rem; margin: 0 0 1.25rem; }
+.score-row { margin-bottom: 1.05rem; }
+.score-row:last-child { margin-bottom: 0; }
+.score-head { display: flex; justify-content: space-between; align-items: baseline; margin-bottom: .35rem; }
+.score-crit { font-weight: 600; font-size: .98rem; }
+.score-label { font-size: .76rem; color: var(--brand-dark); font-weight: 700; text-transform: uppercase; letter-spacing: .04em; }
+.score-track { height: 8px; background: #e3dce0; border-radius: 999px; overflow: hidden; }
+.score-fill { height: 100%; background: linear-gradient(90deg, var(--brand), var(--brand-dark)); border-radius: 999px; }
+
+/* Fiche d'identite "en bref" */
+.id-card { margin: 2rem 0; border: 1px solid var(--border); border-radius: var(--radius); overflow: hidden; }
+.id-card-head { background: var(--brand); color: #fff; padding: .85rem 1.25rem; font-weight: 700; font-size: 1.05rem; }
+.id-grid { display: grid; grid-template-columns: 1fr; }
+.id-item { display: flex; gap: .75rem; align-items: flex-start; padding: .9rem 1.25rem; border-top: 1px solid var(--border); }
+.id-item svg { flex: 0 0 20px; color: var(--brand); margin-top: 3px; }
+.id-item-label { display: block; font-size: .76rem; text-transform: uppercase; letter-spacing: .03em; color: var(--text-muted); }
+.id-item-value { font-weight: 600; }
+
+/* Encadre opinion "l'avis de la redaction" */
+.edito-note { margin: 2rem 0; padding: 1.4rem 1.5rem 1.4rem 1.6rem; background: var(--brand-soft); border-left: 5px solid var(--brand); border-radius: var(--radius-sm); }
+.edito-note-tag { display: inline-flex; align-items: center; gap: .4rem; font-size: .76rem; font-weight: 700; text-transform: uppercase; letter-spacing: .05em; color: var(--brand-dark); margin-bottom: .55rem; }
+.edito-note p { margin: 0; font-size: 1.06rem; line-height: 1.6; }
+.edito-note p + p { margin-top: .7rem; }
+
+/* Tarifs en cartes */
+.price-grid { display: grid; grid-template-columns: 1fr; gap: 1rem; margin: 1.5rem 0; }
+.price-card { position: relative; border: 1px solid var(--border); border-radius: var(--radius-sm); padding: 1.3rem 1.25rem 1.2rem; background: #fff; }
+.price-card--best { border-color: var(--brand); box-shadow: 0 0 0 1px var(--brand); }
+.price-badge { position: absolute; top: -11px; left: 1.25rem; background: var(--brand); color: #fff; font-size: .7rem; font-weight: 700; text-transform: uppercase; letter-spacing: .03em; padding: .25rem .6rem; border-radius: 999px; }
+.price-dur { font-weight: 700; font-size: 1.05rem; margin: 0 0 .35rem; }
+.price-desc { margin: 0; color: var(--text-muted); font-size: .93rem; line-height: 1.5; }
+
+/* Bloc decision "fait pour vous ?" */
+.fit-grid { display: grid; grid-template-columns: 1fr; gap: 1rem; margin: 1.5rem 0; }
+.fit-col { border-radius: var(--radius-sm); padding: 1.25rem 1.3rem; }
+.fit-col--yes { background: #ecf6f0; border: 1px solid #b8e6cb; }
+.fit-col--no { background: #fdeef0; border: 1px solid #f4c9d0; }
+.fit-col h4 { margin: 0 0 .8rem; display: flex; align-items: center; gap: .5rem; font-size: 1.05rem; }
+.fit-col--yes h4 { color: var(--success); }
+.fit-col--no h4 { color: var(--brand-dark); }
+.fit-col ul { margin: 0; padding-left: 1.15rem; }
+.fit-col li { margin-bottom: .45rem; }
+.fit-col li:last-child { margin-bottom: 0; }
+
+/* Figure editoriale + emplacement photo a fournir */
+.edito-figure { margin: 2rem 0; }
+.edito-figure img { width: 100%; height: auto; border-radius: var(--radius); display: block; }
+.edito-figure figcaption { margin-top: .55rem; font-size: .85rem; color: var(--text-muted); text-align: center; font-style: italic; }
+.img-placeholder { display: flex; flex-direction: column; align-items: center; justify-content: center; gap: .4rem; min-height: 220px; background: repeating-linear-gradient(45deg, #f5eef1, #f5eef1 12px, #efe6ea 12px, #efe6ea 24px); border: 2px dashed var(--border-strong); border-radius: var(--radius); color: var(--text-muted); text-align: center; padding: 1.5rem; }
+.img-placeholder strong { color: var(--brand-dark); display: block; margin-bottom: .2rem; }
+.img-placeholder span { font-size: .82rem; }
+
+@media (min-width: 720px) {
+  .id-grid { grid-template-columns: 1fr 1fr; }
+  .price-grid { grid-template-columns: repeat(3, 1fr); }
+  .fit-grid { grid-template-columns: 1fr 1fr; }
+}
