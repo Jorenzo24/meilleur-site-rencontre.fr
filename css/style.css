@@ -1918,3 +1918,71 @@ section { padding: 3rem 0; }
   .price-grid { grid-template-columns: repeat(3, 1fr); }
   .fit-grid { grid-template-columns: 1fr 1fr; }
 }
+
+/* ============================================================
+   Layout avis : fond teinte + article (panneau blanc) + sidebar
+   ============================================================ */
+.review-page { background: var(--bg-alt); }
+
+.review-shell {
+  max-width: var(--container);
+  margin: 0 auto;
+  padding: 0 1.25rem 1.75rem;
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1.5rem;
+}
+.review-body {
+  background: #fff;
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow-sm);
+}
+.review-body > .review-section:first-child { padding-top: 1.75rem; }
+.review-body > .faq:last-child { border-bottom-left-radius: var(--radius); border-bottom-right-radius: var(--radius); }
+
+/* Sidebar */
+.review-sidebar { min-width: 0; }
+.aside-block {
+  background: #fff;
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow-sm);
+  padding: 1.25rem;
+}
+.aside-title {
+  font-weight: 700; font-size: .78rem; text-transform: uppercase;
+  letter-spacing: .05em; color: var(--text-muted); margin: 0 0 1rem;
+}
+.aside-card {
+  display: flex; align-items: center; gap: .8rem;
+  padding: .55rem; border-radius: var(--radius-sm);
+  text-decoration: none; color: var(--text);
+  transition: background .15s ease;
+}
+.aside-card:hover { background: var(--brand-soft); }
+.aside-card + .aside-card { margin-top: .15rem; }
+.aside-logo {
+  flex: 0 0 46px; height: 46px;
+  display: flex; align-items: center; justify-content: center;
+  background: #fff; border: 1px solid var(--border);
+  border-radius: 10px; padding: 6px;
+}
+.aside-logo img { max-width: 100%; max-height: 100%; object-fit: contain; }
+.aside-info { display: flex; flex-direction: column; line-height: 1.3; }
+.aside-name { font-weight: 600; font-size: .95rem; }
+.aside-rate { font-size: .85rem; color: var(--text-muted); }
+.aside-rate strong { color: var(--brand-dark); }
+.aside-all {
+  display: inline-flex; align-items: center; gap: .35rem;
+  margin-top: 1rem; font-weight: 600; font-size: .9rem;
+  color: var(--brand-dark); text-decoration: none;
+}
+.aside-all:hover { text-decoration: underline; }
+.aside-all svg { transition: transform .15s ease; }
+.aside-all:hover svg { transform: translateX(3px); }
+
+@media (min-width: 980px) {
+  .review-shell { grid-template-columns: minmax(0, 1fr) 320px; align-items: start; }
+  .review-sidebar { position: sticky; top: 1.25rem; }
+}
