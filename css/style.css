@@ -1833,3 +1833,24 @@ section { padding: 3rem 0; }
   .about-grid { gap: 4rem; }
   .method-grid { gap: 4rem; }
 }
+
+/* ============================================================
+   Encart de maillage interne "Pour aller plus loin"
+   ============================================================ */
+.see-also {
+  margin: 1.75rem 0;
+  padding: 1rem 1.25rem;
+  background: var(--brand-soft);
+  border-left: 4px solid var(--brand);
+  border-radius: var(--radius-sm);
+  font-size: .97rem;
+  color: var(--text);
+}
+.see-also strong { color: var(--brand-dark); }
+.see-also a {
+  color: var(--brand-dark);
+  font-weight: 600;
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+.see-also a:hover { color: var(--brand); }
