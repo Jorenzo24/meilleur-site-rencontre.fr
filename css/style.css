@@ -2043,3 +2043,6 @@ section { padding: 3rem 0; }
 .author-card .author-name { font-size: 1.1rem; margin: 0; }
 .author-card .author-role { margin: .15rem 0 0; }
 @media (min-width: 620px) { .authors-grid { grid-template-columns: 1fr 1fr; } }
+
+/* Photo dans les cartes du hub auteurs */
+.author-card-photo { width: 64px; height: 64px; border-radius: 50%; object-fit: cover; flex: 0 0 64px; }
