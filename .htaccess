@@ -10,6 +10,21 @@ RewriteCond %{HTTP_HOST} ^www\.(.+)$ [NC]
 RewriteRule ^ https://%1%{REQUEST_URI} [L,R=301]
 
 # ============================================================
+# Redirections liens partenaires (cloaking affiliation)
+# Centralise les liens d'affiliation derrière /go/<partenaire>/.
+# Modifier une URL ici suffit, plus besoin de toucher les avis.
+# Ces URLs sont bloquées dans robots.txt et marquées sponsored/nofollow.
+# ============================================================
+RewriteRule ^go/meetic/?$ https://www.meetic.fr/ [R=302,L,NE,QSD]
+RewriteRule ^go/edarling/?$ https://www.edarling.fr/ [R=302,L,NE,QSD]
+RewriteRule ^go/infinite-rencontre/?$ https://k.related-dating.com/?abc=79644065a55df209&xa=n&acme=wid.85377&media=seo&source=irmsr&tpls=3 [R=302,L,NE,QSD]
+RewriteRule ^go/rencontres-locales/?$ https://k.related-dating.com/?abc=dab7a69b1856f941&xa=n&acme=wid.85377&media=seo&source=rlmsr&tpls=18 [R=302,L,NE,QSD]
+RewriteRule ^go/force-gay/?$ https://k.related-dating.com/?abc=54fd14707fc517eb&xa=n&acme=wid.85377&media=seo&source=fgmsr&tpls=22 [R=302,L,NE,QSD]
+RewriteRule ^go/rencontres-mixtes/?$ https://k.related-dating.com/?abc=dd2212b05a6a1175&xa=n&acme=wid.85377&media=seo&source=rmmsr&tpls=1 [R=302,L,NE,QSD]
+RewriteRule ^go/spiice/?$ https://k.related-dating.com/?abc=c3f8507e3c11a948&xa=n&acme=wid.85377&media=seo&source=spmsr&ba=jW4&tpls=p78 [R=302,L,NE,QSD]
+RewriteRule ^go/jm-messenger/?$ https://k.related-dating.com/?abc=fd83d3e1cd979ce0&xa=n&acme=wid.85377&media=seo&source=jmmmsr&tpls=2 [R=302,L,NE,QSD]
+
+# ============================================================
 # Pages d'erreur personnalisées
 # ============================================================
 ErrorDocument 404 /404.html
