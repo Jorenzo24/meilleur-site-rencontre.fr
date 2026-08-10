@@ -1119,6 +1119,32 @@ section { padding: 3rem 0; }
   margin: -1.1rem -1.15rem .9rem;
 }
 
+/* Bandeau logo des cartes du hub avis.
+   Fond clair par défaut ; variante sombre pour les logos entièrement
+   blancs, invisibles autrement (cas de Force Gay). */
+.finder-logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: calc(100% + 2.3rem);
+  flex: none;
+  height: 92px;
+  margin: -1.1rem -1.15rem .9rem;
+  padding: 0 1.15rem;
+  background: var(--bg-alt);
+  border-bottom: 1px solid var(--border);
+}
+.finder-logo img {
+  max-width: 62%;
+  max-height: 48px;
+  width: auto;
+  object-fit: contain;
+}
+.finder-logo--dark {
+  background: var(--text);
+  border-bottom-color: var(--text);
+}
+
 /* ==========================================================================
    Review page (pages d'avis)
    ========================================================================== */
