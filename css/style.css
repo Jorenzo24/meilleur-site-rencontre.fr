@@ -1098,6 +1098,27 @@ section { padding: 3rem 0; }
 .guides-card:hover .guides-link svg { transform: translateX(3px); }
 .guides-link svg { transition: transform .15s ease; }
 
+/* Vignettes des cartes de hub (guides et comparatifs).
+   L'image déborde du padding de la carte pour venir au bord ;
+   overflow: hidden sur la carte redécoupe les angles arrondis. */
+.guides-card,
+.finder-card { overflow: hidden; }
+
+.guides-card > img,
+.finder-card > img {
+  max-width: none;
+  aspect-ratio: 2 / 1;
+  object-fit: cover;
+}
+.guides-card > img {
+  width: calc(100% + 2.4rem);
+  margin: -1.15rem -1.2rem 1rem;
+}
+.finder-card > img {
+  width: calc(100% + 2.3rem);
+  margin: -1.1rem -1.15rem .9rem;
+}
+
 /* ==========================================================================
    Review page (pages d'avis)
    ========================================================================== */
