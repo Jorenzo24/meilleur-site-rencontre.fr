@@ -78,3 +78,17 @@ ErrorDocument 404 /404.html
   Order allow,deny
   Deny from all
 </FilesMatch>
+
+# ============================================================
+# Bloc ajoute automatiquement par cPanel (MultiPHP).
+# Versionne ici pour que le fichier du depot corresponde a celui
+# du serveur : sinon cPanel le reajoute et le pull echoue.
+# Ne pas editer a la main, cPanel le reecrit si on change la
+# version de PHP dans MultiPHP Manager.
+# ============================================================
+# php -- BEGIN cPanel-generated handler, do not edit
+# Set the "ea-php82" package as the default "PHP" programming language.
+<IfModule mime_module>
+  AddHandler application/x-httpd-ea-php82 .php .php8 .phtml
+</IfModule>
+# php -- END cPanel-generated handler, do not edit
