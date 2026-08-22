@@ -1,4 +1,4 @@
-# meilleur-site-rencontre.fr — Contexte projet
+# meilleur-site-rencontre.fr : contexte projet
 
 ## Hébergement
 - Serveur : VPS Hetzner avec cPanel

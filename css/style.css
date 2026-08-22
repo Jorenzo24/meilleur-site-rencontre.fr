@@ -692,7 +692,7 @@ section { padding: 3rem 0; }
 .about-points strong { color: var(--text); }
 
 /* ==========================================================================
-   Guide — Comment bien choisir ?
+   Guide : comment bien choisir ?
    ========================================================================== */
 
 .guide { background: #fff; }
@@ -1800,7 +1800,7 @@ section { padding: 3rem 0; }
 }
 
 /* ==========================================================================
-   Responsive — Tablet & up
+   Responsive : tablet & up
    ========================================================================== */
 
 @media (min-width: 720px) {
