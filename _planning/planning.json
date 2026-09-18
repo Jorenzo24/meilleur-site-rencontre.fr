@@ -1,0 +1,26 @@
+[
+  {
+    "slug": "orbiting",
+    "type": "lexique",
+    "titre": "Orbiting",
+    "resume": "Disparu, mais toujours là",
+    "publier_le": "2026-09-22",
+    "statut": "planifie"
+  },
+  {
+    "slug": "zombieing",
+    "type": "lexique",
+    "titre": "Zombieing",
+    "resume": "Le retour du disparu",
+    "publier_le": "2026-09-29",
+    "statut": "planifie"
+  },
+  {
+    "slug": "cushioning",
+    "type": "lexique",
+    "titre": "Cushioning",
+    "resume": "Des plans B entretenus",
+    "publier_le": "2026-10-06",
+    "statut": "planifie"
+  }
+]

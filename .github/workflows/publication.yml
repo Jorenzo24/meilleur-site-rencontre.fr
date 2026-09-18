@@ -1,0 +1,60 @@
+name: Publication planifiée
+
+# Tourne chaque matin. Publie ce qui est arrivé à échéance dans _planning/,
+# puis vérifie que le serveur a bien récupéré le commit. Si la mise en ligne
+# n'a pas lieu, le job échoue et GitHub envoie un mail : c'est le garde-fou
+# contre les publications qui restent bloquées sans que personne s'en aperçoive.
+
+on:
+  schedule:
+    - cron: '0 5 * * *'
+  workflow_dispatch:
+
+jobs:
+  publier:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Publier les contenus arrivés à échéance
+        id: publication
+        run: |
+          python3 tools/publier.py --appliquer | tee sortie.txt
+          if [ -n "$(git status --porcelain)" ]; then
+            echo "publie=oui" >> "$GITHUB_OUTPUT"
+          else
+            echo "publie=non" >> "$GITHUB_OUTPUT"
+          fi
+          rm -f sortie.txt
+
+      - name: Commiter et pousser
+        if: steps.publication.outputs.publie == 'oui'
+        run: |
+          git config user.name "Publication planifiée"
+          git config user.email "actions@users.noreply.github.com"
+          git add -A
+          git commit -m "Publie les contenus planifiés du $(date +%F)"
+          git push
+
+      - name: Vérifier la mise en ligne
+        if: steps.publication.outputs.publie == 'oui'
+        run: |
+          urls=$(cat _planning/derniere-publication.txt)
+          echo "À vérifier : $urls"
+          for essai in $(seq 1 12); do
+            manquantes=""
+            for u in $urls; do
+              code=$(curl -s -o /dev/null -w '%{http_code}' "https://meilleur-site-rencontre.fr$u")
+              [ "$code" = "200" ] || manquantes="$manquantes $u"
+            done
+            if [ -z "$manquantes" ]; then
+              echo "Tout est en ligne."
+              exit 0
+            fi
+            echo "Essai $essai/12, encore absentes :$manquantes"
+            sleep 300
+          done
+          echo "::error::Le serveur n'a pas récupéré la publication après une heure. Vérifier la tâche cron git pull dans cPanel."
+          exit 1

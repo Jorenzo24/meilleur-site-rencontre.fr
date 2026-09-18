@@ -25,6 +25,15 @@ RewriteRule ^go/spiice/?$ https://k.related-dating.com/?abc=c3f8507e3c11a948&xa=
 RewriteRule ^go/jm-messenger/?$ https://k.related-dating.com/?abc=fd83d3e1cd979ce0&xa=n&acme=wid.85377&media=seo&source=jmmmsr&tpls=2 [R=302,L,NE,QSD]
 
 # ============================================================
+# File d'attente de publication : contenus prets mais pas encore publies.
+# Le dossier vit dans le depot (donc dans public_html) mais ne doit jamais
+# etre accessible en ligne avant sa date. Voir _planning/LISEZMOI.md
+# ============================================================
+RewriteRule ^_planning/ - [F,L]
+RewriteRule ^tools/ - [F,L]
+RewriteRule ^\.github/ - [F,L]
+
+# ============================================================
 # Pages d'erreur personnalisées
 # ============================================================
 ErrorDocument 404 /404.html

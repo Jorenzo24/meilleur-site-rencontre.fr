@@ -1,5 +1,6 @@
 User-agent: *
 Allow: /
 Disallow: /go/
+Disallow: /_planning/
 
 Sitemap: https://meilleur-site-rencontre.fr/sitemap.xml
