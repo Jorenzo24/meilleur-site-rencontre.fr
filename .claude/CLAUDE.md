@@ -34,19 +34,31 @@
 - Pas de tiret cadratin (em-dash) dans le contenu : virgules, deux-points, parenthèses.
 - Testeurs anonymes (intégrité des profils de test) mais **rédacteurs identifiés et signés** (E-E-A-T).
 
-## État d'avancement (dernière mise à jour : 23 juin 2026)
+## État d'avancement (dernière mise à jour : 18 septembre 2026)
 
-Refonte en cours : passer d'un site "froid / affiliation générique" à un **site éditorial propre et personnalisé**. Page étalon = `avis-meetic`.
+Le site est complet sur le plan éditorial et technique. **Le frein n'est plus la qualité des pages, c'est l'indexation et l'autorité.**
+
+**Constat Search Console au 18 septembre 2026 :**
+- 9 pages indexées sur 37 connues, 17 en « Détectée, actuellement non indexée » (Google ne vient même pas les explorer)
+- 2 clics et 39 impressions sur 3 mois, position moyenne 35
+- Les impressions viennent presque uniquement de Meetic (« meetic avis », « avis meetic », « test meetic »)
+- Domaine créé le 3 mars 2026, donc 6 mois d'ancienneté, sans netlinking significatif
+
+Conséquence stratégique : peaufiner les pages existantes ne produit plus rien de mesurable. Les leviers sont l'indexation (maillage, demandes d'indexation), les liens entrants, et des contenus visant des requêtes réellement gagnables.
 
 **Fait :**
-- Arborescence multi-pages + hubs `/avis/`, `/comparatifs/`, `/guides/` ; nav rebranchée (plus de one-page).
-- SEO technique : robots `index,follow` explicite, canonicals, sitemap complet, schema Organization unifié via `@id` (`#organization`).
-- E-E-A-T auteurs : 5 rédacteurs réels (Lucie, Marie, Patrice, Jeanne, Bastien), photos dans `/assets/auteurs/`, pages `/auteurs/<slug>/` (schema Person), hub `/auteurs/`, signatures + bloc auteur + Person comme `author` du schema Review. Section anonymat de `qui-sommes-nous` réécrite.
-- **Les 8 avis** ont le gabarit éditorial complet : fond teinté + panneau blanc + sidebar sticky (logos), scorecard de notation qualitative, fiche d'identité (Meetic), tarifs en cartes (Meetic), bloc "fait pour vous ?", encadré "parti pris", verdict en voix 1re personne.
-- Composants CSS réutilisables dans `css/style.css` (chercher les blocs commentés : scorecard, id-card, edito-note, price-grid, fit-grid, author-box, review-shell/sidebar). Cache-busting CSS via `?v=AAAAMMJJ-N` sur le `<link>` (bumper à chaque modif du CSS).
+- Arborescence multi-pages, hubs `/avis/`, `/comparatifs/`, `/guides/`, `/lexique/`
+- SEO technique propre : robots, canonicals, sitemap à jour, schema Organization unifié
+- E-E-A-T : 5 rédacteurs réels, pages auteur, **les 15 pages de contenu sont signées** (avis, guides, comparatifs, lexique)
+- Les 8 avis ont le gabarit éditorial complet ; les 3 comparatifs et les 4 guides ont image à la une et signature
+- Images : tout en WebP, aucun JPEG servi dans un `src`
+- Maillage : les guides pointent vers les avis (19 liens contextuels) et vers le lexique
+- Lexique du dating lancé le 18 septembre 2026 : hub + 6 fiches (ghosting, love bombing, catfishing, situationship, breadcrumbing, benching)
+- Tournures répétées d'un avis à l'autre supprimées (les 8 verdicts ouvraient sur la même formule)
 
-**À faire (prochaine session) :**
-1. **Les 4 guides** = priorité, ils ont **0 image** (point le plus "froid"). Gabarit à inventer (sommaire illustré, encadrés conseils, schémas SVG ; pas de scorecard/tarifs).
-2. Appliquer le gabarit éditorial aux **3 comparatifs**.
-3. Optionnel : enrichir l'accueil, et affiner les pages auteur (ajouter `sameAs` LinkedIn, années d'expérience réelles si fournies).
-4. Quand l'éditeur fournit du **vécu réel** (captures anonymisées, vrais prix, anecdotes), l'injecter dans les avis pour passer de "bien fichu" à "incontournable".
+**À faire :**
+1. **Nouveaux lots de fiches lexique**, 5 à 8 à la fois, jamais plus : sur un domaine que Google explore à reculons, une publication massive finit en « Détectée, non indexée ». Générateur réutilisable dans `/private/tmp/lexique_build/` (à re-créer au besoin, c'est un dossier temporaire).
+2. **Mettre en place un système de planification des contenus** sur le modèle de red-dead-redemption-3.com (demande de l'éditeur, 18 septembre 2026).
+3. **Cluster Meetic** quand l'éditeur fournit la matière : résiliation, gratuité, tarifs réels. La page tarifs n'a d'intérêt qu'avec de vrais montants relevés.
+4. Encadré « parti pris » sur les 3 comparatifs, illustrations dans le corps des guides.
+5. **Point à trancher** : le pied de page annonce « depuis 2018 » alors que le domaine date de mars 2026.
