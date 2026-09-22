@@ -92,11 +92,11 @@ ErrorDocument 404 /404.html
 # Bloc ajoute automatiquement par cPanel (MultiPHP).
 # Versionne ici pour que le fichier du depot corresponde a celui
 # du serveur : sinon cPanel le reajoute et le pull echoue.
-# Ne pas editer a la main, cPanel le reecrit si on change la
-# version de PHP dans MultiPHP Manager.
+# Ne pas editer a la main, ne pas normaliser ses guillemets courbes :
+# le moindre caractere d'ecart fait echouer le git pull du serveur.
 # ============================================================
 # php -- BEGIN cPanel-generated handler, do not edit
-# Set the "ea-php82" package as the default "PHP" programming language.
+# Set the “ea-php82” package as the default “PHP” programming language.
 <IfModule mime_module>
   AddHandler application/x-httpd-ea-php82 .php .php8 .phtml
 </IfModule>
