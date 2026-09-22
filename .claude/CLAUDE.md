@@ -4,7 +4,11 @@
 - Serveur : VPS Hetzner avec cPanel
 - Username cPanel : `meilleursiterenc`
 - Deploy path : `/home/meilleursiterenc/public_html/`
-- **Le dépôt Git est cloné directement dans `public_html`.** Publier = `git push` puis cliquer **"Update from Remote"** dans cPanel → Git Version Control. NE PAS utiliser "Deploy HEAD Commit" (le `.cpanel.yml` est volontairement réduit à un no-op `/bin/true`, car copier public_html dans lui-même créait des dossiers imbriqués).
+- **Le dépôt Git est cloné directement dans `public_html`.**
+- **Publication automatique** : une tâche cron cPanel synchronise le serveur toutes les 30 minutes par `git fetch` puis `git reset --hard origin/main`. Publier = `git push`, rien d'autre. Ne plus utiliser « Update from Remote » ni « Deploy HEAD Commit ».
+- `reset --hard` plutôt que `pull` parce que `pull` a bloqué le déploiement deux fois sur des modifications locales du `.htaccess`. Conséquence : ne jamais éditer un fichier directement sur le serveur, il sera écrasé sous 30 minutes.
+- Le site est derrière **Cloudflare**, cache de 4 heures : pour vérifier une mise en ligne, ajouter un paramètre unique à l'URL, sinon on lit une version périmée.
+- Journal du cron : `/home/meilleursiterenc/cron-test.log`
 
 ## Stack technique
 - HTML5 / CSS3 / JavaScript vanilla
