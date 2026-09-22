@@ -49,7 +49,7 @@ jobs:
           for essai in $(seq 1 12); do
             manquantes=""
             for u in $urls; do
-              code=$(curl -s -o /dev/null -w '%{http_code}' "https://meilleur-site-rencontre.fr$u")
+              code=$(curl -s -o /dev/null -w '%{http_code}' "https://meilleur-site-rencontre.fr$u?ci=$GITHUB_RUN_ID-$essai")
               [ "$code" = "200" ] || manquantes="$manquantes $u"
             done
             if [ -z "$manquantes" ]; then
