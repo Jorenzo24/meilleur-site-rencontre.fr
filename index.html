@@ -23,7 +23,9 @@
   <link rel="icon" type="image/png" sizes="16x16" href="/assets/favicon-16.png">
   <link rel="apple-touch-icon" sizes="180x180" href="/assets/favicon-180.png">
   <link rel="preload" as="image" href="/assets/hero.jpg">
-  <link rel="stylesheet" href="/css/style.css?v=20260810-2">
+  <link rel="preload" href="/assets/fonts/fraunces.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="/assets/fonts/inter.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="/css/style.css?v=20260924-1">
 
   <script type="application/ld+json">
   {
@@ -272,265 +274,287 @@
 
   <main id="main">
 
-    <section class="hero">
-      <div class="container hero-grid">
-        <div class="hero-text">
-          <h1>Meilleur site de rencontre 2026 : notre comparatif testé</h1>
-          <p class="lede">Notre équipe teste les plateformes en conditions réelles depuis 2018. Voici les 8 sites qui tiennent vraiment leurs promesses cette année.</p>
-          <div class="hero-cta">
-            <a href="#top-sites" class="btn btn-primary">Voir nos recommandations</a>
-            <a href="#methode" class="btn btn-link">Notre méthode</a>
+    <section class="home-hero">
+      <div class="container">
+        <div class="home-hero-grid">
+          <div>
+            <p class="eyebrow">Comparatif indépendant</p>
+            <h1 class="display">Le meilleur site de rencontre, testé plutôt que deviné</h1>
+            <p class="lede">Nous créons de vrais profils, nous restons quatre semaines sur chaque plateforme, et nous écrivons ce que nous avons constaté. Huit sites passés au crible pour 2026.</p>
+          </div>
+          <div class="home-hero-aside">
+            <div class="keyfig">
+              <span class="keyfig-n">8</span>
+              <span class="keyfig-l">plateformes testées</span>
+            </div>
+            <div class="keyfig">
+              <span class="keyfig-n">4</span>
+              <span class="keyfig-l">semaines par test</span>
+            </div>
+            <div class="keyfig">
+              <span class="keyfig-n">5</span>
+              <span class="keyfig-l">rédacteurs signent</span>
+            </div>
           </div>
         </div>
-        <div class="hero-image">
+
+        <figure class="home-hero-media">
           <img src="/assets/hero.webp" alt="Un couple souriant partage un café dans un lieu lumineux" width="1600" height="875" fetchpriority="high">
+          <figcaption class="home-hero-cap">
+            <span>Mise à jour le 24 septembre 2026</span>
+            <span>Par <a class="link-ed" href="/auteurs/">la rédaction</a></span>
+          </figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <section id="top-sites" class="home-sec">
+      <div class="container">
+        <div class="home-sec-head">
+          <span class="sec-num">01</span>
+          <h2>Trois plateformes se détachent</h2>
+          <p>Pas un palmarès de façade : trois intentions différentes, trois réponses distinctes, après quatre semaines d'usage sur chacune.</p>
         </div>
-      </div>
-    </section>
 
-    <section id="top-sites" class="top-sites">
-      <div class="container">
-        <header class="section-head">
-          <h2>Notre top 3 des sites de rencontre 2026</h2>
-          <p>Trois plateformes qui se détachent après quatre semaines de test, pour trois intentions claires.</p>
-        </header>
+        <div class="podium">
 
-        <div class="top-cards">
-
-          <article class="top-card top-card--featured">
-            <div class="top-card-badge">Notre choix</div>
-            <div class="top-card-brand"><img src="/assets/logo-infinite.png" alt="Infinite Rencontre" width="130" height="68" loading="lazy"></div>
-            <h3 class="top-card-name">Infinite Rencontre</h3>
-            <p class="top-card-tag">Qualité et modernité</p>
-            <p class="top-card-rating" aria-label="Note 4,5 sur 5"><strong>4,5</strong><span>/5</span></p>
-            <p class="top-card-desc">Profils authentiques et interface particulièrement soignée, pour une recherche qualitative entre 25 et 45 ans.</p>
-            <a href="/avis-infinite-rencontre/" class="top-card-cta">
-              Lire l'avis Infinite Rencontre
-              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
-            </a>
+          <article class="podium-item podium-item--first">
+            <div class="podium-rank">01</div>
+            <div>
+              <h3 class="podium-name">Infinite Rencontre</h3>
+              <p class="podium-why">Profils authentiques et interface particulièrement soignée, pour une recherche qualitative entre 25 et 45 ans. C'est la seule plateforme où nous avons eu envie de revenir après le test.</p>
+            </div>
+            <div class="podium-meta">
+              <p class="podium-note">4,5<span>/5</span></p>
+              <div class="podium-links">
+                <a class="link-ed" href="/avis-infinite-rencontre/">Lire l'avis</a>
+                <a class="link-ed link-ed--accent" href="/go/infinite-rencontre/" rel="sponsored nofollow" target="_blank">Voir le site</a>
+              </div>
+            </div>
           </article>
 
-          <article class="top-card">
-            <div class="top-card-brand"><img src="/assets/logo-meetic.png" alt="Meetic" width="130" height="42" loading="lazy"></div>
-            <h3 class="top-card-name">Meetic</h3>
-            <p class="top-card-tag">Relations durables</p>
-            <p class="top-card-rating" aria-label="Note 4,6 sur 5"><strong>4,6</strong><span>/5</span></p>
-            <p class="top-card-desc">La référence historique pour une relation sérieuse, avec une communauté mature et des profils vérifiés.</p>
-            <a href="/avis-meetic/" class="top-card-cta">
-              Lire l'avis Meetic
-              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
-            </a>
+          <article class="podium-item">
+            <div class="podium-rank">02</div>
+            <div>
+              <h3 class="podium-name">Meetic</h3>
+              <p class="podium-why">La référence historique pour une relation sérieuse, avec une communauté mature et des profils vérifiés. L'abonnement coûte, et c'est aussi ce qui tient les curieux du dimanche à distance.</p>
+            </div>
+            <div class="podium-meta">
+              <p class="podium-note">4,6<span>/5</span></p>
+              <div class="podium-links">
+                <a class="link-ed" href="/avis-meetic/">Lire l'avis</a>
+                <a class="link-ed link-ed--accent" href="/go/meetic/" rel="sponsored nofollow" target="_blank">Voir le site</a>
+              </div>
+            </div>
           </article>
 
-          <article class="top-card">
-            <div class="top-card-brand"><img src="/assets/logo-edarling.svg" alt="eDarling" width="120" height="58" loading="lazy"></div>
-            <h3 class="top-card-name">eDarling</h3>
-            <p class="top-card-tag">Exigence 30+</p>
-            <p class="top-card-rating" aria-label="Note 4,4 sur 5"><strong>4,4</strong><span>/5</span></p>
-            <p class="top-card-desc">Questionnaire de personnalité approfondi pour les 30-55 ans actifs qui veulent un matching cohérent.</p>
-            <a href="/avis-edarling/" class="top-card-cta">
-              Lire l'avis eDarling
-              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
-            </a>
+          <article class="podium-item">
+            <div class="podium-rank">03</div>
+            <div>
+              <h3 class="podium-name">eDarling</h3>
+              <p class="podium-why">Un questionnaire de personnalité long à remplir, qui fait gagner du temps ensuite sur la cohérence des profils proposés. Pour les 30-55 ans qui reviennent au dating avec une intention claire.</p>
+            </div>
+            <div class="podium-meta">
+              <p class="podium-note">4,4<span>/5</span></p>
+              <div class="podium-links">
+                <a class="link-ed" href="/avis-edarling/">Lire l'avis</a>
+                <a class="link-ed link-ed--accent" href="/go/edarling/" rel="sponsored nofollow" target="_blank">Voir le site</a>
+              </div>
+            </div>
           </article>
-
-        </div>
-      </div>
-    </section>
-
-    <section id="classement" class="ranking">
-      <div class="container">
-        <header class="section-head">
-          <h2>Classement complet des 8 plateformes</h2>
-          <p>Les autres sites que nous recommandons, classés selon leur note globale.</p>
-        </header>
-
-        <ol class="ranking-list">
-
-          <li class="ranking-row">
-            <span class="ranking-pos">04</span>
-            <span class="ranking-name">Spiice</span>
-            <span class="ranking-tag">Ludique et mobile</span>
-            <span class="ranking-rate">4,4</span>
-            <a class="ranking-link" href="/avis-spiice/">Lire l'avis</a>
-          </li>
-
-          <li class="ranking-row">
-            <span class="ranking-pos">05</span>
-            <span class="ranking-name">Rencontres Locales</span>
-            <span class="ranking-tag">Proximité géographique</span>
-            <span class="ranking-rate">4,3</span>
-            <a class="ranking-link" href="/avis-rencontres-locales/">Lire l'avis</a>
-          </li>
-
-          <li class="ranking-row">
-            <span class="ranking-pos">06</span>
-            <span class="ranking-name">Rencontres Mixtes</span>
-            <span class="ranking-tag">Diversité culturelle</span>
-            <span class="ranking-rate">4,3</span>
-            <a class="ranking-link" href="/avis-rencontres-mixtes/">Lire l'avis</a>
-          </li>
-
-          <li class="ranking-row">
-            <span class="ranking-pos">07</span>
-            <span class="ranking-name">Force Gay</span>
-            <span class="ranking-tag">Communauté gay</span>
-            <span class="ranking-rate">4,3</span>
-            <a class="ranking-link" href="/avis-force-gay/">Lire l'avis</a>
-          </li>
-
-          <li class="ranking-row">
-            <span class="ranking-pos">08</span>
-            <span class="ranking-name">JM Messenger</span>
-            <span class="ranking-tag">Tchat direct</span>
-            <span class="ranking-rate">4,2</span>
-            <a class="ranking-link" href="/avis-jm-messenger/">Lire l'avis</a>
-          </li>
-
-        </ol>
-      </div>
-    </section>
-
-    <section id="choisir" class="finder">
-      <div class="container">
-        <header class="section-head">
-          <h2>Quel site selon votre recherche ?</h2>
-          <p>Trois comparatifs ciblés pour aller droit à la plateforme qui correspond à votre situation.</p>
-        </header>
-
-        <div class="finder-grid">
-
-          <a href="/comparatif-relation-serieuse/" class="finder-card">
-            <img src="/assets/comparatifs/comparatif-relation-serieuse.webp" alt="Un couple marche main dans la main sur une route de campagne au soleil" width="960" height="480" loading="lazy">
-            <h3>Une relation sérieuse</h3>
-            <p>Construire une histoire qui dure</p>
-            <span class="finder-link">Voir le comparatif
-              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
-            </span>
-          </a>
-
-          <a href="/comparatif-seniors/" class="finder-card">
-            <img src="/assets/comparatifs/comparatif-seniors.webp" alt="Un couple de seniors se sourit, front contre front, un café à la main" width="960" height="480" loading="lazy">
-            <h3>Pour les seniors</h3>
-            <p>Plateformes adaptées aux 50+</p>
-            <span class="finder-link">Voir le comparatif
-              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
-            </span>
-          </a>
-
-          <a href="/comparatif-gay/" class="finder-card">
-            <img src="/assets/comparatifs/comparatif-gay.webp" alt="Deux hommes marchent main dans la main sur une colline en bord de mer" width="760" height="380" loading="lazy">
-            <h3>Communauté gay</h3>
-            <p>Plateformes dédiées et fiables</p>
-            <span class="finder-link">Voir le comparatif
-              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
-            </span>
-          </a>
 
         </div>
       </div>
     </section>
 
-    <section id="methode" class="method">
-      <div class="container method-grid">
-        <div class="method-text">
+    <section id="classement" class="home-sec home-sec--paper">
+      <div class="container">
+        <div class="home-sec-head">
+          <span class="sec-num">02</span>
+          <h2>Le classement complet</h2>
+          <p>Les huit plateformes de notre panel, classées par note globale.</p>
+        </div>
+
+        <table class="ranktable">
+          <caption>Notes établies sur la qualité des profils, la modération, la clarté des offres et l'expérience d'usage.</caption>
+          <thead>
+            <tr><th scope="col">Rang</th><th scope="col">Plateforme</th><th scope="col">Note</th><th scope="col"></th></tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td class="rt-rank">01</td>
+              <td class="rt-name">Meetic<span>Relations durables</span></td>
+              <td class="rt-note">4,6</td>
+              <td class="rt-go"><a class="link-ed" href="/avis-meetic/">Lire l'avis</a></td>
+            </tr>
+            <tr>
+              <td class="rt-rank">02</td>
+              <td class="rt-name">Infinite Rencontre<span>Qualité et modernité</span></td>
+              <td class="rt-note">4,5</td>
+              <td class="rt-go"><a class="link-ed" href="/avis-infinite-rencontre/">Lire l'avis</a></td>
+            </tr>
+            <tr>
+              <td class="rt-rank">03</td>
+              <td class="rt-name">eDarling<span>Exigence 30+</span></td>
+              <td class="rt-note">4,4</td>
+              <td class="rt-go"><a class="link-ed" href="/avis-edarling/">Lire l'avis</a></td>
+            </tr>
+            <tr>
+              <td class="rt-rank">04</td>
+              <td class="rt-name">Spiice<span>Ludique et mobile</span></td>
+              <td class="rt-note">4,4</td>
+              <td class="rt-go"><a class="link-ed" href="/avis-spiice/">Lire l'avis</a></td>
+            </tr>
+            <tr>
+              <td class="rt-rank">05</td>
+              <td class="rt-name">Rencontres Locales<span>Proximité géographique</span></td>
+              <td class="rt-note">4,3</td>
+              <td class="rt-go"><a class="link-ed" href="/avis-rencontres-locales/">Lire l'avis</a></td>
+            </tr>
+            <tr>
+              <td class="rt-rank">06</td>
+              <td class="rt-name">Rencontres Mixtes<span>Diversité culturelle</span></td>
+              <td class="rt-note">4,3</td>
+              <td class="rt-go"><a class="link-ed" href="/avis-rencontres-mixtes/">Lire l'avis</a></td>
+            </tr>
+            <tr>
+              <td class="rt-rank">07</td>
+              <td class="rt-name">Force Gay<span>Communauté gay</span></td>
+              <td class="rt-note">4,3</td>
+              <td class="rt-go"><a class="link-ed" href="/avis-force-gay/">Lire l'avis</a></td>
+            </tr>
+            <tr>
+              <td class="rt-rank">08</td>
+              <td class="rt-name">JM Messenger<span>Tchat direct</span></td>
+              <td class="rt-note">4,2</td>
+              <td class="rt-go"><a class="link-ed" href="/avis-jm-messenger/">Lire l'avis</a></td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+    <section id="choisir" class="home-sec">
+      <div class="container">
+        <div class="home-sec-head">
+          <span class="sec-num">03</span>
+          <h2>Ça dépend de ce que vous cherchez</h2>
+          <p>Trois comparatifs ciblés, parce qu'un bon site pour une relation sérieuse n'est pas forcément un bon site à 60 ans.</p>
+        </div>
+
+        <div class="needs">
+          <a class="need-row" href="/comparatif-relation-serieuse/">
+            <p class="need-q">Je veux construire une histoire qui dure</p>
+            <p class="need-a">Notre top 5 des plateformes où les intentions sont annoncées dès l'inscription. <strong>Voir le comparatif</strong></p>
+          </a>
+          <a class="need-row" href="/comparatif-seniors/">
+            <p class="need-q">J'ai plus de 50 ans</p>
+            <p class="need-a">Quatre plateformes où la tranche d'âge est réellement représentée, pas seulement tolérée. <strong>Voir le comparatif</strong></p>
+          </a>
+          <a class="need-row" href="/comparatif-gay/">
+            <p class="need-q">Je cherche une communauté gay</p>
+            <p class="need-a">Les plateformes dédiées, et ce qu'elles font mieux que les généralistes. <strong>Voir le comparatif</strong></p>
+          </a>
+          <a class="need-row" href="/lexique/">
+            <p class="need-q">Je ne comprends pas la moitié des mots</p>
+            <p class="need-a">Ghosting, benching, situationship : le lexique du dating, défini sans jargon. <strong>Ouvrir le lexique</strong></p>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <section id="methode" class="home-method">
+      <div class="container">
+        <div class="home-sec-head">
           <p class="eyebrow">Notre méthode</p>
-          <h2>Comment on teste les plateformes</h2>
-          <p>Vrais profils créés par notre équipe, quatre semaines d'usage minimum, recoupement avec les avis Trustpilot et les stores. Aucune rémunération éditeur n'influence nos classements : le choix éditorial reste entre nos mains.</p>
-          <div class="method-cta">
-            <a href="/qui-sommes-nous/" class="btn btn-primary">Qui sommes-nous ?</a>
-            <a href="/notre-methode/" class="btn btn-link">Le détail de la méthode</a>
+          <h2>Personne ici ne note un site sans l'avoir utilisé</h2>
+          <p class="method-lede">Vrais profils créés par notre équipe, quatre semaines d'usage minimum, recoupement avec les avis Trustpilot et les stores. Aucune rémunération éditeur n'influence nos classements.</p>
+        </div>
+
+        <div class="home-method-grid">
+          <div class="method-step">
+            <span class="method-step-n">01</span>
+            <h3>On s'inscrit pour de vrai</h3>
+            <p>Un profil complet, renseigné comme le ferait n'importe quel célibataire, sur chaque plateforme du panel.</p>
+          </div>
+          <div class="method-step">
+            <span class="method-step-n">02</span>
+            <h3>On reste quatre semaines</h3>
+            <p>Le temps de voir passer le premier enthousiasme, les relances commerciales et la réalité de la communauté.</p>
+          </div>
+          <div class="method-step">
+            <span class="method-step-n">03</span>
+            <h3>On recoupe</h3>
+            <p>Nos constats sont confrontés aux avis publics, aux notes des stores et aux conditions générales.</p>
+          </div>
+          <div class="method-step">
+            <span class="method-step-n">04</span>
+            <h3>On signe</h3>
+            <p>Chaque avis porte le nom de son rédacteur. Les testeurs restent anonymes, les auteurs non.</p>
           </div>
         </div>
-        <div class="method-stats">
-          <div class="method-stat">
-            <span class="method-stat-num">50+</span>
-            <span class="method-stat-label">Plateformes analysées</span>
-          </div>
-          <div class="method-stat">
-            <span class="method-stat-num">4 sem.</span>
-            <span class="method-stat-label">De test minimum</span>
-          </div>
-          <div class="method-stat">
-            <span class="method-stat-num">2018</span>
-            <span class="method-stat-label">Année de lancement</span>
-          </div>
-        </div>
+
+        <p class="method-links"><a class="link-ed" href="/notre-methode/">Le détail de la méthode</a> <a class="link-ed" href="/qui-sommes-nous/">Qui sommes-nous</a></p>
       </div>
     </section>
 
-    <section id="guides" class="guides">
+    <section id="guides" class="home-sec">
       <div class="container">
-        <header class="section-head">
-          <h2>Réussir ses rencontres en ligne</h2>
-          <p>Nos guides pour aller plus loin une fois la plateforme choisie.</p>
-        </header>
+        <div class="home-sec-head">
+          <span class="sec-num">04</span>
+          <h2>Une fois la plateforme choisie</h2>
+          <p>Tout se joue ensuite sur la présentation et les premiers échanges.</p>
+        </div>
 
-        <div class="guides-grid">
-
-          <a href="/guide/profil-attractif/" class="guides-card">
-            <img src="/assets/guides/guide-profil-attractif.webp" alt="Un homme souriant prend un selfie en extérieur avec son smartphone" width="960" height="480" loading="lazy">
-            <h3>Comment rédiger un profil qui attire</h3>
-            <p>Photos, texte, intention : trois leviers concrets pour sortir du lot dès la première impression.</p>
-            <span class="guides-link">Lire le guide
-              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
-            </span>
+        <div class="reads">
+          <a class="read-item" href="/guide/profil-attractif/">
+            <div class="read-figure"><img src="/assets/guides/guide-profil-attractif.webp" alt="Un homme souriant prend un selfie en extérieur avec son smartphone" width="960" height="480" loading="lazy"></div>
+            <span class="read-kicker">Guide</span>
+            <h3>Rédiger un profil qui attire</h3>
+            <p>Photos, texte, intention : trois leviers concrets dès la première impression.</p>
           </a>
-
-          <a href="/guide/faux-profils/" class="guides-card">
-            <img src="/assets/guides/guide-faux-profils.webp" alt="Une femme songeuse regarde par la fenêtre, l'air dubitatif" width="960" height="480" loading="lazy">
+          <a class="read-item" href="/guide/faux-profils/">
+            <div class="read-figure"><img src="/assets/guides/guide-faux-profils.webp" alt="Une femme songeuse regarde par la fenêtre, l'air dubitatif" width="960" height="480" loading="lazy"></div>
+            <span class="read-kicker">Sécurité</span>
             <h3>Reconnaître un faux profil</h3>
-            <p>Les signaux qui ne trompent pas et les bons réflexes pour signaler en deux clics.</p>
-            <span class="guides-link">Lire le guide
-              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
-            </span>
+            <p>Les signaux qui ne trompent pas et les bons réflexes pour signaler.</p>
           </a>
-
-          <a href="/guide/premier-message/" class="guides-card">
-            <img src="/assets/guides/guide-premier-message.webp" alt="Une femme sourit en lisant un message sur son smartphone, installée dans un canapé" width="960" height="480" loading="lazy">
+          <a class="read-item" href="/guide/premier-message/">
+            <div class="read-figure"><img src="/assets/guides/guide-premier-message.webp" alt="Une femme sourit en lisant un message sur son smartphone, installée dans un canapé" width="960" height="480" loading="lazy"></div>
+            <span class="read-kicker">Guide</span>
             <h3>Quel premier message envoyer</h3>
-            <p>Des accroches qui ouvrent vraiment la conversation, sans tomber dans les formules toutes faites.</p>
-            <span class="guides-link">Lire le guide
-              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
-            </span>
+            <p>Des accroches qui ouvrent la conversation, sans formules toutes faites.</p>
           </a>
-
-          <a href="/guide/site-fiable/" class="guides-card">
-            <img src="/assets/guides/guide-site-fiable.webp" alt="Une femme consulte un site sur son ordinateur portable, vue de dessus, une tasse de café à côté" width="960" height="480" loading="lazy">
-            <h3>Comment choisir un site fiable</h3>
-            <p>Modération, RGPD, vérification : les critères à vérifier avant de s'inscrire.</p>
-            <span class="guides-link">Lire le guide
-              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
-            </span>
+          <a class="read-item" href="/guide/site-fiable/">
+            <div class="read-figure"><img src="/assets/guides/guide-site-fiable.webp" alt="Une femme consulte un site sur son ordinateur portable, vue de dessus, une tasse de café à côté" width="960" height="480" loading="lazy"></div>
+            <span class="read-kicker">Repères</span>
+            <h3>Choisir un site fiable</h3>
+            <p>Modération, RGPD, vérification : les critères à regarder avant de s'inscrire.</p>
           </a>
-
         </div>
-
-        <p class="see-also"><strong>Ghosting, benching, situationship ?</strong> Notre <a href="/lexique/">lexique du dating</a> explique les mots de la rencontre en ligne, et surtout quoi faire quand ces situations vous tombent dessus.</p>
       </div>
     </section>
 
-    <section id="faq" class="faq">
+    <section id="faq" class="home-sec home-sec--paper">
       <div class="container">
-        <header class="section-head">
+        <div class="home-sec-head">
+          <span class="sec-num">05</span>
           <h2>Questions fréquentes</h2>
-        </header>
-
+        </div>
+        <div class="faq-ed" data-faq>
         <details class="faq-item">
           <summary>Quel est le meilleur site de rencontre en 2026 ?</summary>
           <p>Tout dépend de votre intention. <strong>Infinite Rencontre</strong> est notre choix global pour une expérience moderne et qualitative. <strong>Meetic</strong> reste la référence des relations sérieuses, et <strong>eDarling</strong> cible les 30-55 ans exigeants. Spiice, Rencontres Locales, Rencontres Mixtes, Force Gay et JM Messenger répondent ensuite à des recherches plus ciblées (mobile, proximité, communauté, tchat direct).</p>
         </details>
-
         <details class="faq-item">
           <summary>Les sites de rencontre sont-ils gratuits ?</summary>
           <p>La plupart proposent une inscription gratuite. Infinite Rencontre, Spiice, JM Messenger, Rencontres Locales, Rencontres Mixtes et Force Gay offrent une expérience partiellement gratuite avec des options premium. Meetic et eDarling demandent un abonnement pour accéder à la messagerie complète.</p>
         </details>
-
         <details class="faq-item">
           <summary>Comment choisir un site de rencontre fiable ?</summary>
           <p>Vérifiez quatre points : la modération des profils, les avis utilisateurs récents, les options de sécurité (vérification photo, signalement) et la politique de confidentialité. Tous les sites de notre comparatif respectent le RGPD.</p>
         </details>
-
+        </div>
       </div>
     </section>
 
@@ -560,6 +584,6 @@
     </div>
   </footer>
 
-  <script src="/js/main.js?v=20260427-1"></script>
+  <script src="/js/main.js?v=20260924-1"></script>
 </body>
 </html>
