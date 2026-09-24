@@ -17,9 +17,11 @@
   /* Encre et papier : jamais de blanc pur en fond, jamais de noir pur en texte */
   --text: #16141a;
   --text-muted: #57525d;
-  --bg: #fbfaf8;
+  --bg: #fbf8f5;
   --bg-pure: #ffffff;
-  --bg-alt: #f2eee7;
+  --bg-alt: #f3ece6;
+  --sable: #f0e4dc;   /* fond chaud pour le hero et les respirations */
+  --prune: #2a1b23;   /* bandeau sombre, chaud plutot que noir */
   --border: #e4e0d8;
   --border-strong: #cfc9bd;
 
@@ -2222,9 +2224,9 @@ section { padding: 3rem 0; }
 
 /* --- 00 Hero : asymetrique, titre display, chiffres en grand --- */
 .home-hero {
-  background: var(--bg);
-  border-bottom: 1px solid var(--border);
-  padding: clamp(3rem, 7vw, 6.5rem) 0 0;
+  background: var(--sable);
+  border-bottom: 1px solid var(--border-strong);
+  padding: clamp(3rem, 7vw, 6rem) 0 clamp(2.5rem, 5vw, 4rem);
 }
 .home-hero-grid {
   display: grid;
@@ -2350,7 +2352,7 @@ section { padding: 3rem 0; }
 
 /* --- 03 Methode : bande sombre, rupture dans le rythme --- */
 .home-method {
-  background: #16141a;
+  background: var(--prune);
   color: #f2efe9;
   padding: var(--s-section) 0;
 }
@@ -2472,3 +2474,45 @@ section { padding: 3rem 0; }
 .faq-ed[data-faq] { counter-reset: faq-c; }
 .faq-ed details[open] summary::after { transform: rotate(-135deg); }
 .faq-ed details p { padding: 0 2.5rem 1.5rem 3.2rem; margin: 0; color: var(--text-muted); max-width: 46rem; }
+
+
+/* --- Signature de la redaction : des visages plutot que des statistiques --- */
+.byline {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  flex-wrap: wrap;
+  margin-top: 2.2rem;
+  padding-top: 1.6rem;
+  border-top: 1px solid rgba(42, 27, 35, .16);
+}
+.byline-faces { display: flex; gap: .4rem; flex: none; }
+.byline-faces img {
+  width: 44px;
+  height: 44px;
+  object-fit: cover;
+  filter: saturate(.9);
+}
+.byline-text { font-size: .9rem; color: var(--text-muted); margin: 0; max-width: 24rem; }
+.byline-text strong { color: var(--text); font-weight: 600; }
+
+/* --- Captures d'interface dans le podium : de la matiere visuelle reelle --- */
+.podium-shot { display: none; }
+.podium-shot img {
+  width: 100%;
+  height: 8.5rem;
+  object-fit: cover;
+  object-position: top center;
+  filter: saturate(.86) contrast(1.03);
+}
+
+/* --- Vignettes dans la liste des besoins --- */
+.need-thumb { display: none; }
+.need-thumb img { width: 100%; height: 5.5rem; object-fit: cover; filter: saturate(.86); }
+
+@media (min-width: 860px) {
+  .podium-item { grid-template-columns: 3.2rem 13rem minmax(0, 1fr) 9.5rem; gap: 2.2rem; }
+  .podium-shot { display: block; }
+  .need-row { grid-template-columns: 8rem 18rem 1fr; gap: 2.2rem; align-items: center; }
+  .need-thumb { display: block; }
+}
