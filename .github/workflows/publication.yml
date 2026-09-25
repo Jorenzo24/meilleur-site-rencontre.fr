@@ -18,6 +18,9 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
+      - name: Vérifier la cohérence du cache CSS et JS
+        run: python3 tools/verifier-cache.py HEAD~1
+
       - name: Publier les contenus arrivés à échéance
         id: publication
         run: |
