@@ -2516,3 +2516,98 @@ section { padding: 3rem 0; }
   .need-row { grid-template-columns: 8rem 18rem 1fr; gap: 2.2rem; align-items: center; }
   .need-thumb { display: block; }
 }
+
+
+/* ==========================================================================
+   ACCUEIL v3 : structure document-reponse
+   Les pages qui se positionnent sur cette requete ne sont pas des magazines.
+   Elles repondent d'abord, elles prouvent ensuite. Cette couche remplace la
+   composition editoriale du hero par un verdict immediat, un sommaire ancre
+   et un tableau comparatif.
+   ========================================================================== */
+
+/* --- Entete de page : titre puis metadonnees, rien d'autre --- */
+.page-top { padding: clamp(1.6rem, 3vw, 2.4rem) 0 0; background: var(--bg); }
+.page-top h1 { font-size: clamp(1.85rem, 3.3vw, 2.6rem); max-width: 24ch; margin-bottom: .7rem; }
+.page-meta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: .4rem 1.3rem;
+  align-items: center;
+  font-size: .84rem;
+  color: var(--text-muted);
+  margin: 0 0 1.1rem;
+  padding-bottom: .9rem;
+  border-bottom: 1px solid var(--border);
+}
+.page-meta a { color: var(--text); border-bottom: 1px solid var(--border-strong); }
+.page-meta a:hover { color: var(--brand); border-color: var(--brand); text-decoration: none; }
+.page-chapo { font-size: 1.02rem; color: var(--text-muted); max-width: 62ch; margin: 0 0 1.5rem; }
+
+/* --- Verdict express : la reponse avant le premier scroll --- */
+.verdict {
+  border: 1px solid var(--border-strong);
+  background: var(--bg-pure);
+  margin: 0 0 clamp(2rem, 4vw, 3rem);
+}
+.verdict-head {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  gap: 1rem;
+  padding: .75rem 1.3rem;
+  border-bottom: 1px solid var(--border-strong);
+  background: var(--bg-alt);
+}
+.verdict-title {
+  font-family: var(--font-text);
+  font-size: .74rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: .14em;
+  margin: 0;
+}
+.verdict-note { font-size: .8rem; color: var(--text-muted); }
+.verdict-row {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: .25rem 1.2rem;
+  padding: .85rem 1.3rem;
+  border-bottom: 1px solid var(--border);
+}
+.verdict-row:last-child { border-bottom: 0; }
+.verdict-for {
+  font-size: .72rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: .1em;
+  color: var(--brand);
+}
+.verdict-name { font-family: var(--font-display); font-size: 1.32rem; font-weight: 600; margin: 0; letter-spacing: -.01em; }
+.verdict-why { color: var(--text-muted); font-size: .94rem; margin: 0; }
+.verdict-score { font-family: var(--font-display); font-size: 1.32rem; font-weight: 600; }
+.verdict-score span { font-size: .8rem; color: var(--text-muted); }
+.verdict-go { display: flex; gap: 1.1rem; flex-wrap: wrap; align-items: center; }
+
+/* --- Sommaire ancre --- */
+.toc { border: 1px solid var(--border); background: var(--bg-pure); padding: 1.2rem 1.3rem; margin: 0 0 clamp(2.5rem, 5vw, 4rem); }
+.toc-title { font-size: .74rem; font-weight: 700; text-transform: uppercase; letter-spacing: .14em; margin: 0 0 .8rem; color: var(--text-muted); }
+.toc ol { list-style: none; margin: 0; padding: 0; counter-reset: toc; display: grid; grid-template-columns: 1fr; gap: .5rem 2rem; }
+.toc li { counter-increment: toc; }
+.toc a { color: var(--text); font-size: .95rem; display: inline-flex; gap: .6rem; }
+.toc a::before { content: counter(toc, decimal-leading-zero); color: var(--brand); font-size: .76rem; font-weight: 600; padding-top: .18rem; }
+.toc a:hover { color: var(--brand); text-decoration: none; }
+
+/* --- Section de contenu, sobre --- */
+.doc-sec { padding: clamp(2.6rem, 5vw, 4.2rem) 0; border-top: 1px solid var(--border); }
+.doc-sec > .container > h2 { margin-bottom: .6rem; }
+.doc-intro { color: var(--text-muted); max-width: 64ch; margin: 0 0 2rem; }
+
+/* --- Colonne inscription du tableau --- */
+.rt-acces { font-size: .88rem; color: var(--text-muted); white-space: nowrap; }
+
+@media (min-width: 760px) {
+  .verdict-row { grid-template-columns: 11rem 1fr 5rem 13rem; align-items: center; gap: .2rem 1.5rem; }
+  .verdict-row .verdict-why { grid-column: 2; }
+  .toc ol { grid-template-columns: 1fr 1fr; }
+}
