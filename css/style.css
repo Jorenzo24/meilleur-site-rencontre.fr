@@ -2611,3 +2611,17 @@ section { padding: 3rem 0; }
   .verdict-row .verdict-why { grid-column: 2; }
   .toc ol { grid-template-columns: 1fr 1fr; }
 }
+
+
+/* --- Accueil : promesse du site, a la place de la signature d'article --- */
+.site-promesse {
+  font-size: clamp(1.02rem, 1.4vw, 1.18rem);
+  line-height: 1.6;
+  color: var(--text-muted);
+  max-width: 64ch;
+  margin: 0 0 1.8rem;
+  padding-bottom: 1.4rem;
+  border-bottom: 1px solid var(--border);
+}
+/* sur l'accueil la signature de la redaction est une section, pas un entete */
+#redaction .byline { margin-top: 0; padding-top: 0; border-top: 0; }
