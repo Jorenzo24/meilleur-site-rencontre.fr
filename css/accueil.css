@@ -20,7 +20,7 @@
   line-height: 1.04;
   letter-spacing: -.012em;
   font-weight: 500;
-  font-variation-settings: "opsz" 96;
+  font-variation-settings: "opsz" 11;
   margin: 0 0 1.4rem;
   max-width: 22ch;
 }
@@ -38,6 +38,29 @@
   color: var(--brand);
   margin: 0 0 .5rem;
 }
+
+/* Ouverture de section : le titre en grand, et le chapeau qui enchaine
+   sur la meme ligne, en petit, comme une attaque d'article de magazine */
+.hp-open {
+  max-width: 56rem;
+  margin: 0 0 clamp(3rem, 5.5vw, 4.75rem);
+  font-size: 1.08rem;
+  line-height: 1.6;
+  color: var(--text-muted);
+}
+.hp-open h2 {
+  display: inline;
+  margin: 0 .35em 0 0;
+  font-size: clamp(2.1rem, 4.4vw, 3.5rem);
+  font-weight: 500;
+  line-height: 1.12;
+  letter-spacing: -.012em;
+  color: var(--text);
+}
+.hp-open p { display: inline; margin: 0; }
+.hp-open--dark { color: rgba(243, 236, 230, .72); }
+.hp-open--dark h2 { color: #fff; }
+.hp-open--dict .hp-entry-gram { font-size: clamp(1.3rem, 2.2vw, 1.7rem); margin-right: .5em; }
 
 /* Bouton : aplat d'encre, angles vifs, fleche qui avance au survol */
 .hp-btn {
@@ -90,7 +113,7 @@
   line-height: 1.04;
   letter-spacing: -.022em;
   font-weight: 500;
-  font-variation-settings: "opsz" 96;
+  font-variation-settings: "opsz" 11;
   margin: 0 0 1.6rem;
   max-width: 17ch;
   text-wrap: balance;
@@ -194,7 +217,7 @@ a:hover > .hp-shot img, .hp-shot:hover img,
   letter-spacing: -.05em;
   color: var(--brand);
   margin: 0 0 1.25rem;
-  font-variation-settings: "opsz" 144;
+  font-variation-settings: "opsz" 11;
 }
 .hp-rankno--s { font-size: 3rem; color: var(--border-strong); margin: 0; line-height: .9; }
 
@@ -378,24 +401,30 @@ a:hover > .hp-shot img, .hp-shot:hover img,
 .hp-mag-list a:hover .hp-mag-t { color: var(--brand); }
 .hp-mag-s { display: block; font-size: .9rem; line-height: 1.5; color: var(--text-muted); }
 
-/* --- 05 Lexique : les mots en grand, en flot libre --------------------- */
+/* --- 05 Lexique : une page de dictionnaire --------------------------- */
 
 .hp-lex { background: var(--bg); }
-.hp-lex-list { list-style: none; margin: 0; padding: 0; display: flex; flex-wrap: wrap; gap: 2rem 3.25rem; }
-.hp-lex-list a { display: flex; flex-direction: column; color: var(--text); }
-.hp-lex-list a:hover { text-decoration: none; }
-.hp-lex-w {
+.hp-entry-gram { font-family: var(--font-display); font-style: italic; font-weight: 500; color: var(--brand); white-space: nowrap; }
+.hp-dict { list-style: none; margin: 0; padding: 0; }
+.hp-dict li { break-inside: avoid; margin: 0 0 1.7rem; }
+.hp-dict a { display: block; color: var(--text-muted); font-size: 1rem; line-height: 1.6; }
+.hp-dict a:hover { text-decoration: none; }
+.hp-dict dfn {
+  font-style: normal;
   font-family: var(--font-display);
-  font-size: clamp(2rem, 4.4vw, 3.6rem);
-  font-weight: 500;
-  letter-spacing: -.015em;
-  line-height: 1;
+  font-size: 1.55rem;
+  font-weight: 700;
+  letter-spacing: -.01em;
+  color: var(--text);
   transition: color .25s var(--hp-ease);
 }
-.hp-lex-d { font-size: .88rem; color: var(--text-muted); margin-top: .45rem; transition: color .25s var(--hp-ease); }
-.hp-lex-list a:hover .hp-lex-w { color: var(--brand); }
-.hp-lex-list a:hover .hp-lex-d { color: var(--text); }
-.hp-lex-foot { margin: 3rem 0 0; }
+.hp-dict .hp-entry-gram { font-size: 1.05rem; margin-left: .15rem; }
+.hp-entry-ety { font-family: var(--font-display); font-style: italic; font-size: 1.02rem; color: var(--text-muted); }
+.hp-entry-ety i { font-style: normal; }
+.hp-entry-def { color: #3d3842; }
+.hp-dict a:hover dfn { color: var(--brand); }
+.hp-dict a:hover .hp-entry-def { color: var(--text); }
+.hp-lex-foot { margin: 1.5rem 0 0; }
 
 /* --- 06 Redaction ----------------------------------------------------- */
 
@@ -411,7 +440,7 @@ a:hover > .hp-shot img, .hp-shot:hover img,
   letter-spacing: -.025em;
   margin: 0;
   max-width: 16ch;
-  font-variation-settings: "opsz" 144;
+  font-variation-settings: "opsz" 11;
 }
 .hp-people { list-style: none; margin: 0; padding: 0; display: grid; grid-template-columns: 1fr 1fr; gap: 2rem 1.25rem; }
 .hp-people a { display: block; color: var(--text); }
@@ -500,8 +529,6 @@ a:hover > .hp-shot img, .hp-shot:hover img,
    ====================================================================== */
 
 @media (min-width: 960px) {
-  .hp-head--split { display: grid; grid-template-columns: 7fr 5fr; gap: 4rem; align-items: end; }
-  .hp-head--split .hp-h2 { margin-bottom: 0; }
 
   /* Hero : texte calé sur la grille du site, photo jusqu'au bord droit */
   .hp-hero { display: grid; grid-template-columns: minmax(0, 11fr) minmax(0, 10fr); min-height: calc(100svh - 4.5rem); }
@@ -541,6 +568,9 @@ a:hover > .hp-shot img, .hp-shot:hover img,
   .hp-steps li { padding: 3.5rem 0 0; }
   .hp-steps li::before { display: block; left: 2.6rem; right: -1.75rem; top: 1rem; bottom: auto; width: auto; height: 1px; }
   .hp-steps li:last-child::before { display: none; }
+
+  /* Lexique : deux colonnes de dictionnaire */
+  .hp-dict { columns: 2; column-gap: 4.5rem; }
 
   /* Guides */
   .hp-mag { grid-template-columns: 7fr 5fr; gap: 4.5rem; align-items: start; }

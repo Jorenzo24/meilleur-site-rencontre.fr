@@ -59,6 +59,9 @@ body {
   color: var(--text);
   background: var(--bg);
   -webkit-font-smoothing: antialiased;
+  /* Bodoni Moda regle sur sa taille optique "petit corps" : les deliés
+     restent visibles meme en tres grand (sinon les verticales du N disparaissent) */
+  font-variation-settings: "opsz" 11;
 }
 
 img { max-width: 100%; height: auto; display: block; }
@@ -73,7 +76,7 @@ h1, h2, h3 {
   margin: 0 0 .5em;
   font-weight: 600;
   letter-spacing: -.015em;
-  font-variation-settings: "opsz" 48, "SOFT" 0, "WONK" 0;
+  font-variation-settings: "opsz" 11;
 }
 h1 { font-size: var(--fs-h1); }
 h2 { font-size: var(--fs-h2); }
@@ -2140,6 +2143,13 @@ section { padding: 3rem 0; }
   font-display: swap;
 }
 @font-face {
+  font-family: "Bodoni Moda";
+  src: url(/assets/fonts/bodoni-moda-italic.woff2) format("woff2-variations");
+  font-weight: 100 900;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
   font-family: "Schibsted Grotesk";
   src: url(/assets/fonts/schibsted-grotesk.woff2) format("woff2-variations");
   font-weight: 100 900;
@@ -2187,7 +2197,7 @@ section { padding: 3rem 0; }
   line-height: 1.02;
   letter-spacing: -.028em;
   font-weight: 600;
-  font-variation-settings: "opsz" 144, "SOFT" 0, "WONK" 1;
+  font-variation-settings: "opsz" 11;
   margin: 0 0 1.2rem;
 }
 
@@ -2247,7 +2257,7 @@ section { padding: 3rem 0; }
   line-height: 1;
   font-weight: 600;
   letter-spacing: -.03em;
-  font-variation-settings: "opsz" 144;
+  font-variation-settings: "opsz" 11;
   display: block;
 }
 .keyfig-l {
@@ -2300,7 +2310,7 @@ section { padding: 3rem 0; }
   line-height: .9;
   font-weight: 600;
   color: var(--border-strong);
-  font-variation-settings: "opsz" 144;
+  font-variation-settings: "opsz" 11;
   min-width: 2.4rem;
 }
 .podium-item--first .podium-rank { color: var(--brand); }
@@ -2419,7 +2429,7 @@ section { padding: 3rem 0; }
 }
 .ranktable td { padding: 1.15rem 1rem 1.15rem 0; border-bottom: 1px solid var(--border); vertical-align: middle; }
 .ranktable tr:hover td { background: var(--bg-alt); }
-.rt-rank { font-family: var(--font-display); font-weight: 600; color: var(--border-strong); width: 3rem; font-variation-settings: "opsz" 144; }
+.rt-rank { font-family: var(--font-display); font-weight: 600; color: var(--border-strong); width: 3rem; font-variation-settings: "opsz" 11; }
 .rt-name { font-weight: 600; width: 100%; }
 .rt-name span { display: block; font-weight: 400; color: var(--text-muted); font-size: .88rem; margin-top: .15rem; }
 .rt-note { font-family: var(--font-display); font-size: 1.15rem; font-weight: 600; white-space: nowrap; padding-right: 2.5rem; }
