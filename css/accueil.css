@@ -590,3 +590,76 @@ a:hover > .hp-shot img, .hp-shot:hover img,
 @media (min-width: 1280px) {
   .hp-hero-title { font-size: 4rem; }
 }
+
+/* ==========================================================================
+   Habillage : motifs au trait, grain de papier, photos en collage
+   ========================================================================== */
+
+/* --- Motifs : dessins au trait teintes par le CSS (mask), poses en bord de
+   section et volontairement coupes par le cadre ------------------------- */
+
+.hp-hero, .hp-sec { position: relative; overflow: hidden; isolation: isolate; }
+.hp-hero > :not(.hp-motif), .hp-sec > .container { position: relative; z-index: 1; }
+
+.hp-motif {
+  position: absolute;
+  z-index: 0;
+  pointer-events: none;
+  background: var(--brand);
+  opacity: .13;
+  -webkit-mask: var(--m) no-repeat center / contain;
+          mask: var(--m) no-repeat center / contain;
+}
+.hp-motif--cafe      { --m: url(/assets/motifs/cafe.svg);      width: 14rem; aspect-ratio: 260 / 210; right: -2.5rem; top: 1.5rem; transform: rotate(8deg); }
+.hp-motif--telephone { --m: url(/assets/motifs/telephone.svg); width: 13rem; aspect-ratio: 230 / 250; right: -3rem; top: 2rem; transform: rotate(-10deg); }
+.hp-motif--lettre    { --m: url(/assets/motifs/lettre.svg);    width: 14rem; aspect-ratio: 250 / 200; left: -3rem; bottom: 1.5rem; transform: rotate(-12deg); background: #e9a3b8; opacity: .2; }
+.hp-motif--loupe     { --m: url(/assets/motifs/loupe.svg);     width: 13rem; aspect-ratio: 1; right: -2.5rem; bottom: -2rem; transform: rotate(6deg); }
+.hp-motif--avion     { --m: url(/assets/motifs/avion.svg);     width: 15rem; aspect-ratio: 260 / 200; right: -2rem; top: 2rem; transform: rotate(-6deg); opacity: .16; }
+.hp-motif--livre     { --m: url(/assets/motifs/livre.svg);     width: 15rem; aspect-ratio: 260 / 190; right: -3.5rem; top: 3rem; transform: rotate(9deg); }
+.hp-motif--plume     { --m: url(/assets/motifs/plume.svg);     width: 12rem; aspect-ratio: 1; left: -3rem; bottom: -1.5rem; transform: rotate(-14deg); }
+.hp-motif--bulles    { --m: url(/assets/motifs/bulles.svg);    width: 13rem; aspect-ratio: 240 / 200; right: -2.5rem; bottom: 2rem; transform: rotate(-8deg); }
+
+/* Mobile : les motifs descendent dans le blanc de fin de section, plus
+   petits, pour ne jamais passer derriere le texte */
+@media (max-width: 959px) {
+  .hp-motif { width: 8.5rem !important; top: auto !important; bottom: -1.75rem !important; opacity: .11; }
+  .hp-motif--cafe { display: none; }
+  .hp-motif--telephone, .hp-motif--loupe, .hp-motif--livre, .hp-motif--bulles { right: -1.5rem !important; left: auto !important; }
+  .hp-motif--lettre, .hp-motif--avion, .hp-motif--plume { left: -1.5rem !important; right: auto !important; }
+}
+
+/* --- Grain de papier sur les fonds colores ----------------------------- */
+
+.hp-hero::after, .hp-needs::after, .hp-guides::after, .hp-team::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  z-index: 0;
+  pointer-events: none;
+  background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='240' height='240'><filter id='g'><feTurbulence type='fractalNoise' baseFrequency='.85' numOctaves='3' stitchTiles='stitch'/><feColorMatrix values='0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .6 0'/></filter><rect width='100%' height='100%' filter='url(%23g)'/></svg>");
+  opacity: .09;
+  mix-blend-mode: multiply;
+}
+.hp-needs::after { mix-blend-mode: screen; opacity: .06; filter: invert(1); }
+
+/* --- Photos en collage : aplat decale, arches, pastilles ----------------- */
+
+.hp-top1 .hp-shot { box-shadow: -1.1rem 1.1rem 0 var(--brand-soft); }
+.hp-mag-img { box-shadow: 1.1rem 1.1rem 0 #e3cdc2; }
+.hp-mag-thumb { border-radius: 50%; }
+.hp-people-img { border-radius: 999px 999px 0 0; }
+.hp-tile--big { border-radius: 14rem 14rem 0 0; }
+
+@media (min-width: 960px) {
+  .hp-motif--cafe      { width: 16rem; right: auto; left: max(-3rem, calc((100vw - var(--container)) / 2 - 8rem)); top: auto; bottom: -2.5rem; transform: rotate(-9deg); }
+  .hp-motif--telephone { width: 17rem; right: max(1rem, calc((100vw - var(--container)) / 2 - 4rem)); top: 4rem; }
+  .hp-motif--lettre    { width: 19rem; left: -2rem; bottom: 2.5rem; }
+  .hp-motif--loupe     { width: 18rem; right: 2rem; bottom: -3rem; }
+  .hp-motif--avion     { width: 20rem; right: max(1rem, calc((100vw - var(--container)) / 2 - 2rem)); top: 4.5rem; }
+  .hp-motif--livre     { width: 19rem; right: max(0rem, calc((100vw - var(--container)) / 2 - 5rem)); top: 3.5rem; }
+  .hp-motif--plume     { width: 15rem; left: max(-5rem, calc((100vw - var(--container)) / 2 - 13rem)); bottom: -3.5rem; }
+  .hp-motif--bulles    { width: 16rem; right: max(-3rem, calc((100vw - var(--container)) / 2 - 11rem)); bottom: -2.5rem; }
+  .hp-tile--big { border-radius: 22rem 22rem 0 0; }
+  .hp-top1 .hp-shot { box-shadow: -1.6rem 1.6rem 0 var(--brand-soft); }
+  .hp-mag-img { box-shadow: 1.6rem 1.6rem 0 #e3cdc2; }
+}
