@@ -31,8 +31,9 @@
   --radius: 2px;
   --radius-sm: 2px;
 
-  --font-display: Fraunces, "Iowan Old Style", Georgia, serif;
-  --font-text: Inter, system-ui, -apple-system, "Segoe UI", sans-serif;
+  /* Titres : didone de magazine. Texte : linéale dessinée pour la presse. */
+  --font-display: "Bodoni Moda", "Didot", "Bodoni 72", Georgia, serif;
+  --font-text: "Schibsted Grotesk", system-ui, -apple-system, "Segoe UI", sans-serif;
 
   /* Echelle typographique fluide : le titre display monte a 80px sur desktop */
   --fs-display: clamp(2.75rem, 7vw, 5rem);
@@ -2133,14 +2134,14 @@ section { padding: 3rem 0; }
    ========================================================================== */
 
 @font-face {
-  font-family: Fraunces;
-  src: url(/assets/fonts/fraunces.woff2) format("woff2-variations");
+  font-family: "Bodoni Moda";
+  src: url(/assets/fonts/bodoni-moda.woff2) format("woff2-variations");
   font-weight: 100 900;
   font-display: swap;
 }
 @font-face {
-  font-family: Inter;
-  src: url(/assets/fonts/inter.woff2) format("woff2-variations");
+  font-family: "Schibsted Grotesk";
+  src: url(/assets/fonts/schibsted-grotesk.woff2) format("woff2-variations");
   font-weight: 100 900;
   font-display: swap;
 }

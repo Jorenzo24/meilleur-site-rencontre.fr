@@ -14,30 +14,13 @@
 
 .hp-sec { padding: var(--hp-pad) 0; }
 
-.hp-label {
-  display: flex;
-  align-items: center;
-  gap: .75rem;
-  margin: 0 0 1.4rem;
-  font-size: .72rem;
-  font-weight: 600;
-  letter-spacing: .18em;
-  text-transform: uppercase;
-  color: var(--text-muted);
-}
-.hp-label::before { content: ""; width: 2.25rem; height: 1px; background: var(--brand); flex: none; }
-.hp-num {
-  font-family: var(--font-display);
-  font-size: .9rem;
-  letter-spacing: .04em;
-  color: var(--brand);
-}
 
 .hp-h2 {
-  font-size: clamp(2rem, 4.4vw, 3.5rem);
+  font-size: clamp(2.1rem, 4.6vw, 3.7rem);
   line-height: 1.04;
-  letter-spacing: -.025em;
-  font-variation-settings: "opsz" 144, "SOFT" 0, "WONK" 0;
+  letter-spacing: -.012em;
+  font-weight: 500;
+  font-variation-settings: "opsz" 96;
   margin: 0 0 1.4rem;
   max-width: 22ch;
 }
@@ -48,10 +31,10 @@
 
 .hp-kicker {
   display: block;
-  font-size: .7rem;
+  font-size: .86rem;
   font-weight: 600;
-  letter-spacing: .16em;
-  text-transform: uppercase;
+  letter-spacing: 0;
+  text-transform: none;
   color: var(--brand);
   margin: 0 0 .5rem;
 }
@@ -102,15 +85,14 @@
 
 .hp-hero { background: var(--sable); display: flex; flex-direction: column; padding: 0; }
 .hp-hero-text { padding: 3.25rem 1.25rem 2.5rem; }
-.hp-hero .hp-label { margin-bottom: 1.6rem; }
 .hp-hero-title {
-  font-size: clamp(2.5rem, 9vw, 4.1rem);
-  line-height: 1;
-  letter-spacing: -.032em;
-  font-weight: 600;
-  font-variation-settings: "opsz" 144, "SOFT" 0, "WONK" 1;
+  font-size: clamp(2.3rem, 8.6vw, 3.6rem);
+  line-height: 1.04;
+  letter-spacing: -.022em;
+  font-weight: 500;
+  font-variation-settings: "opsz" 96;
   margin: 0 0 1.6rem;
-  max-width: 15ch;
+  max-width: 17ch;
   text-wrap: balance;
 }
 .hp-hero-lede {
@@ -126,8 +108,6 @@
   display: flex;
   align-items: center;
   gap: 1rem;
-  padding-top: 1.5rem;
-  border-top: 1px solid var(--hp-line);
   color: var(--text-muted);
   font-size: .88rem;
   line-height: 1.45;
@@ -167,7 +147,7 @@
   color: var(--text);
 }
 .hp-hero-pick:hover { text-decoration: none; }
-.hp-hero-pick-k { display: block; font-size: .68rem; font-weight: 600; letter-spacing: .16em; text-transform: uppercase; color: var(--brand); margin-bottom: .55rem; }
+.hp-hero-pick-k { display: block; font-size: .86rem; font-weight: 600; letter-spacing: 0; text-transform: none; color: var(--brand); margin-bottom: .55rem; }
 .hp-hero-pick-row { display: flex; align-items: baseline; justify-content: space-between; gap: 1rem; }
 .hp-hero-pick-name { font-family: var(--font-display); font-size: 1.9rem; font-weight: 600; letter-spacing: -.02em; line-height: 1.1; }
 .hp-hero-pick-note { font-family: var(--font-display); font-size: 1.6rem; font-weight: 600; }
@@ -177,24 +157,6 @@
 .hp-hero-pick-go svg { transition: transform .25s var(--hp-ease); }
 .hp-hero-pick:hover .hp-hero-pick-go { color: var(--brand); }
 .hp-hero-pick:hover .hp-hero-pick-go svg { transform: translateX(4px); }
-
-/* --- Chiffres ----------------------------------------------------------- */
-
-.hp-figures { background: var(--bg); border-bottom: 1px solid var(--border); padding: 3.5rem 0 1rem; }
-.hp-figures-list { list-style: none; margin: 0; padding: 0; display: grid; grid-template-columns: 1fr 1fr; }
-.hp-figures-list li { padding: 0 1rem 2.5rem 0; }
-.hp-fig {
-  display: block;
-  font-family: var(--font-display);
-  font-size: clamp(3.6rem, 9vw, 6.5rem);
-  font-weight: 500;
-  line-height: .9;
-  letter-spacing: -.04em;
-  font-variation-settings: "opsz" 144;
-  color: var(--text);
-  margin-bottom: .9rem;
-}
-.hp-fig-l { display: block; font-size: .9rem; line-height: 1.45; color: var(--text-muted); max-width: 16ch; }
 
 /* --- 01 Classement ------------------------------------------------------ */
 
@@ -214,10 +176,10 @@
   gap: 1rem;
   padding: .55rem .9rem;
   border-bottom: 1px solid var(--border);
-  font-size: .66rem;
+  font-size: .86rem;
   font-weight: 600;
-  letter-spacing: .14em;
-  text-transform: uppercase;
+  letter-spacing: 0;
+  text-transform: none;
   color: var(--text-muted);
 }
 .hp-shot img { width: 100%; aspect-ratio: 2000 / 945; object-fit: cover; object-position: top center; }
@@ -248,11 +210,6 @@ a:hover > .hp-shot img, .hp-shot:hover img,
 .hp-top1-name a:hover, .hp-top2-name a:hover, .hp-row-name:hover { color: var(--brand); text-decoration: none; }
 .hp-top1-why { font-size: 1.08rem; line-height: 1.7; color: #3d3842; max-width: 52ch; margin: 0 0 1.6rem; }
 
-.hp-facts { display: flex; flex-wrap: wrap; gap: 0; margin: 0 0 2rem; border-top: 1px solid var(--border); border-bottom: 1px solid var(--border); }
-.hp-facts div { flex: 1 1 10rem; padding: .85rem 1.2rem .85rem 0; }
-.hp-facts div + div { padding-left: 1.2rem; border-left: 1px solid var(--border); }
-.hp-facts dt { font-size: .68rem; font-weight: 600; letter-spacing: .14em; text-transform: uppercase; color: var(--text-muted); margin-bottom: .2rem; }
-.hp-facts dd { margin: 0; font-size: .95rem; font-weight: 500; }
 
 .hp-top23 { display: grid; gap: 3.5rem; padding: clamp(3rem, 6vw, 5rem) 0; border-bottom: 1px solid var(--border); }
 .hp-top2 .hp-shot { margin-bottom: 1.6rem; }
@@ -260,42 +217,39 @@ a:hover > .hp-shot img, .hp-shot:hover img,
 .hp-top2-head .hp-kicker { margin-bottom: .3rem; }
 .hp-top2-name { font-family: var(--font-display); font-size: clamp(1.6rem, 2.6vw, 2.1rem); font-weight: 600; letter-spacing: -.02em; line-height: 1.05; margin: 0; }
 .hp-top2-why { color: #3d3842; line-height: 1.7; margin: 0 0 1rem; }
+.hp-access--plain { border-top: 0 !important; padding-top: 0 !important; margin-bottom: 2rem !important; }
 .hp-access { font-size: .85rem; color: var(--text-muted); margin: 0 0 1.5rem; padding-top: .9rem; border-top: 1px solid var(--border); }
 
-/* Suite du classement : cartes empilees sur mobile, tableau sur desktop */
+/* Suite du classement : vignettes libres, pas de grille de tableau */
 .hp-rest { padding-top: clamp(3rem, 6vw, 5rem); }
-.hp-rest-title { font-size: .72rem; font-weight: 600; letter-spacing: .18em; text-transform: uppercase; color: var(--text-muted); margin: 0 0 1rem; }
-.hp-rest-list { list-style: none; margin: 0; padding: 0; border-top: 1px solid var(--text); }
+.hp-rest-title { font-family: var(--font-display); font-size: clamp(1.6rem, 2.6vw, 2.1rem); font-weight: 500; letter-spacing: -.01em; line-height: 1.1; margin: 0 0 2rem; }
+.hp-rest-list { list-style: none; margin: 0; padding: 0; display: grid; gap: 2rem; }
 .hp-row {
   display: grid;
-  grid-template-columns: 2.6rem 1fr auto;
+  grid-template-columns: 7.5rem 1fr;
   grid-template-areas:
-    "n main note"
-    "n acc acc"
-    "n go go";
-  gap: .35rem 1rem;
-  padding: 1.4rem 0;
-  border-bottom: 1px solid var(--border);
-  transition: background-color .25s var(--hp-ease);
+    "img main"
+    "img note"
+    "img go";
+  align-content: start;
+  gap: .25rem 1.1rem;
 }
-.hp-row-n { grid-area: n; font-family: var(--font-display); font-size: 1.15rem; color: var(--text-muted); padding-top: .15rem; }
-.hp-row-img { display: none; }
+.hp-row-n { display: none; }
+.hp-row-img { grid-area: img; width: 100%; aspect-ratio: 4 / 3; object-fit: cover; object-position: top; border: 1px solid var(--border); }
 .hp-row-main { grid-area: main; display: flex; flex-direction: column; }
-.hp-row-name { font-family: var(--font-display); font-size: 1.35rem; font-weight: 600; letter-spacing: -.015em; line-height: 1.2; }
-.hp-row-tag { font-size: .9rem; color: var(--text-muted); line-height: 1.45; margin-top: .2rem; }
-.hp-row-acc { grid-area: acc; font-size: .8rem; color: var(--text-muted); }
-.hp-row-note { grid-area: note; font-family: var(--font-display); font-size: 1.5rem; font-weight: 600; white-space: nowrap; }
-.hp-row-note small { font-size: .55em; color: var(--text-muted); font-weight: 500; }
-.hp-row-go { grid-area: go; display: flex; gap: 1.4rem; margin-top: .5rem; }
-.hp-rest-foot { margin: 2rem 0 0; }
+.hp-row-name { font-family: var(--font-display); font-size: 1.4rem; font-weight: 600; letter-spacing: -.01em; line-height: 1.15; }
+.hp-row-tag { font-size: .88rem; color: var(--text-muted); line-height: 1.45; margin-top: .25rem; }
+.hp-row-acc { display: none; }
+.hp-row-note { grid-area: note; font-family: var(--font-display); font-size: 1.25rem; font-weight: 600; white-space: nowrap; margin-top: .35rem; }
+.hp-row-note small { font-size: .6em; color: var(--text-muted); font-weight: 500; }
+.hp-row-go { grid-area: go; display: flex; gap: 1.3rem; margin-top: .4rem; }
+.hp-row:hover .hp-row-img { transform: scale(1.03); }
+.hp-rest-foot { margin: 2.5rem 0 0; }
 
 /* --- 02 Situations : bande sombre -------------------------------------- */
 
 .hp-needs { background: var(--prune); color: #f3ece6; }
 .hp-needs .hp-h2 { color: #fff; }
-.hp-needs .hp-label { color: rgba(243, 236, 230, .7); }
-.hp-needs .hp-label::before { background: #e07a98; }
-.hp-needs .hp-num { color: #e07a98; }
 .hp-needs .hp-intro { color: rgba(243, 236, 230, .75); }
 
 .hp-mosaic { display: grid; gap: 1rem; }
@@ -319,7 +273,7 @@ a:hover > .hp-shot img, .hp-shot:hover img,
 }
 .hp-tile:hover img { transform: scale(1.04); filter: saturate(1); }
 .hp-tile-txt { position: absolute; left: 0; right: 0; bottom: 0; padding: 1.6rem; display: block; }
-.hp-tile-k { display: block; font-size: .68rem; font-weight: 600; letter-spacing: .16em; text-transform: uppercase; color: rgba(255, 255, 255, .78); margin-bottom: .6rem; }
+.hp-tile-k { display: block; font-size: .86rem; font-weight: 600; letter-spacing: 0; text-transform: none; color: rgba(255, 255, 255, .78); margin-bottom: .6rem; }
 .hp-tile-q {
   display: block;
   font-family: var(--font-display);
@@ -358,8 +312,8 @@ a:hover > .hp-shot img, .hp-shot:hover img,
 .hp-method-top .hp-head { margin-bottom: 0; }
 .hp-method-top .hp-intro--note { padding-left: 1rem; border-left: 2px solid var(--brand); }
 
-.hp-grid { margin: 0; padding: 2rem 0 0; border-top: 1px solid var(--text); }
-.hp-grid-cap { font-size: .72rem; font-weight: 600; letter-spacing: .18em; text-transform: uppercase; color: var(--text-muted); margin-bottom: 1.6rem; }
+.hp-grid { margin: 0; padding: 2.25rem; background: var(--bg); }
+.hp-grid-cap { font-size: .86rem; font-weight: 600; letter-spacing: 0; text-transform: none; color: var(--text-muted); margin-bottom: 1.6rem; }
 .hp-bars { list-style: none; margin: 0; padding: 0; display: grid; gap: 1.35rem; }
 .hp-bars li { display: grid; grid-template-columns: 1fr auto; gap: .5rem 1rem; align-items: baseline; }
 .hp-bar-l { font-size: .95rem; font-weight: 500; }
@@ -414,9 +368,8 @@ a:hover > .hp-shot img, .hp-shot:hover img,
 .hp-mag-lead:hover .hp-mag-title { color: var(--brand); }
 .hp-mag-sum { display: block; color: #4a4450; line-height: 1.7; max-width: 52ch; margin-bottom: 1.3rem; }
 
-.hp-mag-list { list-style: none; margin: 0; padding: 0; border-top: 1px solid var(--text); }
-.hp-mag-list li { border-bottom: 1px solid var(--hp-line); }
-.hp-mag-list a { display: grid; grid-template-columns: 6.5rem 1fr; gap: 1.1rem; padding: 1.4rem 0; color: var(--text); }
+.hp-mag-list { list-style: none; margin: 0; padding: 0; display: grid; gap: .5rem; }
+.hp-mag-list a { display: grid; grid-template-columns: 6.5rem 1fr; gap: 1.1rem; padding: .9rem 0; color: var(--text); }
 .hp-mag-list a:hover { text-decoration: none; }
 .hp-mag-thumb { display: block; overflow: hidden; }
 .hp-mag-thumb img { width: 100%; aspect-ratio: 1; object-fit: cover; }
@@ -425,34 +378,24 @@ a:hover > .hp-shot img, .hp-shot:hover img,
 .hp-mag-list a:hover .hp-mag-t { color: var(--brand); }
 .hp-mag-s { display: block; font-size: .9rem; line-height: 1.5; color: var(--text-muted); }
 
-/* --- 05 Lexique : index typographique --------------------------------- */
+/* --- 05 Lexique : les mots en grand, en flot libre --------------------- */
 
 .hp-lex { background: var(--bg); }
-.hp-lex-list { list-style: none; margin: 0; padding: 0; display: grid; border-top: 1px solid var(--text); }
-.hp-lex-list li { border-bottom: 1px solid var(--border); }
-.hp-lex-list a {
-  display: grid;
-  grid-template-columns: 2.2rem 1fr;
-  grid-template-areas: "n w" "n d";
-  column-gap: .8rem;
-  padding: 1.2rem 0;
-  color: var(--text);
-}
+.hp-lex-list { list-style: none; margin: 0; padding: 0; display: flex; flex-wrap: wrap; gap: 2rem 3.25rem; }
+.hp-lex-list a { display: flex; flex-direction: column; color: var(--text); }
 .hp-lex-list a:hover { text-decoration: none; }
-.hp-lex-n { grid-area: n; font-size: .75rem; font-weight: 600; letter-spacing: .08em; color: var(--text-muted); padding-top: .7rem; transition: color .25s var(--hp-ease); }
 .hp-lex-w {
-  grid-area: w;
   font-family: var(--font-display);
-  font-size: clamp(1.75rem, 3.2vw, 2.6rem);
+  font-size: clamp(2rem, 4.4vw, 3.6rem);
   font-weight: 500;
-  letter-spacing: -.03em;
-  line-height: 1.1;
-  transition: color .25s var(--hp-ease), transform .3s var(--hp-ease);
+  letter-spacing: -.015em;
+  line-height: 1;
+  transition: color .25s var(--hp-ease);
 }
-.hp-lex-d { grid-area: d; font-size: .9rem; color: var(--text-muted); margin-top: .25rem; }
-.hp-lex-list a:hover .hp-lex-w { color: var(--brand); transform: translateX(6px); }
-.hp-lex-list a:hover .hp-lex-n { color: var(--brand); }
-.hp-lex-foot { margin: 2.25rem 0 0; }
+.hp-lex-d { font-size: .88rem; color: var(--text-muted); margin-top: .45rem; transition: color .25s var(--hp-ease); }
+.hp-lex-list a:hover .hp-lex-w { color: var(--brand); }
+.hp-lex-list a:hover .hp-lex-d { color: var(--text); }
+.hp-lex-foot { margin: 3rem 0 0; }
 
 /* --- 06 Redaction ----------------------------------------------------- */
 
@@ -487,7 +430,7 @@ a:hover > .hp-shot img, .hp-shot:hover img,
 .hp-faq .hp-head { margin-bottom: 0; }
 .hp-faq .hp-intro a { color: var(--text); font-weight: 600; border-bottom: 1px solid var(--border-strong); word-break: break-word; }
 .hp-faq .hp-intro a:hover { color: var(--brand); border-color: var(--brand); text-decoration: none; }
-.hp-qa { border-top: 1px solid var(--text); }
+.hp-qa { }
 .hp-qa details { border-bottom: 1px solid var(--border); }
 .hp-qa summary {
   list-style: none;
@@ -537,16 +480,13 @@ a:hover > .hp-shot img, .hp-shot:hover img,
    ====================================================================== */
 
 @media (min-width: 640px) {
-  .hp-figures-list { grid-template-columns: repeat(4, 1fr); }
-  .hp-figures-list li { padding: 0 1.5rem 2.5rem; border-left: 1px solid var(--border); }
-  .hp-figures-list li:first-child { padding-left: 0; border-left: 0; }
 
   .hp-mosaic { grid-template-columns: 1fr 1fr; }
   .hp-tile--big { grid-column: 1 / -1; min-height: 26rem; }
 
-  .hp-lex-list { grid-template-columns: 1fr 1fr; column-gap: 2.5rem; }
 
   .hp-people { grid-template-columns: repeat(3, 1fr); }
+  .hp-rest-list { grid-template-columns: 1fr 1fr; column-gap: 2rem; }
 
   .hp-steps { grid-template-columns: 1fr 1fr; column-gap: 2.5rem; }
   .hp-steps li::before { display: none; }
@@ -583,18 +523,10 @@ a:hover > .hp-shot img, .hp-shot:hover img,
   .hp-top23 > :first-child { padding-right: 3.5rem; }
   .hp-top23 > :last-child { padding-left: 3.5rem; border-left: 1px solid var(--border); }
 
-  .hp-row {
-    grid-template-columns: 3rem 7.5rem minmax(0, 1fr) 9rem 5rem 11rem;
-    grid-template-areas: "n img main acc note go";
-    align-items: center;
-    gap: 1.5rem;
-    padding: 1.1rem .75rem;
-    margin: 0 -.75rem;
-  }
-  .hp-row:hover { background: var(--bg-alt); }
-  .hp-row-img { display: block; grid-area: img; width: 100%; aspect-ratio: 16 / 9; object-fit: cover; object-position: top; border: 1px solid var(--border); }
-  .hp-row-go { margin: 0; justify-content: flex-end; }
-  .hp-row-acc { font-size: .88rem; }
+  .hp-rest-list { grid-template-columns: repeat(5, minmax(0, 1fr)); gap: 2.25rem 1.75rem; }
+  .hp-row { grid-template-columns: 1fr; grid-template-areas: "img" "main" "note" "go"; gap: .3rem; }
+  .hp-row-img { aspect-ratio: 16 / 11; margin-bottom: .9rem; }
+  .hp-row-name { font-size: 1.3rem; }
 
   /* Situations : une grande a gauche, deux empilees a droite */
   .hp-mosaic { grid-template-columns: 7fr 5fr; grid-template-rows: 1fr 1fr; gap: 1.25rem; min-height: 40rem; }
@@ -614,8 +546,6 @@ a:hover > .hp-shot img, .hp-shot:hover img,
   .hp-mag { grid-template-columns: 7fr 5fr; gap: 4.5rem; align-items: start; }
   .hp-mag-list a { grid-template-columns: 8rem 1fr; gap: 1.4rem; padding: 1.6rem 0; }
 
-  /* Lexique : trois colonnes */
-  .hp-lex-list { grid-template-columns: repeat(3, 1fr); column-gap: 3rem; }
 
   /* Redaction : citation a gauche, portraits en ligne a droite */
   .hp-team-grid { grid-template-columns: 4fr 8fr; gap: 4.5rem; align-items: end; }
@@ -628,5 +558,5 @@ a:hover > .hp-shot img, .hp-shot:hover img,
 }
 
 @media (min-width: 1280px) {
-  .hp-hero-title { font-size: 4.6rem; }
+  .hp-hero-title { font-size: 4rem; }
 }
