@@ -236,7 +236,7 @@ a:hover > .hp-shot img, .hp-shot:hover img,
 
 .hp-top23 { display: grid; gap: 3.5rem; padding: clamp(3rem, 6vw, 5rem) 0; border-bottom: 1px solid var(--border); }
 .hp-top2 .hp-shot { margin-bottom: 1.6rem; }
-.hp-top2-head { display: grid; grid-template-columns: auto 1fr auto; align-items: end; gap: 1.1rem; margin-bottom: 1rem; }
+.hp-top2-head { display: grid; grid-template-columns: auto 1fr auto; align-items: baseline; gap: 1rem; margin-bottom: 1.25rem; }
 .hp-top2-head .hp-kicker { margin-bottom: .3rem; }
 .hp-top2-name { font-family: var(--font-display); font-size: clamp(1.6rem, 2.6vw, 2.1rem); font-weight: 600; letter-spacing: -.02em; line-height: 1.05; margin: 0; }
 .hp-top2-why { color: #3d3842; line-height: 1.7; margin: 0 0 1rem; }
@@ -392,7 +392,7 @@ a:hover > .hp-shot img, .hp-shot:hover img,
 .hp-mag-sum { display: block; color: #4a4450; line-height: 1.7; max-width: 52ch; margin-bottom: 1.3rem; }
 
 .hp-mag-list { list-style: none; margin: 0; padding: 0; display: grid; gap: .5rem; }
-.hp-mag-list a { display: grid; grid-template-columns: 7.5rem 1fr; align-items: start; gap: 1.1rem; padding: .9rem 0; color: var(--text); }
+.hp-mag-list a { display: grid; grid-template-columns: 7.5rem 1fr; align-items: center; gap: 1.1rem; padding: .9rem 0; color: var(--text); }
 .hp-mag-list a:hover { text-decoration: none; }
 .hp-mag-thumb { display: block; overflow: hidden; }
 .hp-mag-thumb img { width: 100%; aspect-ratio: 4 / 3; object-fit: cover; }
@@ -543,7 +543,8 @@ a:hover > .hp-shot img, .hp-shot:hover img,
   .hp-hero-pick { left: auto; right: max(1.25rem, calc((100vw - var(--container)) / 2 + 1.25rem)); bottom: 3rem; }
 
   /* Classement : vedette en deux colonnes inegales */
-  .hp-top1 { grid-template-columns: minmax(0, 7fr) minmax(0, 5fr); gap: 4.5rem; align-items: start; }
+  .hp-top1 { grid-template-columns: minmax(0, 7fr) minmax(0, 5fr); gap: 2.5rem 4.5rem; align-items: start; }
+  .hp-top1 .hp-pick-head { grid-column: 1 / -1; }
   .hp-top1-body { padding-top: .5rem; }
   .hp-top1 .hp-shot img { aspect-ratio: 4 / 3; object-position: 50% 0; }
   .hp-top23 { grid-template-columns: 1fr 1fr; gap: 0; }
@@ -698,3 +699,63 @@ a:hover > .hp-shot img, .hp-shot:hover img,
   .hp-entry-ety { display: none; }
   .hp-dict li { margin-bottom: 1.3rem; }
 }
+
+
+/* ==========================================================================
+   Podium : le nom et la note d'abord, la capture ensuite
+   ========================================================================== */
+
+.hp-pick-head { display: flex; align-items: baseline; justify-content: space-between; gap: 1rem; }
+.hp-pick-head .hp-top1-name, .hp-pick-head .hp-score { margin: 0; }
+.hp-top1 > .hp-shot { margin-bottom: .5rem; }
+.hp-top2-head .hp-rankno--s { align-self: baseline; }
+.hp-top2 .hp-kicker { margin-bottom: .6rem; }
+
+/* ==========================================================================
+   Bouton "cachet" : une pastille de cire festonnee collee a une etiquette.
+   Au survol l'etiquette se remplit de prune et le cachet pivote.
+   ========================================================================== */
+
+.hp-more {
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  gap: .85rem;
+  padding: .3rem 1.35rem .3rem .3rem;
+  border: 1px solid var(--text);
+  border-radius: 999px;
+  color: var(--text);
+  font-family: var(--font-display);
+  font-size: 1.08rem;
+  font-weight: 600;
+  letter-spacing: -.005em;
+  overflow: hidden;
+  isolation: isolate;
+  transition: color .35s var(--hp-ease), border-color .35s var(--hp-ease);
+}
+.hp-more::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  z-index: -1;
+  background: var(--prune);
+  border-radius: inherit;
+  transform: scaleX(0);
+  transform-origin: 1.6rem 50%;
+  transition: transform .45s var(--hp-ease);
+}
+.hp-more-seal {
+  flex: none;
+  width: 2.6rem;
+  height: 2.6rem;
+  margin-left: -.15rem;
+  background: url(/assets/motifs/cachet.svg) no-repeat center / contain;
+  transform: rotate(-8deg);
+  transition: transform .5s var(--hp-ease);
+}
+.hp-more-arrow { flex: none; transition: transform .35s var(--hp-ease); }
+.hp-more:hover { color: #fff; border-color: var(--prune); text-decoration: none; }
+.hp-more:hover::before { transform: scaleX(1); }
+.hp-more:hover .hp-more-seal { transform: rotate(14deg) scale(1.06); }
+.hp-more:hover .hp-more-arrow { transform: translateX(5px); }
+.hp-more:focus-visible { outline: 2px solid var(--brand); outline-offset: 3px; }
