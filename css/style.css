@@ -1788,52 +1788,108 @@ section { padding: 3rem 0; }
    Footer
    ========================================================================== */
 
+/* Fond prune, une phrase en grand, quatre colonnes de liens, puis une barre
+   legale. Meme gabarit sur toutes les pages. */
 .site-footer {
-  padding: 2.5rem 0 1.5rem;
-  border-top: 1px solid var(--border);
-  background: #fff;
-  font-size: .92rem;
-  color: var(--text-muted);
+  position: relative;
+  overflow: hidden;
+  isolation: isolate;
+  padding: clamp(3.5rem, 7vw, 6rem) 0 1.75rem;
+  background: var(--prune);
+  color: rgba(243, 236, 230, .72);
+  font-size: .94rem;
 }
+.site-footer a { color: inherit; }
+.footer-motif {
+  position: absolute;
+  z-index: -1;
+  right: -2.5rem;
+  top: 2rem;
+  width: 11rem;
+  aspect-ratio: 250 / 200;
+  background: #e9a3b8;
+  opacity: .16;
+  transform: rotate(-10deg);
+  pointer-events: none;
+  -webkit-mask: url(/assets/motifs/lettre.svg) no-repeat center / contain;
+          mask: url(/assets/motifs/lettre.svg) no-repeat center / contain;
+}
+.footer-top { margin-bottom: clamp(2.5rem, 5vw, 4rem); }
+.footer-claim {
+  font-family: var(--font-display);
+  font-size: clamp(2rem, 5vw, 3.6rem);
+  font-weight: 500;
+  line-height: 1.08;
+  letter-spacing: -.012em;
+  color: #fff;
+  margin: 0 0 1.4rem;
+  max-width: 18ch;
+}
+.footer-cta {
+  display: inline-flex;
+  align-items: center;
+  gap: .55rem;
+  font-weight: 600;
+  color: #fff !important;
+  padding-bottom: 2px;
+  border-bottom: 1px solid rgba(255, 255, 255, .35);
+  transition: border-color .25s ease, gap .25s ease;
+}
+.footer-cta:hover { text-decoration: none; border-color: #fff; gap: .8rem; }
+
 .footer-grid {
   display: grid;
-  gap: 1.75rem;
-  grid-template-columns: 1fr;
-  margin-bottom: 1.5rem;
+  grid-template-columns: 1fr 1fr;
+  gap: 2.25rem 1.5rem;
+  margin-bottom: 3rem;
 }
-.footer-logo { font-weight: 800; color: var(--text); margin: 0 0 .35rem; }
-.footer-tag { margin: 0; max-width: 36ch; }
+.footer-brand { grid-column: 1 / -1; }
+.footer-logo {
+  display: inline-flex;
+  align-items: center;
+  gap: .5rem;
+  font-family: var(--font-display);
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: #fff !important;
+  margin-bottom: .7rem;
+}
+.footer-logo:hover { text-decoration: none; }
+.footer-logo em { font-style: normal; color: #e9a3b8; }
+.footer-tag { margin: 0 0 1rem; max-width: 34ch; line-height: 1.6; }
+.footer-contact { font-weight: 600; color: #fff !important; border-bottom: 1px solid rgba(255, 255, 255, .35); padding-bottom: 1px; }
+.footer-contact:hover { text-decoration: none; border-color: #fff; }
 .footer-title {
-  font-weight: 700;
-  color: var(--text);
-  margin: 0 0 .5rem;
-  font-size: .95rem;
+  font-family: var(--font-display);
+  font-size: 1.15rem;
+  font-weight: 600;
+  color: #fff;
+  margin: 0 0 .8rem;
 }
-.site-footer ul {
-  list-style: none;
-  padding: 0;
-  margin: 0;
+.site-footer ul { list-style: none; padding: 0; margin: 0; display: grid; gap: .5rem; }
+.site-footer ul a { transition: color .2s ease; }
+.site-footer ul a:hover { color: #fff; text-decoration: none; }
+.footer-all { color: #e9a3b8 !important; }
+
+.footer-bottom {
   display: grid;
-  gap: .4rem;
-}
-.site-footer ul a { color: var(--text-muted); text-decoration: none; }
-.site-footer ul a:hover { color: var(--brand); text-decoration: underline; }
-
-.footer-disclosure {
-  font-size: .78rem;
-  line-height: 1.5;
-  color: var(--text-muted);
-  margin: 0 0 .75rem;
-  padding-top: 1.25rem;
-  border-top: 1px solid var(--border);
-  opacity: .85;
-}
-
-.copy {
-  text-align: center;
-  margin: 0;
+  gap: .6rem;
+  padding-top: 1.5rem;
+  border-top: 1px solid rgba(243, 236, 230, .14);
   font-size: .8rem;
-  color: var(--text-muted);
+  line-height: 1.55;
+}
+.footer-disclosure { margin: 0; max-width: 70ch; }
+.copy { margin: 0; }
+.copy a:hover { color: #fff; }
+
+@media (min-width: 960px) {
+  .footer-top { display: flex; align-items: flex-end; justify-content: space-between; gap: 3rem; }
+  .footer-claim { margin: 0; }
+  .footer-grid { grid-template-columns: 1.6fr repeat(4, 1fr); gap: 2.5rem; }
+  .footer-brand { grid-column: auto; }
+  .footer-bottom { grid-template-columns: 1fr auto; align-items: end; gap: 2rem; }
+  .footer-motif { width: 13rem; right: auto; left: 54%; top: 3rem; }
 }
 
 /* ==========================================================================
@@ -1905,7 +1961,6 @@ section { padding: 3rem 0; }
 
   .method-grid { grid-template-columns: 1.05fr 1fr; gap: 3rem; }
 
-  .footer-grid { grid-template-columns: 2fr 1fr; }
 }
 
 @media (min-width: 960px) {
@@ -2636,3 +2691,45 @@ section { padding: 3rem 0; }
 }
 /* sur l'accueil la signature de la redaction est une section, pas un entete */
 #redaction .byline { margin-top: 0; padding-top: 0; border-top: 0; }
+
+/* ==========================================================================
+   Page contact
+   ========================================================================== */
+
+.contact-hero { background: var(--sable); padding: clamp(3rem, 7vw, 6rem) 0 clamp(3rem, 6vw, 5rem); }
+.contact-hero .breadcrumb { margin-bottom: 2rem; }
+.contact-hero h1 { font-size: clamp(2.4rem, 6vw, 4.2rem); font-weight: 500; letter-spacing: -.015em; margin-bottom: 1.2rem; }
+.contact-lede { font-size: clamp(1.06rem, 1.5vw, 1.2rem); line-height: 1.65; color: #4a4450; max-width: 40rem; margin-bottom: 2.2rem; }
+.contact-mail {
+  display: inline-block;
+  font-family: var(--font-display);
+  font-size: clamp(1.25rem, 3.4vw, 2rem);
+  font-weight: 600;
+  color: var(--text);
+  padding-bottom: .2rem;
+  border-bottom: 2px solid var(--brand);
+  word-break: break-word;
+  transition: color .25s ease;
+}
+.contact-mail:hover { color: var(--brand); text-decoration: none; }
+.contact-body { padding: clamp(3.5rem, 8vw, 7rem) 0; }
+.contact-reasons { display: grid; gap: 2.5rem; margin-bottom: clamp(3rem, 6vw, 5rem); }
+.contact-reasons h2, .contact-note h2, .contact-post h2 { font-size: clamp(1.4rem, 2.4vw, 1.8rem); font-weight: 600; margin-bottom: .7rem; }
+.contact-reasons p, .contact-note p { color: #3d3842; line-height: 1.7; margin: 0; }
+.contact-reasons a, .contact-note a { border-bottom: 1px solid currentColor; }
+.contact-reasons a:hover { text-decoration: none; }
+.contact-note { background: var(--bg-alt); padding: clamp(1.6rem, 4vw, 2.6rem); margin-bottom: clamp(3rem, 6vw, 5rem); max-width: 48rem; }
+.contact-post p { color: var(--text-muted); line-height: 1.7; margin: 0; }
+@media (min-width: 860px) {
+  .contact-reasons { grid-template-columns: repeat(3, 1fr); gap: 3.5rem; }
+}
+
+/* Texte justifie avec cesure francaise sur les contenus longs */
+@media (min-width: 600px) {
+  .review-prose p, .review-prose li, .faq-item p, .rank-body p,
+  .contact-reasons p, .contact-note p {
+    text-align: justify;
+    -webkit-hyphens: auto;
+            hyphens: auto;
+  }
+}

@@ -392,10 +392,10 @@ a:hover > .hp-shot img, .hp-shot:hover img,
 .hp-mag-sum { display: block; color: #4a4450; line-height: 1.7; max-width: 52ch; margin-bottom: 1.3rem; }
 
 .hp-mag-list { list-style: none; margin: 0; padding: 0; display: grid; gap: .5rem; }
-.hp-mag-list a { display: grid; grid-template-columns: 6.5rem 1fr; gap: 1.1rem; padding: .9rem 0; color: var(--text); }
+.hp-mag-list a { display: grid; grid-template-columns: 7.5rem 1fr; align-items: start; gap: 1.1rem; padding: .9rem 0; color: var(--text); }
 .hp-mag-list a:hover { text-decoration: none; }
 .hp-mag-thumb { display: block; overflow: hidden; }
-.hp-mag-thumb img { width: 100%; aspect-ratio: 1; object-fit: cover; }
+.hp-mag-thumb img { width: 100%; aspect-ratio: 4 / 3; object-fit: cover; }
 .hp-mag-list a:hover .hp-mag-thumb img { transform: scale(1.06); }
 .hp-mag-t { display: block; font-family: var(--font-display); font-size: 1.3rem; font-weight: 600; letter-spacing: -.015em; line-height: 1.15; margin-bottom: .35rem; transition: color .25s var(--hp-ease); }
 .hp-mag-list a:hover .hp-mag-t { color: var(--brand); }
@@ -574,7 +574,7 @@ a:hover > .hp-shot img, .hp-shot:hover img,
 
   /* Guides */
   .hp-mag { grid-template-columns: 7fr 5fr; gap: 4.5rem; align-items: start; }
-  .hp-mag-list a { grid-template-columns: 8rem 1fr; gap: 1.4rem; padding: 1.6rem 0; }
+  .hp-mag-list a { grid-template-columns: 9.5rem 1fr; gap: 1.4rem; padding: 1.2rem 0; }
 
 
   /* Redaction : citation a gauche, portraits en ligne a droite */
@@ -646,7 +646,6 @@ a:hover > .hp-shot img, .hp-shot:hover img,
 
 .hp-top1 .hp-shot { box-shadow: -1.1rem 1.1rem 0 var(--brand-soft); }
 .hp-mag-img { box-shadow: 1.1rem 1.1rem 0 #e3cdc2; }
-.hp-mag-thumb { border-radius: 50%; }
 .hp-people-img { border-radius: 999px 999px 0 0; }
 .hp-tile--big { border-radius: 14rem 14rem 0 0; }
 
@@ -662,4 +661,40 @@ a:hover > .hp-shot img, .hp-shot:hover img,
   .hp-tile--big { border-radius: 22rem 22rem 0 0; }
   .hp-top1 .hp-shot { box-shadow: -1.6rem 1.6rem 0 var(--brand-soft); }
   .hp-mag-img { box-shadow: 1.6rem 1.6rem 0 #e3cdc2; }
+}
+
+
+/* ==========================================================================
+   Texte justifie, avec cesure francaise : seulement sur les paragraphes
+   longs, jamais sur les titres ni les legendes courtes
+   ========================================================================== */
+
+@media (min-width: 600px) {
+  .hp-hero-lede, .hp-top1-why, .hp-top2-why, .hp-intro, .hp-mag-sum, .hp-dict a, .hp-qa details p {
+    text-align: justify;
+    -webkit-hyphens: auto;
+            hyphens: auto;
+  }
+}
+
+/* ==========================================================================
+   Corrections mobile
+   ========================================================================== */
+
+@media (max-width: 959px) {
+  /* Le bloc n°1 deborde sous le hero au lieu de s'aligner sur son bord */
+  .hp-hero { overflow: visible; z-index: 2; }
+  .hp-hero-pick { z-index: 2; margin-bottom: -3rem; }
+  .hp-rank { padding-top: calc(var(--hp-pad) + 2rem); }
+
+  /* Le chapeau passe sous le titre */
+  .hp-open h2 { display: block; margin: 0 0 1rem; }
+  .hp-open p { display: block; }
+  .hp-open--dict h2 { display: inline; }
+  .hp-open--dict .hp-entry-gram { display: inline-block; margin: 0 0 1rem .4em; }
+
+  /* Lexique : cinq mots, sans etymologie, le reste sur la page lexique */
+  .hp-dict li:nth-child(n+6) { display: none; }
+  .hp-entry-ety { display: none; }
+  .hp-dict li { margin-bottom: 1.3rem; }
 }
