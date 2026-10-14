@@ -1825,17 +1825,6 @@ section { padding: 3rem 0; }
   margin: 0 0 1.4rem;
   max-width: 18ch;
 }
-.footer-cta {
-  display: inline-flex;
-  align-items: center;
-  gap: .55rem;
-  font-weight: 600;
-  color: #fff !important;
-  padding-bottom: 2px;
-  border-bottom: 1px solid rgba(255, 255, 255, .35);
-  transition: border-color .25s ease, gap .25s ease;
-}
-.footer-cta:hover { text-decoration: none; border-color: #fff; gap: .8rem; }
 
 .footer-grid {
   display: grid;
@@ -1857,8 +1846,6 @@ section { padding: 3rem 0; }
 .footer-logo:hover { text-decoration: none; }
 .footer-logo em { font-style: normal; color: #e9a3b8; }
 .footer-tag { margin: 0 0 1rem; max-width: 34ch; line-height: 1.6; }
-.footer-contact { font-weight: 600; color: #fff !important; border-bottom: 1px solid rgba(255, 255, 255, .35); padding-bottom: 1px; }
-.footer-contact:hover { text-decoration: none; border-color: #fff; }
 .footer-title {
   font-family: var(--font-display);
   font-size: 1.15rem;
@@ -2732,4 +2719,74 @@ section { padding: 3rem 0; }
     -webkit-hyphens: auto;
             hyphens: auto;
   }
+}
+
+/* ==========================================================================
+   Bouton "coeur" : etiquette arrondie, petit coeur blanc cerne de rose,
+   remplissage prune au survol et coeur qui bat une fois
+   ========================================================================== */
+
+.btn-coeur {
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: .6rem;
+  min-height: 3.25rem;
+  padding: .7rem 1.3rem;
+  border: 1px solid var(--text);
+  border-radius: 999px;
+  background: transparent;
+  color: var(--text);
+  font-family: var(--font-text);
+  font-size: .92rem;
+  font-weight: 600;
+  line-height: 1.2;
+  white-space: nowrap;
+  overflow: hidden;
+  isolation: isolate;
+  cursor: pointer;
+  transition: color .35s cubic-bezier(.2, .7, .2, 1), border-color .35s cubic-bezier(.2, .7, .2, 1);
+}
+.btn-coeur::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  z-index: -1;
+  background: var(--prune);
+  transform: scaleX(0);
+  transform-origin: left center;
+  transition: transform .45s cubic-bezier(.2, .7, .2, 1);
+}
+.btn-coeur-ico { flex: none; overflow: visible; }
+.btn-coeur-ico path { fill: #fff; stroke: var(--brand); stroke-width: 2.2; stroke-linejoin: round; }
+.btn-coeur-fl { flex: none; transition: transform .35s cubic-bezier(.2, .7, .2, 1); }
+
+a:hover > .btn-coeur, .btn-coeur:hover { color: #fff; border-color: var(--prune); text-decoration: none; }
+a:hover > .btn-coeur::before, .btn-coeur:hover::before { transform: scaleX(1); }
+a:hover > .btn-coeur .btn-coeur-fl, .btn-coeur:hover .btn-coeur-fl { transform: translateX(4px); }
+a:hover > .btn-coeur .btn-coeur-ico, .btn-coeur:hover .btn-coeur-ico { animation: coeur-bat .8s ease-out 1; }
+.btn-coeur:focus-visible { outline: 2px solid var(--brand); outline-offset: 3px; }
+
+@keyframes coeur-bat {
+  0%, 100% { transform: scale(1); }
+  20% { transform: scale(1.22); }
+  40% { transform: scale(.95); }
+  60% { transform: scale(1.12); }
+}
+
+/* Petit format, pour les vignettes */
+.btn-coeur--sm { min-height: 2.2rem; padding: .4rem .95rem; font-size: .82rem; gap: .45rem; }
+
+/* Plein : l'action principale d'une vignette */
+.btn-coeur--plein { background: var(--brand); border-color: var(--brand); color: #fff; }
+
+/* Clair : sur fond prune (pied de page) */
+.btn-coeur--clair { color: #fff; border-color: rgba(255, 255, 255, .45); }
+.btn-coeur--clair::before { background: #fff; }
+.btn-coeur--clair:hover { color: var(--prune); border-color: #fff; }
+
+@media (prefers-reduced-motion: reduce) {
+  .btn-coeur, .btn-coeur::before, .btn-coeur-fl { transition: none; }
+  .btn-coeur-ico { animation: none !important; }
 }
