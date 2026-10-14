@@ -37,7 +37,10 @@ document.addEventListener('DOMContentLoaded', function () {
         var ok = cle === 'tous' || (' ' + el.getAttribute('data-filtres') + ' ').indexOf(' ' + cle + ' ') > -1;
         el.hidden = !ok;
         if (ok) { n++; el.classList.add('is-in'); }
+        // un fond sur deux, compte sur les avis visibles seulement
+        el.classList.toggle('is-alt', ok && n % 2 === 0);
       });
+      if (entrees.length) entrees[0].parentNode.classList.add('js-alt');
       boutons.forEach(function (b) { b.setAttribute('aria-pressed', b.getAttribute('data-filtre') === cle ? 'true' : 'false'); });
       if (resultat) resultat.textContent = cle === 'tous' ? '' : n + (n > 1 ? ' avis correspondent' : ' avis correspond');
     };

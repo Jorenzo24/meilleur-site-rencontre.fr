@@ -53,7 +53,6 @@ def liste(donnees):
           </a>
           <div class="hb-avis-corps">
             <header class="hb-avis-tete">
-              <span class="hb-avis-rang">{rang:02d}</span>
               <div class="hb-avis-titre">
                 <h2><a href="{url}">Avis {nom}</a></h2>
                 <p>{accroche}</p>

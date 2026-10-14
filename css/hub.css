@@ -43,7 +43,7 @@
 
 /* --- Filtres ------------------------------------------------------------ */
 
-.hb-liste-sec { padding: clamp(2rem, 4vw, 3rem) 0 var(--hb-pad); background: var(--bg); }
+.hb-liste-sec { padding: clamp(2rem, 4vw, 3rem) 0 0; background: var(--bg); overflow-x: clip; }
 .hb-filtres {
   position: sticky;
   top: var(--header-h, 4.1rem);
@@ -87,8 +87,14 @@
 
 /* --- Liste des avis ----------------------------------------------------- */
 
-.hb-avis { display: grid; gap: 1.4rem; padding: 2.5rem 0; }
-.hb-avis + .hb-avis { border-top: 1px solid var(--border); }
+.hb-avis { display: grid; gap: 1.4rem; padding: 2.75rem 0; position: relative; }
+/* Alternance de fond, en bande sur toute la largeur de l'ecran. Le script
+   la recalcule apres un filtre ; sans script, nth-child prend le relais. */
+.hb-avis.is-alt, .hb-liste:not(.js-alt) .hb-avis:nth-child(even) {
+  background: var(--bg-alt);
+  box-shadow: 0 0 0 100vmax var(--bg-alt);
+  clip-path: inset(0 -100vmax);
+}
 .hb-avis[hidden] { display: none; }
 
 .hb-avis-shot { display: block; overflow: hidden; border: 1px solid var(--border-strong); background: var(--bg-pure); }
@@ -101,8 +107,7 @@
 }
 .hb-avis:hover .hb-avis-shot img { transform: scale(1.03); }
 
-.hb-avis-tete { display: grid; grid-template-columns: auto 1fr auto; align-items: baseline; gap: .9rem; margin-bottom: .9rem; }
-.hb-avis-rang { font-family: var(--font-display); font-size: 2.1rem; line-height: 1; color: var(--border-strong); }
+.hb-avis-tete { display: grid; grid-template-columns: 1fr auto; align-items: baseline; gap: .9rem; margin-bottom: .9rem; }
 .hb-avis-titre h2 { font-size: clamp(1.6rem, 2.6vw, 2.1rem); font-weight: 500; line-height: 1.1; margin: 0 0 .25rem; }
 .hb-avis-titre h2 a { color: var(--text); transition: color .25s var(--hb-ease); }
 .hb-avis-titre h2 a:hover { color: var(--brand); text-decoration: none; }
@@ -111,7 +116,7 @@
 .hb-avis-note span { font-size: 2.3rem; font-weight: 600; color: var(--text); letter-spacing: -.02em; }
 
 .hb-avis-tags { list-style: none; margin: 0 0 1.3rem; padding: 0; display: flex; flex-wrap: wrap; gap: .4rem; }
-.hb-avis-tags li { padding: .3rem .7rem; border-radius: 999px; background: var(--bg-alt); font-size: .76rem; font-weight: 600; color: #5a4f55; }
+.hb-avis-tags li { padding: .3rem .7rem; border-radius: 999px; background: rgba(42, 27, 35, .07); font-size: .76rem; font-weight: 600; color: #5a4f55; }
 
 .hb-avis-verdict { margin: 0 0 1.4rem; }
 .hb-avis-verdict p {
