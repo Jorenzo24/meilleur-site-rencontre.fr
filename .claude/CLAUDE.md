@@ -65,4 +65,4 @@ Conséquence stratégique : peaufiner les pages existantes ne produit plus rien 
 2. **Mettre en place un système de planification des contenus** sur le modèle de red-dead-redemption-3.com (demande de l'éditeur, 18 septembre 2026).
 3. **Cluster Meetic** quand l'éditeur fournit la matière : résiliation, gratuité, tarifs réels. La page tarifs n'a d'intérêt qu'avec de vrais montants relevés.
 4. Encadré « parti pris » sur les 3 comparatifs, illustrations dans le corps des guides.
-5. **Point à trancher** : le pied de page annonce « depuis 2018 » alors que le domaine date de mars 2026.
+5. ~~Point à trancher « depuis 2018 »~~ : tranché le 14 octobre 2026, on garde 2018 (activité antérieure sur un autre domaine).

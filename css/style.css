@@ -2790,3 +2790,99 @@ a:hover > .btn-coeur .btn-coeur-ico, .btn-coeur:hover .btn-coeur-ico { animation
   .btn-coeur, .btn-coeur::before, .btn-coeur-fl { transition: none; }
   .btn-coeur-ico { animation: none !important; }
 }
+
+/* ==========================================================================
+   Menu mobile : bouton "Menu" dans l'en-tete, panneau sable plein ecran
+   sous l'en-tete, liens en grand dans la police des titres
+   ========================================================================== */
+
+/* backdrop-filter enfermerait le panneau fixe dans l'en-tete */
+.site-header { backdrop-filter: none; }
+.header-inner { flex-wrap: nowrap; }
+
+.nav-toggle {
+  display: inline-flex;
+  align-items: center;
+  gap: .6rem;
+  padding: .5rem .9rem .5rem 1rem;
+  border: 1px solid var(--text);
+  border-radius: 999px;
+  background: transparent;
+  color: var(--text);
+  font: 600 .85rem/1 var(--font-text);
+  cursor: pointer;
+}
+.nav-toggle-ico { position: relative; width: 18px; height: 10px; }
+.nav-toggle-ico span {
+  position: absolute;
+  left: 0;
+  width: 100%;
+  height: 1.5px;
+  background: currentColor;
+  border-radius: 2px;
+  transition: transform .3s cubic-bezier(.2, .7, .2, 1), top .3s cubic-bezier(.2, .7, .2, 1);
+}
+.nav-toggle-ico span:first-child { top: 0; }
+.nav-toggle-ico span:last-child { top: 8.5px; }
+.nav-open .nav-toggle { background: var(--text); color: #fff; }
+.nav-open .nav-toggle-ico span:first-child { top: 4.25px; transform: rotate(45deg); }
+.nav-open .nav-toggle-ico span:last-child { top: 4.25px; transform: rotate(-45deg); }
+
+@media (max-width: 959px) {
+  .site-header nav {
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: var(--header-h, 4rem);
+    bottom: 0;
+    z-index: 49;
+    overflow-y: auto;
+    padding: 2rem 1.25rem 3rem;
+    background: var(--sable);
+    opacity: 0;
+    visibility: hidden;
+    transform: translateY(-.75rem);
+    transition: opacity .3s ease, transform .35s cubic-bezier(.2, .7, .2, 1), visibility 0s linear .35s;
+  }
+  .nav-open .site-header nav {
+    opacity: 1;
+    visibility: visible;
+    transform: none;
+    transition: opacity .3s ease, transform .35s cubic-bezier(.2, .7, .2, 1), visibility 0s;
+  }
+  .site-header nav ul { display: flex; flex-direction: column; gap: 0; }
+  .site-header nav li { border-bottom: 1px solid rgba(22, 20, 26, .1); }
+  .site-header nav a {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1.05rem 0;
+    font-family: var(--font-display);
+    font-size: 1.9rem;
+    font-weight: 500;
+    letter-spacing: -.01em;
+  }
+  .site-header nav a::after {
+    position: static;
+    content: "";
+    width: 1.1rem;
+    height: 1.1rem;
+    background: var(--brand);
+    transform: none;
+    -webkit-mask: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='black' stroke-width='1.6' stroke-linecap='round' stroke-linejoin='round'><path d='M5 12h14M13 6l6 6-6 6'/></svg>") no-repeat center / contain;
+            mask: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='black' stroke-width='1.6' stroke-linecap='round' stroke-linejoin='round'><path d='M5 12h14M13 6l6 6-6 6'/></svg>") no-repeat center / contain;
+  }
+  .site-header nav a[aria-current="page"] { color: var(--brand); }
+  .site-header nav .nav-plus a { font-family: var(--font-text); font-size: 1rem; font-weight: 600; padding: .85rem 0; }
+  .site-header nav .nav-plus:first-of-type { margin-top: 1.5rem; }
+  .nav-open, .nav-open body { overflow: hidden; }
+}
+
+@media (min-width: 960px) {
+  .nav-toggle { display: none; }
+  .site-header nav .nav-plus { display: none; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .site-header nav, .nav-toggle-ico span { transition: none !important; }
+}

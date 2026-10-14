@@ -1,4 +1,26 @@
 document.addEventListener('DOMContentLoaded', function () {
+  // Menu mobile : le bouton ouvre le panneau, Echap ou un lien le ferment
+  var toggle = document.querySelector('.nav-toggle');
+  var header = document.querySelector('.site-header');
+  if (toggle && header) {
+    var root = document.documentElement;
+    var setHeight = function () { root.style.setProperty('--header-h', header.offsetHeight + 'px'); };
+    var close = function () {
+      root.classList.remove('nav-open');
+      toggle.setAttribute('aria-expanded', 'false');
+      toggle.querySelector('.nav-toggle-t').textContent = 'Menu';
+    };
+    toggle.addEventListener('click', function () {
+      setHeight();
+      var open = root.classList.toggle('nav-open');
+      toggle.setAttribute('aria-expanded', open ? 'true' : 'false');
+      toggle.querySelector('.nav-toggle-t').textContent = open ? 'Fermer' : 'Menu';
+    });
+    document.addEventListener('keydown', function (e) { if (e.key === 'Escape') close(); });
+    header.querySelectorAll('nav a').forEach(function (a) { a.addEventListener('click', close); });
+    window.addEventListener('resize', function () { if (window.innerWidth >= 960) close(); });
+  }
+
   // Apparition discrete au scroll. Le contenu reste visible si le script ne
   // tourne pas : on ne masque qu'apres avoir pose .reveal-on.
   var items = document.querySelectorAll('[data-reveal]');

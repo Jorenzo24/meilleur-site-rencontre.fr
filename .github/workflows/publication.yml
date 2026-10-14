@@ -21,6 +21,17 @@ jobs:
       - name: Vérifier la cohérence du cache CSS et JS
         run: python3 tools/verifier-cache.py HEAD~1
 
+      - name: Mettre à jour le millésime de l'accueil
+        run: |
+          python3 tools/millesime.py --appliquer
+          if [ -n "$(git status --porcelain)" ]; then
+            git config user.name "Publication planifiée"
+            git config user.email "actions@users.noreply.github.com"
+            git add -A
+            git commit -m "Passe le millésime de l'accueil à $(TZ=Europe/Paris date +%Y)"
+            git push
+          fi
+
       - name: Publier les contenus arrivés à échéance
         id: publication
         run: |

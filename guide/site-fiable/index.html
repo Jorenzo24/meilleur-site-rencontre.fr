@@ -22,7 +22,7 @@
   <link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon-32.png">
   <link rel="icon" type="image/png" sizes="16x16" href="/assets/favicon-16.png">
   <link rel="apple-touch-icon" sizes="180x180" href="/assets/favicon-180.png">
-  <link rel="stylesheet" href="/css/style.css?v=20261014-2">
+  <link rel="stylesheet" href="/css/style.css?v=20261014-3">
 
   <script type="application/ld+json">
   {
@@ -78,13 +78,19 @@
         </span>
         <span class="logo-text">MeilleurSiteRencontre<span class="logo-tld">.fr</span></span>
       </a>
-      <nav aria-label="Navigation principale">
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="nav-principale">
+        <span class="nav-toggle-t">Menu</span>
+        <span class="nav-toggle-ico" aria-hidden="true"><span></span><span></span></span>
+      </button>
+      <nav id="nav-principale" aria-label="Navigation principale">
         <ul>
           <li><a href="/avis/">Avis</a></li>
           <li><a href="/comparatifs/">Comparatifs</a></li>
           <li><a href="/guides/">Guides</a></li>
           <li><a href="/lexique/">Lexique</a></li>
           <li><a href="/notre-methode/">Méthode</a></li>
+          <li class="nav-plus"><a href="/qui-sommes-nous/">Qui sommes-nous</a></li>
+          <li class="nav-plus"><a href="/contact/">Contact</a></li>
         </ul>
       </nav>
     </div>
@@ -377,6 +383,6 @@
     </div>
   </footer>
 
-  <script src="/js/main.js?v=20261014-2"></script>
+  <script src="/js/main.js?v=20261014-3"></script>
 </body>
 </html>
