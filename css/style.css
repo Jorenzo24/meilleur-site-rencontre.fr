@@ -2886,3 +2886,22 @@ a:hover > .btn-coeur .btn-coeur-ico, .btn-coeur:hover .btn-coeur-ico { animation
 @media (prefers-reduced-motion: reduce) {
   .site-header nav, .nav-toggle-ico span { transition: none !important; }
 }
+
+/* Bouton plein "Voir le site" : l'action d'affiliation, meme gabarit que
+   le bouton coeur pour que les deux s'alignent */
+.btn-site {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 3.25rem;
+  padding: .7rem 1.5rem;
+  border: 1px solid var(--text);
+  border-radius: 999px;
+  background: var(--text);
+  color: #fff;
+  font: 600 .92rem/1.2 var(--font-text);
+  white-space: nowrap;
+  transition: background-color .25s ease, border-color .25s ease;
+}
+.btn-site:hover { background: var(--brand); border-color: var(--brand); color: #fff; text-decoration: none; }
+.btn-site:focus-visible { outline: 2px solid var(--brand); outline-offset: 3px; }

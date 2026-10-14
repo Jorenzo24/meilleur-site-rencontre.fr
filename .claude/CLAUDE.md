@@ -60,6 +60,8 @@ Conséquence stratégique : peaufiner les pages existantes ne produit plus rien 
 - Lexique du dating lancé le 18 septembre 2026 : hub + 6 fiches (ghosting, love bombing, catfishing, situationship, breadcrumbing, benching)
 - Tournures répétées d'un avis à l'autre supprimées (les 8 verdicts ouvraient sur la même formule)
 
+**Hub /avis/ (refait le 14 octobre 2026) :** la liste est générée depuis `tools/donnees/avis.json` par `python3 tools/hub_avis.py --appliquer`. Pour ajouter un avis au hub : une entrée dans le JSON (verdict cité mot pour mot depuis l'avis), puis relancer le script. Le millésime des titres de l'accueil et du hub est mis à jour chaque matin par `tools/millesime.py`.
+
 **À faire :**
 1. **Nouveaux lots de fiches lexique**, 5 à 8 à la fois, jamais plus : sur un domaine que Google explore à reculons, une publication massive finit en « Détectée, non indexée ». Générateur réutilisable dans `/private/tmp/lexique_build/` (à re-créer au besoin, c'est un dossier temporaire).
 2. **Mettre en place un système de planification des contenus** sur le modèle de red-dead-redemption-3.com (demande de l'éditeur, 18 septembre 2026).
