@@ -54,7 +54,7 @@ def liste(donnees):
           <div class="hb-avis-corps">
             <header class="hb-avis-tete">
               <div class="hb-avis-titre">
-                <h2><a href="{url}">Avis {nom}</a></h2>
+                <h2><a href="{url}">{nom}</a></h2>
                 <p>{accroche}</p>
               </div>
               <p class="hb-avis-note"><span>{note}</span>/5</p>
