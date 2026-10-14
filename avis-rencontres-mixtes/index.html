@@ -22,7 +22,9 @@
   <link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon-32.png">
   <link rel="icon" type="image/png" sizes="16x16" href="/assets/favicon-16.png">
   <link rel="apple-touch-icon" sizes="180x180" href="/assets/favicon-180.png">
-  <link rel="stylesheet" href="/css/style.css?v=20261014-8">
+  <link rel="preload" href="/assets/fonts/bodoni-moda.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="/css/style.css?v=20261014-10">
+  <link rel="stylesheet" href="/css/avis.css?v=20261014-10">
 
   <script type="application/ld+json">
   {
@@ -42,15 +44,26 @@
     "@type": "Product",
     "name": "Rencontres Mixtes",
     "description": "Plateforme de rencontre qui assume une communauté ouverte à la mixité culturelle, pour des célibataires qui voient la diversité comme un atout.",
-    "brand": { "@type": "Brand", "name": "Rencontres Mixtes" },
+    "brand": {
+      "@type": "Brand",
+      "name": "Rencontres Mixtes"
+    },
     "image": "https://meilleur-site-rencontre.fr/assets/ui-rencontres-mixtes.jpg",
-    "aggregateRating": { "@type": "AggregateRating", "ratingValue": "4.3", "bestRating": "5", "ratingCount": "1850" },
     "review": {
       "@type": "Review",
-      "author": { "@type": "Person", "name": "Jeanne", "url": "https://meilleur-site-rencontre.fr/auteurs/jeanne/" },
+      "author": {
+        "@type": "Person",
+        "name": "Jeanne",
+        "url": "https://meilleur-site-rencontre.fr/auteurs/jeanne/"
+      },
       "datePublished": "2026-04-27",
       "dateModified": "2026-06-23",
-      "reviewRating": { "@type": "Rating", "ratingValue": "4.3", "bestRating": "5", "worstRating": "1" },
+      "reviewRating": {
+        "@type": "Rating",
+        "ratingValue": "4.3",
+        "bestRating": "5",
+        "worstRating": "1"
+      },
       "reviewBody": "Rencontres Mixtes assume un positionnement rarement frontal sur le marché francophone : une communauté pensée autour de la mixité culturelle, plutôt que des filtres à cocher. L'approche séduit les célibataires déjà à l'aise dans un quotidien divers."
     }
   }
@@ -61,11 +74,54 @@
     "@context": "https://schema.org",
     "@type": "FAQPage",
     "mainEntity": [
-      { "@type": "Question", "name": "Rencontres Mixtes est-il gratuit ?", "acceptedAnswer": { "@type": "Answer", "text": "L'inscription Rencontres Mixtes est gratuite. Vous pouvez créer un profil, parcourir les suggestions et engager des conversations dans une certaine limite. Les fonctionnalités de messagerie illimitée et les filtres avancés sont réservés au premium." } },
-      { "@type": "Question", "name": "À quel public s'adresse Rencontres Mixtes ?", "acceptedAnswer": { "@type": "Answer", "text": "Rencontres Mixtes s'adresse aux célibataires qui considèrent la diversité culturelle comme un atout, lassés des plateformes où les filtres ethniques ou religieux ferment vite le champ des possibles. C'est aussi une option intéressante pour celles et ceux qui vivent dans des milieux déjà mixtes." } },
-      { "@type": "Question", "name": "Combien coûte un abonnement Rencontres Mixtes ?", "acceptedAnswer": { "@type": "Answer", "text": "Les tarifs Rencontres Mixtes suivent les standards du marché des sites de rencontre généralistes, avec des forfaits 1, 3 ou 6 mois et un coût mensuel dégressif sur les durées longues." } },
-      { "@type": "Question", "name": "Rencontres Mixtes est-il fiable ?", "acceptedAnswer": { "@type": "Answer", "text": "Oui. Rencontres Mixtes applique une modération active sur les profils et les photos, propose un signalement direct depuis chaque profil et respecte le RGPD. Les paiements sont sécurisés via un prestataire reconnu." } },
-      { "@type": "Question", "name": "Comment se désabonner de Rencontres Mixtes ?", "acceptedAnswer": { "@type": "Answer", "text": "La résiliation Rencontres Mixtes se fait depuis l'espace abonnement de votre compte. L'abonnement reste actif jusqu'à la fin de la période en cours, sans renouvellement automatique une fois la résiliation enregistrée." } }
+      {
+        "@type": "Question",
+        "name": "Rencontres Mixtes est-il gratuit ?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "L'inscription Rencontres Mixtes est gratuite. Vous pouvez créer un profil, parcourir les suggestions et engager des conversations dans une certaine limite. Les fonctionnalités de messagerie illimitée et les filtres avancés sont réservés au premium."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "À quel public s'adresse Rencontres Mixtes ?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Rencontres Mixtes s'adresse aux célibataires qui considèrent la diversité culturelle comme un atout, lassés des plateformes où les filtres ethniques ou religieux ferment vite le champ des possibles. C'est aussi une option intéressante pour celles et ceux qui vivent dans des milieux déjà mixtes."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Combien coûte un abonnement Rencontres Mixtes ?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Les tarifs Rencontres Mixtes suivent les standards du marché des sites de rencontre généralistes, avec des forfaits 1, 3 ou 6 mois et un coût mensuel dégressif sur les durées longues."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Rencontres Mixtes est-il fiable ?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Oui. Rencontres Mixtes applique une modération active sur les profils et les photos, propose un signalement direct depuis chaque profil et respecte le RGPD. Les paiements sont sécurisés via un prestataire reconnu."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Comment se désabonner de Rencontres Mixtes ?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "La résiliation Rencontres Mixtes se fait depuis l'espace abonnement de votre compte. L'abonnement reste actif jusqu'à la fin de la période en cours, sans renouvellement automatique une fois la résiliation enregistrée."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Y a-t-il des filtres par origine ou par religion ?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Non, et c'est précisément le parti pris de Rencontres Mixtes. La philosophie de la plateforme est de réunir des célibataires ouverts à la rencontre au-delà des cases à cocher habituelles. Les filtres disponibles portent sur l'âge, la distance, les centres d'intérêt et les valeurs partagées."
+        }
+      }
     ]
   }
   </script>
@@ -102,56 +158,57 @@
     </div>
   </header>
 
-  <main id="main" class="review-page">
+  <main id="main" class="av">
 
-    <nav class="breadcrumb" aria-label="Fil d'Ariane">
+    <!-- Ouverture -->
+    <section class="av-ouverture">
+      <span class="av-motif av-motif--loupe" aria-hidden="true"></span>
       <div class="container">
-        <ol>
-          <li><a href="/">Accueil</a></li>
-          <li><a href="/avis/">Avis</a></li>
-          <li aria-current="page">Rencontres Mixtes</li>
-        </ol>
-      </div>
-    </nav>
-
-    <section class="review-hero">
-      <div class="container review-hero-grid">
-        <div class="review-hero-text">
-          <p class="eyebrow">Avis Rencontres Mixtes</p>
-          <h1>Avis Rencontres Mixtes 2026 : test, tarifs et verdict</h1>
-          <p class="lede">Quatre semaines passées sur Rencontres Mixtes pour vérifier ce que vaut cette plateforme rare qui assume une communauté ouverte à la diversité culturelle, plutôt que des filtres ethniques à cocher.</p>
-          <p class="review-meta">
-            <span class="review-meta-rating" aria-label="Note 4,3 sur 5"><strong>4,3</strong>/5</span>
-            <span>Par <a href="/auteurs/jeanne/">Jeanne</a></span>
-            <span>Mise à jour le 23 juin 2026</span>
-            <span><a href="/notre-methode/">Test mené sur 4 semaines</a></span>
-          </p>
-        </div>
-        <div class="review-hero-image">
-          <img src="/assets/ui-rencontres-mixtes.webp" alt="Capture de l'interface Rencontres Mixtes montrant une communauté diverse et un tchat actif" width="1000" height="500" fetchpriority="high">
+        <nav class="breadcrumb" aria-label="Fil d'Ariane">
+          <ol>
+            <li><a href="/">Accueil</a></li>
+            <li><a href="/avis/">Avis</a></li>
+            <li aria-current="page">Rencontres Mixtes</li>
+          </ol>
+        </nav>
+        <div class="av-ouverture-grille">
+          <div class="av-ouverture-texte">
+            <h1>Avis Rencontres Mixtes 2026 : test, tarifs et verdict</h1>
+            <p class="av-lede">Quatre semaines passées sur Rencontres Mixtes pour vérifier ce que vaut cette plateforme rare qui assume une communauté ouverte à la diversité culturelle, plutôt que des filtres ethniques à cocher.</p>
+            <div class="av-signature">
+              <img src="/assets/auteurs/jeanne.webp" alt="" width="44" height="44">
+              <p>Par <a href="/auteurs/jeanne/">Jeanne</a>, mis à jour le 23 juin 2026<br><a href="/notre-methode/">Test mené sur quatre semaines</a></p>
+            </div>
+            <div class="av-ouverture-note">
+              <p class="av-note-grande"><span>4,3</span>/5</p>
+              <div class="av-actions">
+                <a class="btn-site" href="/go/rencontres-mixtes/" rel="sponsored nofollow noopener" target="_blank">Voir le site</a>
+                <a class="btn-coeur" href="#verdict"><svg class="btn-coeur-ico" width="15" height="14" viewBox="0 0 24 22" aria-hidden="true"><path d="M12 20.3s-8.8-5.3-8.8-11.4A4.9 4.9 0 0 1 12 6.1a4.9 4.9 0 0 1 8.8 2.8c0 6.1-8.8 11.4-8.8 11.4z"/></svg><span>Lire notre verdict</span><svg class="btn-coeur-fl" width="18" height="10" viewBox="0 0 18 10" fill="none" aria-hidden="true"><path d="M1 5h15M12 1l4 4-4 4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg></a>
+              </div>
+            </div>
+            <p class="av-acces">Inscription gratuite, options premium disponibles</p>
+          </div>
+          <figure class="av-capture">
+            <span class="av-capture-barre"><span>Capture d'écran</span><span>Rencontres Mixtes</span></span>
+            <img src="/assets/ui-rencontres-mixtes.webp" alt="Capture de l'interface Rencontres Mixtes montrant une communauté diverse et un tchat actif" width="2000" height="955" fetchpriority="high">
+          </figure>
         </div>
       </div>
     </section>
 
-    <section class="verdict">
+    <!-- L'essentiel -->
+    <section class="av-essentiel" aria-labelledby="essentiel">
       <div class="container">
-        <div class="verdict-card">
-          <div class="verdict-card-head">
-            <div class="verdict-brand">
-              <img src="/assets/logo-rencontres-mixtes.png" alt="Logo Rencontres Mixtes" width="160" height="38" loading="lazy">
-            </div>
-            <div class="verdict-rating" aria-label="Note 4,3 sur 5">
-              <span class="verdict-rating-num">4,3</span>
-              <span class="verdict-rating-out">/5</span>
-            </div>
-          </div>
-
-          <p class="verdict-summary">Ce n'est pas le volume qui nous a convaincus chez Rencontres Mixtes, c'est la cohérence de son public. En quatre semaines de test, c'est l'une des rares plateformes qui assume la <strong>diversité culturelle</strong> dès la page d'accueil au lieu de nous laisser bricoler des filtres. Si cette ouverture fait partie de votre définition d'un bon match, c'est un choix qui se défend.</p>
-
-          <div class="pros-cons">
-            <div class="pros">
-              <h2 class="pros-cons-title">Points forts</h2>
-              <ul>
+        <h2 id="essentiel" class="av-h2">L'essentiel</h2>
+        <div class="av-essentiel-grille">
+          <blockquote class="av-resume" data-reveal>
+            <p>Ce n'est pas le volume qui nous a convaincus chez Rencontres Mixtes, c'est la cohérence de son public. En quatre semaines de test, c'est l'une des rares plateformes qui assume la <strong>diversité culturelle</strong> dès la page d'accueil au lieu de nous laisser bricoler des filtres. Si cette ouverture fait partie de votre définition d'un bon match, c'est un choix qui se défend.</p>
+            <footer><img src="/assets/auteurs/jeanne.webp" alt="" width="36" height="36" loading="lazy"><span><a href="/auteurs/jeanne/">Jeanne</a>, après quatre semaines de test</span></footer>
+          </blockquote>
+          <div class="av-plusmoins" data-reveal>
+            <div>
+              <h3>Points forts</h3>
+              <ul class="av-plus">
                 <li>Communauté réellement diversifiée dès l'inscription</li>
                 <li>Approche fondée sur les affinités, pas sur les cases à cocher</li>
                 <li>Interface claire, pensée pour la conversation</li>
@@ -159,9 +216,9 @@
                 <li>Inscription gratuite et rapide</li>
               </ul>
             </div>
-            <div class="cons">
-              <h2 class="pros-cons-title">Points faibles</h2>
-              <ul>
+            <div>
+              <h3>Points faibles</h3>
+              <ul class="av-moins">
                 <li>Communauté plus active dans les grandes métropoles</li>
                 <li>Volume plus restreint que les généralistes</li>
                 <li>Messagerie complète réservée à l'abonnement</li>
@@ -169,75 +226,54 @@
               </ul>
             </div>
           </div>
-
-          <div class="verdict-cta">
-            <a href="/go/rencontres-mixtes/" class="btn btn-primary" rel="sponsored nofollow noopener" target="_blank">
-              Découvrir Rencontres Mixtes
-              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
-            </a>
-            <span class="verdict-cta-note">Inscription gratuite, options premium disponibles</span>
-          </div>
         </div>
+        <figure class="av-ressorti" data-reveal>
+          <figcaption>Ce qui ressort de notre test</figcaption>
+          <ul>
+            <li style="--w:92%"><span class="av-crit">Diversité de la communauté</span><span class="av-crit-n">Excellent</span><span class="av-crit-bar" aria-hidden="true"></span></li>
+            <li style="--w:84%"><span class="av-crit">Qualité des profils</span><span class="av-crit-n">Très bon</span><span class="av-crit-bar" aria-hidden="true"></span></li>
+            <li style="--w:84%"><span class="av-crit">Modération et sécurité</span><span class="av-crit-n">Très bon</span><span class="av-crit-bar" aria-hidden="true"></span></li>
+            <li style="--w:76%"><span class="av-crit">Simplicité d'usage</span><span class="av-crit-n">Bon</span><span class="av-crit-bar" aria-hidden="true"></span></li>
+            <li style="--w:60%"><span class="av-crit">Rapport qualité-prix</span><span class="av-crit-n">Correct</span><span class="av-crit-bar" aria-hidden="true"></span></li>
+          </ul>
+          <p class="av-ressorti-note">Appréciations de la rédaction. La note sur 5 suit <a href="/notre-methode/">notre grille de notation</a>, commune à tous les sites.</p>
+        </figure>
       </div>
     </section>
 
-    <div class="review-shell">
-    <article class="review-body">
-
-    <section class="review-section">
-      <div class="container review-prose">
-        <div class="scorecard">
-          <p class="scorecard-title">Notre notation détaillée, critère par critère</p>
-          <div class="score-row">
-            <div class="score-head"><span class="score-crit">Diversité de la communauté</span><span class="score-label">Excellent</span></div>
-            <div class="score-track"><div class="score-fill" style="width:92%"></div></div>
-          </div>
-          <div class="score-row">
-            <div class="score-head"><span class="score-crit">Qualité des profils</span><span class="score-label">Très bon</span></div>
-            <div class="score-track"><div class="score-fill" style="width:84%"></div></div>
-          </div>
-          <div class="score-row">
-            <div class="score-head"><span class="score-crit">Modération et sécurité</span><span class="score-label">Très bon</span></div>
-            <div class="score-track"><div class="score-fill" style="width:84%"></div></div>
-          </div>
-          <div class="score-row">
-            <div class="score-head"><span class="score-crit">Simplicité d'usage</span><span class="score-label">Bon</span></div>
-            <div class="score-track"><div class="score-fill" style="width:76%"></div></div>
-          </div>
-          <div class="score-row">
-            <div class="score-head"><span class="score-crit">Rapport qualité-prix</span><span class="score-label">Correct</span></div>
-            <div class="score-track"><div class="score-fill" style="width:60%"></div></div>
-          </div>
+    <!-- Corps de l'avis, avec sommaire collant -->
+    <div class="av-corps">
+      <aside class="av-cote" aria-label="Dans cet avis">
+        <div class="av-cote-carte">
+          <p class="av-cote-nom">Rencontres Mixtes <span>4,3<small>/5</small></span></p>
+          <p class="av-cote-acc">Inscription gratuite, options premium disponibles</p>
+          <a class="btn-site" href="/go/rencontres-mixtes/" rel="sponsored nofollow noopener" target="_blank">Voir le site</a>
+          <p class="av-cote-t">Dans cet avis</p>
+          <ol class="av-sommaire" data-sommaire>
+            <li><a href="#presentation">Rencontres Mixtes, c'est quoi ?</a></li>
+            <li><a href="#public">À qui s'adresse Rencontres Mixtes ?</a></li>
+            <li><a href="#fonctionnement">Comment fonctionne Rencontres Mixtes ?</a></li>
+            <li><a href="#tarifs">Tarifs et abonnement Rencontres Mixtes</a></li>
+            <li><a href="#fiabilite">Rencontres Mixtes est-il fiable ?</a></li>
+            <li><a href="#verdict">Notre verdict</a></li>
+            <li><a href="#faq">Questions fréquentes</a></li>
+          </ol>
         </div>
-      </div>
-    </section>
-
-    <nav class="page-toc" aria-label="Sommaire de l'avis">
-      <div class="container">
-        <h2 class="page-toc-title">Au sommaire</h2>
-        <ol class="page-toc-list">
-          <li><a href="#presentation">Rencontres Mixtes, c'est quoi ?</a></li>
-          <li><a href="#public">À qui s'adresse Rencontres Mixtes ?</a></li>
-          <li><a href="#fonctionnement">Comment fonctionne Rencontres Mixtes ?</a></li>
-          <li><a href="#tarifs">Tarifs et abonnement Rencontres Mixtes</a></li>
-          <li><a href="#fiabilite">Rencontres Mixtes est-il fiable ?</a></li>
-          <li><a href="#verdict">Notre verdict</a></li>
-          <li><a href="#faq">Questions fréquentes</a></li>
-        </ol>
-      </div>
-    </nav>
-
-    <section id="presentation" class="review-section">
-      <div class="container review-prose">
+      </aside>
+      <article class="av-article">
+      <section id="presentation" class="av-sec">
+        <span class="av-motif av-motif--telephone" aria-hidden="true"></span>
+        <div class="av-prose">
         <h2>Rencontres Mixtes, c'est quoi ?</h2>
         <p><strong>Rencontres Mixtes</strong> prend un angle rarement assumé frontalement par les généralistes : proposer une communauté où la <strong>mixité culturelle est la norme</strong>, pas l'exception. L'idée n'est pas de segmenter par origine, mais de réunir des célibataires ouverts à la rencontre au-delà des bulles habituelles.</p>
         <p>Le résultat : des profils qui parlent moins de « critères » et davantage de centres d'intérêt, de parcours de vie ou de projets partagés. C'est un parti pris éditorial rare sur le marché francophone des sites de rencontre, et c'est précisément ce qui a fait le succès progressif de la plateforme depuis son lancement.</p>
         <p>Rencontres Mixtes est disponible sur le web et en application mobile, avec une interface claire et orientée conversation. Le ton est posé, sans surenchère exotisante : on est ici dans une logique de communauté, pas de promesse marketing.</p>
-      </div>
-    </section>
+        </div>
+      </section>
 
-    <section id="public" class="review-section">
-      <div class="container review-prose">
+      <section id="public" class="av-sec">
+        <span class="av-motif av-motif--cafe" aria-hidden="true"></span>
+        <div class="av-prose">
         <h2>À qui s'adresse Rencontres Mixtes ?</h2>
         <p>Rencontres Mixtes s'adresse aux célibataires qui considèrent la <strong>diversité culturelle</strong> comme un atout, et qui sont souvent lassés des plateformes où les filtres ethniques ou religieux viennent très vite fermer le champ des possibles. C'est aussi une option intéressante pour celles et ceux qui vivent dans des milieux déjà mixtes (grandes villes, environnements professionnels internationaux).</p>
 
@@ -247,12 +283,9 @@
         <h3>Quand choisir Rencontres Mixtes plutôt qu'un autre site ?</h3>
         <p>Si la mixité culturelle est une dimension importante de votre quotidien, Rencontres Mixtes vous évitera de bricoler des filtres et reformuler votre bio sur les généralistes. Pour un volume plus large ou une approche très orientée relation sérieuse, Meetic ou Infinite Rencontre restent des références à considérer en complément.</p>
 
-        <div class="fit-grid">
-          <div class="fit-col fit-col--yes">
-            <h4>
-              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="9" stroke="currentColor" stroke-width="2"/><path d="M8 12.5l2.5 2.5 5-5.5" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
-              Foncez si…
-            </h4>
+        <div class="av-fit">
+          <div class="av-fit-col av-fit-oui">
+            <h4>Foncez si…</h4>
             <ul>
               <li>La diversité culturelle fait partie de votre définition d'un bon match</li>
               <li>Vous êtes lassé des filtres ethniques ou religieux des généralistes</li>
@@ -260,11 +293,8 @@
               <li>Vous préférez les affinités larges aux cases à cocher</li>
             </ul>
           </div>
-          <div class="fit-col fit-col--no">
-            <h4>
-              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="9" stroke="currentColor" stroke-width="2"/><path d="M9 9l6 6M15 9l-6 6" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
-              Passez votre chemin si…
-            </h4>
+          <div class="av-fit-col av-fit-non">
+            <h4>Passez votre chemin si…</h4>
             <ul>
               <li>Vous recherchez avant tout le volume des plateformes généralistes</li>
               <li>Vous vivez en zone rurale ou dans une ville moyenne</li>
@@ -273,11 +303,12 @@
             </ul>
           </div>
         </div>
-      </div>
-    </section>
+        </div>
+      </section>
 
-    <section id="fonctionnement" class="review-section">
-      <div class="container review-prose">
+      <section id="fonctionnement" class="av-sec">
+        <span class="av-motif av-motif--loupe" aria-hidden="true"></span>
+        <div class="av-prose">
         <h2>Comment fonctionne Rencontres Mixtes ?</h2>
         <p>Le fonctionnement de Rencontres Mixtes suit une logique classique de site de rencontre, sans gimmick particulier. La spécificité tient au positionnement éditorial plus qu'à un mécanisme de matching différent.</p>
 
@@ -292,11 +323,12 @@
 
         <h3>L'application mobile</h3>
         <p>L'<strong>application mobile</strong> Rencontres Mixtes reprend l'ensemble des fonctionnalités du site. La parité avec la version web est totale, ce qui permet de rester actif au quotidien sans dégradation de l'expérience.</p>
-      </div>
-    </section>
+        </div>
+      </section>
 
-    <section id="tarifs" class="review-section">
-      <div class="container review-prose">
+      <section id="tarifs" class="av-sec">
+        <span class="av-motif av-motif--lettre" aria-hidden="true"></span>
+        <div class="av-prose">
         <h2>Tarifs et abonnement Rencontres Mixtes</h2>
         <p>Les <strong>tarifs Rencontres Mixtes</strong> suivent les standards du marché des sites de rencontre généralistes en 2026, sans surcoût lié à la spécialisation éditoriale.</p>
 
@@ -310,15 +342,16 @@
           <li><strong>3 mois</strong> : compromis classique avec un meilleur tarif au mois.</li>
           <li><strong>6 mois</strong> : tarif mensuel le plus avantageux, pour un usage durable.</li>
         </ul>
-        <p class="review-note">Tarifs vérifiés en avril 2026, susceptibles d'évoluer. Le détail à jour est affiché dans votre espace abonnement avant tout paiement.</p>
+        <p class="av-note">Les montants ne sont pas affichés publiquement et varient selon les promotions en cours&nbsp;: le tarif exact apparaît dans votre espace abonnement avant tout paiement.</p>
 
         <h3>Comment se désabonner de Rencontres Mixtes</h3>
         <p>La <strong>résiliation Rencontres Mixtes</strong> s'effectue depuis l'espace abonnement de votre compte. L'abonnement reste actif jusqu'à la fin de la période en cours, sans renouvellement automatique une fois la résiliation enregistrée.</p>
-      </div>
-    </section>
+        </div>
+      </section>
 
-    <section id="fiabilite" class="review-section">
-      <div class="container review-prose">
+      <section id="fiabilite" class="av-sec">
+        <span class="av-motif av-motif--plume" aria-hidden="true"></span>
+        <div class="av-prose">
         <h2>Rencontres Mixtes est-il fiable ?</h2>
         <p>La <strong>fiabilité Rencontres Mixtes</strong> repose sur les mêmes piliers que les autres sites de rencontre généralistes : modération, RGPD, paiement sécurisé. Sur ces critères, la plateforme tient son rang.</p>
 
@@ -330,133 +363,110 @@
 
         <h3>Sécurité des paiements</h3>
         <p>Le paiement passe par un prestataire reconnu avec authentification 3D Secure. La facturation reste discrète sur les relevés bancaires. Aucun incident à signaler de notre côté pendant le test.</p>
-      </div>
-    </section>
+        </div>
+      </section>
 
-    <section id="verdict" class="review-section">
-      <div class="container review-prose">
+      <section id="verdict" class="av-sec">
+        <span class="av-motif av-motif--avion" aria-hidden="true"></span>
+        <div class="av-prose">
         <h2>Notre verdict sur Rencontres Mixtes</h2>
         <p>Ces quatre semaines nous laissent l'image d'un <strong>positionnement rare</strong> sur le marché francophone : une communauté pensée pour des célibataires qui voient la diversité culturelle comme une richesse, pas comme une variable à filtrer. Oui, la taille reste plus modeste que celle des leaders historiques, mais à nos yeux la cohérence du public compense largement.</p>
         <p>Nous recommandons surtout la plateforme aux célibataires <strong>urbains et internationalisés</strong>. En zone rurale ou dans les villes moyennes, notre conseil est de la combiner avec un site généraliste comme Meetic ou Infinite Rencontre, le temps de multiplier les angles. Pour qui cherche une approche communautaire ciblée, c'est clairement une option que nous intégrerions à notre arsenal.</p>
 
-        <div class="edito-note">
-          <span class="edito-note-tag">
-            <svg width="15" height="15" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M12 3l2.5 5.5L20 9l-4 4 1 6-5-3-5 3 1-6-4-4 5.5-.5z" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/></svg>
-            Le parti pris de la rédaction
-          </span>
-          <p>Rencontres Mixtes n'est pas le site où l'on croise le plus de monde, c'est celui où l'on perd le moins de temps à se justifier. Si l'ouverture culturelle est une évidence pour vous et que vous vivez en ville, arrêtez de reformuler votre bio sur les généralistes : essayez d'abord celui-là.</p>
-        </div>
+        <aside class="av-parti">
+          <p class="av-parti-t">Le parti pris de la rédaction</p>
+          <blockquote><p>Rencontres Mixtes n'est pas le site où l'on croise le plus de monde, c'est celui où l'on perd le moins de temps à se justifier. Si l'ouverture culturelle est une évidence pour vous et que vous vivez en ville, arrêtez de reformuler votre bio sur les généralistes : essayez d'abord celui-là.</p></blockquote>
+        </aside>
 
         <p class="see-also"><strong>Pour aller plus loin :</strong> situez Rencontres Mixtes face à la concurrence dans notre <a href="/comparatif-relation-serieuse/">comparatif des sites de rencontre sérieux 2026</a>, et lancez-vous sereinement avec nos guides pour <a href="/guide/site-fiable/">choisir un site fiable</a> et <a href="/guide/premier-message/">engager la conversation</a>.</p>
+        <div class="av-conclure">
+          <p class="av-conclure-acc"><span>Accès</span>Inscription gratuite, options premium disponibles</p>
+          <div class="av-actions">
+            <a class="btn-site" href="/go/rencontres-mixtes/" rel="sponsored nofollow noopener" target="_blank">Voir le site Rencontres Mixtes</a>
+            <a class="btn-coeur" href="/avis/"><svg class="btn-coeur-ico" width="15" height="14" viewBox="0 0 24 22" aria-hidden="true"><path d="M12 20.3s-8.8-5.3-8.8-11.4A4.9 4.9 0 0 1 12 6.1a4.9 4.9 0 0 1 8.8 2.8c0 6.1-8.8 11.4-8.8 11.4z"/></svg><span>Comparer avec nos autres avis</span><svg class="btn-coeur-fl" width="18" height="10" viewBox="0 0 18 10" fill="none" aria-hidden="true"><path d="M1 5h15M12 1l4 4-4 4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg></a>
+          </div>
+        </div>
+        </div>
+      </section>
+      </article>
+    </div>
 
-        <aside class="cta-box">
-          <div class="access-meta">
-            <span class="access-label">Accès</span>
-            <span>Inscription gratuite · Options premium disponibles</span>
+      <section class="av-auteur">
+        <span class="av-motif av-motif--plume" aria-hidden="true"></span>
+        <div class="container av-auteur-grille" data-reveal>
+          <span class="av-auteur-img"><img src="/assets/auteurs/jeanne.webp" alt="Portrait de Jeanne" width="320" height="320" loading="lazy"></span>
+          <div>
+            <p class="av-auteur-k">Testé et rédigé par</p>
+            <p class="av-auteur-nom">Jeanne</p>
+            <p class="av-auteur-role">Rédactrice · société et rencontres en ligne</p>
+            <p class="av-auteur-bio">J'attache de l'importance à la sécurité, à la sincérité des profils et à l'ambiance des communautés.</p>
+            <a class="btn-coeur" href="/auteurs/jeanne/"><svg class="btn-coeur-ico" width="15" height="14" viewBox="0 0 24 22" aria-hidden="true"><path d="M12 20.3s-8.8-5.3-8.8-11.4A4.9 4.9 0 0 1 12 6.1a4.9 4.9 0 0 1 8.8 2.8c0 6.1-8.8 11.4-8.8 11.4z"/></svg><span>Tous les avis de Jeanne</span><svg class="btn-coeur-fl" width="18" height="10" viewBox="0 0 18 10" fill="none" aria-hidden="true"><path d="M1 5h15M12 1l4 4-4 4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg></a>
           </div>
-          <a href="/go/rencontres-mixtes/" class="btn btn-primary" rel="sponsored nofollow noopener" target="_blank">
-            Découvrir Rencontres Mixtes
-            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
-          </a>
-        </aside>
-      </div>
-    </section>
+        </div>
+      </section>
 
-    <section class="review-section">
-      <div class="container review-prose">
-        <div class="author-box">
-          <div class="author-photo">
-            <img src="/assets/auteurs/jeanne.webp" alt="Photo de Jeanne" width="84" height="84" loading="lazy">
-          </div>
-          <div class="author-body">
-            <p class="author-eyebrow">Rédigé et testé par</p>
-            <p class="author-name">Jeanne</p>
-            <p class="author-role">Rédactrice · société et rencontres en ligne</p>
-            <p class="author-bio">J'attache de l'importance à la sécurité, à la sincérité des profils et à l'ambiance des communautés.</p>
-            <a class="author-link" href="/auteurs/jeanne/">Voir tous ses avis →</a>
-          </div>
+    <!-- FAQ -->
+    <section id="faq" class="av-faq">
+      <span class="av-motif av-motif--bulles" aria-hidden="true"></span>
+      <div class="container av-faq-grille">
+        <header data-reveal>
+          <h2 class="av-h2">Questions fréquentes sur Rencontres Mixtes</h2>
+          <p class="av-texte">Une autre question, une erreur à signaler&nbsp;? La rédaction vous lit.</p>
+          <a class="btn-coeur" href="/contact/"><svg class="btn-coeur-ico" width="15" height="14" viewBox="0 0 24 22" aria-hidden="true"><path d="M12 20.3s-8.8-5.3-8.8-11.4A4.9 4.9 0 0 1 12 6.1a4.9 4.9 0 0 1 8.8 2.8c0 6.1-8.8 11.4-8.8 11.4z"/></svg><span>Contacter la rédaction</span><svg class="btn-coeur-fl" width="18" height="10" viewBox="0 0 18 10" fill="none" aria-hidden="true"><path d="M1 5h15M12 1l4 4-4 4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg></a>
+        </header>
+        <div class="av-qa" data-reveal>
+            <details>
+              <summary>Rencontres Mixtes est-il gratuit ?</summary>
+              <p>L'<strong>inscription Rencontres Mixtes</strong> est gratuite. Vous pouvez créer un profil, parcourir les suggestions et engager des conversations dans une certaine limite. Les fonctionnalités de messagerie illimitée et les filtres avancés sont réservés au premium.</p>
+            </details>
+            <details>
+              <summary>À quel public s'adresse Rencontres Mixtes ?</summary>
+              <p>Rencontres Mixtes s'adresse aux célibataires qui considèrent la <strong>diversité culturelle</strong> comme un atout, lassés des plateformes où les filtres ethniques ou religieux ferment vite le champ des possibles. C'est aussi une option intéressante pour celles et ceux qui vivent dans des milieux déjà mixtes.</p>
+            </details>
+            <details>
+              <summary>Combien coûte un abonnement Rencontres Mixtes ?</summary>
+              <p>Les <strong>tarifs Rencontres Mixtes</strong> suivent les standards du marché des sites de rencontre généralistes, avec des forfaits 1, 3 ou 6 mois et un coût mensuel dégressif sur les durées longues.</p>
+            </details>
+            <details>
+              <summary>Rencontres Mixtes est-il fiable ?</summary>
+              <p>Oui. Rencontres Mixtes applique une <strong>modération active</strong> sur les profils et les photos, propose un signalement direct depuis chaque profil et respecte le RGPD. Les paiements sont sécurisés via un prestataire reconnu.</p>
+            </details>
+            <details>
+              <summary>Comment se désabonner de Rencontres Mixtes ?</summary>
+              <p>La <strong>résiliation Rencontres Mixtes</strong> se fait depuis l'espace abonnement de votre compte. L'abonnement reste actif jusqu'à la fin de la période en cours, sans renouvellement automatique une fois la résiliation enregistrée.</p>
+            </details>
+            <details>
+              <summary>Y a-t-il des filtres par origine ou par religion ?</summary>
+              <p>Non, et c'est précisément le parti pris de Rencontres Mixtes. La philosophie de la plateforme est de réunir des célibataires <strong>ouverts à la rencontre au-delà des cases à cocher</strong> habituelles. Les filtres disponibles portent sur l'âge, la distance, les centres d'intérêt et les valeurs partagées.</p>
+            </details>
         </div>
       </div>
     </section>
 
-    <section id="faq" class="faq">
+    <!-- Autres avis -->
+    <section class="av-autres">
       <div class="container">
-        <header class="section-head">
-          <h2>Questions fréquentes sur Rencontres Mixtes</h2>
-        </header>
-
-        <details class="faq-item">
-          <summary>Rencontres Mixtes est-il gratuit ?</summary>
-          <p>L'<strong>inscription Rencontres Mixtes</strong> est gratuite. Vous pouvez créer un profil, parcourir les suggestions et engager des conversations dans une certaine limite. Les fonctionnalités de messagerie illimitée et les filtres avancés sont réservés au premium.</p>
-        </details>
-
-        <details class="faq-item">
-          <summary>À quel public s'adresse Rencontres Mixtes ?</summary>
-          <p>Rencontres Mixtes s'adresse aux célibataires qui considèrent la <strong>diversité culturelle</strong> comme un atout, lassés des plateformes où les filtres ethniques ou religieux ferment vite le champ des possibles. C'est aussi une option intéressante pour celles et ceux qui vivent dans des milieux déjà mixtes.</p>
-        </details>
-
-        <details class="faq-item">
-          <summary>Combien coûte un abonnement Rencontres Mixtes ?</summary>
-          <p>Les <strong>tarifs Rencontres Mixtes</strong> suivent les standards du marché des sites de rencontre généralistes, avec des forfaits 1, 3 ou 6 mois et un coût mensuel dégressif sur les durées longues.</p>
-        </details>
-
-        <details class="faq-item">
-          <summary>Rencontres Mixtes est-il fiable ?</summary>
-          <p>Oui. Rencontres Mixtes applique une <strong>modération active</strong> sur les profils et les photos, propose un signalement direct depuis chaque profil et respecte le RGPD. Les paiements sont sécurisés via un prestataire reconnu.</p>
-        </details>
-
-        <details class="faq-item">
-          <summary>Comment se désabonner de Rencontres Mixtes ?</summary>
-          <p>La <strong>résiliation Rencontres Mixtes</strong> se fait depuis l'espace abonnement de votre compte. L'abonnement reste actif jusqu'à la fin de la période en cours, sans renouvellement automatique une fois la résiliation enregistrée.</p>
-        </details>
-
-        <details class="faq-item">
-          <summary>Y a-t-il des filtres par origine ou par religion ?</summary>
-          <p>Non, et c'est précisément le parti pris de Rencontres Mixtes. La philosophie de la plateforme est de réunir des célibataires <strong>ouverts à la rencontre au-delà des cases à cocher</strong> habituelles. Les filtres disponibles portent sur l'âge, la distance, les centres d'intérêt et les valeurs partagées.</p>
-        </details>
-
+        <h2 class="av-h2">Nos autres avis</h2>
+        <div class="av-autres-grille" data-reveal>
+          <a class="av-autre" href="/avis-force-gay/">
+            <span class="av-autre-img"><img src="/assets/ui-forcegay.webp" alt="" width="2000" height="937" loading="lazy"></span>
+            <span class="av-autre-tete"><span class="av-autre-nom">Force Gay</span><span class="av-autre-note">4,3<small>/5</small></span></span>
+            <span class="av-autre-acc">La plateforme dédiée à la communauté gay</span>
+          </a>
+          <a class="av-autre" href="/avis-jm-messenger/">
+            <span class="av-autre-img"><img src="/assets/ui-jmmessenger.webp" alt="" width="1000" height="477" loading="lazy"></span>
+            <span class="av-autre-tete"><span class="av-autre-nom">JM Messenger</span><span class="av-autre-note">4,2<small>/5</small></span></span>
+            <span class="av-autre-acc">Le tchat de rencontre simple et direct</span>
+          </a>
+          <a class="av-autre" href="/avis-meetic/">
+            <span class="av-autre-img"><img src="/assets/ui-meetic.webp" alt="" width="2000" height="945" loading="lazy"></span>
+            <span class="av-autre-tete"><span class="av-autre-nom">Meetic</span><span class="av-autre-note">4,6<small>/5</small></span></span>
+            <span class="av-autre-acc">La référence des relations durables</span>
+          </a>
+        </div>
+        <a class="btn-coeur" href="/avis/"><svg class="btn-coeur-ico" width="15" height="14" viewBox="0 0 24 22" aria-hidden="true"><path d="M12 20.3s-8.8-5.3-8.8-11.4A4.9 4.9 0 0 1 12 6.1a4.9 4.9 0 0 1 8.8 2.8c0 6.1-8.8 11.4-8.8 11.4z"/></svg><span>Voir tous nos avis</span><svg class="btn-coeur-fl" width="18" height="10" viewBox="0 0 18 10" fill="none" aria-hidden="true"><path d="M1 5h15M12 1l4 4-4 4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg></a>
       </div>
     </section>
-
-    </article>
-
-    <aside class="review-sidebar">
-      <div class="aside-block">
-        <p class="aside-title">Nos autres avis</p>
-
-        <a href="avis-meetic/" class="aside-card">
-          <span class="aside-logo"><img src="/assets/logo-meetic.png" alt="Logo Meetic" loading="lazy"></span>
-          <span class="aside-info"><span class="aside-name">Meetic</span><span class="aside-rate"><strong>4,6</strong>/5 · la référence des relations durables</span></span>
-        </a>
-
-        <a href="avis-infinite-rencontre/" class="aside-card">
-          <span class="aside-logo"><img src="/assets/logo-infinite.png" alt="Logo Infinite Rencontre" loading="lazy"></span>
-          <span class="aside-info"><span class="aside-name">Infinite Rencontre</span><span class="aside-rate"><strong>4,5</strong>/5 · moderne, 25-45 ans</span></span>
-        </a>
-
-        <a href="avis-edarling/" class="aside-card">
-          <span class="aside-logo"><img src="/assets/logo-edarling.svg" alt="Logo eDarling" loading="lazy"></span>
-          <span class="aside-info"><span class="aside-name">eDarling</span><span class="aside-rate"><strong>4,4</strong>/5 · exigeants 30-55 ans</span></span>
-        </a>
-
-        <a href="avis-spiice/" class="aside-card">
-          <span class="aside-logo"><img src="/assets/spiice-logo.webp" alt="Logo Spiice" loading="lazy"></span>
-          <span class="aside-info"><span class="aside-name">Spiice</span><span class="aside-rate"><strong>4,4</strong>/5 · app mobile 22-38 ans</span></span>
-        </a>
-
-        <a href="avis-rencontres-locales/" class="aside-card">
-          <span class="aside-logo"><img src="/assets/logo-rencontres-locales.png" alt="Logo Rencontres Locales" loading="lazy"></span>
-          <span class="aside-info"><span class="aside-name">Rencontres Locales</span><span class="aside-rate"><strong>4,3</strong>/5 · proximité</span></span>
-        </a>
-
-        <a href="/avis/" class="aside-all">Voir nos 8 avis
-          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
-        </a>
-      </div>
-    </aside>
-
-    </div>
-
   </main>
 
   <footer class="site-footer">
@@ -519,6 +529,6 @@
     </div>
   </footer>
 
-  <script src="/js/main.js?v=20261014-8"></script>
+  <script src="/js/main.js?v=20261014-10"></script>
 </body>
 </html>

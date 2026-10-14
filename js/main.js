@@ -50,6 +50,21 @@ document.addEventListener('DOMContentLoaded', function () {
     barre.hidden = false;
   }
 
+  // Sommaire des avis : la section en cours de lecture est signalee
+  var sommaire = document.querySelector('[data-sommaire]');
+  if (sommaire && 'IntersectionObserver' in window) {
+    var liens = {};
+    sommaire.querySelectorAll('a[href^="#"]').forEach(function (a) { liens[a.getAttribute('href').slice(1)] = a; });
+    var spy = new IntersectionObserver(function (entries) {
+      entries.forEach(function (entry) {
+        if (!entry.isIntersecting || !liens[entry.target.id]) return;
+        Object.keys(liens).forEach(function (k) { liens[k].removeAttribute('aria-current'); });
+        liens[entry.target.id].setAttribute('aria-current', 'true');
+      });
+    }, { rootMargin: '-30% 0px -60% 0px' });
+    Object.keys(liens).forEach(function (id) { var s = document.getElementById(id); if (s) spy.observe(s); });
+  }
+
   var items = document.querySelectorAll('[data-reveal]');
   if (!items.length || !('IntersectionObserver' in window)) return;
   if (window.matchMedia('(prefers-reduced-motion: reduce)').matches) return;

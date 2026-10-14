@@ -22,7 +22,9 @@
   <link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon-32.png">
   <link rel="icon" type="image/png" sizes="16x16" href="/assets/favicon-16.png">
   <link rel="apple-touch-icon" sizes="180x180" href="/assets/favicon-180.png">
-  <link rel="stylesheet" href="/css/style.css?v=20261014-8">
+  <link rel="preload" href="/assets/fonts/bodoni-moda.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="/css/style.css?v=20261014-10">
+  <link rel="stylesheet" href="/css/avis.css?v=20261014-10">
 
   <script type="application/ld+json">
   {
@@ -42,20 +44,26 @@
     "@type": "Product",
     "name": "Spiice",
     "description": "Application de rencontre mobile moderne, pensée pour les jeunes actifs urbains 22-38 ans qui veulent une expérience ludique et soignée.",
-    "brand": { "@type": "Brand", "name": "Spiice" },
-    "image": "https://meilleur-site-rencontre.fr/assets/ui-spiice.jpg",
-    "aggregateRating": {
-      "@type": "AggregateRating",
-      "ratingValue": "4.4",
-      "bestRating": "5",
-      "ratingCount": "5240"
+    "brand": {
+      "@type": "Brand",
+      "name": "Spiice"
     },
+    "image": "https://meilleur-site-rencontre.fr/assets/ui-spiice.jpg",
     "review": {
       "@type": "Review",
-      "author": { "@type": "Person", "name": "Bastien", "url": "https://meilleur-site-rencontre.fr/auteurs/bastien/" },
+      "author": {
+        "@type": "Person",
+        "name": "Bastien",
+        "url": "https://meilleur-site-rencontre.fr/auteurs/bastien/"
+      },
       "datePublished": "2026-04-27",
       "dateModified": "2026-06-23",
-      "reviewRating": { "@type": "Rating", "ratingValue": "4.4", "bestRating": "5", "worstRating": "1" },
+      "reviewRating": {
+        "@type": "Rating",
+        "ratingValue": "4.4",
+        "bestRating": "5",
+        "worstRating": "1"
+      },
       "reviewBody": "Spiice propose l'une des expériences mobiles les plus agréables du marché : interface colorée, notifications de match fluides et communauté urbaine dynamique. Idéal pour les 22-38 ans qui veulent une app de rencontre ludique sans renoncer à un minimum de qualité."
     }
   }
@@ -66,11 +74,54 @@
     "@context": "https://schema.org",
     "@type": "FAQPage",
     "mainEntity": [
-      { "@type": "Question", "name": "Spiice est-il gratuit ?", "acceptedAnswer": { "@type": "Answer", "text": "Le téléchargement et l'inscription Spiice sont gratuits. Vous pouvez créer votre profil, recevoir des matches et engager des conversations sans payer. Certaines fonctionnalités comme les boosts ou les filtres avancés sont réservées au premium." } },
-      { "@type": "Question", "name": "Combien coûte un abonnement Spiice ?", "acceptedAnswer": { "@type": "Answer", "text": "L'abonnement Spiice premium se décline en plusieurs durées (1, 3 ou 6 mois) avec des tarifs dégressifs sur les engagements longs. Compter une dizaine d'euros par mois sur les forfaits longs." } },
-      { "@type": "Question", "name": "Spiice est-il disponible sur Android et iOS ?", "acceptedAnswer": { "@type": "Answer", "text": "Oui. L'application Spiice est disponible sur l'App Store et Google Play. C'est une plateforme 100% mobile, sans version web complète : tout passe par l'app." } },
-      { "@type": "Question", "name": "Spiice est-il fiable et sécurisé ?", "acceptedAnswer": { "@type": "Answer", "text": "Oui. Spiice applique une modération active sur les profils, propose un signalement direct et respecte le RGPD. Les paiements sont sécurisés via les stores Apple et Google." } },
-      { "@type": "Question", "name": "Comment se désabonner de Spiice ?", "acceptedAnswer": { "@type": "Answer", "text": "Comme la plupart des applications mobiles, le désabonnement Spiice se fait directement depuis les réglages de votre compte Apple ou Google, dans la section abonnements. L'abonnement reste actif jusqu'à la fin de la période en cours." } }
+      {
+        "@type": "Question",
+        "name": "Spiice est-il gratuit ?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Le téléchargement et l'inscription Spiice sont gratuits. Vous pouvez créer votre profil, recevoir des matches et engager des conversations sans payer. Certaines fonctionnalités comme les boosts ou les filtres avancés sont réservées au premium."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Combien coûte un abonnement Spiice ?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "L'abonnement Spiice premium se décline en plusieurs durées (1, 3 ou 6 mois) avec des tarifs dégressifs sur les engagements longs. Compter une dizaine d'euros par mois sur les forfaits longs."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Spiice est-il disponible sur Android et iOS ?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Oui. L'application Spiice est disponible sur l'App Store et Google Play. C'est une plateforme 100% mobile, sans version web complète : tout passe par l'app."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Spiice est-il fiable et sécurisé ?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Oui. Spiice applique une modération active sur les profils, propose un signalement direct et respecte le RGPD. Les paiements passent par Apple App Store ou Google Play, avec les garanties habituelles de ces plateformes."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Comment se désabonner de Spiice ?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Le désabonnement Spiice se fait directement depuis les réglages de votre compte Apple ou Google, dans la section abonnements. L'abonnement reste actif jusqu'à la fin de la période en cours, sans renouvellement automatique une fois la résiliation enregistrée."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Spiice ou Tinder, lequel choisir ?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Tinder reste la référence en volume pur. Spiice mise sur une expérience plus soignée, une communauté plus qualitative et une ambiance moins instantanée. Pour qui veut sortir des grandes apps généralistes sans renoncer au format mobile, Spiice est l'alternative la plus crédible en France en 2026."
+        }
+      }
     ]
   }
   </script>
@@ -107,56 +158,57 @@
     </div>
   </header>
 
-  <main id="main" class="review-page">
+  <main id="main" class="av">
 
-    <nav class="breadcrumb" aria-label="Fil d'Ariane">
+    <!-- Ouverture -->
+    <section class="av-ouverture">
+      <span class="av-motif av-motif--loupe" aria-hidden="true"></span>
       <div class="container">
-        <ol>
-          <li><a href="/">Accueil</a></li>
-          <li><a href="/avis/">Avis</a></li>
-          <li aria-current="page">Spiice</li>
-        </ol>
-      </div>
-    </nav>
-
-    <section class="review-hero">
-      <div class="container review-hero-grid">
-        <div class="review-hero-text">
-          <p class="eyebrow">Avis Spiice</p>
-          <h1>Avis Spiice 2026 : test de l'app de rencontre, tarifs et verdict</h1>
-          <p class="lede">Quatre semaines à utiliser Spiice en conditions réelles, pour vous dire ce que vaut vraiment cette application de rencontre mobile pensée pour les célibataires urbains de 22 à 38 ans.</p>
-          <p class="review-meta">
-            <span class="review-meta-rating" aria-label="Note 4,4 sur 5"><strong>4,4</strong>/5</span>
-            <span>Par <a href="/auteurs/bastien/">Bastien</a></span>
-            <span>Mise à jour le 23 juin 2026</span>
-            <span><a href="/notre-methode/">Test mené sur 4 semaines</a></span>
-          </p>
-        </div>
-        <div class="review-hero-image">
-          <img src="/assets/ui-spiice.webp" alt="Capture de l'application Spiice montrant une notification de match et un profil utilisateur" width="1000" height="500" fetchpriority="high">
+        <nav class="breadcrumb" aria-label="Fil d'Ariane">
+          <ol>
+            <li><a href="/">Accueil</a></li>
+            <li><a href="/avis/">Avis</a></li>
+            <li aria-current="page">Spiice</li>
+          </ol>
+        </nav>
+        <div class="av-ouverture-grille">
+          <div class="av-ouverture-texte">
+            <h1>Avis Spiice 2026 : test de l'app de rencontre, tarifs et verdict</h1>
+            <p class="av-lede">Quatre semaines à utiliser Spiice en conditions réelles, pour vous dire ce que vaut vraiment cette application de rencontre mobile pensée pour les célibataires urbains de 22 à 38 ans.</p>
+            <div class="av-signature">
+              <img src="/assets/auteurs/bastien.webp" alt="" width="44" height="44">
+              <p>Par <a href="/auteurs/bastien/">Bastien</a>, mis à jour le 23 juin 2026<br><a href="/notre-methode/">Test mené sur quatre semaines</a></p>
+            </div>
+            <div class="av-ouverture-note">
+              <p class="av-note-grande"><span>4,4</span>/5</p>
+              <div class="av-actions">
+                <a class="btn-site" href="/go/spiice/" rel="sponsored nofollow noopener" target="_blank">Voir le site</a>
+                <a class="btn-coeur" href="#verdict"><svg class="btn-coeur-ico" width="15" height="14" viewBox="0 0 24 22" aria-hidden="true"><path d="M12 20.3s-8.8-5.3-8.8-11.4A4.9 4.9 0 0 1 12 6.1a4.9 4.9 0 0 1 8.8 2.8c0 6.1-8.8 11.4-8.8 11.4z"/></svg><span>Lire notre verdict</span><svg class="btn-coeur-fl" width="18" height="10" viewBox="0 0 18 10" fill="none" aria-hidden="true"><path d="M1 5h15M12 1l4 4-4 4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg></a>
+              </div>
+            </div>
+            <p class="av-acces">Téléchargement gratuit, options premium disponibles</p>
+          </div>
+          <figure class="av-capture">
+            <span class="av-capture-barre"><span>Capture d'écran</span><span>Spiice</span></span>
+            <img src="/assets/ui-spiice.webp" alt="Capture de l'application Spiice montrant une notification de match et un profil utilisateur" width="1000" height="470" fetchpriority="high">
+          </figure>
         </div>
       </div>
     </section>
 
-    <section class="verdict">
+    <!-- L'essentiel -->
+    <section class="av-essentiel" aria-labelledby="essentiel">
       <div class="container">
-        <div class="verdict-card">
-          <div class="verdict-card-head">
-            <div class="verdict-brand">
-              <img src="/assets/spiice-logo.webp" alt="Logo Spiice" width="140" height="58" loading="lazy">
-            </div>
-            <div class="verdict-rating" aria-label="Note 4,4 sur 5">
-              <span class="verdict-rating-num">4,4</span>
-              <span class="verdict-rating-out">/5</span>
-            </div>
-          </div>
-
-          <p class="verdict-summary">Spiice ne vous vend pas le grand amour, et nous aimons ce parti pris assumé. Après quatre semaines de test, c'est l'une des <strong>applications de rencontre les plus agréables</strong> qu'on ait manipulées sur le marché français, avec une esthétique soignée et une communauté urbaine qui vit vraiment. Si vous aimez l'idée d'une app à la fois ludique et qualitative, on vous dit foncez.</p>
-
-          <div class="pros-cons">
-            <div class="pros">
-              <h2 class="pros-cons-title">Points forts</h2>
-              <ul>
+        <h2 id="essentiel" class="av-h2">L'essentiel</h2>
+        <div class="av-essentiel-grille">
+          <blockquote class="av-resume" data-reveal>
+            <p>Spiice ne vous vend pas le grand amour, et nous aimons ce parti pris assumé. Après quatre semaines de test, c'est l'une des <strong>applications de rencontre les plus agréables</strong> qu'on ait manipulées sur le marché français, avec une esthétique soignée et une communauté urbaine qui vit vraiment. Si vous aimez l'idée d'une app à la fois ludique et qualitative, on vous dit foncez.</p>
+            <footer><img src="/assets/auteurs/bastien.webp" alt="" width="36" height="36" loading="lazy"><span><a href="/auteurs/bastien/">Bastien</a>, après quatre semaines de test</span></footer>
+          </blockquote>
+          <div class="av-plusmoins" data-reveal>
+            <div>
+              <h3>Points forts</h3>
+              <ul class="av-plus">
                 <li>Application mobile fluide et bien pensée</li>
                 <li>Notifications de match instantanées, engagement immédiat</li>
                 <li>Interface colorée, moderne, sans friction</li>
@@ -164,9 +216,9 @@
                 <li>Bon équilibre entre amusement et profils qualitatifs</li>
               </ul>
             </div>
-            <div class="cons">
-              <h2 class="pros-cons-title">Points faibles</h2>
-              <ul>
+            <div>
+              <h3>Points faibles</h3>
+              <ul class="av-moins">
                 <li>Pas de version web, 100% mobile</li>
                 <li>Plus orientée intentions légères que relations longues</li>
                 <li>Communauté plus dense dans les grandes métropoles</li>
@@ -174,75 +226,54 @@
               </ul>
             </div>
           </div>
-
-          <div class="verdict-cta">
-            <a href="/go/spiice/" class="btn btn-primary" rel="sponsored nofollow noopener" target="_blank">
-              Télécharger Spiice
-              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
-            </a>
-            <span class="verdict-cta-note">Téléchargement gratuit, options premium disponibles</span>
-          </div>
         </div>
+        <figure class="av-ressorti" data-reveal>
+          <figcaption>Ce qui ressort de notre test</figcaption>
+          <ul>
+            <li style="--w:92%"><span class="av-crit">Expérience mobile et interface</span><span class="av-crit-n">Excellent</span><span class="av-crit-bar" aria-hidden="true"></span></li>
+            <li style="--w:92%"><span class="av-crit">Simplicité d'usage</span><span class="av-crit-n">Excellent</span><span class="av-crit-bar" aria-hidden="true"></span></li>
+            <li style="--w:84%"><span class="av-crit">Qualité des profils</span><span class="av-crit-n">Très bon</span><span class="av-crit-bar" aria-hidden="true"></span></li>
+            <li style="--w:76%"><span class="av-crit">Modération et sécurité</span><span class="av-crit-n">Bon</span><span class="av-crit-bar" aria-hidden="true"></span></li>
+            <li style="--w:60%"><span class="av-crit">Rapport qualité-prix</span><span class="av-crit-n">Correct</span><span class="av-crit-bar" aria-hidden="true"></span></li>
+          </ul>
+          <p class="av-ressorti-note">Appréciations de la rédaction. La note sur 5 suit <a href="/notre-methode/">notre grille de notation</a>, commune à tous les sites.</p>
+        </figure>
       </div>
     </section>
 
-    <div class="review-shell">
-    <article class="review-body">
-
-    <section class="review-section">
-      <div class="container review-prose">
-        <div class="scorecard">
-          <p class="scorecard-title">Notre notation détaillée, critère par critère</p>
-          <div class="score-row">
-            <div class="score-head"><span class="score-crit">Expérience mobile et interface</span><span class="score-label">Excellent</span></div>
-            <div class="score-track"><div class="score-fill" style="width:92%"></div></div>
-          </div>
-          <div class="score-row">
-            <div class="score-head"><span class="score-crit">Simplicité d'usage</span><span class="score-label">Excellent</span></div>
-            <div class="score-track"><div class="score-fill" style="width:92%"></div></div>
-          </div>
-          <div class="score-row">
-            <div class="score-head"><span class="score-crit">Qualité des profils</span><span class="score-label">Très bon</span></div>
-            <div class="score-track"><div class="score-fill" style="width:84%"></div></div>
-          </div>
-          <div class="score-row">
-            <div class="score-head"><span class="score-crit">Modération et sécurité</span><span class="score-label">Bon</span></div>
-            <div class="score-track"><div class="score-fill" style="width:76%"></div></div>
-          </div>
-          <div class="score-row">
-            <div class="score-head"><span class="score-crit">Rapport qualité-prix</span><span class="score-label">Correct</span></div>
-            <div class="score-track"><div class="score-fill" style="width:60%"></div></div>
-          </div>
+    <!-- Corps de l'avis, avec sommaire collant -->
+    <div class="av-corps">
+      <aside class="av-cote" aria-label="Dans cet avis">
+        <div class="av-cote-carte">
+          <p class="av-cote-nom">Spiice <span>4,4<small>/5</small></span></p>
+          <p class="av-cote-acc">Téléchargement gratuit, options premium disponibles</p>
+          <a class="btn-site" href="/go/spiice/" rel="sponsored nofollow noopener" target="_blank">Voir le site</a>
+          <p class="av-cote-t">Dans cet avis</p>
+          <ol class="av-sommaire" data-sommaire>
+            <li><a href="#presentation">Spiice, c'est quoi ?</a></li>
+            <li><a href="#public">À qui s'adresse Spiice ?</a></li>
+            <li><a href="#fonctionnement">Comment fonctionne l'app Spiice ?</a></li>
+            <li><a href="#tarifs">Tarifs et abonnement Spiice</a></li>
+            <li><a href="#fiabilite">Spiice est-il fiable ?</a></li>
+            <li><a href="#verdict">Notre verdict</a></li>
+            <li><a href="#faq">Questions fréquentes</a></li>
+          </ol>
         </div>
-      </div>
-    </section>
-
-    <nav class="page-toc" aria-label="Sommaire de l'avis">
-      <div class="container">
-        <h2 class="page-toc-title">Au sommaire</h2>
-        <ol class="page-toc-list">
-          <li><a href="#presentation">Spiice, c'est quoi ?</a></li>
-          <li><a href="#public">À qui s'adresse Spiice ?</a></li>
-          <li><a href="#fonctionnement">Comment fonctionne l'app Spiice ?</a></li>
-          <li><a href="#tarifs">Tarifs et abonnement Spiice</a></li>
-          <li><a href="#fiabilite">Spiice est-il fiable ?</a></li>
-          <li><a href="#verdict">Notre verdict</a></li>
-          <li><a href="#faq">Questions fréquentes</a></li>
-        </ol>
-      </div>
-    </nav>
-
-    <section id="presentation" class="review-section">
-      <div class="container review-prose">
+      </aside>
+      <article class="av-article">
+      <section id="presentation" class="av-sec">
+        <span class="av-motif av-motif--telephone" aria-hidden="true"></span>
+        <div class="av-prose">
         <h2>Spiice, c'est quoi ?</h2>
         <p><strong>Spiice</strong> appartient à cette nouvelle génération d'<strong>applications de rencontre mobiles</strong> qui misent tout sur le smartphone et sur une expérience « snack » : des interactions rapides, des notifications de match qui font sourire, et une ambiance colorée qui rappelle qu'au-delà de la recherche de l'âme sœur, la rencontre peut aussi être un plaisir ludique.</p>
         <p>Le parti pris visuel de Spiice tranche avec les plateformes historiques : c'est immédiatement identifiable, ça marque les esprits, et ça attire un public plutôt jeune et urbain. Pas de version web complète : la plateforme est <strong>100% mobile</strong>, accessible exclusivement via l'app sur iOS et Android.</p>
         <p>En 2026, Spiice s'est solidement installée parmi les <strong>meilleures apps de rencontre</strong> en France pour les 22-38 ans, en complément des leaders historiques. Elle ne vise pas les mêmes intentions que Meetic ou eDarling, mais sa proposition se tient sur ses propres terres.</p>
-      </div>
-    </section>
+        </div>
+      </section>
 
-    <section id="public" class="review-section">
-      <div class="container review-prose">
+      <section id="public" class="av-sec">
+        <span class="av-motif av-motif--cafe" aria-hidden="true"></span>
+        <div class="av-prose">
         <h2>À qui s'adresse Spiice ?</h2>
         <p>Spiice vise en priorité la tranche <strong>22 à 38 ans</strong>, les actifs urbains qui ont peu de temps et veulent une app simple, directe, avec une bonne proposition visuelle. C'est aussi une option intéressante pour celles et ceux qui sortent d'une relation longue et veulent retrouver le plaisir de flirter sans pression immédiate.</p>
 
@@ -252,12 +283,9 @@
         <h3>Quand choisir Spiice plutôt qu'un autre site ?</h3>
         <p>Si vous voulez une app fluide, ludique et que vous habitez en ville, Spiice est l'un des meilleurs choix en 2026. Si vous cherchez en revanche une <strong>relation sérieuse</strong> et durable, Meetic, Infinite Rencontre ou eDarling sont mieux taillés pour cet objectif. Spiice peut aussi être combiné avec une plateforme plus engageante pour multiplier les angles.</p>
 
-        <div class="fit-grid">
-          <div class="fit-col fit-col--yes">
-            <h4>
-              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="9" stroke="currentColor" stroke-width="2"/><path d="M8 12.5l2.5 2.5 5-5.5" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
-              Foncez si…
-            </h4>
+        <div class="av-fit">
+          <div class="av-fit-col av-fit-oui">
+            <h4>Foncez si…</h4>
             <ul>
               <li>Vous avez entre 22 et 38 ans et vous vivez en ville</li>
               <li>Vous voulez une app mobile fluide, colorée et sans friction</li>
@@ -265,11 +293,8 @@
               <li>Vous préférez flirter sans pression plutôt que vous engager tout de suite</li>
             </ul>
           </div>
-          <div class="fit-col fit-col--no">
-            <h4>
-              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="9" stroke="currentColor" stroke-width="2"/><path d="M9 9l6 6M15 9l-6 6" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
-              Passez votre chemin si…
-            </h4>
+          <div class="av-fit-col av-fit-non">
+            <h4>Passez votre chemin si…</h4>
             <ul>
               <li>Vous visez d'emblée une relation sérieuse et durable</li>
               <li>Vous voulez une version web complète et pas seulement une app</li>
@@ -278,11 +303,12 @@
             </ul>
           </div>
         </div>
-      </div>
-    </section>
+        </div>
+      </section>
 
-    <section id="fonctionnement" class="review-section">
-      <div class="container review-prose">
+      <section id="fonctionnement" class="av-sec">
+        <span class="av-motif av-motif--loupe" aria-hidden="true"></span>
+        <div class="av-prose">
         <h2>Comment fonctionne l'app Spiice ?</h2>
         <p>Le fonctionnement de Spiice s'inscrit dans la logique des apps de dating mobiles : inscription rapide, profil concis, swipe, match, conversation. La singularité tient à l'attention portée aux détails et à une ergonomie qui élimine les frictions.</p>
 
@@ -297,11 +323,12 @@
 
         <h3>Les fonctionnalités premium Spiice</h3>
         <p>L'abonnement <strong>Spiice premium</strong> débloque les boosts (mise en avant temporaire), les filtres avancés (taille, mode de vie, intentions), la possibilité de revenir sur un swipe et la lecture des likes reçus. La version gratuite reste utilisable sans frustration majeure pour qui démarre.</p>
-      </div>
-    </section>
+        </div>
+      </section>
 
-    <section id="tarifs" class="review-section">
-      <div class="container review-prose">
+      <section id="tarifs" class="av-sec">
+        <span class="av-motif av-motif--lettre" aria-hidden="true"></span>
+        <div class="av-prose">
         <h2>Tarifs et abonnement Spiice</h2>
         <p>La question des <strong>tarifs Spiice</strong> est moins centrale que sur Meetic ou eDarling puisque la version gratuite donne déjà accès aux fonctionnalités essentielles. L'abonnement vient en complément pour qui veut accélérer.</p>
 
@@ -315,15 +342,16 @@
           <li><strong>3 mois</strong> : compromis classique, baisse du tarif au mois.</li>
           <li><strong>6 mois</strong> : tarif mensuel le plus avantageux.</li>
         </ul>
-        <p class="review-note">Tarifs vérifiés en avril 2026, susceptibles d'évoluer. Le détail à jour est affiché dans l'application avant la souscription, via les stores Apple ou Google.</p>
+        <p class="av-note">Les montants varient selon les promotions en cours&nbsp;: le tarif exact apparaît dans l'application, via l'App Store ou Google Play, avant toute souscription.</p>
 
         <h3>Comment se désabonner de Spiice</h3>
         <p>Comme la plupart des applications mobiles, le <strong>désabonnement Spiice</strong> se fait directement depuis les réglages de votre compte Apple ou Google, dans la section abonnements. L'abonnement reste actif jusqu'à la fin de la période en cours, sans renouvellement automatique une fois la résiliation enregistrée.</p>
-      </div>
-    </section>
+        </div>
+      </section>
 
-    <section id="fiabilite" class="review-section">
-      <div class="container review-prose">
+      <section id="fiabilite" class="av-sec">
+        <span class="av-motif av-motif--plume" aria-hidden="true"></span>
+        <div class="av-prose">
         <h2>Spiice est-il fiable ?</h2>
         <p>La <strong>fiabilité Spiice</strong> est un point souvent posé pour les apps mobiles, où la modération peut parfois laisser à désirer. Sur ce critère, Spiice tient son rang en 2026.</p>
 
@@ -335,133 +363,110 @@
 
         <h3>Sécurité des paiements via les stores</h3>
         <p>Le paiement passe par <strong>Apple App Store</strong> ou <strong>Google Play</strong>, donc avec les garanties habituelles de ces plateformes. Pas de saisie directe de carte bancaire dans l'app, et la facturation reste discrète sur les relevés. C'est l'un des avantages des apps 100% mobiles sur la sécurité du paiement.</p>
-      </div>
-    </section>
+        </div>
+      </section>
 
-    <section id="verdict" class="review-section">
-      <div class="container review-prose">
+      <section id="verdict" class="av-sec">
+        <span class="av-motif av-motif--avion" aria-hidden="true"></span>
+        <div class="av-prose">
         <h2>Notre verdict sur Spiice</h2>
         <p>Au terme de quatre semaines de test, on classe Spiice sans hésiter parmi les <strong>meilleures apps de rencontre</strong> du marché français en 2026. Ce qui nous a séduits, ce n'est pas la promesse, c'est l'expérience : on a vraiment pris plaisir à l'ouvrir chaque jour, et ça, dans cette catégorie, on le voit rarement.</p>
         <p>Pour les <strong>22-38 ans urbains</strong> qui veulent une app fluide, colorée et engageante, notre choix est tranché : c'est une évidence. Si votre objectif est plutôt une <strong>relation sérieuse</strong> à long terme, on vous orientera honnêtement vers Meetic ou Infinite Rencontre, mieux alignés sur cette intention. Et rien ne vous empêche, comme nous le faisons souvent, de garder Spiice en complément pour jouer sur plusieurs tableaux.</p>
 
-        <div class="edito-note">
-          <span class="edito-note-tag">
-            <svg width="15" height="15" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M12 3l2.5 5.5L20 9l-4 4 1 6-5-3-5 3 1-6-4-4 5.5-.5z" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/></svg>
-            Le parti pris de la rédaction
-          </span>
-          <p>Spiice n'est pas l'app où l'on signe pour la vie, c'est celle où l'on reprend goût au jeu. Si vous sortez d'une longue relation ou que vous saturez des géants du swipe, arrêtez de tergiverser : téléchargez-la, le ticket d'entrée gratuit ne vous engage à rien.</p>
-        </div>
+        <aside class="av-parti">
+          <p class="av-parti-t">Le parti pris de la rédaction</p>
+          <blockquote><p>Spiice n'est pas l'app où l'on signe pour la vie, c'est celle où l'on reprend goût au jeu. Si vous sortez d'une longue relation ou que vous saturez des géants du swipe, arrêtez de tergiverser : téléchargez-la, le ticket d'entrée gratuit ne vous engage à rien.</p></blockquote>
+        </aside>
 
         <p class="see-also"><strong>Pour aller plus loin :</strong> confrontez Spiice aux autres applications dans notre <a href="/comparatif-relation-serieuse/">comparatif des sites de rencontre sérieux 2026</a>, et évitez les pièges avec nos guides pour <a href="/guide/profil-attractif/">créer un profil attractif</a> et <a href="/guide/faux-profils/">repérer un faux profil</a>.</p>
+        <div class="av-conclure">
+          <p class="av-conclure-acc"><span>Accès</span>Téléchargement gratuit, options premium disponibles</p>
+          <div class="av-actions">
+            <a class="btn-site" href="/go/spiice/" rel="sponsored nofollow noopener" target="_blank">Voir le site Spiice</a>
+            <a class="btn-coeur" href="/avis/"><svg class="btn-coeur-ico" width="15" height="14" viewBox="0 0 24 22" aria-hidden="true"><path d="M12 20.3s-8.8-5.3-8.8-11.4A4.9 4.9 0 0 1 12 6.1a4.9 4.9 0 0 1 8.8 2.8c0 6.1-8.8 11.4-8.8 11.4z"/></svg><span>Comparer avec nos autres avis</span><svg class="btn-coeur-fl" width="18" height="10" viewBox="0 0 18 10" fill="none" aria-hidden="true"><path d="M1 5h15M12 1l4 4-4 4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg></a>
+          </div>
+        </div>
+        </div>
+      </section>
+      </article>
+    </div>
 
-        <aside class="cta-box">
-          <div class="access-meta">
-            <span class="access-label">Accès</span>
-            <span>Téléchargement gratuit · Options premium disponibles</span>
+      <section class="av-auteur">
+        <span class="av-motif av-motif--plume" aria-hidden="true"></span>
+        <div class="container av-auteur-grille" data-reveal>
+          <span class="av-auteur-img"><img src="/assets/auteurs/bastien.webp" alt="Portrait de Bastien" width="320" height="320" loading="lazy"></span>
+          <div>
+            <p class="av-auteur-k">Testé et rédigé par</p>
+            <p class="av-auteur-nom">Bastien</p>
+            <p class="av-auteur-role">Rédacteur · analyse de plateformes et SEO</p>
+            <p class="av-auteur-bio">Je décortique chaque plateforme avec une approche pratique : inscription, navigation, messagerie, modération, rapport qualité-prix.</p>
+            <a class="btn-coeur" href="/auteurs/bastien/"><svg class="btn-coeur-ico" width="15" height="14" viewBox="0 0 24 22" aria-hidden="true"><path d="M12 20.3s-8.8-5.3-8.8-11.4A4.9 4.9 0 0 1 12 6.1a4.9 4.9 0 0 1 8.8 2.8c0 6.1-8.8 11.4-8.8 11.4z"/></svg><span>Tous les avis de Bastien</span><svg class="btn-coeur-fl" width="18" height="10" viewBox="0 0 18 10" fill="none" aria-hidden="true"><path d="M1 5h15M12 1l4 4-4 4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg></a>
           </div>
-          <a href="/go/spiice/" class="btn btn-primary" rel="sponsored nofollow noopener" target="_blank">
-            Télécharger Spiice
-            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
-          </a>
-        </aside>
-      </div>
-    </section>
+        </div>
+      </section>
 
-    <section class="review-section">
-      <div class="container review-prose">
-        <div class="author-box">
-          <div class="author-photo">
-            <img src="/assets/auteurs/bastien.webp" alt="Photo de Bastien" width="84" height="84" loading="lazy">
-          </div>
-          <div class="author-body">
-            <p class="author-eyebrow">Rédigé et testé par</p>
-            <p class="author-name">Bastien</p>
-            <p class="author-role">Rédacteur · analyse de plateformes et SEO</p>
-            <p class="author-bio">Je décortique chaque plateforme avec une approche pratique : inscription, navigation, messagerie, modération, rapport qualité-prix.</p>
-            <a class="author-link" href="/auteurs/bastien/">Voir tous ses avis →</a>
-          </div>
+    <!-- FAQ -->
+    <section id="faq" class="av-faq">
+      <span class="av-motif av-motif--bulles" aria-hidden="true"></span>
+      <div class="container av-faq-grille">
+        <header data-reveal>
+          <h2 class="av-h2">Questions fréquentes sur Spiice</h2>
+          <p class="av-texte">Une autre question, une erreur à signaler&nbsp;? La rédaction vous lit.</p>
+          <a class="btn-coeur" href="/contact/"><svg class="btn-coeur-ico" width="15" height="14" viewBox="0 0 24 22" aria-hidden="true"><path d="M12 20.3s-8.8-5.3-8.8-11.4A4.9 4.9 0 0 1 12 6.1a4.9 4.9 0 0 1 8.8 2.8c0 6.1-8.8 11.4-8.8 11.4z"/></svg><span>Contacter la rédaction</span><svg class="btn-coeur-fl" width="18" height="10" viewBox="0 0 18 10" fill="none" aria-hidden="true"><path d="M1 5h15M12 1l4 4-4 4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg></a>
+        </header>
+        <div class="av-qa" data-reveal>
+            <details>
+              <summary>Spiice est-il gratuit ?</summary>
+              <p>Le <strong>téléchargement et l'inscription Spiice</strong> sont gratuits. Vous pouvez créer votre profil, recevoir des matches et engager des conversations sans payer. Certaines fonctionnalités comme les boosts ou les filtres avancés sont réservées au premium.</p>
+            </details>
+            <details>
+              <summary>Combien coûte un abonnement Spiice ?</summary>
+              <p>L'<strong>abonnement Spiice premium</strong> se décline en plusieurs durées (1, 3 ou 6 mois) avec des tarifs dégressifs sur les engagements longs. Compter une dizaine d'euros par mois sur les forfaits longs.</p>
+            </details>
+            <details>
+              <summary>Spiice est-il disponible sur Android et iOS ?</summary>
+              <p>Oui. L'<strong>application Spiice</strong> est disponible sur l'App Store et Google Play. C'est une plateforme 100% mobile, sans version web complète : tout passe par l'app.</p>
+            </details>
+            <details>
+              <summary>Spiice est-il fiable et sécurisé ?</summary>
+              <p>Oui. Spiice applique une <strong>modération active</strong> sur les profils, propose un signalement direct et respecte le RGPD. Les paiements passent par Apple App Store ou Google Play, avec les garanties habituelles de ces plateformes.</p>
+            </details>
+            <details>
+              <summary>Comment se désabonner de Spiice ?</summary>
+              <p>Le <strong>désabonnement Spiice</strong> se fait directement depuis les réglages de votre compte Apple ou Google, dans la section abonnements. L'abonnement reste actif jusqu'à la fin de la période en cours, sans renouvellement automatique une fois la résiliation enregistrée.</p>
+            </details>
+            <details>
+              <summary>Spiice ou Tinder, lequel choisir ?</summary>
+              <p>Tinder reste la référence en volume pur. Spiice mise sur une expérience plus soignée, une communauté plus qualitative et une ambiance moins instantanée. Pour qui veut sortir des grandes apps généralistes sans renoncer au format mobile, Spiice est l'alternative la plus crédible en France en 2026.</p>
+            </details>
         </div>
       </div>
     </section>
 
-    <section id="faq" class="faq">
+    <!-- Autres avis -->
+    <section class="av-autres">
       <div class="container">
-        <header class="section-head">
-          <h2>Questions fréquentes sur Spiice</h2>
-        </header>
-
-        <details class="faq-item">
-          <summary>Spiice est-il gratuit ?</summary>
-          <p>Le <strong>téléchargement et l'inscription Spiice</strong> sont gratuits. Vous pouvez créer votre profil, recevoir des matches et engager des conversations sans payer. Certaines fonctionnalités comme les boosts ou les filtres avancés sont réservées au premium.</p>
-        </details>
-
-        <details class="faq-item">
-          <summary>Combien coûte un abonnement Spiice ?</summary>
-          <p>L'<strong>abonnement Spiice premium</strong> se décline en plusieurs durées (1, 3 ou 6 mois) avec des tarifs dégressifs sur les engagements longs. Compter une dizaine d'euros par mois sur les forfaits longs.</p>
-        </details>
-
-        <details class="faq-item">
-          <summary>Spiice est-il disponible sur Android et iOS ?</summary>
-          <p>Oui. L'<strong>application Spiice</strong> est disponible sur l'App Store et Google Play. C'est une plateforme 100% mobile, sans version web complète : tout passe par l'app.</p>
-        </details>
-
-        <details class="faq-item">
-          <summary>Spiice est-il fiable et sécurisé ?</summary>
-          <p>Oui. Spiice applique une <strong>modération active</strong> sur les profils, propose un signalement direct et respecte le RGPD. Les paiements passent par Apple App Store ou Google Play, avec les garanties habituelles de ces plateformes.</p>
-        </details>
-
-        <details class="faq-item">
-          <summary>Comment se désabonner de Spiice ?</summary>
-          <p>Le <strong>désabonnement Spiice</strong> se fait directement depuis les réglages de votre compte Apple ou Google, dans la section abonnements. L'abonnement reste actif jusqu'à la fin de la période en cours, sans renouvellement automatique une fois la résiliation enregistrée.</p>
-        </details>
-
-        <details class="faq-item">
-          <summary>Spiice ou Tinder, lequel choisir ?</summary>
-          <p>Tinder reste la référence en volume pur. Spiice mise sur une expérience plus soignée, une communauté plus qualitative et une ambiance moins instantanée. Pour qui veut sortir des grandes apps généralistes sans renoncer au format mobile, Spiice est l'alternative la plus crédible en France en 2026.</p>
-        </details>
-
+        <h2 class="av-h2">Nos autres avis</h2>
+        <div class="av-autres-grille" data-reveal>
+          <a class="av-autre" href="/avis-rencontres-locales/">
+            <span class="av-autre-img"><img src="/assets/ui-rencontres-locales.webp" alt="" width="1000" height="474" loading="lazy"></span>
+            <span class="av-autre-tete"><span class="av-autre-nom">Rencontres Locales</span><span class="av-autre-note">4,3<small>/5</small></span></span>
+            <span class="av-autre-acc">La rencontre par proximité géographique</span>
+          </a>
+          <a class="av-autre" href="/avis-rencontres-mixtes/">
+            <span class="av-autre-img"><img src="/assets/ui-rencontres-mixtes.webp" alt="" width="2000" height="955" loading="lazy"></span>
+            <span class="av-autre-tete"><span class="av-autre-nom">Rencontres Mixtes</span><span class="av-autre-note">4,3<small>/5</small></span></span>
+            <span class="av-autre-acc">La diversité des profils et des origines</span>
+          </a>
+          <a class="av-autre" href="/avis-force-gay/">
+            <span class="av-autre-img"><img src="/assets/ui-forcegay.webp" alt="" width="2000" height="937" loading="lazy"></span>
+            <span class="av-autre-tete"><span class="av-autre-nom">Force Gay</span><span class="av-autre-note">4,3<small>/5</small></span></span>
+            <span class="av-autre-acc">La plateforme dédiée à la communauté gay</span>
+          </a>
+        </div>
+        <a class="btn-coeur" href="/avis/"><svg class="btn-coeur-ico" width="15" height="14" viewBox="0 0 24 22" aria-hidden="true"><path d="M12 20.3s-8.8-5.3-8.8-11.4A4.9 4.9 0 0 1 12 6.1a4.9 4.9 0 0 1 8.8 2.8c0 6.1-8.8 11.4-8.8 11.4z"/></svg><span>Voir tous nos avis</span><svg class="btn-coeur-fl" width="18" height="10" viewBox="0 0 18 10" fill="none" aria-hidden="true"><path d="M1 5h15M12 1l4 4-4 4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg></a>
       </div>
     </section>
-
-    </article>
-
-    <aside class="review-sidebar">
-      <div class="aside-block">
-        <p class="aside-title">Nos autres avis</p>
-
-        <a href="avis-meetic/" class="aside-card">
-          <span class="aside-logo"><img src="/assets/logo-meetic.png" alt="Logo Meetic" loading="lazy"></span>
-          <span class="aside-info"><span class="aside-name">Meetic</span><span class="aside-rate"><strong>4,6</strong>/5 · la référence des relations durables</span></span>
-        </a>
-
-        <a href="avis-infinite-rencontre/" class="aside-card">
-          <span class="aside-logo"><img src="/assets/logo-infinite.png" alt="Logo Infinite Rencontre" loading="lazy"></span>
-          <span class="aside-info"><span class="aside-name">Infinite Rencontre</span><span class="aside-rate"><strong>4,5</strong>/5 · moderne, 25-45 ans</span></span>
-        </a>
-
-        <a href="avis-edarling/" class="aside-card">
-          <span class="aside-logo"><img src="/assets/logo-edarling.svg" alt="Logo eDarling" loading="lazy"></span>
-          <span class="aside-info"><span class="aside-name">eDarling</span><span class="aside-rate"><strong>4,4</strong>/5 · exigeants 30-55 ans</span></span>
-        </a>
-
-        <a href="avis-rencontres-locales/" class="aside-card">
-          <span class="aside-logo"><img src="/assets/logo-rencontres-locales.png" alt="Logo Rencontres Locales" loading="lazy"></span>
-          <span class="aside-info"><span class="aside-name">Rencontres Locales</span><span class="aside-rate"><strong>4,3</strong>/5 · proximité</span></span>
-        </a>
-
-        <a href="avis-rencontres-mixtes/" class="aside-card">
-          <span class="aside-logo"><img src="/assets/logo-rencontres-mixtes.png" alt="Logo Rencontres Mixtes" loading="lazy"></span>
-          <span class="aside-info"><span class="aside-name">Rencontres Mixtes</span><span class="aside-rate"><strong>4,3</strong>/5 · diversité</span></span>
-        </a>
-
-        <a href="/avis/" class="aside-all">Voir nos 8 avis
-          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
-        </a>
-      </div>
-    </aside>
-
-    </div>
-
   </main>
 
   <footer class="site-footer">
@@ -524,6 +529,6 @@
     </div>
   </footer>
 
-  <script src="/js/main.js?v=20261014-8"></script>
+  <script src="/js/main.js?v=20261014-10"></script>
 </body>
 </html>

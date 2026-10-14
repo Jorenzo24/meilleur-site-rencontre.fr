@@ -22,7 +22,9 @@
   <link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon-32.png">
   <link rel="icon" type="image/png" sizes="16x16" href="/assets/favicon-16.png">
   <link rel="apple-touch-icon" sizes="180x180" href="/assets/favicon-180.png">
-  <link rel="stylesheet" href="/css/style.css?v=20261014-8">
+  <link rel="preload" href="/assets/fonts/bodoni-moda.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="/css/style.css?v=20261014-10">
+  <link rel="stylesheet" href="/css/avis.css?v=20261014-10">
 
   <script type="application/ld+json">
   {
@@ -42,15 +44,26 @@
     "@type": "Product",
     "name": "Rencontres Locales",
     "description": "Plateforme de rencontre qui privilégie la proximité géographique comme premier critère de matching, idéale hors des grandes métropoles.",
-    "brand": { "@type": "Brand", "name": "Rencontres Locales" },
+    "brand": {
+      "@type": "Brand",
+      "name": "Rencontres Locales"
+    },
     "image": "https://meilleur-site-rencontre.fr/assets/ui-rencontres-locales.jpg",
-    "aggregateRating": { "@type": "AggregateRating", "ratingValue": "4.3", "bestRating": "5", "ratingCount": "2940" },
     "review": {
       "@type": "Review",
-      "author": { "@type": "Person", "name": "Lucie", "url": "https://meilleur-site-rencontre.fr/auteurs/lucie/" },
+      "author": {
+        "@type": "Person",
+        "name": "Lucie",
+        "url": "https://meilleur-site-rencontre.fr/auteurs/lucie/"
+      },
       "datePublished": "2026-04-27",
       "dateModified": "2026-06-23",
-      "reviewRating": { "@type": "Rating", "ratingValue": "4.3", "bestRating": "5", "worstRating": "1" },
+      "reviewRating": {
+        "@type": "Rating",
+        "ratingValue": "4.3",
+        "bestRating": "5",
+        "worstRating": "1"
+      },
       "reviewBody": "Rencontres Locales répond à un besoin concret : rencontrer des personnes vraiment proches de chez soi, particulièrement pertinent hors des grandes métropoles. Interface sans fioritures, tchat intégré, matching géographique solide."
     }
   }
@@ -61,11 +74,54 @@
     "@context": "https://schema.org",
     "@type": "FAQPage",
     "mainEntity": [
-      { "@type": "Question", "name": "Rencontres Locales est-il gratuit ?", "acceptedAnswer": { "@type": "Answer", "text": "L'inscription Rencontres Locales est gratuite. Vous pouvez créer un profil, consulter les suggestions géolocalisées et engager certaines conversations sans payer. Une partie des fonctionnalités de messagerie reste réservée au premium." } },
-      { "@type": "Question", "name": "Comment fonctionne le matching géographique ?", "acceptedAnswer": { "@type": "Answer", "text": "Rencontres Locales place la distance comme premier critère du matching. Les suggestions sont classées par proximité (votre ville, puis votre département) avant d'élargir le rayon, plutôt que de mélanger d'emblée toutes les régions." } },
-      { "@type": "Question", "name": "Combien coûte un abonnement Rencontres Locales ?", "acceptedAnswer": { "@type": "Answer", "text": "Les tarifs Rencontres Locales s'alignent sur les standards du marché des sites de rencontre généralistes, avec des forfaits 1, 3 ou 6 mois et un coût mensuel dégressif sur les durées longues." } },
-      { "@type": "Question", "name": "Rencontres Locales fonctionne-t-il hors des grandes villes ?", "acceptedAnswer": { "@type": "Answer", "text": "Oui, et c'est même son terrain de prédilection. La plateforme est particulièrement utile en zone péri-urbaine, dans les villes moyennes et dans les territoires moins denses où les apps généralistes peinent à proposer des profils proches." } },
-      { "@type": "Question", "name": "Comment se désabonner de Rencontres Locales ?", "acceptedAnswer": { "@type": "Answer", "text": "La résiliation Rencontres Locales se fait depuis l'espace abonnement de votre compte. L'abonnement reste actif jusqu'à la fin de la période en cours, sans renouvellement automatique une fois la résiliation enregistrée." } }
+      {
+        "@type": "Question",
+        "name": "Rencontres Locales est-il gratuit ?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "L'inscription Rencontres Locales est gratuite. Vous pouvez créer un profil, consulter les suggestions géolocalisées et engager certaines conversations sans payer. Une partie des fonctionnalités de messagerie reste réservée au premium."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Comment fonctionne le matching géographique ?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Rencontres Locales place la distance comme premier critère du matching. Les suggestions sont classées par proximité (votre ville, puis votre département) avant d'élargir le rayon, plutôt que de mélanger d'emblée toutes les régions."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Combien coûte un abonnement Rencontres Locales ?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Les tarifs Rencontres Locales s'alignent sur les standards du marché des sites de rencontre généralistes, avec des forfaits 1, 3 ou 6 mois et un coût mensuel dégressif sur les durées longues."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Rencontres Locales fonctionne-t-il hors des grandes villes ?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Oui, et c'est même son terrain de prédilection. La plateforme est particulièrement utile en zone péri-urbaine, dans les villes moyennes et dans les territoires moins denses où les apps généralistes peinent à proposer des profils proches."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Comment se désabonner de Rencontres Locales ?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "La résiliation Rencontres Locales se fait depuis l'espace abonnement de votre compte. L'abonnement reste actif jusqu'à la fin de la période en cours, sans renouvellement automatique une fois la résiliation enregistrée."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Mes données de localisation sont-elles protégées ?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Oui. Rencontres Locales est conforme au RGPD et la précision de la localisation peut être ajustée dans les paramètres pour ne pas exposer votre adresse exacte. Vous gardez le contrôle sur ce qui est partagé."
+        }
+      }
     ]
   }
   </script>
@@ -102,56 +158,57 @@
     </div>
   </header>
 
-  <main id="main" class="review-page">
+  <main id="main" class="av">
 
-    <nav class="breadcrumb" aria-label="Fil d'Ariane">
+    <!-- Ouverture -->
+    <section class="av-ouverture">
+      <span class="av-motif av-motif--loupe" aria-hidden="true"></span>
       <div class="container">
-        <ol>
-          <li><a href="/">Accueil</a></li>
-          <li><a href="/avis/">Avis</a></li>
-          <li aria-current="page">Rencontres Locales</li>
-        </ol>
-      </div>
-    </nav>
-
-    <section class="review-hero">
-      <div class="container review-hero-grid">
-        <div class="review-hero-text">
-          <p class="eyebrow">Avis Rencontres Locales</p>
-          <h1>Avis Rencontres Locales 2026 : test, tarifs et verdict</h1>
-          <p class="lede">Quatre semaines à utiliser Rencontres Locales pour vérifier ce que vaut vraiment cette plateforme qui place la proximité géographique au cœur du matching, particulièrement pertinente hors des grandes métropoles.</p>
-          <p class="review-meta">
-            <span class="review-meta-rating" aria-label="Note 4,3 sur 5"><strong>4,3</strong>/5</span>
-            <span>Par <a href="/auteurs/lucie/">Lucie</a></span>
-            <span>Mise à jour le 23 juin 2026</span>
-            <span><a href="/notre-methode/">Test mené sur 4 semaines</a></span>
-          </p>
-        </div>
-        <div class="review-hero-image">
-          <img src="/assets/ui-rencontres-locales.webp" alt="Capture de l'interface Rencontres Locales montrant un profil et un tchat intégré" width="1000" height="500" fetchpriority="high">
+        <nav class="breadcrumb" aria-label="Fil d'Ariane">
+          <ol>
+            <li><a href="/">Accueil</a></li>
+            <li><a href="/avis/">Avis</a></li>
+            <li aria-current="page">Rencontres Locales</li>
+          </ol>
+        </nav>
+        <div class="av-ouverture-grille">
+          <div class="av-ouverture-texte">
+            <h1>Avis Rencontres Locales 2026 : test, tarifs et verdict</h1>
+            <p class="av-lede">Quatre semaines à utiliser Rencontres Locales pour vérifier ce que vaut vraiment cette plateforme qui place la proximité géographique au cœur du matching, particulièrement pertinente hors des grandes métropoles.</p>
+            <div class="av-signature">
+              <img src="/assets/auteurs/lucie.webp" alt="" width="44" height="44">
+              <p>Par <a href="/auteurs/lucie/">Lucie</a>, mis à jour le 23 juin 2026<br><a href="/notre-methode/">Test mené sur quatre semaines</a></p>
+            </div>
+            <div class="av-ouverture-note">
+              <p class="av-note-grande"><span>4,3</span>/5</p>
+              <div class="av-actions">
+                <a class="btn-site" href="/go/rencontres-locales/" rel="sponsored nofollow noopener" target="_blank">Voir le site</a>
+                <a class="btn-coeur" href="#verdict"><svg class="btn-coeur-ico" width="15" height="14" viewBox="0 0 24 22" aria-hidden="true"><path d="M12 20.3s-8.8-5.3-8.8-11.4A4.9 4.9 0 0 1 12 6.1a4.9 4.9 0 0 1 8.8 2.8c0 6.1-8.8 11.4-8.8 11.4z"/></svg><span>Lire notre verdict</span><svg class="btn-coeur-fl" width="18" height="10" viewBox="0 0 18 10" fill="none" aria-hidden="true"><path d="M1 5h15M12 1l4 4-4 4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg></a>
+              </div>
+            </div>
+            <p class="av-acces">Inscription gratuite, options premium disponibles</p>
+          </div>
+          <figure class="av-capture">
+            <span class="av-capture-barre"><span>Capture d'écran</span><span>Rencontres Locales</span></span>
+            <img src="/assets/ui-rencontres-locales.webp" alt="Capture de l'interface Rencontres Locales montrant un profil et un tchat intégré" width="1000" height="474" fetchpriority="high">
+          </figure>
         </div>
       </div>
     </section>
 
-    <section class="verdict">
+    <!-- L'essentiel -->
+    <section class="av-essentiel" aria-labelledby="essentiel">
       <div class="container">
-        <div class="verdict-card">
-          <div class="verdict-card-head">
-            <div class="verdict-brand">
-              <img src="/assets/logo-rencontres-locales.png" alt="Logo Rencontres Locales" width="160" height="37" loading="lazy">
-            </div>
-            <div class="verdict-rating" aria-label="Note 4,3 sur 5">
-              <span class="verdict-rating-num">4,3</span>
-              <span class="verdict-rating-out">/5</span>
-            </div>
-          </div>
-
-          <p class="verdict-summary">Rencontres Locales n'est pas la plateforme la plus innovante de notre panel. Sur nos quatre semaines d'usage, c'est pourtant l'outil qui nous a le mieux aidés à rencontrer des personnes <strong>vraiment proches de chez soi</strong>, sans perdre de temps avec des profils situés à 300 km. Pour nous, c'est une option solide, surtout si vous ne vivez pas dans une grande métropole.</p>
-
-          <div class="pros-cons">
-            <div class="pros">
-              <h2 class="pros-cons-title">Points forts</h2>
-              <ul>
+        <h2 id="essentiel" class="av-h2">L'essentiel</h2>
+        <div class="av-essentiel-grille">
+          <blockquote class="av-resume" data-reveal>
+            <p>Rencontres Locales n'est pas la plateforme la plus innovante de notre panel. Sur nos quatre semaines d'usage, c'est pourtant l'outil qui nous a le mieux aidés à rencontrer des personnes <strong>vraiment proches de chez soi</strong>, sans perdre de temps avec des profils situés à 300 km. Pour nous, c'est une option solide, surtout si vous ne vivez pas dans une grande métropole.</p>
+            <footer><img src="/assets/auteurs/lucie.webp" alt="" width="36" height="36" loading="lazy"><span><a href="/auteurs/lucie/">Lucie</a>, après quatre semaines de test</span></footer>
+          </blockquote>
+          <div class="av-plusmoins" data-reveal>
+            <div>
+              <h3>Points forts</h3>
+              <ul class="av-plus">
                 <li>Matching géographique placé au cœur du fonctionnement</li>
                 <li>Interface claire, sans fioritures inutiles</li>
                 <li>Tchat intégré pour démarrer une conversation rapidement</li>
@@ -159,9 +216,9 @@
                 <li>Inscription gratuite et rapide</li>
               </ul>
             </div>
-            <div class="cons">
-              <h2 class="pros-cons-title">Points faibles</h2>
-              <ul>
+            <div>
+              <h3>Points faibles</h3>
+              <ul class="av-moins">
                 <li>Interface moins moderne que les nouveaux acteurs</li>
                 <li>Communauté variable selon les zones géographiques</li>
                 <li>Filtres avancés réservés au premium</li>
@@ -169,75 +226,54 @@
               </ul>
             </div>
           </div>
-
-          <div class="verdict-cta">
-            <a href="/go/rencontres-locales/" class="btn btn-primary" rel="sponsored nofollow noopener" target="_blank">
-              Découvrir Rencontres Locales
-              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
-            </a>
-            <span class="verdict-cta-note">Inscription gratuite, options premium disponibles</span>
-          </div>
         </div>
+        <figure class="av-ressorti" data-reveal>
+          <figcaption>Ce qui ressort de notre test</figcaption>
+          <ul>
+            <li style="--w:92%"><span class="av-crit">Pertinence géographique et proximité</span><span class="av-crit-n">Excellent</span><span class="av-crit-bar" aria-hidden="true"></span></li>
+            <li style="--w:76%"><span class="av-crit">Qualité des profils</span><span class="av-crit-n">Bon</span><span class="av-crit-bar" aria-hidden="true"></span></li>
+            <li style="--w:84%"><span class="av-crit">Modération et sécurité</span><span class="av-crit-n">Très bon</span><span class="av-crit-bar" aria-hidden="true"></span></li>
+            <li style="--w:84%"><span class="av-crit">Simplicité d'usage</span><span class="av-crit-n">Très bon</span><span class="av-crit-bar" aria-hidden="true"></span></li>
+            <li style="--w:60%"><span class="av-crit">Rapport qualité-prix</span><span class="av-crit-n">Correct</span><span class="av-crit-bar" aria-hidden="true"></span></li>
+          </ul>
+          <p class="av-ressorti-note">Appréciations de la rédaction. La note sur 5 suit <a href="/notre-methode/">notre grille de notation</a>, commune à tous les sites.</p>
+        </figure>
       </div>
     </section>
 
-    <div class="review-shell">
-    <article class="review-body">
-
-    <section class="review-section">
-      <div class="container review-prose">
-        <div class="scorecard">
-          <p class="scorecard-title">Notre notation détaillée, critère par critère</p>
-          <div class="score-row">
-            <div class="score-head"><span class="score-crit">Pertinence géographique et proximité</span><span class="score-label">Excellent</span></div>
-            <div class="score-track"><div class="score-fill" style="width:92%"></div></div>
-          </div>
-          <div class="score-row">
-            <div class="score-head"><span class="score-crit">Qualité des profils</span><span class="score-label">Bon</span></div>
-            <div class="score-track"><div class="score-fill" style="width:76%"></div></div>
-          </div>
-          <div class="score-row">
-            <div class="score-head"><span class="score-crit">Modération et sécurité</span><span class="score-label">Très bon</span></div>
-            <div class="score-track"><div class="score-fill" style="width:84%"></div></div>
-          </div>
-          <div class="score-row">
-            <div class="score-head"><span class="score-crit">Simplicité d'usage</span><span class="score-label">Très bon</span></div>
-            <div class="score-track"><div class="score-fill" style="width:84%"></div></div>
-          </div>
-          <div class="score-row">
-            <div class="score-head"><span class="score-crit">Rapport qualité-prix</span><span class="score-label">Correct</span></div>
-            <div class="score-track"><div class="score-fill" style="width:60%"></div></div>
-          </div>
+    <!-- Corps de l'avis, avec sommaire collant -->
+    <div class="av-corps">
+      <aside class="av-cote" aria-label="Dans cet avis">
+        <div class="av-cote-carte">
+          <p class="av-cote-nom">Rencontres Locales <span>4,3<small>/5</small></span></p>
+          <p class="av-cote-acc">Inscription gratuite, options premium disponibles</p>
+          <a class="btn-site" href="/go/rencontres-locales/" rel="sponsored nofollow noopener" target="_blank">Voir le site</a>
+          <p class="av-cote-t">Dans cet avis</p>
+          <ol class="av-sommaire" data-sommaire>
+            <li><a href="#presentation">Rencontres Locales, c'est quoi ?</a></li>
+            <li><a href="#public">À qui s'adresse Rencontres Locales ?</a></li>
+            <li><a href="#fonctionnement">Comment fonctionne le matching géographique ?</a></li>
+            <li><a href="#tarifs">Tarifs et abonnement Rencontres Locales</a></li>
+            <li><a href="#fiabilite">Rencontres Locales est-il fiable ?</a></li>
+            <li><a href="#verdict">Notre verdict</a></li>
+            <li><a href="#faq">Questions fréquentes</a></li>
+          </ol>
         </div>
-      </div>
-    </section>
-
-    <nav class="page-toc" aria-label="Sommaire de l'avis">
-      <div class="container">
-        <h2 class="page-toc-title">Au sommaire</h2>
-        <ol class="page-toc-list">
-          <li><a href="#presentation">Rencontres Locales, c'est quoi ?</a></li>
-          <li><a href="#public">À qui s'adresse Rencontres Locales ?</a></li>
-          <li><a href="#fonctionnement">Comment fonctionne le matching géographique ?</a></li>
-          <li><a href="#tarifs">Tarifs et abonnement Rencontres Locales</a></li>
-          <li><a href="#fiabilite">Rencontres Locales est-il fiable ?</a></li>
-          <li><a href="#verdict">Notre verdict</a></li>
-          <li><a href="#faq">Questions fréquentes</a></li>
-        </ol>
-      </div>
-    </nav>
-
-    <section id="presentation" class="review-section">
-      <div class="container review-prose">
+      </aside>
+      <article class="av-article">
+      <section id="presentation" class="av-sec">
+        <span class="av-motif av-motif--telephone" aria-hidden="true"></span>
+        <div class="av-prose">
         <h2>Rencontres Locales, c'est quoi ?</h2>
         <p><strong>Rencontres Locales</strong> assume un angle clair dès son nom : la <strong>proximité géographique</strong> comme premier critère de matching. Plutôt que de vous proposer des profils à l'autre bout de la France, la plateforme se concentre sur votre ville, votre département, votre zone de vie. C'est un parti pris fort, et parfois rare sur un marché où beaucoup d'apps élargissent d'emblée à toute la région.</p>
         <p>L'approche éditoriale est volontairement épurée : pas de gamification, pas d'effets visuels superflus, mais une logique de <strong>recherche par distance</strong> particulièrement utile pour qui veut rencontrer en présentiel sans multiplier les trajets. La plateforme est disponible sur le web et en application mobile.</p>
         <p>En 2026, Rencontres Locales s'est imposée comme l'une des meilleures options pour les célibataires hors des grandes métropoles, là où Tinder, Meetic ou Spiice peinent parfois à proposer un volume satisfaisant de profils proches.</p>
-      </div>
-    </section>
+        </div>
+      </section>
 
-    <section id="public" class="review-section">
-      <div class="container review-prose">
+      <section id="public" class="av-sec">
+        <span class="av-motif av-motif--cafe" aria-hidden="true"></span>
+        <div class="av-prose">
         <h2>À qui s'adresse Rencontres Locales ?</h2>
         <p>Rencontres Locales vise en priorité les célibataires qui vivent en dehors des très grandes métropoles ou qui ne veulent pas multiplier les trajets pour un premier rendez-vous. L'approche est particulièrement pertinente en <strong>zone péri-urbaine</strong> ou dans les <strong>villes moyennes</strong>, là où les apps généralistes ont souvent des communautés trop dispersées.</p>
 
@@ -247,12 +283,9 @@
         <h3>Quand choisir Rencontres Locales plutôt qu'un autre site ?</h3>
         <p>Si vous habitez dans une <strong>ville moyenne</strong>, en zone péri-urbaine ou rurale, et que vous voulez rencontrer près de chez vous, Rencontres Locales est l'une des meilleures options en 2026. Pour une recherche orientée relation sérieuse à plus large échelle, Meetic ou Infinite Rencontre restent plus indiqués. La plateforme se combine bien avec un site généraliste pour multiplier les angles.</p>
 
-        <div class="fit-grid">
-          <div class="fit-col fit-col--yes">
-            <h4>
-              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="9" stroke="currentColor" stroke-width="2"/><path d="M8 12.5l2.5 2.5 5-5.5" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
-              Foncez si…
-            </h4>
+        <div class="av-fit">
+          <div class="av-fit-col av-fit-oui">
+            <h4>Foncez si…</h4>
             <ul>
               <li>Vous voulez rencontrer vraiment près de chez vous, sans longs trajets</li>
               <li>Vous vivez en ville moyenne, en zone péri-urbaine ou rurale</li>
@@ -260,11 +293,8 @@
               <li>Vous appréciez un tchat intégré pour démarrer vite</li>
             </ul>
           </div>
-          <div class="fit-col fit-col--no">
-            <h4>
-              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="9" stroke="currentColor" stroke-width="2"/><path d="M9 9l6 6M15 9l-6 6" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
-              Passez votre chemin si…
-            </h4>
+          <div class="av-fit-col av-fit-non">
+            <h4>Passez votre chemin si…</h4>
             <ul>
               <li>Vous voulez l'interface la plus moderne et la plus ludique du marché</li>
               <li>Vous comptez sur des événements physiques organisés par la plateforme</li>
@@ -273,11 +303,12 @@
             </ul>
           </div>
         </div>
-      </div>
-    </section>
+        </div>
+      </section>
 
-    <section id="fonctionnement" class="review-section">
-      <div class="container review-prose">
+      <section id="fonctionnement" class="av-sec">
+        <span class="av-motif av-motif--loupe" aria-hidden="true"></span>
+        <div class="av-prose">
         <h2>Comment fonctionne le matching géographique ?</h2>
         <p>Le fonctionnement de Rencontres Locales s'articule autour d'un principe simple : la <strong>distance comme premier critère</strong>. Inscription, profil, suggestions, tchat : tout est pensé pour que la proximité géographique structure l'expérience.</p>
 
@@ -292,11 +323,12 @@
 
         <h3>L'application mobile Rencontres Locales</h3>
         <p>L'<strong>application mobile</strong> est disponible et reprend l'ensemble des fonctionnalités du site web. La géolocalisation y est plus naturelle qu'en navigation web, ce qui rend l'expérience particulièrement adaptée aux déplacements quotidiens.</p>
-      </div>
-    </section>
+        </div>
+      </section>
 
-    <section id="tarifs" class="review-section">
-      <div class="container review-prose">
+      <section id="tarifs" class="av-sec">
+        <span class="av-motif av-motif--lettre" aria-hidden="true"></span>
+        <div class="av-prose">
         <h2>Tarifs et abonnement Rencontres Locales</h2>
         <p>Les <strong>tarifs Rencontres Locales</strong> s'alignent sur les standards du marché des sites de rencontre généralistes en 2026. La version gratuite reste utilisable, l'abonnement débloque les fonctions avancées.</p>
 
@@ -310,15 +342,16 @@
           <li><strong>3 mois</strong> : compromis classique, baisse du tarif au mois.</li>
           <li><strong>6 mois</strong> : tarif mensuel le plus avantageux.</li>
         </ul>
-        <p class="review-note">Tarifs vérifiés en avril 2026, susceptibles d'évoluer. Le détail à jour est affiché dans votre espace abonnement avant tout paiement.</p>
+        <p class="av-note">Les montants ne sont pas affichés publiquement et varient selon les promotions en cours&nbsp;: le tarif exact apparaît dans votre espace abonnement avant tout paiement.</p>
 
         <h3>Comment se désabonner de Rencontres Locales</h3>
         <p>La <strong>résiliation Rencontres Locales</strong> se fait depuis l'espace abonnement de votre compte. L'abonnement reste actif jusqu'à la fin de la période en cours puis s'arrête sans renouvellement automatique une fois la résiliation enregistrée.</p>
-      </div>
-    </section>
+        </div>
+      </section>
 
-    <section id="fiabilite" class="review-section">
-      <div class="container review-prose">
+      <section id="fiabilite" class="av-sec">
+        <span class="av-motif av-motif--plume" aria-hidden="true"></span>
+        <div class="av-prose">
         <h2>Rencontres Locales est-il fiable ?</h2>
         <p>La <strong>fiabilité Rencontres Locales</strong> tient aux mêmes critères que les autres sites de rencontre généralistes : modération, RGPD, sécurité des paiements. Sur ces points, la plateforme tient son rang en 2026.</p>
 
@@ -330,133 +363,110 @@
 
         <h3>Sécurité des paiements</h3>
         <p>Le paiement passe par un prestataire reconnu avec authentification 3D Secure. La facturation reste discrète sur les relevés bancaires. Aucun incident à signaler de notre côté pendant la durée du test.</p>
-      </div>
-    </section>
+        </div>
+      </section>
 
-    <section id="verdict" class="review-section">
-      <div class="container review-prose">
+      <section id="verdict" class="av-sec">
+        <span class="av-motif av-motif--avion" aria-hidden="true"></span>
+        <div class="av-prose">
         <h2>Notre verdict sur Rencontres Locales</h2>
         <p>Au terme de nos quatre semaines de test, Rencontres Locales ne cherche toujours pas à nous éblouir, et c'est très bien ainsi. Nous n'y avons pas trouvé l'interface la plus moderne du marché, mais nous y avons trouvé ce que beaucoup d'apps généralistes traitent mal : la possibilité de rencontrer vraiment près de chez soi, sans bricoler les filtres pour réduire la distance. Pour nous, c'est un parti pris qui assume sa simplicité au lieu de la masquer.</p>
         <p>Le seul vrai bémol que nous retenons tient à la communauté, plus variable d'une zone à l'autre que sur les gros acteurs. Notre conseil : si vous habitez en <strong>ville moyenne</strong>, en zone péri-urbaine ou en milieu rural, et que la distance compte dans vos critères, testez la version gratuite d'abord pour jauger la densité autour de chez vous. Et pour qui veut du volume ou une expérience plus ludique en parallèle, Meetic, Infinite Rencontre ou Spiice complètent intelligemment Rencontres Locales.</p>
 
-        <div class="edito-note">
-          <span class="edito-note-tag">
-            <svg width="15" height="15" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M12 3l2.5 5.5L20 9l-4 4 1 6-5-3-5 3 1-6-4-4 5.5-.5z" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/></svg>
-            Le parti pris de la rédaction
-          </span>
-          <p>Rencontres Locales n'est pas le site qui en met plein la vue, c'est celui qui nous évite de perdre du temps sur des profils à l'autre bout du pays. Si la proximité est votre vraie priorité et que vous vivez loin des grandes métropoles, arrêtez de chercher l'app à la mode : commencez par tester celle-ci près de chez vous.</p>
-        </div>
+        <aside class="av-parti">
+          <p class="av-parti-t">Le parti pris de la rédaction</p>
+          <blockquote><p>Rencontres Locales n'est pas le site qui en met plein la vue, c'est celui qui nous évite de perdre du temps sur des profils à l'autre bout du pays. Si la proximité est votre vraie priorité et que vous vivez loin des grandes métropoles, arrêtez de chercher l'app à la mode : commencez par tester celle-ci près de chez vous.</p></blockquote>
+        </aside>
 
         <p class="see-also"><strong>Pour aller plus loin :</strong> comparez Rencontres Locales aux autres sites dans notre <a href="/comparatif-relation-serieuse/">comparatif des sites de rencontre sérieux 2026</a>, et restez prudent grâce à nos guides pour <a href="/guide/faux-profils/">démasquer un faux profil</a> et <a href="/guide/site-fiable/">vérifier qu'un site est fiable</a>.</p>
+        <div class="av-conclure">
+          <p class="av-conclure-acc"><span>Accès</span>Inscription gratuite, options premium disponibles</p>
+          <div class="av-actions">
+            <a class="btn-site" href="/go/rencontres-locales/" rel="sponsored nofollow noopener" target="_blank">Voir le site Rencontres Locales</a>
+            <a class="btn-coeur" href="/avis/"><svg class="btn-coeur-ico" width="15" height="14" viewBox="0 0 24 22" aria-hidden="true"><path d="M12 20.3s-8.8-5.3-8.8-11.4A4.9 4.9 0 0 1 12 6.1a4.9 4.9 0 0 1 8.8 2.8c0 6.1-8.8 11.4-8.8 11.4z"/></svg><span>Comparer avec nos autres avis</span><svg class="btn-coeur-fl" width="18" height="10" viewBox="0 0 18 10" fill="none" aria-hidden="true"><path d="M1 5h15M12 1l4 4-4 4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg></a>
+          </div>
+        </div>
+        </div>
+      </section>
+      </article>
+    </div>
 
-        <aside class="cta-box">
-          <div class="access-meta">
-            <span class="access-label">Accès</span>
-            <span>Inscription gratuite · Options premium disponibles</span>
+      <section class="av-auteur">
+        <span class="av-motif av-motif--plume" aria-hidden="true"></span>
+        <div class="container av-auteur-grille" data-reveal>
+          <span class="av-auteur-img"><img src="/assets/auteurs/lucie.webp" alt="Portrait de Lucie" width="320" height="320" loading="lazy"></span>
+          <div>
+            <p class="av-auteur-k">Testé et rédigé par</p>
+            <p class="av-auteur-nom">Lucie</p>
+            <p class="av-auteur-role">Rédactrice · web, modes de vie et relations</p>
+            <p class="av-auteur-bio">Je regarde ce qui compte vraiment pour l'utilisateur : qualité des profils, ambiance, simplicité et clarté des abonnements.</p>
+            <a class="btn-coeur" href="/auteurs/lucie/"><svg class="btn-coeur-ico" width="15" height="14" viewBox="0 0 24 22" aria-hidden="true"><path d="M12 20.3s-8.8-5.3-8.8-11.4A4.9 4.9 0 0 1 12 6.1a4.9 4.9 0 0 1 8.8 2.8c0 6.1-8.8 11.4-8.8 11.4z"/></svg><span>Tous les avis de Lucie</span><svg class="btn-coeur-fl" width="18" height="10" viewBox="0 0 18 10" fill="none" aria-hidden="true"><path d="M1 5h15M12 1l4 4-4 4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg></a>
           </div>
-          <a href="/go/rencontres-locales/" class="btn btn-primary" rel="sponsored nofollow noopener" target="_blank">
-            Découvrir Rencontres Locales
-            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
-          </a>
-        </aside>
-      </div>
-    </section>
+        </div>
+      </section>
 
-    <section class="review-section">
-      <div class="container review-prose">
-        <div class="author-box">
-          <div class="author-photo">
-            <img src="/assets/auteurs/lucie.webp" alt="Photo de Lucie" width="84" height="84" loading="lazy">
-          </div>
-          <div class="author-body">
-            <p class="author-eyebrow">Rédigé et testé par</p>
-            <p class="author-name">Lucie</p>
-            <p class="author-role">Rédactrice · web, modes de vie et relations</p>
-            <p class="author-bio">Je regarde ce qui compte vraiment pour l'utilisateur : qualité des profils, ambiance, simplicité et clarté des abonnements.</p>
-            <a class="author-link" href="/auteurs/lucie/">Voir tous ses avis →</a>
-          </div>
+    <!-- FAQ -->
+    <section id="faq" class="av-faq">
+      <span class="av-motif av-motif--bulles" aria-hidden="true"></span>
+      <div class="container av-faq-grille">
+        <header data-reveal>
+          <h2 class="av-h2">Questions fréquentes sur Rencontres Locales</h2>
+          <p class="av-texte">Une autre question, une erreur à signaler&nbsp;? La rédaction vous lit.</p>
+          <a class="btn-coeur" href="/contact/"><svg class="btn-coeur-ico" width="15" height="14" viewBox="0 0 24 22" aria-hidden="true"><path d="M12 20.3s-8.8-5.3-8.8-11.4A4.9 4.9 0 0 1 12 6.1a4.9 4.9 0 0 1 8.8 2.8c0 6.1-8.8 11.4-8.8 11.4z"/></svg><span>Contacter la rédaction</span><svg class="btn-coeur-fl" width="18" height="10" viewBox="0 0 18 10" fill="none" aria-hidden="true"><path d="M1 5h15M12 1l4 4-4 4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg></a>
+        </header>
+        <div class="av-qa" data-reveal>
+            <details>
+              <summary>Rencontres Locales est-il gratuit ?</summary>
+              <p>L'<strong>inscription Rencontres Locales</strong> est gratuite. Vous pouvez créer un profil, consulter les suggestions géolocalisées et engager certaines conversations sans payer. Une partie des fonctionnalités de messagerie reste réservée au premium.</p>
+            </details>
+            <details>
+              <summary>Comment fonctionne le matching géographique ?</summary>
+              <p>Rencontres Locales place la <strong>distance comme premier critère</strong> du matching. Les suggestions sont classées par proximité (votre ville, puis votre département) avant d'élargir le rayon, plutôt que de mélanger d'emblée toutes les régions.</p>
+            </details>
+            <details>
+              <summary>Combien coûte un abonnement Rencontres Locales ?</summary>
+              <p>Les <strong>tarifs Rencontres Locales</strong> s'alignent sur les standards du marché des sites de rencontre généralistes, avec des forfaits 1, 3 ou 6 mois et un coût mensuel dégressif sur les durées longues.</p>
+            </details>
+            <details>
+              <summary>Rencontres Locales fonctionne-t-il hors des grandes villes ?</summary>
+              <p>Oui, et c'est même son terrain de prédilection. La plateforme est particulièrement utile en <strong>zone péri-urbaine</strong>, dans les <strong>villes moyennes</strong> et dans les territoires moins denses où les apps généralistes peinent à proposer des profils proches.</p>
+            </details>
+            <details>
+              <summary>Comment se désabonner de Rencontres Locales ?</summary>
+              <p>La <strong>résiliation Rencontres Locales</strong> se fait depuis l'espace abonnement de votre compte. L'abonnement reste actif jusqu'à la fin de la période en cours, sans renouvellement automatique une fois la résiliation enregistrée.</p>
+            </details>
+            <details>
+              <summary>Mes données de localisation sont-elles protégées ?</summary>
+              <p>Oui. Rencontres Locales est <strong>conforme au RGPD</strong> et la précision de la localisation peut être ajustée dans les paramètres pour ne pas exposer votre adresse exacte. Vous gardez le contrôle sur ce qui est partagé.</p>
+            </details>
         </div>
       </div>
     </section>
 
-    <section id="faq" class="faq">
+    <!-- Autres avis -->
+    <section class="av-autres">
       <div class="container">
-        <header class="section-head">
-          <h2>Questions fréquentes sur Rencontres Locales</h2>
-        </header>
-
-        <details class="faq-item">
-          <summary>Rencontres Locales est-il gratuit ?</summary>
-          <p>L'<strong>inscription Rencontres Locales</strong> est gratuite. Vous pouvez créer un profil, consulter les suggestions géolocalisées et engager certaines conversations sans payer. Une partie des fonctionnalités de messagerie reste réservée au premium.</p>
-        </details>
-
-        <details class="faq-item">
-          <summary>Comment fonctionne le matching géographique ?</summary>
-          <p>Rencontres Locales place la <strong>distance comme premier critère</strong> du matching. Les suggestions sont classées par proximité (votre ville, puis votre département) avant d'élargir le rayon, plutôt que de mélanger d'emblée toutes les régions.</p>
-        </details>
-
-        <details class="faq-item">
-          <summary>Combien coûte un abonnement Rencontres Locales ?</summary>
-          <p>Les <strong>tarifs Rencontres Locales</strong> s'alignent sur les standards du marché des sites de rencontre généralistes, avec des forfaits 1, 3 ou 6 mois et un coût mensuel dégressif sur les durées longues.</p>
-        </details>
-
-        <details class="faq-item">
-          <summary>Rencontres Locales fonctionne-t-il hors des grandes villes ?</summary>
-          <p>Oui, et c'est même son terrain de prédilection. La plateforme est particulièrement utile en <strong>zone péri-urbaine</strong>, dans les <strong>villes moyennes</strong> et dans les territoires moins denses où les apps généralistes peinent à proposer des profils proches.</p>
-        </details>
-
-        <details class="faq-item">
-          <summary>Comment se désabonner de Rencontres Locales ?</summary>
-          <p>La <strong>résiliation Rencontres Locales</strong> se fait depuis l'espace abonnement de votre compte. L'abonnement reste actif jusqu'à la fin de la période en cours, sans renouvellement automatique une fois la résiliation enregistrée.</p>
-        </details>
-
-        <details class="faq-item">
-          <summary>Mes données de localisation sont-elles protégées ?</summary>
-          <p>Oui. Rencontres Locales est <strong>conforme au RGPD</strong> et la précision de la localisation peut être ajustée dans les paramètres pour ne pas exposer votre adresse exacte. Vous gardez le contrôle sur ce qui est partagé.</p>
-        </details>
-
+        <h2 class="av-h2">Nos autres avis</h2>
+        <div class="av-autres-grille" data-reveal>
+          <a class="av-autre" href="/avis-rencontres-mixtes/">
+            <span class="av-autre-img"><img src="/assets/ui-rencontres-mixtes.webp" alt="" width="2000" height="955" loading="lazy"></span>
+            <span class="av-autre-tete"><span class="av-autre-nom">Rencontres Mixtes</span><span class="av-autre-note">4,3<small>/5</small></span></span>
+            <span class="av-autre-acc">La diversité des profils et des origines</span>
+          </a>
+          <a class="av-autre" href="/avis-force-gay/">
+            <span class="av-autre-img"><img src="/assets/ui-forcegay.webp" alt="" width="2000" height="937" loading="lazy"></span>
+            <span class="av-autre-tete"><span class="av-autre-nom">Force Gay</span><span class="av-autre-note">4,3<small>/5</small></span></span>
+            <span class="av-autre-acc">La plateforme dédiée à la communauté gay</span>
+          </a>
+          <a class="av-autre" href="/avis-jm-messenger/">
+            <span class="av-autre-img"><img src="/assets/ui-jmmessenger.webp" alt="" width="1000" height="477" loading="lazy"></span>
+            <span class="av-autre-tete"><span class="av-autre-nom">JM Messenger</span><span class="av-autre-note">4,2<small>/5</small></span></span>
+            <span class="av-autre-acc">Le tchat de rencontre simple et direct</span>
+          </a>
+        </div>
+        <a class="btn-coeur" href="/avis/"><svg class="btn-coeur-ico" width="15" height="14" viewBox="0 0 24 22" aria-hidden="true"><path d="M12 20.3s-8.8-5.3-8.8-11.4A4.9 4.9 0 0 1 12 6.1a4.9 4.9 0 0 1 8.8 2.8c0 6.1-8.8 11.4-8.8 11.4z"/></svg><span>Voir tous nos avis</span><svg class="btn-coeur-fl" width="18" height="10" viewBox="0 0 18 10" fill="none" aria-hidden="true"><path d="M1 5h15M12 1l4 4-4 4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg></a>
       </div>
     </section>
-
-    </article>
-
-    <aside class="review-sidebar">
-      <div class="aside-block">
-        <p class="aside-title">Nos autres avis</p>
-
-        <a href="avis-meetic/" class="aside-card">
-          <span class="aside-logo"><img src="/assets/logo-meetic.png" alt="Logo Meetic" loading="lazy"></span>
-          <span class="aside-info"><span class="aside-name">Meetic</span><span class="aside-rate"><strong>4,6</strong>/5 · la référence des relations durables</span></span>
-        </a>
-
-        <a href="avis-infinite-rencontre/" class="aside-card">
-          <span class="aside-logo"><img src="/assets/logo-infinite.png" alt="Logo Infinite Rencontre" loading="lazy"></span>
-          <span class="aside-info"><span class="aside-name">Infinite Rencontre</span><span class="aside-rate"><strong>4,5</strong>/5 · moderne, 25-45 ans</span></span>
-        </a>
-
-        <a href="avis-edarling/" class="aside-card">
-          <span class="aside-logo"><img src="/assets/logo-edarling.svg" alt="Logo eDarling" loading="lazy"></span>
-          <span class="aside-info"><span class="aside-name">eDarling</span><span class="aside-rate"><strong>4,4</strong>/5 · exigeants 30-55 ans</span></span>
-        </a>
-
-        <a href="avis-spiice/" class="aside-card">
-          <span class="aside-logo"><img src="/assets/spiice-logo.webp" alt="Logo Spiice" loading="lazy"></span>
-          <span class="aside-info"><span class="aside-name">Spiice</span><span class="aside-rate"><strong>4,4</strong>/5 · app mobile 22-38 ans</span></span>
-        </a>
-
-        <a href="avis-rencontres-mixtes/" class="aside-card">
-          <span class="aside-logo"><img src="/assets/logo-rencontres-mixtes.png" alt="Logo Rencontres Mixtes" loading="lazy"></span>
-          <span class="aside-info"><span class="aside-name">Rencontres Mixtes</span><span class="aside-rate"><strong>4,3</strong>/5 · diversité</span></span>
-        </a>
-
-        <a href="/avis/" class="aside-all">Voir nos 8 avis
-          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
-        </a>
-      </div>
-    </aside>
-
-    </div>
-
   </main>
 
   <footer class="site-footer">
@@ -519,6 +529,6 @@
     </div>
   </footer>
 
-  <script src="/js/main.js?v=20261014-8"></script>
+  <script src="/js/main.js?v=20261014-10"></script>
 </body>
 </html>

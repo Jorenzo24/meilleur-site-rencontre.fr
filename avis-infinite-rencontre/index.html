@@ -22,7 +22,9 @@
   <link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon-32.png">
   <link rel="icon" type="image/png" sizes="16x16" href="/assets/favicon-16.png">
   <link rel="apple-touch-icon" sizes="180x180" href="/assets/favicon-180.png">
-  <link rel="stylesheet" href="/css/style.css?v=20261014-8">
+  <link rel="preload" href="/assets/fonts/bodoni-moda.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="/css/style.css?v=20261014-10">
+  <link rel="stylesheet" href="/css/avis.css?v=20261014-10">
 
   <script type="application/ld+json">
   {
@@ -42,17 +44,18 @@
     "@type": "Product",
     "name": "Infinite Rencontre",
     "description": "Plateforme de rencontre nouvelle génération qui mise sur la qualité des profils et la personnalisation, pour les célibataires de 25 à 45 ans.",
-    "brand": { "@type": "Brand", "name": "Infinite Rencontre" },
-    "image": "https://meilleur-site-rencontre.fr/assets/ui-infinite.jpg",
-    "aggregateRating": {
-      "@type": "AggregateRating",
-      "ratingValue": "4.5",
-      "bestRating": "5",
-      "ratingCount": "3820"
+    "brand": {
+      "@type": "Brand",
+      "name": "Infinite Rencontre"
     },
+    "image": "https://meilleur-site-rencontre.fr/assets/ui-infinite.jpg",
     "review": {
       "@type": "Review",
-      "author": { "@type": "Person", "name": "Lucie", "url": "https://meilleur-site-rencontre.fr/auteurs/lucie/" },
+      "author": {
+        "@type": "Person",
+        "name": "Lucie",
+        "url": "https://meilleur-site-rencontre.fr/auteurs/lucie/"
+      },
       "datePublished": "2026-04-27",
       "dateModified": "2026-06-23",
       "reviewRating": {
@@ -84,7 +87,7 @@
         "name": "Combien coûte un abonnement Infinite Rencontre ?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Le tarif varie selon la durée d'engagement, avec une formule mensuelle plus chère et des forfaits 3 ou 6 mois plus avantageux. Compter une dizaine d'euros par mois sur les engagements longs et plus du double pour un mois isolé."
+          "text": "Le tarif varie selon la durée d'engagement : la formule mensuelle est plus chère, les forfaits 3 ou 6 mois plus avantageux. Compter une dizaine d'euros par mois sur les engagements longs et plus du double pour un mois isolé. Le détail à jour est affiché dans votre espace abonnement avant tout paiement."
         }
       },
       {
@@ -92,7 +95,7 @@
         "name": "Infinite Rencontre est-il fiable et sécurisé ?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Oui. La plateforme applique une modération humaine en complément de filtres automatiques, propose un signalement direct depuis chaque profil et respecte le RGPD. Les paiements sont sécurisés et le compte peut être supprimé à tout moment."
+          "text": "Oui. La plateforme applique une modération humaine en complément de filtres automatiques, propose un signalement direct depuis chaque profil et respecte le RGPD. Les paiements sont sécurisés via un prestataire reconnu et le compte peut être supprimé à tout moment."
         }
       },
       {
@@ -100,7 +103,7 @@
         "name": "Comment se désabonner d'Infinite Rencontre ?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "La résiliation se fait depuis le compte utilisateur, dans la rubrique abonnement. L'abonnement reste actif jusqu'à la fin de la période en cours, sans renouvellement automatique une fois la résiliation enregistrée."
+          "text": "La résiliation se fait depuis le compte utilisateur, dans la rubrique « Abonnement ». L'abonnement reste actif jusqu'à la fin de la période en cours, sans renouvellement automatique une fois la résiliation enregistrée."
         }
       },
       {
@@ -108,7 +111,15 @@
         "name": "Existe-t-il une application mobile Infinite Rencontre ?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Oui. Infinite Rencontre est disponible en version web et en application mobile (iOS et Android), avec une expérience pensée pour le mobile : matching, messagerie et notifications fonctionnent de manière fluide sur smartphone."
+          "text": "Oui. Infinite Rencontre est disponible en version web et en application mobile (iOS et Android), avec une expérience pensée pour le mobile : matching, messagerie et notifications fonctionnent de manière fluide sur smartphone, sans perte de fonctionnalités par rapport au web."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Quelles alternatives à Infinite Rencontre ?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Pour une relation sérieuse, Meetic et eDarling restent les références en France. Pour une approche plus mobile et ludique, Spiice est l'alternative la plus crédible. Pour une recherche locale ou de niche, voir nos comparatifs dédiés sur la page d'accueil."
         }
       }
     ]
@@ -147,57 +158,57 @@
     </div>
   </header>
 
-  <main id="main" class="review-page">
+  <main id="main" class="av">
 
-    <nav class="breadcrumb" aria-label="Fil d'Ariane">
+    <!-- Ouverture -->
+    <section class="av-ouverture">
+      <span class="av-motif av-motif--loupe" aria-hidden="true"></span>
       <div class="container">
-        <ol>
-          <li><a href="/">Accueil</a></li>
-          <li><a href="/avis/">Avis</a></li>
-          <li aria-current="page">Infinite Rencontre</li>
-        </ol>
-      </div>
-    </nav>
-
-    <section class="review-hero">
-      <div class="container review-hero-grid">
-        <div class="review-hero-text">
-          <p class="eyebrow">Avis Infinite Rencontre</p>
-          <h1>Avis Infinite Rencontre 2026 : test complet, tarifs et verdict</h1>
-          <p class="lede">Quatre semaines à utiliser Infinite Rencontre en conditions réelles, pour vous dire si ce site de rencontre nouvelle génération tient ses promesses sur les profils, le matching et le rapport qualité-prix.</p>
-          <p class="review-meta">
-            <span class="review-meta-rating" aria-label="Note 4,5 sur 5"><strong>4,5</strong>/5</span>
-            <span>Par <a href="/auteurs/lucie/">Lucie</a></span>
-            <span>Mise à jour le 23 juin 2026</span>
-            <span><a href="/notre-methode/">Test mené sur 4 semaines</a></span>
-          </p>
-        </div>
-        <div class="review-hero-image">
-          <img src="/assets/ui-infinite.webp" alt="Capture de la page d'accueil d'Infinite Rencontre montrant le formulaire d'inscription rapide" width="1000" height="500" fetchpriority="high">
+        <nav class="breadcrumb" aria-label="Fil d'Ariane">
+          <ol>
+            <li><a href="/">Accueil</a></li>
+            <li><a href="/avis/">Avis</a></li>
+            <li aria-current="page">Infinite Rencontre</li>
+          </ol>
+        </nav>
+        <div class="av-ouverture-grille">
+          <div class="av-ouverture-texte">
+            <h1>Avis Infinite Rencontre 2026 : test complet, tarifs et verdict</h1>
+            <p class="av-lede">Quatre semaines à utiliser Infinite Rencontre en conditions réelles, pour vous dire si ce site de rencontre nouvelle génération tient ses promesses sur les profils, le matching et le rapport qualité-prix.</p>
+            <div class="av-signature">
+              <img src="/assets/auteurs/lucie.webp" alt="" width="44" height="44">
+              <p>Par <a href="/auteurs/lucie/">Lucie</a>, mis à jour le 23 juin 2026<br><a href="/notre-methode/">Test mené sur quatre semaines</a></p>
+            </div>
+            <div class="av-ouverture-note">
+              <p class="av-note-grande"><span>4,5</span>/5</p>
+              <div class="av-actions">
+                <a class="btn-site" href="/go/infinite-rencontre/" rel="sponsored nofollow noopener" target="_blank">Voir le site</a>
+                <a class="btn-coeur" href="#verdict"><svg class="btn-coeur-ico" width="15" height="14" viewBox="0 0 24 22" aria-hidden="true"><path d="M12 20.3s-8.8-5.3-8.8-11.4A4.9 4.9 0 0 1 12 6.1a4.9 4.9 0 0 1 8.8 2.8c0 6.1-8.8 11.4-8.8 11.4z"/></svg><span>Lire notre verdict</span><svg class="btn-coeur-fl" width="18" height="10" viewBox="0 0 18 10" fill="none" aria-hidden="true"><path d="M1 5h15M12 1l4 4-4 4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg></a>
+              </div>
+            </div>
+            <p class="av-acces">Inscription gratuite, sans carte bancaire</p>
+          </div>
+          <figure class="av-capture">
+            <span class="av-capture-barre"><span>Capture d'écran</span><span>Infinite Rencontre</span></span>
+            <img src="/assets/ui-infinite.webp" alt="Capture de la page d'accueil d'Infinite Rencontre montrant le formulaire d'inscription rapide" width="1000" height="475" fetchpriority="high">
+          </figure>
         </div>
       </div>
     </section>
 
-    <section class="verdict">
+    <!-- L'essentiel -->
+    <section class="av-essentiel" aria-labelledby="essentiel">
       <div class="container">
-        <div class="verdict-card">
-          <div class="verdict-card-head">
-            <div class="verdict-brand">
-              <img src="/assets/logo-infinite.png" alt="Logo Infinite Rencontre" width="130" height="68" loading="lazy">
-            </div>
-            <div class="verdict-rating" aria-label="Note 4,5 sur 5">
-              <span class="verdict-rating-num">4,5</span>
-              <span class="verdict-rating-out">/5</span>
-              <span class="verdict-rating-tag">Notre choix 2026</span>
-            </div>
-          </div>
-
-          <p class="verdict-summary">Infinite Rencontre fait partie des rares plateformes où nous avons eu envie de revenir. Pour les 25-45 ans qui veulent une relation sincère sans se noyer dans le swipe, c'est ce qui se fait de plus abouti aujourd'hui. Profils authentiques, matching qui mise sur les affinités, modération qui réagit vite : on tient là, selon nous, le meilleur point de départ pour renouer avec la rencontre en ligne en 2026.</p>
-
-          <div class="pros-cons">
-            <div class="pros">
-              <h2 class="pros-cons-title">Points forts</h2>
-              <ul>
+        <h2 id="essentiel" class="av-h2">L'essentiel</h2>
+        <div class="av-essentiel-grille">
+          <blockquote class="av-resume" data-reveal>
+            <p>Infinite Rencontre fait partie des rares plateformes où nous avons eu envie de revenir. Pour les 25-45 ans qui veulent une relation sincère sans se noyer dans le swipe, c'est ce qui se fait de plus abouti aujourd'hui. Profils authentiques, matching qui mise sur les affinités, modération qui réagit vite : on tient là, selon nous, le meilleur point de départ pour renouer avec la rencontre en ligne en 2026.</p>
+            <footer><img src="/assets/auteurs/lucie.webp" alt="" width="36" height="36" loading="lazy"><span><a href="/auteurs/lucie/">Lucie</a>, après quatre semaines de test</span></footer>
+          </blockquote>
+          <div class="av-plusmoins" data-reveal>
+            <div>
+              <h3>Points forts</h3>
+              <ul class="av-plus">
                 <li>Interface moderne et épurée, pensée mobile</li>
                 <li>Matching orienté affinités, pas seulement sur la photo</li>
                 <li>Inscription gratuite et rapide, en moins de cinq minutes</li>
@@ -205,9 +216,9 @@
                 <li>Filtres de recherche avancés pour cibler sans se noyer</li>
               </ul>
             </div>
-            <div class="cons">
-              <h2 class="pros-cons-title">Points faibles</h2>
-              <ul>
+            <div>
+              <h3>Points faibles</h3>
+              <ul class="av-moins">
                 <li>Communauté plus petite hors des grandes métropoles</li>
                 <li>Pas d'événements célibataires en présentiel</li>
                 <li>Messagerie complète réservée à l'abonnement premium</li>
@@ -215,75 +226,54 @@
               </ul>
             </div>
           </div>
-
-          <div class="verdict-cta">
-            <a href="/go/infinite-rencontre/" class="btn btn-primary" rel="sponsored nofollow noopener" target="_blank">
-              Tester Infinite Rencontre gratuitement
-              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
-            </a>
-            <span class="verdict-cta-note">Inscription gratuite, sans carte bancaire</span>
-          </div>
         </div>
+        <figure class="av-ressorti" data-reveal>
+          <figcaption>Ce qui ressort de notre test</figcaption>
+          <ul>
+            <li style="--w:84%"><span class="av-crit">Qualité et authenticité des profils</span><span class="av-crit-n">Très bon</span><span class="av-crit-bar" aria-hidden="true"></span></li>
+            <li style="--w:84%"><span class="av-crit">Matching et personnalisation</span><span class="av-crit-n">Très bon</span><span class="av-crit-bar" aria-hidden="true"></span></li>
+            <li style="--w:92%"><span class="av-crit">Expérience mobile et interface</span><span class="av-crit-n">Excellent</span><span class="av-crit-bar" aria-hidden="true"></span></li>
+            <li style="--w:84%"><span class="av-crit">Modération et sécurité</span><span class="av-crit-n">Très bon</span><span class="av-crit-bar" aria-hidden="true"></span></li>
+            <li style="--w:76%"><span class="av-crit">Rapport qualité-prix</span><span class="av-crit-n">Bon</span><span class="av-crit-bar" aria-hidden="true"></span></li>
+          </ul>
+          <p class="av-ressorti-note">Appréciations de la rédaction. La note sur 5 suit <a href="/notre-methode/">notre grille de notation</a>, commune à tous les sites.</p>
+        </figure>
       </div>
     </section>
 
-    <div class="review-shell">
-    <article class="review-body">
-
-    <section class="review-section">
-      <div class="container review-prose">
-        <div class="scorecard">
-          <p class="scorecard-title">Notre notation détaillée, critère par critère</p>
-          <div class="score-row">
-            <div class="score-head"><span class="score-crit">Qualité et authenticité des profils</span><span class="score-label">Très bon</span></div>
-            <div class="score-track"><div class="score-fill" style="width:84%"></div></div>
-          </div>
-          <div class="score-row">
-            <div class="score-head"><span class="score-crit">Matching et personnalisation</span><span class="score-label">Très bon</span></div>
-            <div class="score-track"><div class="score-fill" style="width:84%"></div></div>
-          </div>
-          <div class="score-row">
-            <div class="score-head"><span class="score-crit">Expérience mobile et interface</span><span class="score-label">Excellent</span></div>
-            <div class="score-track"><div class="score-fill" style="width:92%"></div></div>
-          </div>
-          <div class="score-row">
-            <div class="score-head"><span class="score-crit">Modération et sécurité</span><span class="score-label">Très bon</span></div>
-            <div class="score-track"><div class="score-fill" style="width:84%"></div></div>
-          </div>
-          <div class="score-row">
-            <div class="score-head"><span class="score-crit">Rapport qualité-prix</span><span class="score-label">Bon</span></div>
-            <div class="score-track"><div class="score-fill" style="width:76%"></div></div>
-          </div>
+    <!-- Corps de l'avis, avec sommaire collant -->
+    <div class="av-corps">
+      <aside class="av-cote" aria-label="Dans cet avis">
+        <div class="av-cote-carte">
+          <p class="av-cote-nom">Infinite Rencontre <span>4,5<small>/5</small></span></p>
+          <p class="av-cote-acc">Inscription gratuite, sans carte bancaire</p>
+          <a class="btn-site" href="/go/infinite-rencontre/" rel="sponsored nofollow noopener" target="_blank">Voir le site</a>
+          <p class="av-cote-t">Dans cet avis</p>
+          <ol class="av-sommaire" data-sommaire>
+            <li><a href="#presentation">Infinite Rencontre, c'est quoi ?</a></li>
+            <li><a href="#public">À qui s'adresse Infinite Rencontre ?</a></li>
+            <li><a href="#fonctionnement">Comment fonctionne Infinite Rencontre ?</a></li>
+            <li><a href="#tarifs">Tarifs et abonnement Infinite Rencontre</a></li>
+            <li><a href="#fiabilite">Infinite Rencontre est-il fiable ?</a></li>
+            <li><a href="#verdict">Notre verdict</a></li>
+            <li><a href="#faq">Questions fréquentes</a></li>
+          </ol>
         </div>
-      </div>
-    </section>
-
-    <nav class="page-toc" aria-label="Sommaire de l'avis">
-      <div class="container">
-        <h2 class="page-toc-title">Au sommaire</h2>
-        <ol class="page-toc-list">
-          <li><a href="#presentation">Infinite Rencontre, c'est quoi ?</a></li>
-          <li><a href="#public">À qui s'adresse Infinite Rencontre ?</a></li>
-          <li><a href="#fonctionnement">Comment fonctionne Infinite Rencontre ?</a></li>
-          <li><a href="#tarifs">Tarifs et abonnement Infinite Rencontre</a></li>
-          <li><a href="#fiabilite">Infinite Rencontre est-il fiable ?</a></li>
-          <li><a href="#verdict">Notre verdict</a></li>
-          <li><a href="#faq">Questions fréquentes</a></li>
-        </ol>
-      </div>
-    </nav>
-
-    <section id="presentation" class="review-section">
-      <div class="container review-prose">
+      </aside>
+      <article class="av-article">
+      <section id="presentation" class="av-sec">
+        <span class="av-motif av-motif--telephone" aria-hidden="true"></span>
+        <div class="av-prose">
         <h2>Infinite Rencontre, c'est quoi ?</h2>
         <p>Apparu plus récemment sur le marché français, <strong>Infinite Rencontre</strong> appartient à cette nouvelle génération de sites de rencontre qui assument une promesse claire : privilégier la qualité des profils plutôt que leur volume. Là où les plateformes historiques jouent sur la masse, Infinite Rencontre cible un public exigeant et prend le temps de construire un environnement plus soigné, à la fois sur le web et sur mobile.</p>
         <p>Dès la page d'accueil, le ton est posé : « trouvez enfin l'âme sœur ». L'inscription est volontairement rapide, le parcours fluide, et l'utilisateur entre directement dans une expérience qui ressemble plus à une application moderne qu'à un site de petites annonces. Le pari est éditorial autant que technique : moins de profils, mieux ciblés, dans une interface qui ne fatigue pas l'œil.</p>
         <p>Sur les six premiers mois de l'année 2026, Infinite Rencontre s'est hissé parmi les sites de rencontre sérieux les plus recommandés en France, en complément d'acteurs établis comme Meetic ou eDarling. C'est aujourd'hui une alternative crédible pour qui veut renouer avec le dating en ligne sans retomber dans les travers du swipe à la chaîne.</p>
-      </div>
-    </section>
+        </div>
+      </section>
 
-    <section id="public" class="review-section">
-      <div class="container review-prose">
+      <section id="public" class="av-sec">
+        <span class="av-motif av-motif--cafe" aria-hidden="true"></span>
+        <div class="av-prose">
         <h2>À qui s'adresse Infinite Rencontre ?</h2>
         <p>Infinite Rencontre vise en priorité les célibataires de <strong>25 à 45 ans</strong> qui cherchent une <strong>relation authentique</strong> sans s'engager d'emblée dans l'univers très orienté « mariage et famille » de certains sites historiques. C'est une bonne porte d'entrée pour celles et ceux qui ont déjà testé d'autres plateformes et veulent une expérience plus moderne, plus soignée, sans renoncer au sérieux.</p>
 
@@ -293,12 +283,9 @@
         <h3>Quand choisir Infinite Rencontre plutôt qu'un autre site ?</h3>
         <p>Si vous cherchez le volume pur, les leaders historiques restent plus pertinents dans les très grandes villes. Si vous voulez en revanche une plateforme qui filtre naturellement vers des profils qualitatifs, avec une interface agréable et sans la pression du swipe, Infinite Rencontre coche les bonnes cases. C'est aussi une option à privilégier si vous appréciez l'expérience d'une application mobile moderne sans renoncer à l'usage sur ordinateur.</p>
 
-        <div class="fit-grid">
-          <div class="fit-col fit-col--yes">
-            <h4>
-              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="9" stroke="currentColor" stroke-width="2"/><path d="M8 12.5l2.5 2.5 5-5.5" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
-              Foncez si…
-            </h4>
+        <div class="av-fit">
+          <div class="av-fit-col av-fit-oui">
+            <h4>Foncez si…</h4>
             <ul>
               <li>Vous avez entre 25 et 45 ans et visez une relation authentique</li>
               <li>Vous préférez des profils qualitatifs au volume pur</li>
@@ -306,11 +293,8 @@
               <li>Vous voulez échanger sereinement, sans la pression du swipe</li>
             </ul>
           </div>
-          <div class="fit-col fit-col--no">
-            <h4>
-              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="9" stroke="currentColor" stroke-width="2"/><path d="M9 9l6 6M15 9l-6 6" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
-              Passez votre chemin si…
-            </h4>
+          <div class="av-fit-col av-fit-non">
+            <h4>Passez votre chemin si…</h4>
             <ul>
               <li>Vous cherchez le volume pur dans une très grande métropole</li>
               <li>Vous habitez loin des grandes villes, où la communauté est plus petite</li>
@@ -319,11 +303,12 @@
             </ul>
           </div>
         </div>
-      </div>
-    </section>
+        </div>
+      </section>
 
-    <section id="fonctionnement" class="review-section">
-      <div class="container review-prose">
+      <section id="fonctionnement" class="av-sec">
+        <span class="av-motif av-motif--loupe" aria-hidden="true"></span>
+        <div class="av-prose">
         <h2>Comment fonctionne Infinite Rencontre ?</h2>
         <p>Le fonctionnement d'Infinite Rencontre repose sur quatre étapes claires : l'inscription, la création du profil, le matching guidé par les affinités, puis la messagerie. Tout est pensé pour que vous puissiez démarrer en quelques minutes, sans questionnaire interminable.</p>
 
@@ -341,11 +326,12 @@
 
         <h3>L'application mobile Infinite Rencontre</h3>
         <p>L'<strong>application mobile</strong> est disponible sur iOS et Android. C'est l'un des points forts de la plateforme : l'expérience est fluide, les notifications de match fonctionnent bien, et la messagerie reste lisible même sur petit écran. La parité avec la version web est totale, sans dégradation des fonctionnalités.</p>
-      </div>
-    </section>
+        </div>
+      </section>
 
-    <section id="tarifs" class="review-section">
-      <div class="container review-prose">
+      <section id="tarifs" class="av-sec">
+        <span class="av-motif av-motif--lettre" aria-hidden="true"></span>
+        <div class="av-prose">
         <h2>Tarifs et abonnement Infinite Rencontre</h2>
         <p>La question des <strong>tarifs Infinite Rencontre</strong> revient logiquement après quelques jours d'utilisation : la version gratuite donne un aperçu clair, mais la messagerie complète passe par un abonnement payant. Voici la grille à connaître avant de s'engager.</p>
 
@@ -359,15 +345,16 @@
           <li><strong>Forfait 3 mois</strong> : bon compromis si vous voulez tester sérieusement sans vous engager sur la durée.</li>
           <li><strong>Forfait 6 mois</strong> : le tarif mensuel le plus avantageux, intéressant si vous abordez la rencontre en ligne sur la durée.</li>
         </ul>
-        <p class="review-note">Tarifs vérifiés en avril 2026, susceptibles d'évoluer. Le détail à jour est affiché dans votre espace abonnement avant tout paiement.</p>
+        <p class="av-note">Les montants ne sont pas affichés publiquement et varient selon les promotions en cours&nbsp;: le tarif exact apparaît dans votre espace abonnement avant tout paiement.</p>
 
         <h3>Comment se désabonner d'Infinite Rencontre</h3>
         <p>Le <strong>désabonnement Infinite Rencontre</strong> se fait directement depuis votre compte, dans la rubrique « Abonnement ». Une fois la résiliation confirmée, l'abonnement reste actif jusqu'à la fin de la période en cours, puis s'arrête sans renouvellement automatique. Aucune relance commerciale insistante de notre côté pendant le test.</p>
-      </div>
-    </section>
+        </div>
+      </section>
 
-    <section id="fiabilite" class="review-section">
-      <div class="container review-prose">
+      <section id="fiabilite" class="av-sec">
+        <span class="av-motif av-motif--plume" aria-hidden="true"></span>
+        <div class="av-prose">
         <h2>Infinite Rencontre est-il fiable ?</h2>
         <p>La <strong>fiabilité d'un site de rencontre</strong> se mesure à trois critères : la qualité de la modération, la transparence sur les données personnelles et la sécurité des paiements. Sur ces trois points, Infinite Rencontre tient la route.</p>
 
@@ -379,133 +366,110 @@
 
         <h3>Sécurité des paiements</h3>
         <p>Le paiement passe par un prestataire reconnu, avec authentification 3D Secure. Les coordonnées bancaires ne sont jamais stockées en clair et la facturation reste discrète sur les relevés. Aucun incident à signaler de notre côté pendant la durée du test.</p>
-      </div>
-    </section>
+        </div>
+      </section>
 
-    <section id="verdict" class="review-section">
-      <div class="container review-prose">
+      <section id="verdict" class="av-sec">
+        <span class="av-motif av-motif--avion" aria-hidden="true"></span>
+        <div class="av-prose">
         <h2>Notre verdict sur Infinite Rencontre</h2>
         <p>Au terme de quatre semaines d'utilisation, on ne va pas tourner autour du pot : Infinite Rencontre nous a convaincus. Tout n'est pas parfait, et nous le disons : la communauté reste plus restreinte que celle des leaders historiques, et les événements physiques manquent à l'appel. Mais la <strong>qualité de l'expérience en ligne</strong> compense largement le reste, au point qu'on a vraiment pris plaisir à revenir sur la plateforme, ce qui, dans cette catégorie, est tout sauf banal.</p>
         <p>Notre conseil : si vous démarrez votre recherche en 2026 ou que vous cherchez du renouveau après avoir épuisé les apps généralistes, foncez, c'est un excellent point de départ. Les célibataires tournés vers une <strong>relation sérieuse</strong> y trouveront un cadre cohérent ; et si vous tenez au volume pur, rien ne vous empêche de combiner Infinite Rencontre avec Meetic ou eDarling.</p>
 
-        <div class="edito-note">
-          <span class="edito-note-tag">
-            <svg width="15" height="15" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M12 3l2.5 5.5L20 9l-4 4 1 6-5-3-5 3 1-6-4-4 5.5-.5z" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/></svg>
-            Le parti pris de la rédaction
-          </span>
-          <p>Infinite Rencontre n'a pas la plus grosse communauté du marché, et alors ? C'est la seule de cette catégorie qui nous a donné envie d'y retourner. Si vous voulez une expérience moderne sans sacrifier le sérieux, ne cherchez pas plus loin : essayez-la d'abord, vous comparerez ensuite.</p>
-        </div>
+        <aside class="av-parti">
+          <p class="av-parti-t">Le parti pris de la rédaction</p>
+          <blockquote><p>Infinite Rencontre n'a pas la plus grosse communauté du marché, et alors ? C'est la seule de cette catégorie qui nous a donné envie d'y retourner. Si vous voulez une expérience moderne sans sacrifier le sérieux, ne cherchez pas plus loin : essayez-la d'abord, vous comparerez ensuite.</p></blockquote>
+        </aside>
 
         <p class="see-also"><strong>Pour aller plus loin :</strong> voyez où se classe Infinite Rencontre dans notre <a href="/comparatif-relation-serieuse/">comparatif des sites de rencontre sérieux 2026</a>, et mettez toutes les chances de votre côté avec nos guides pour <a href="/guide/premier-message/">écrire un premier message qui obtient une réponse</a> et <a href="/guide/profil-attractif/">soigner votre profil</a>.</p>
+        <div class="av-conclure">
+          <p class="av-conclure-acc"><span>Accès</span>Inscription gratuite, sans carte bancaire</p>
+          <div class="av-actions">
+            <a class="btn-site" href="/go/infinite-rencontre/" rel="sponsored nofollow noopener" target="_blank">Voir le site Infinite Rencontre</a>
+            <a class="btn-coeur" href="/avis/"><svg class="btn-coeur-ico" width="15" height="14" viewBox="0 0 24 22" aria-hidden="true"><path d="M12 20.3s-8.8-5.3-8.8-11.4A4.9 4.9 0 0 1 12 6.1a4.9 4.9 0 0 1 8.8 2.8c0 6.1-8.8 11.4-8.8 11.4z"/></svg><span>Comparer avec nos autres avis</span><svg class="btn-coeur-fl" width="18" height="10" viewBox="0 0 18 10" fill="none" aria-hidden="true"><path d="M1 5h15M12 1l4 4-4 4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg></a>
+          </div>
+        </div>
+        </div>
+      </section>
+      </article>
+    </div>
 
-        <aside class="cta-box">
-          <div class="access-meta">
-            <span class="access-label">Accès</span>
-            <span>Inscription gratuite · Options premium disponibles</span>
+      <section class="av-auteur">
+        <span class="av-motif av-motif--plume" aria-hidden="true"></span>
+        <div class="container av-auteur-grille" data-reveal>
+          <span class="av-auteur-img"><img src="/assets/auteurs/lucie.webp" alt="Portrait de Lucie" width="320" height="320" loading="lazy"></span>
+          <div>
+            <p class="av-auteur-k">Testé et rédigé par</p>
+            <p class="av-auteur-nom">Lucie</p>
+            <p class="av-auteur-role">Rédactrice · web, modes de vie et relations</p>
+            <p class="av-auteur-bio">Je regarde ce qui compte vraiment pour l'utilisateur : qualité des profils, ambiance, simplicité et clarté des abonnements.</p>
+            <a class="btn-coeur" href="/auteurs/lucie/"><svg class="btn-coeur-ico" width="15" height="14" viewBox="0 0 24 22" aria-hidden="true"><path d="M12 20.3s-8.8-5.3-8.8-11.4A4.9 4.9 0 0 1 12 6.1a4.9 4.9 0 0 1 8.8 2.8c0 6.1-8.8 11.4-8.8 11.4z"/></svg><span>Tous les avis de Lucie</span><svg class="btn-coeur-fl" width="18" height="10" viewBox="0 0 18 10" fill="none" aria-hidden="true"><path d="M1 5h15M12 1l4 4-4 4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg></a>
           </div>
-          <a href="/go/infinite-rencontre/" class="btn btn-primary" rel="sponsored nofollow noopener" target="_blank">
-            Tester Infinite Rencontre
-            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
-          </a>
-        </aside>
-      </div>
-    </section>
+        </div>
+      </section>
 
-    <section class="review-section">
-      <div class="container review-prose">
-        <div class="author-box">
-          <div class="author-photo">
-            <img src="/assets/auteurs/lucie.webp" alt="Photo de Lucie" width="84" height="84" loading="lazy">
-          </div>
-          <div class="author-body">
-            <p class="author-eyebrow">Rédigé et testé par</p>
-            <p class="author-name">Lucie</p>
-            <p class="author-role">Rédactrice · web, modes de vie et relations</p>
-            <p class="author-bio">Je regarde ce qui compte vraiment pour l'utilisateur : qualité des profils, ambiance, simplicité et clarté des abonnements.</p>
-            <a class="author-link" href="/auteurs/lucie/">Voir tous ses avis →</a>
-          </div>
+    <!-- FAQ -->
+    <section id="faq" class="av-faq">
+      <span class="av-motif av-motif--bulles" aria-hidden="true"></span>
+      <div class="container av-faq-grille">
+        <header data-reveal>
+          <h2 class="av-h2">Questions fréquentes sur Infinite Rencontre</h2>
+          <p class="av-texte">Une autre question, une erreur à signaler&nbsp;? La rédaction vous lit.</p>
+          <a class="btn-coeur" href="/contact/"><svg class="btn-coeur-ico" width="15" height="14" viewBox="0 0 24 22" aria-hidden="true"><path d="M12 20.3s-8.8-5.3-8.8-11.4A4.9 4.9 0 0 1 12 6.1a4.9 4.9 0 0 1 8.8 2.8c0 6.1-8.8 11.4-8.8 11.4z"/></svg><span>Contacter la rédaction</span><svg class="btn-coeur-fl" width="18" height="10" viewBox="0 0 18 10" fill="none" aria-hidden="true"><path d="M1 5h15M12 1l4 4-4 4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg></a>
+        </header>
+        <div class="av-qa" data-reveal>
+            <details>
+              <summary>Infinite Rencontre est-il gratuit ?</summary>
+              <p>L'inscription sur Infinite Rencontre est <strong>gratuite</strong> et permet de créer son profil, parcourir les suggestions et recevoir des messages. La messagerie complète et certains filtres avancés sont réservés aux abonnés premium.</p>
+            </details>
+            <details>
+              <summary>Combien coûte un abonnement Infinite Rencontre ?</summary>
+              <p>Le tarif varie selon la durée d'engagement : la formule mensuelle est plus chère, les forfaits 3 ou 6 mois plus avantageux. Compter une dizaine d'euros par mois sur les engagements longs et plus du double pour un mois isolé. Le détail à jour est affiché dans votre espace abonnement avant tout paiement.</p>
+            </details>
+            <details>
+              <summary>Infinite Rencontre est-il fiable et sécurisé ?</summary>
+              <p>Oui. La plateforme applique une <strong>modération humaine</strong> en complément de filtres automatiques, propose un signalement direct depuis chaque profil et respecte le RGPD. Les paiements sont sécurisés via un prestataire reconnu et le compte peut être supprimé à tout moment.</p>
+            </details>
+            <details>
+              <summary>Comment se désabonner d'Infinite Rencontre ?</summary>
+              <p>La <strong>résiliation</strong> se fait depuis le compte utilisateur, dans la rubrique « Abonnement ». L'abonnement reste actif jusqu'à la fin de la période en cours, sans renouvellement automatique une fois la résiliation enregistrée.</p>
+            </details>
+            <details>
+              <summary>Existe-t-il une application mobile Infinite Rencontre ?</summary>
+              <p>Oui. Infinite Rencontre est disponible en version web et en <strong>application mobile</strong> (iOS et Android), avec une expérience pensée pour le mobile : matching, messagerie et notifications fonctionnent de manière fluide sur smartphone, sans perte de fonctionnalités par rapport au web.</p>
+            </details>
+            <details>
+              <summary>Quelles alternatives à Infinite Rencontre ?</summary>
+              <p>Pour une <strong>relation sérieuse</strong>, Meetic et eDarling restent les références en France. Pour une approche plus mobile et ludique, Spiice est l'alternative la plus crédible. Pour une recherche locale ou de niche, voir nos comparatifs dédiés sur la page d'accueil.</p>
+            </details>
         </div>
       </div>
     </section>
 
-    <section id="faq" class="faq">
+    <!-- Autres avis -->
+    <section class="av-autres">
       <div class="container">
-        <header class="section-head">
-          <h2>Questions fréquentes sur Infinite Rencontre</h2>
-        </header>
-
-        <details class="faq-item">
-          <summary>Infinite Rencontre est-il gratuit ?</summary>
-          <p>L'inscription sur Infinite Rencontre est <strong>gratuite</strong> et permet de créer son profil, parcourir les suggestions et recevoir des messages. La messagerie complète et certains filtres avancés sont réservés aux abonnés premium.</p>
-        </details>
-
-        <details class="faq-item">
-          <summary>Combien coûte un abonnement Infinite Rencontre ?</summary>
-          <p>Le tarif varie selon la durée d'engagement : la formule mensuelle est plus chère, les forfaits 3 ou 6 mois plus avantageux. Compter une dizaine d'euros par mois sur les engagements longs et plus du double pour un mois isolé. Le détail à jour est affiché dans votre espace abonnement avant tout paiement.</p>
-        </details>
-
-        <details class="faq-item">
-          <summary>Infinite Rencontre est-il fiable et sécurisé ?</summary>
-          <p>Oui. La plateforme applique une <strong>modération humaine</strong> en complément de filtres automatiques, propose un signalement direct depuis chaque profil et respecte le RGPD. Les paiements sont sécurisés via un prestataire reconnu et le compte peut être supprimé à tout moment.</p>
-        </details>
-
-        <details class="faq-item">
-          <summary>Comment se désabonner d'Infinite Rencontre ?</summary>
-          <p>La <strong>résiliation</strong> se fait depuis le compte utilisateur, dans la rubrique « Abonnement ». L'abonnement reste actif jusqu'à la fin de la période en cours, sans renouvellement automatique une fois la résiliation enregistrée.</p>
-        </details>
-
-        <details class="faq-item">
-          <summary>Existe-t-il une application mobile Infinite Rencontre ?</summary>
-          <p>Oui. Infinite Rencontre est disponible en version web et en <strong>application mobile</strong> (iOS et Android), avec une expérience pensée pour le mobile : matching, messagerie et notifications fonctionnent de manière fluide sur smartphone, sans perte de fonctionnalités par rapport au web.</p>
-        </details>
-
-        <details class="faq-item">
-          <summary>Quelles alternatives à Infinite Rencontre ?</summary>
-          <p>Pour une <strong>relation sérieuse</strong>, Meetic et eDarling restent les références en France. Pour une approche plus mobile et ludique, Spiice est l'alternative la plus crédible. Pour une recherche locale ou de niche, voir nos comparatifs dédiés sur la page d'accueil.</p>
-        </details>
-
+        <h2 class="av-h2">Nos autres avis</h2>
+        <div class="av-autres-grille" data-reveal>
+          <a class="av-autre" href="/avis-edarling/">
+            <span class="av-autre-img"><img src="/assets/ui-edarling.webp" alt="" width="2000" height="950" loading="lazy"></span>
+            <span class="av-autre-tete"><span class="av-autre-nom">eDarling</span><span class="av-autre-note">4,4<small>/5</small></span></span>
+            <span class="av-autre-acc">Le matching exigeant pour les 30-55 ans</span>
+          </a>
+          <a class="av-autre" href="/avis-spiice/">
+            <span class="av-autre-img"><img src="/assets/ui-spiice.webp" alt="" width="1000" height="470" loading="lazy"></span>
+            <span class="av-autre-tete"><span class="av-autre-nom">Spiice</span><span class="av-autre-note">4,4<small>/5</small></span></span>
+            <span class="av-autre-acc">L&#x27;app ludique et mobile pour les 22-38 ans</span>
+          </a>
+          <a class="av-autre" href="/avis-rencontres-locales/">
+            <span class="av-autre-img"><img src="/assets/ui-rencontres-locales.webp" alt="" width="1000" height="474" loading="lazy"></span>
+            <span class="av-autre-tete"><span class="av-autre-nom">Rencontres Locales</span><span class="av-autre-note">4,3<small>/5</small></span></span>
+            <span class="av-autre-acc">La rencontre par proximité géographique</span>
+          </a>
+        </div>
+        <a class="btn-coeur" href="/avis/"><svg class="btn-coeur-ico" width="15" height="14" viewBox="0 0 24 22" aria-hidden="true"><path d="M12 20.3s-8.8-5.3-8.8-11.4A4.9 4.9 0 0 1 12 6.1a4.9 4.9 0 0 1 8.8 2.8c0 6.1-8.8 11.4-8.8 11.4z"/></svg><span>Voir tous nos avis</span><svg class="btn-coeur-fl" width="18" height="10" viewBox="0 0 18 10" fill="none" aria-hidden="true"><path d="M1 5h15M12 1l4 4-4 4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg></a>
       </div>
     </section>
-
-    </article>
-
-    <aside class="review-sidebar">
-      <div class="aside-block">
-        <p class="aside-title">Nos autres avis</p>
-
-        <a href="avis-meetic/" class="aside-card">
-          <span class="aside-logo"><img src="/assets/logo-meetic.png" alt="Logo Meetic" loading="lazy"></span>
-          <span class="aside-info"><span class="aside-name">Meetic</span><span class="aside-rate"><strong>4,6</strong>/5 · la référence des relations durables</span></span>
-        </a>
-
-        <a href="avis-edarling/" class="aside-card">
-          <span class="aside-logo"><img src="/assets/logo-edarling.svg" alt="Logo eDarling" loading="lazy"></span>
-          <span class="aside-info"><span class="aside-name">eDarling</span><span class="aside-rate"><strong>4,4</strong>/5 · exigeants 30-55 ans</span></span>
-        </a>
-
-        <a href="avis-spiice/" class="aside-card">
-          <span class="aside-logo"><img src="/assets/spiice-logo.webp" alt="Logo Spiice" loading="lazy"></span>
-          <span class="aside-info"><span class="aside-name">Spiice</span><span class="aside-rate"><strong>4,4</strong>/5 · app mobile 22-38 ans</span></span>
-        </a>
-
-        <a href="avis-rencontres-locales/" class="aside-card">
-          <span class="aside-logo"><img src="/assets/logo-rencontres-locales.png" alt="Logo Rencontres Locales" loading="lazy"></span>
-          <span class="aside-info"><span class="aside-name">Rencontres Locales</span><span class="aside-rate"><strong>4,3</strong>/5 · proximité</span></span>
-        </a>
-
-        <a href="avis-rencontres-mixtes/" class="aside-card">
-          <span class="aside-logo"><img src="/assets/logo-rencontres-mixtes.png" alt="Logo Rencontres Mixtes" loading="lazy"></span>
-          <span class="aside-info"><span class="aside-name">Rencontres Mixtes</span><span class="aside-rate"><strong>4,3</strong>/5 · diversité</span></span>
-        </a>
-
-        <a href="/avis/" class="aside-all">Voir nos 8 avis
-          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
-        </a>
-      </div>
-    </aside>
-
-    </div>
-
   </main>
 
   <footer class="site-footer">
@@ -568,6 +532,6 @@
     </div>
   </footer>
 
-  <script src="/js/main.js?v=20261014-8"></script>
+  <script src="/js/main.js?v=20261014-10"></script>
 </body>
 </html>

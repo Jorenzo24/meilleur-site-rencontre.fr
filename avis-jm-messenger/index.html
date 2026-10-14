@@ -22,7 +22,9 @@
   <link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon-32.png">
   <link rel="icon" type="image/png" sizes="16x16" href="/assets/favicon-16.png">
   <link rel="apple-touch-icon" sizes="180x180" href="/assets/favicon-180.png">
-  <link rel="stylesheet" href="/css/style.css?v=20261014-8">
+  <link rel="preload" href="/assets/fonts/bodoni-moda.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="/css/style.css?v=20261014-10">
+  <link rel="stylesheet" href="/css/avis.css?v=20261014-10">
 
   <script type="application/ld+json">
   {
@@ -42,15 +44,26 @@
     "@type": "Product",
     "name": "JM Messenger",
     "description": "Plateforme de rencontre au format tchat direct, pensée pour ceux qui veulent discuter rapidement sans construire un profil élaboré.",
-    "brand": { "@type": "Brand", "name": "JM Messenger" },
+    "brand": {
+      "@type": "Brand",
+      "name": "JM Messenger"
+    },
     "image": "https://meilleur-site-rencontre.fr/assets/ui-jmmessenger.jpg",
-    "aggregateRating": { "@type": "AggregateRating", "ratingValue": "4.2", "bestRating": "5", "ratingCount": "2180" },
     "review": {
       "@type": "Review",
-      "author": { "@type": "Person", "name": "Patrice", "url": "https://meilleur-site-rencontre.fr/auteurs/patrice/" },
+      "author": {
+        "@type": "Person",
+        "name": "Patrice",
+        "url": "https://meilleur-site-rencontre.fr/auteurs/patrice/"
+      },
       "datePublished": "2026-04-27",
       "dateModified": "2026-06-23",
-      "reviewRating": { "@type": "Rating", "ratingValue": "4.2", "bestRating": "5", "worstRating": "1" },
+      "reviewRating": {
+        "@type": "Rating",
+        "ratingValue": "4.2",
+        "bestRating": "5",
+        "worstRating": "1"
+      },
       "reviewBody": "JM Messenger privilégie la conversation directe à l'exposé d'un profil détaillé. Une approche simple et assumée qui séduira ceux qui reviennent au dating sans vouloir s'embarquer dans un questionnaire."
     }
   }
@@ -61,11 +74,54 @@
     "@context": "https://schema.org",
     "@type": "FAQPage",
     "mainEntity": [
-      { "@type": "Question", "name": "JM Messenger est-il gratuit ?", "acceptedAnswer": { "@type": "Answer", "text": "L'inscription JM Messenger est gratuite. Vous pouvez créer un compte minimaliste, parcourir les profils en ligne et engager des conversations dans une certaine limite. Les fonctionnalités étendues sont réservées au premium." } },
-      { "@type": "Question", "name": "JM Messenger fonctionne-t-il sans application mobile ?", "acceptedAnswer": { "@type": "Answer", "text": "Oui. JM Messenger est accessible directement depuis un navigateur web, sans téléchargement d'application. C'est l'un de ses arguments : une prise en main immédiate, sans passer par les stores." } },
-      { "@type": "Question", "name": "Combien coûte un abonnement JM Messenger ?", "acceptedAnswer": { "@type": "Answer", "text": "Les tarifs JM Messenger suivent les standards du marché du tchat de rencontre, avec des forfaits 1, 3 ou 6 mois et un coût mensuel dégressif sur les durées longues." } },
-      { "@type": "Question", "name": "JM Messenger est-il fiable ?", "acceptedAnswer": { "@type": "Answer", "text": "Oui. JM Messenger applique une modération active sur les comptes et les conversations, propose un signalement direct et respecte le RGPD. Les paiements sont sécurisés via un prestataire reconnu." } },
-      { "@type": "Question", "name": "Comment se désabonner de JM Messenger ?", "acceptedAnswer": { "@type": "Answer", "text": "La résiliation JM Messenger se fait depuis l'espace abonnement de votre compte. L'abonnement reste actif jusqu'à la fin de la période en cours, sans renouvellement automatique une fois la résiliation enregistrée." } }
+      {
+        "@type": "Question",
+        "name": "JM Messenger est-il gratuit ?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "L'inscription JM Messenger est gratuite. Vous pouvez créer un compte minimaliste, parcourir les profils en ligne et engager des conversations dans une certaine limite. Les fonctionnalités étendues sont réservées au premium."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "JM Messenger fonctionne-t-il sans application mobile ?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Oui. JM Messenger est accessible directement depuis un navigateur web, sans téléchargement d'application. C'est l'un de ses arguments : une prise en main immédiate, sans passer par les stores."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Combien coûte un abonnement JM Messenger ?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Les tarifs JM Messenger suivent les standards du marché du tchat de rencontre, avec des forfaits 1, 3 ou 6 mois et un coût mensuel dégressif sur les durées longues."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "JM Messenger est-il fiable ?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Oui. JM Messenger applique une modération active sur les comptes et les conversations, propose un signalement direct et respecte le RGPD. Les paiements sont sécurisés via un prestataire reconnu."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Comment se désabonner de JM Messenger ?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "La résiliation JM Messenger se fait depuis l'espace abonnement de votre compte. L'abonnement reste actif jusqu'à la fin de la période en cours, sans renouvellement automatique une fois la résiliation enregistrée."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "JM Messenger ou un site classique, lequel choisir ?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "JM Messenger est plus rapide à prendre en main mais offre moins de profondeur sur le matching. Pour une relation sérieuse, Meetic, eDarling ou Infinite Rencontre restent mieux taillés. JM Messenger se combine bien en complément, pour ceux qui veulent jouer sur plusieurs tableaux sans engagement."
+        }
+      }
     ]
   }
   </script>
@@ -102,56 +158,57 @@
     </div>
   </header>
 
-  <main id="main" class="review-page">
+  <main id="main" class="av">
 
-    <nav class="breadcrumb" aria-label="Fil d'Ariane">
+    <!-- Ouverture -->
+    <section class="av-ouverture">
+      <span class="av-motif av-motif--loupe" aria-hidden="true"></span>
       <div class="container">
-        <ol>
-          <li><a href="/">Accueil</a></li>
-          <li><a href="/avis/">Avis</a></li>
-          <li aria-current="page">JM Messenger</li>
-        </ol>
-      </div>
-    </nav>
-
-    <section class="review-hero">
-      <div class="container review-hero-grid">
-        <div class="review-hero-text">
-          <p class="eyebrow">Avis JM Messenger</p>
-          <h1>Avis JM Messenger 2026 : test du tchat de rencontre, tarifs et verdict</h1>
-          <p class="lede">Quatre semaines passées sur JM Messenger pour vérifier ce que vaut ce site de tchat direct, qui assume de ne pas vous demander un profil détaillé avant de pouvoir engager une conversation.</p>
-          <p class="review-meta">
-            <span class="review-meta-rating" aria-label="Note 4,2 sur 5"><strong>4,2</strong>/5</span>
-            <span>Par <a href="/auteurs/patrice/">Patrice</a></span>
-            <span>Mise à jour le 23 juin 2026</span>
-            <span><a href="/notre-methode/">Test mené sur 4 semaines</a></span>
-          </p>
-        </div>
-        <div class="review-hero-image">
-          <img src="/assets/ui-jmmessenger.webp" alt="Capture de l'interface JM Messenger montrant une conversation active avec un profil utilisateur" width="1000" height="500" fetchpriority="high">
+        <nav class="breadcrumb" aria-label="Fil d'Ariane">
+          <ol>
+            <li><a href="/">Accueil</a></li>
+            <li><a href="/avis/">Avis</a></li>
+            <li aria-current="page">JM Messenger</li>
+          </ol>
+        </nav>
+        <div class="av-ouverture-grille">
+          <div class="av-ouverture-texte">
+            <h1>Avis JM Messenger 2026 : test du tchat de rencontre, tarifs et verdict</h1>
+            <p class="av-lede">Quatre semaines passées sur JM Messenger pour vérifier ce que vaut ce site de tchat direct, qui assume de ne pas vous demander un profil détaillé avant de pouvoir engager une conversation.</p>
+            <div class="av-signature">
+              <img src="/assets/auteurs/patrice.webp" alt="" width="44" height="44">
+              <p>Par <a href="/auteurs/patrice/">Patrice</a>, mis à jour le 23 juin 2026<br><a href="/notre-methode/">Test mené sur quatre semaines</a></p>
+            </div>
+            <div class="av-ouverture-note">
+              <p class="av-note-grande"><span>4,2</span>/5</p>
+              <div class="av-actions">
+                <a class="btn-site" href="/go/jm-messenger/" rel="sponsored nofollow noopener" target="_blank">Voir le site</a>
+                <a class="btn-coeur" href="#verdict"><svg class="btn-coeur-ico" width="15" height="14" viewBox="0 0 24 22" aria-hidden="true"><path d="M12 20.3s-8.8-5.3-8.8-11.4A4.9 4.9 0 0 1 12 6.1a4.9 4.9 0 0 1 8.8 2.8c0 6.1-8.8 11.4-8.8 11.4z"/></svg><span>Lire notre verdict</span><svg class="btn-coeur-fl" width="18" height="10" viewBox="0 0 18 10" fill="none" aria-hidden="true"><path d="M1 5h15M12 1l4 4-4 4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg></a>
+              </div>
+            </div>
+            <p class="av-acces">Inscription gratuite, options premium disponibles</p>
+          </div>
+          <figure class="av-capture">
+            <span class="av-capture-barre"><span>Capture d'écran</span><span>JM Messenger</span></span>
+            <img src="/assets/ui-jmmessenger.webp" alt="Capture de l'interface JM Messenger montrant une conversation active avec un profil utilisateur" width="1000" height="477" fetchpriority="high">
+          </figure>
         </div>
       </div>
     </section>
 
-    <section class="verdict">
+    <!-- L'essentiel -->
+    <section class="av-essentiel" aria-labelledby="essentiel">
       <div class="container">
-        <div class="verdict-card">
-          <div class="verdict-card-head">
-            <div class="verdict-brand">
-              <img src="/assets/logo-jm-messenger.png" alt="Logo JM Messenger" width="160" height="23" loading="lazy">
-            </div>
-            <div class="verdict-rating" aria-label="Note 4,2 sur 5">
-              <span class="verdict-rating-num">4,2</span>
-              <span class="verdict-rating-out">/5</span>
-            </div>
-          </div>
-
-          <p class="verdict-summary">JM Messenger assume de ne pas remplacer les plateformes plus élaborées, et selon nous c'est sa force. En quatre semaines de test, nous y avons trouvé un lieu où entamer des <strong>conversations simples</strong> sans nous perdre dans les fonctionnalités. Format direct, prise en main immédiate, accès depuis un simple navigateur : pour qui veut aller à l'essentiel, l'expérience tient la route.</p>
-
-          <div class="pros-cons">
-            <div class="pros">
-              <h2 class="pros-cons-title">Points forts</h2>
-              <ul>
+        <h2 id="essentiel" class="av-h2">L'essentiel</h2>
+        <div class="av-essentiel-grille">
+          <blockquote class="av-resume" data-reveal>
+            <p>JM Messenger assume de ne pas remplacer les plateformes plus élaborées, et selon nous c'est sa force. En quatre semaines de test, nous y avons trouvé un lieu où entamer des <strong>conversations simples</strong> sans nous perdre dans les fonctionnalités. Format direct, prise en main immédiate, accès depuis un simple navigateur : pour qui veut aller à l'essentiel, l'expérience tient la route.</p>
+            <footer><img src="/assets/auteurs/patrice.webp" alt="" width="36" height="36" loading="lazy"><span><a href="/auteurs/patrice/">Patrice</a>, après quatre semaines de test</span></footer>
+          </blockquote>
+          <div class="av-plusmoins" data-reveal>
+            <div>
+              <h3>Points forts</h3>
+              <ul class="av-plus">
                 <li>Format tchat familier, immédiat, sans friction</li>
                 <li>Inscription minimaliste, mise en relation rapide</li>
                 <li>Alternative intéressante aux formats profil + swipe</li>
@@ -159,9 +216,9 @@
                 <li>Pas de profil élaboré à construire</li>
               </ul>
             </div>
-            <div class="cons">
-              <h2 class="pros-cons-title">Points faibles</h2>
-              <ul>
+            <div>
+              <h3>Points faibles</h3>
+              <ul class="av-moins">
                 <li>Pas d'algorithme de matching par affinités</li>
                 <li>Profils minimaux, peu d'informations sur l'autre</li>
                 <li>Pas adapté à une recherche de relation sérieuse longue</li>
@@ -169,75 +226,54 @@
               </ul>
             </div>
           </div>
-
-          <div class="verdict-cta">
-            <a href="/go/jm-messenger/" class="btn btn-primary" rel="sponsored nofollow noopener" target="_blank">
-              Découvrir JM Messenger
-              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
-            </a>
-            <span class="verdict-cta-note">Inscription gratuite, options premium disponibles</span>
-          </div>
         </div>
+        <figure class="av-ressorti" data-reveal>
+          <figcaption>Ce qui ressort de notre test</figcaption>
+          <ul>
+            <li style="--w:92%"><span class="av-crit">Messagerie et tchat</span><span class="av-crit-n">Excellent</span><span class="av-crit-bar" aria-hidden="true"></span></li>
+            <li style="--w:92%"><span class="av-crit">Simplicité d'usage</span><span class="av-crit-n">Excellent</span><span class="av-crit-bar" aria-hidden="true"></span></li>
+            <li style="--w:76%"><span class="av-crit">Modération et sécurité</span><span class="av-crit-n">Bon</span><span class="av-crit-bar" aria-hidden="true"></span></li>
+            <li style="--w:60%"><span class="av-crit">Qualité des profils</span><span class="av-crit-n">Correct</span><span class="av-crit-bar" aria-hidden="true"></span></li>
+            <li style="--w:84%"><span class="av-crit">Rapport qualité-prix</span><span class="av-crit-n">Très bon</span><span class="av-crit-bar" aria-hidden="true"></span></li>
+          </ul>
+          <p class="av-ressorti-note">Appréciations de la rédaction. La note sur 5 suit <a href="/notre-methode/">notre grille de notation</a>, commune à tous les sites.</p>
+        </figure>
       </div>
     </section>
 
-    <div class="review-shell">
-    <article class="review-body">
-
-    <section class="review-section">
-      <div class="container review-prose">
-        <div class="scorecard">
-          <p class="scorecard-title">Notre notation détaillée, critère par critère</p>
-          <div class="score-row">
-            <div class="score-head"><span class="score-crit">Messagerie et tchat</span><span class="score-label">Excellent</span></div>
-            <div class="score-track"><div class="score-fill" style="width:92%"></div></div>
-          </div>
-          <div class="score-row">
-            <div class="score-head"><span class="score-crit">Simplicité d'usage</span><span class="score-label">Excellent</span></div>
-            <div class="score-track"><div class="score-fill" style="width:92%"></div></div>
-          </div>
-          <div class="score-row">
-            <div class="score-head"><span class="score-crit">Modération et sécurité</span><span class="score-label">Bon</span></div>
-            <div class="score-track"><div class="score-fill" style="width:76%"></div></div>
-          </div>
-          <div class="score-row">
-            <div class="score-head"><span class="score-crit">Qualité des profils</span><span class="score-label">Correct</span></div>
-            <div class="score-track"><div class="score-fill" style="width:60%"></div></div>
-          </div>
-          <div class="score-row">
-            <div class="score-head"><span class="score-crit">Rapport qualité-prix</span><span class="score-label">Très bon</span></div>
-            <div class="score-track"><div class="score-fill" style="width:84%"></div></div>
-          </div>
+    <!-- Corps de l'avis, avec sommaire collant -->
+    <div class="av-corps">
+      <aside class="av-cote" aria-label="Dans cet avis">
+        <div class="av-cote-carte">
+          <p class="av-cote-nom">JM Messenger <span>4,2<small>/5</small></span></p>
+          <p class="av-cote-acc">Inscription gratuite, options premium disponibles</p>
+          <a class="btn-site" href="/go/jm-messenger/" rel="sponsored nofollow noopener" target="_blank">Voir le site</a>
+          <p class="av-cote-t">Dans cet avis</p>
+          <ol class="av-sommaire" data-sommaire>
+            <li><a href="#presentation">JM Messenger, c'est quoi ?</a></li>
+            <li><a href="#public">À qui s'adresse JM Messenger ?</a></li>
+            <li><a href="#fonctionnement">Comment fonctionne JM Messenger ?</a></li>
+            <li><a href="#tarifs">Tarifs et abonnement JM Messenger</a></li>
+            <li><a href="#fiabilite">JM Messenger est-il fiable ?</a></li>
+            <li><a href="#verdict">Notre verdict</a></li>
+            <li><a href="#faq">Questions fréquentes</a></li>
+          </ol>
         </div>
-      </div>
-    </section>
-
-    <nav class="page-toc" aria-label="Sommaire de l'avis">
-      <div class="container">
-        <h2 class="page-toc-title">Au sommaire</h2>
-        <ol class="page-toc-list">
-          <li><a href="#presentation">JM Messenger, c'est quoi ?</a></li>
-          <li><a href="#public">À qui s'adresse JM Messenger ?</a></li>
-          <li><a href="#fonctionnement">Comment fonctionne JM Messenger ?</a></li>
-          <li><a href="#tarifs">Tarifs et abonnement JM Messenger</a></li>
-          <li><a href="#fiabilite">JM Messenger est-il fiable ?</a></li>
-          <li><a href="#verdict">Notre verdict</a></li>
-          <li><a href="#faq">Questions fréquentes</a></li>
-        </ol>
-      </div>
-    </nav>
-
-    <section id="presentation" class="review-section">
-      <div class="container review-prose">
+      </aside>
+      <article class="av-article">
+      <section id="presentation" class="av-sec">
+        <span class="av-motif av-motif--telephone" aria-hidden="true"></span>
+        <div class="av-prose">
         <h2>JM Messenger, c'est quoi ?</h2>
         <p><strong>JM Messenger</strong> prend le contre-pied des plateformes qui vous font remplir un questionnaire interminable avant de pouvoir écrire à quelqu'un. Ici, la promesse est plus directe : une <strong>interface de tchat familière</strong>, pensée comme une messagerie du quotidien, où l'accent est mis sur la conversation elle-même.</p>
         <p>Le positionnement est clair dès l'inscription : on vient pour discuter, pas pour se raconter. C'est un site de rencontre <strong>au format tchat direct</strong>, qui assume de ne pas reproduire les codes du dating en ligne classique. Disponible directement depuis un navigateur web, sans téléchargement d'application, JM Messenger mise sur la simplicité d'accès.</p>
         <p>En 2026, JM Messenger occupe une niche bien identifiée parmi les sites de rencontre en France : celle des célibataires qui veulent <strong>aller vite</strong> et échanger sans cérémonie, à rebours de la logique « profil détaillé + algorithme + swipe ».</p>
-      </div>
-    </section>
+        </div>
+      </section>
 
-    <section id="public" class="review-section">
-      <div class="container review-prose">
+      <section id="public" class="av-sec">
+        <span class="av-motif av-motif--cafe" aria-hidden="true"></span>
+        <div class="av-prose">
         <h2>À qui s'adresse JM Messenger ?</h2>
         <p>JM Messenger s'adresse aux célibataires qui n'ont pas envie (ou pas le temps) de construire un profil détaillé et qui préfèrent <strong>laisser la conversation révéler la personne</strong>. C'est aussi une bonne option pour celles et ceux qui reviennent à la rencontre en ligne après une pause et veulent une entrée en matière plus souple, sans la pression du « profil parfait ».</p>
 
@@ -247,12 +283,9 @@
         <h3>Quand choisir JM Messenger plutôt qu'un autre site ?</h3>
         <p>Si vous cherchez avant tout à <strong>discuter rapidement</strong> sans construire un énième profil, JM Messenger est l'une des options les plus directes en 2026. Pour une recherche orientée vers une <strong>relation sérieuse</strong> ou une analyse fine de la compatibilité, Meetic, eDarling ou Infinite Rencontre sont mieux taillés. JM Messenger se combine bien avec une plateforme plus engageante pour ceux qui veulent jouer sur plusieurs tableaux.</p>
 
-        <div class="fit-grid">
-          <div class="fit-col fit-col--yes">
-            <h4>
-              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="9" stroke="currentColor" stroke-width="2"/><path d="M8 12.5l2.5 2.5 5-5.5" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
-              Foncez si…
-            </h4>
+        <div class="av-fit">
+          <div class="av-fit-col av-fit-oui">
+            <h4>Foncez si…</h4>
             <ul>
               <li>Vous voulez discuter vite, sans construire un profil détaillé</li>
               <li>Le format tchat familier vous met plus à l'aise que le swipe</li>
@@ -260,11 +293,8 @@
               <li>Vous préférez un accès direct depuis un navigateur, sans appli</li>
             </ul>
           </div>
-          <div class="fit-col fit-col--no">
-            <h4>
-              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="9" stroke="currentColor" stroke-width="2"/><path d="M9 9l6 6M15 9l-6 6" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
-              Passez votre chemin si…
-            </h4>
+          <div class="av-fit-col av-fit-non">
+            <h4>Passez votre chemin si…</h4>
             <ul>
               <li>Vous visez une relation sérieuse et durable avant tout</li>
               <li>Vous comptez sur un algorithme pour matcher par affinités</li>
@@ -273,11 +303,12 @@
             </ul>
           </div>
         </div>
-      </div>
-    </section>
+        </div>
+      </section>
 
-    <section id="fonctionnement" class="review-section">
-      <div class="container review-prose">
+      <section id="fonctionnement" class="av-sec">
+        <span class="av-motif av-motif--loupe" aria-hidden="true"></span>
+        <div class="av-prose">
         <h2>Comment fonctionne JM Messenger ?</h2>
         <p>Le fonctionnement de JM Messenger est volontairement minimaliste : inscription rapide, profil sommaire, accès direct au tchat. La logique tient à quelques principes assumés, à rebours du dating en ligne plus classique.</p>
 
@@ -292,11 +323,12 @@
 
         <h3>Web only : pas d'application mobile dédiée</h3>
         <p>JM Messenger est <strong>accessible directement depuis un navigateur</strong>, sans téléchargement d'application. C'est l'un de ses arguments : pas besoin de passer par l'App Store ou Google Play, pas d'icône supplémentaire sur le téléphone. La version web est responsive et utilisable sur mobile sans friction.</p>
-      </div>
-    </section>
+        </div>
+      </section>
 
-    <section id="tarifs" class="review-section">
-      <div class="container review-prose">
+      <section id="tarifs" class="av-sec">
+        <span class="av-motif av-motif--lettre" aria-hidden="true"></span>
+        <div class="av-prose">
         <h2>Tarifs et abonnement JM Messenger</h2>
         <p>Les <strong>tarifs JM Messenger</strong> suivent les standards du marché du tchat de rencontre en 2026. La version gratuite reste largement utilisable pour qui veut juste tester.</p>
 
@@ -311,15 +343,16 @@
           <li><strong>6 mois</strong> : tarif mensuel le plus avantageux.</li>
         </ul>
         <p>Le premium débloque la <strong>messagerie illimitée</strong>, la mise en avant dans la liste des connectés et certaines fonctionnalités d'enrichissement du profil.</p>
-        <p class="review-note">Tarifs vérifiés en avril 2026, susceptibles d'évoluer. Le détail à jour est affiché dans votre espace abonnement avant tout paiement.</p>
+        <p class="av-note">Les montants ne sont pas affichés publiquement et varient selon les promotions en cours&nbsp;: le tarif exact apparaît dans votre espace abonnement avant tout paiement.</p>
 
         <h3>Comment se désabonner de JM Messenger</h3>
         <p>La <strong>résiliation JM Messenger</strong> se fait depuis l'espace abonnement de votre compte. L'abonnement reste actif jusqu'à la fin de la période en cours, sans renouvellement automatique une fois la résiliation enregistrée.</p>
-      </div>
-    </section>
+        </div>
+      </section>
 
-    <section id="fiabilite" class="review-section">
-      <div class="container review-prose">
+      <section id="fiabilite" class="av-sec">
+        <span class="av-motif av-motif--plume" aria-hidden="true"></span>
+        <div class="av-prose">
         <h2>JM Messenger est-il fiable ?</h2>
         <p>La <strong>fiabilité JM Messenger</strong> est un point qu'il faut examiner sérieusement, puisque les plateformes de tchat ouvert sont historiquement plus exposées aux profils douteux. Sur ce critère, JM Messenger tient son rang.</p>
 
@@ -331,133 +364,110 @@
 
         <h3>Sécurité des paiements</h3>
         <p>Le paiement passe par un prestataire reconnu avec authentification 3D Secure. La facturation reste discrète sur les relevés bancaires. Aucun incident à signaler de notre côté pendant le test.</p>
-      </div>
-    </section>
+        </div>
+      </section>
 
-    <section id="verdict" class="review-section">
-      <div class="container review-prose">
+      <section id="verdict" class="av-sec">
+        <span class="av-motif av-motif--avion" aria-hidden="true"></span>
+        <div class="av-prose">
         <h2>Notre verdict sur JM Messenger</h2>
         <p>Après ces quatre semaines, nous retenons un outil <strong>simple et direct</strong> pour entamer des conversations, sans la lourdeur d'un site de rencontre traditionnel. Nous avons apprécié le ton sans détour, la prise en main immédiate et l'absence de friction administrative à l'inscription : on est sur le tchat en quelques minutes, et c'est exactement ce qu'on attend de la plateforme.</p>
         <p>Nous regrettons en revanche l'absence de vraies <strong>fonctions de mise en relation par affinités</strong> que l'on trouve ailleurs : ici, vous allez vers la conversation ou vous attendez qu'on vienne à vous, mais l'algorithme ne joue aucun rôle structurant. Pour qui vise une <strong>relation sérieuse</strong> ou un matching plus fin, nous conseillons de combiner JM Messenger avec une plateforme comme Meetic, eDarling ou Infinite Rencontre.</p>
 
-        <div class="edito-note">
-          <span class="edito-note-tag">
-            <svg width="15" height="15" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M12 3l2.5 5.5L20 9l-4 4 1 6-5-3-5 3 1-6-4-4 5.5-.5z" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/></svg>
-            Le parti pris de la rédaction
-          </span>
-          <p>JM Messenger n'est pas la plateforme où l'on construit, c'est celle où l'on parle tout de suite. Si vous en avez assez des questionnaires et des profils à peaufiner, et que vous voulez simplement discuter sans cérémonie, lancez-vous : c'est précisément ce terrain-là qu'elle joue le mieux, à condition de ne pas lui demander ce qu'elle n'a jamais promis.</p>
-        </div>
+        <aside class="av-parti">
+          <p class="av-parti-t">Le parti pris de la rédaction</p>
+          <blockquote><p>JM Messenger n'est pas la plateforme où l'on construit, c'est celle où l'on parle tout de suite. Si vous en avez assez des questionnaires et des profils à peaufiner, et que vous voulez simplement discuter sans cérémonie, lancez-vous : c'est précisément ce terrain-là qu'elle joue le mieux, à condition de ne pas lui demander ce qu'elle n'a jamais promis.</p></blockquote>
+        </aside>
 
         <p class="see-also"><strong>Pour aller plus loin :</strong> comparez JM Messenger aux autres plateformes dans notre <a href="/comparatif-relation-serieuse/">comparatif des sites de rencontre sérieux 2026</a>, et tchattez en sécurité avec nos guides pour <a href="/guide/faux-profils/">repérer un faux profil</a> et <a href="/guide/premier-message/">réussir votre premier message</a>.</p>
+        <div class="av-conclure">
+          <p class="av-conclure-acc"><span>Accès</span>Inscription gratuite, options premium disponibles</p>
+          <div class="av-actions">
+            <a class="btn-site" href="/go/jm-messenger/" rel="sponsored nofollow noopener" target="_blank">Voir le site JM Messenger</a>
+            <a class="btn-coeur" href="/avis/"><svg class="btn-coeur-ico" width="15" height="14" viewBox="0 0 24 22" aria-hidden="true"><path d="M12 20.3s-8.8-5.3-8.8-11.4A4.9 4.9 0 0 1 12 6.1a4.9 4.9 0 0 1 8.8 2.8c0 6.1-8.8 11.4-8.8 11.4z"/></svg><span>Comparer avec nos autres avis</span><svg class="btn-coeur-fl" width="18" height="10" viewBox="0 0 18 10" fill="none" aria-hidden="true"><path d="M1 5h15M12 1l4 4-4 4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg></a>
+          </div>
+        </div>
+        </div>
+      </section>
+      </article>
+    </div>
 
-        <aside class="cta-box">
-          <div class="access-meta">
-            <span class="access-label">Accès</span>
-            <span>Inscription gratuite · Options premium disponibles</span>
+      <section class="av-auteur">
+        <span class="av-motif av-motif--plume" aria-hidden="true"></span>
+        <div class="container av-auteur-grille" data-reveal>
+          <span class="av-auteur-img"><img src="/assets/auteurs/patrice.webp" alt="Portrait de Patrice" width="320" height="320" loading="lazy"></span>
+          <div>
+            <p class="av-auteur-k">Testé et rédigé par</p>
+            <p class="av-auteur-nom">Patrice</p>
+            <p class="av-auteur-role">Rédacteur · veille digitale et services en ligne</p>
+            <p class="av-auteur-bio">Je m'intéresse à la fiabilité, à la lisibilité des offres et aux différences concrètes entre les services.</p>
+            <a class="btn-coeur" href="/auteurs/patrice/"><svg class="btn-coeur-ico" width="15" height="14" viewBox="0 0 24 22" aria-hidden="true"><path d="M12 20.3s-8.8-5.3-8.8-11.4A4.9 4.9 0 0 1 12 6.1a4.9 4.9 0 0 1 8.8 2.8c0 6.1-8.8 11.4-8.8 11.4z"/></svg><span>Tous les avis de Patrice</span><svg class="btn-coeur-fl" width="18" height="10" viewBox="0 0 18 10" fill="none" aria-hidden="true"><path d="M1 5h15M12 1l4 4-4 4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg></a>
           </div>
-          <a href="/go/jm-messenger/" class="btn btn-primary" rel="sponsored nofollow noopener" target="_blank">
-            Découvrir JM Messenger
-            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
-          </a>
-        </aside>
-      </div>
-    </section>
+        </div>
+      </section>
 
-    <section class="review-section">
-      <div class="container review-prose">
-        <div class="author-box">
-          <div class="author-photo">
-            <img src="/assets/auteurs/patrice.webp" alt="Photo de Patrice" width="84" height="84" loading="lazy">
-          </div>
-          <div class="author-body">
-            <p class="author-eyebrow">Rédigé et testé par</p>
-            <p class="author-name">Patrice</p>
-            <p class="author-role">Rédacteur · veille digitale et services en ligne</p>
-            <p class="author-bio">Je m'intéresse à la fiabilité, à la lisibilité des offres et aux différences concrètes entre les services.</p>
-            <a class="author-link" href="/auteurs/patrice/">Voir tous ses avis →</a>
-          </div>
+    <!-- FAQ -->
+    <section id="faq" class="av-faq">
+      <span class="av-motif av-motif--bulles" aria-hidden="true"></span>
+      <div class="container av-faq-grille">
+        <header data-reveal>
+          <h2 class="av-h2">Questions fréquentes sur JM Messenger</h2>
+          <p class="av-texte">Une autre question, une erreur à signaler&nbsp;? La rédaction vous lit.</p>
+          <a class="btn-coeur" href="/contact/"><svg class="btn-coeur-ico" width="15" height="14" viewBox="0 0 24 22" aria-hidden="true"><path d="M12 20.3s-8.8-5.3-8.8-11.4A4.9 4.9 0 0 1 12 6.1a4.9 4.9 0 0 1 8.8 2.8c0 6.1-8.8 11.4-8.8 11.4z"/></svg><span>Contacter la rédaction</span><svg class="btn-coeur-fl" width="18" height="10" viewBox="0 0 18 10" fill="none" aria-hidden="true"><path d="M1 5h15M12 1l4 4-4 4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg></a>
+        </header>
+        <div class="av-qa" data-reveal>
+            <details>
+              <summary>JM Messenger est-il gratuit ?</summary>
+              <p>L'<strong>inscription JM Messenger</strong> est gratuite. Vous pouvez créer un compte minimaliste, parcourir les profils en ligne et engager des conversations dans une certaine limite. Les fonctionnalités étendues sont réservées au premium.</p>
+            </details>
+            <details>
+              <summary>JM Messenger fonctionne-t-il sans application mobile ?</summary>
+              <p>Oui. JM Messenger est <strong>accessible directement depuis un navigateur web</strong>, sans téléchargement d'application. C'est l'un de ses arguments : une prise en main immédiate, sans passer par les stores.</p>
+            </details>
+            <details>
+              <summary>Combien coûte un abonnement JM Messenger ?</summary>
+              <p>Les <strong>tarifs JM Messenger</strong> suivent les standards du marché du tchat de rencontre, avec des forfaits 1, 3 ou 6 mois et un coût mensuel dégressif sur les durées longues.</p>
+            </details>
+            <details>
+              <summary>JM Messenger est-il fiable ?</summary>
+              <p>Oui. JM Messenger applique une <strong>modération active</strong> sur les comptes et les conversations, propose un signalement direct et respecte le RGPD. Les paiements sont sécurisés via un prestataire reconnu.</p>
+            </details>
+            <details>
+              <summary>Comment se désabonner de JM Messenger ?</summary>
+              <p>La <strong>résiliation JM Messenger</strong> se fait depuis l'espace abonnement de votre compte. L'abonnement reste actif jusqu'à la fin de la période en cours, sans renouvellement automatique une fois la résiliation enregistrée.</p>
+            </details>
+            <details>
+              <summary>JM Messenger ou un site classique, lequel choisir ?</summary>
+              <p>JM Messenger est plus rapide à prendre en main mais offre moins de profondeur sur le matching. Pour une <strong>relation sérieuse</strong>, Meetic, eDarling ou Infinite Rencontre restent mieux taillés. JM Messenger se combine bien en complément, pour ceux qui veulent jouer sur plusieurs tableaux sans engagement.</p>
+            </details>
         </div>
       </div>
     </section>
 
-    <section id="faq" class="faq">
+    <!-- Autres avis -->
+    <section class="av-autres">
       <div class="container">
-        <header class="section-head">
-          <h2>Questions fréquentes sur JM Messenger</h2>
-        </header>
-
-        <details class="faq-item">
-          <summary>JM Messenger est-il gratuit ?</summary>
-          <p>L'<strong>inscription JM Messenger</strong> est gratuite. Vous pouvez créer un compte minimaliste, parcourir les profils en ligne et engager des conversations dans une certaine limite. Les fonctionnalités étendues sont réservées au premium.</p>
-        </details>
-
-        <details class="faq-item">
-          <summary>JM Messenger fonctionne-t-il sans application mobile ?</summary>
-          <p>Oui. JM Messenger est <strong>accessible directement depuis un navigateur web</strong>, sans téléchargement d'application. C'est l'un de ses arguments : une prise en main immédiate, sans passer par les stores.</p>
-        </details>
-
-        <details class="faq-item">
-          <summary>Combien coûte un abonnement JM Messenger ?</summary>
-          <p>Les <strong>tarifs JM Messenger</strong> suivent les standards du marché du tchat de rencontre, avec des forfaits 1, 3 ou 6 mois et un coût mensuel dégressif sur les durées longues.</p>
-        </details>
-
-        <details class="faq-item">
-          <summary>JM Messenger est-il fiable ?</summary>
-          <p>Oui. JM Messenger applique une <strong>modération active</strong> sur les comptes et les conversations, propose un signalement direct et respecte le RGPD. Les paiements sont sécurisés via un prestataire reconnu.</p>
-        </details>
-
-        <details class="faq-item">
-          <summary>Comment se désabonner de JM Messenger ?</summary>
-          <p>La <strong>résiliation JM Messenger</strong> se fait depuis l'espace abonnement de votre compte. L'abonnement reste actif jusqu'à la fin de la période en cours, sans renouvellement automatique une fois la résiliation enregistrée.</p>
-        </details>
-
-        <details class="faq-item">
-          <summary>JM Messenger ou un site classique, lequel choisir ?</summary>
-          <p>JM Messenger est plus rapide à prendre en main mais offre moins de profondeur sur le matching. Pour une <strong>relation sérieuse</strong>, Meetic, eDarling ou Infinite Rencontre restent mieux taillés. JM Messenger se combine bien en complément, pour ceux qui veulent jouer sur plusieurs tableaux sans engagement.</p>
-        </details>
-
+        <h2 class="av-h2">Nos autres avis</h2>
+        <div class="av-autres-grille" data-reveal>
+          <a class="av-autre" href="/avis-meetic/">
+            <span class="av-autre-img"><img src="/assets/ui-meetic.webp" alt="" width="2000" height="945" loading="lazy"></span>
+            <span class="av-autre-tete"><span class="av-autre-nom">Meetic</span><span class="av-autre-note">4,6<small>/5</small></span></span>
+            <span class="av-autre-acc">La référence des relations durables</span>
+          </a>
+          <a class="av-autre" href="/avis-infinite-rencontre/">
+            <span class="av-autre-img"><img src="/assets/ui-infinite.webp" alt="" width="1000" height="475" loading="lazy"></span>
+            <span class="av-autre-tete"><span class="av-autre-nom">Infinite Rencontre</span><span class="av-autre-note">4,5<small>/5</small></span></span>
+            <span class="av-autre-acc">Qualité et modernité, pour les 25-45 ans</span>
+          </a>
+          <a class="av-autre" href="/avis-edarling/">
+            <span class="av-autre-img"><img src="/assets/ui-edarling.webp" alt="" width="2000" height="950" loading="lazy"></span>
+            <span class="av-autre-tete"><span class="av-autre-nom">eDarling</span><span class="av-autre-note">4,4<small>/5</small></span></span>
+            <span class="av-autre-acc">Le matching exigeant pour les 30-55 ans</span>
+          </a>
+        </div>
+        <a class="btn-coeur" href="/avis/"><svg class="btn-coeur-ico" width="15" height="14" viewBox="0 0 24 22" aria-hidden="true"><path d="M12 20.3s-8.8-5.3-8.8-11.4A4.9 4.9 0 0 1 12 6.1a4.9 4.9 0 0 1 8.8 2.8c0 6.1-8.8 11.4-8.8 11.4z"/></svg><span>Voir tous nos avis</span><svg class="btn-coeur-fl" width="18" height="10" viewBox="0 0 18 10" fill="none" aria-hidden="true"><path d="M1 5h15M12 1l4 4-4 4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg></a>
       </div>
     </section>
-
-    </article>
-
-    <aside class="review-sidebar">
-      <div class="aside-block">
-        <p class="aside-title">Nos autres avis</p>
-
-        <a href="avis-meetic/" class="aside-card">
-          <span class="aside-logo"><img src="/assets/logo-meetic.png" alt="Logo Meetic" loading="lazy"></span>
-          <span class="aside-info"><span class="aside-name">Meetic</span><span class="aside-rate"><strong>4,6</strong>/5 · la référence des relations durables</span></span>
-        </a>
-
-        <a href="avis-infinite-rencontre/" class="aside-card">
-          <span class="aside-logo"><img src="/assets/logo-infinite.png" alt="Logo Infinite Rencontre" loading="lazy"></span>
-          <span class="aside-info"><span class="aside-name">Infinite Rencontre</span><span class="aside-rate"><strong>4,5</strong>/5 · moderne, 25-45 ans</span></span>
-        </a>
-
-        <a href="avis-edarling/" class="aside-card">
-          <span class="aside-logo"><img src="/assets/logo-edarling.svg" alt="Logo eDarling" loading="lazy"></span>
-          <span class="aside-info"><span class="aside-name">eDarling</span><span class="aside-rate"><strong>4,4</strong>/5 · exigeants 30-55 ans</span></span>
-        </a>
-
-        <a href="avis-spiice/" class="aside-card">
-          <span class="aside-logo"><img src="/assets/spiice-logo.webp" alt="Logo Spiice" loading="lazy"></span>
-          <span class="aside-info"><span class="aside-name">Spiice</span><span class="aside-rate"><strong>4,4</strong>/5 · app mobile 22-38 ans</span></span>
-        </a>
-
-        <a href="avis-rencontres-locales/" class="aside-card">
-          <span class="aside-logo"><img src="/assets/logo-rencontres-locales.png" alt="Logo Rencontres Locales" loading="lazy"></span>
-          <span class="aside-info"><span class="aside-name">Rencontres Locales</span><span class="aside-rate"><strong>4,3</strong>/5 · proximité</span></span>
-        </a>
-
-        <a href="/avis/" class="aside-all">Voir nos 8 avis
-          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
-        </a>
-      </div>
-    </aside>
-
-    </div>
-
   </main>
 
   <footer class="site-footer">
@@ -520,6 +530,6 @@
     </div>
   </footer>
 
-  <script src="/js/main.js?v=20261014-8"></script>
+  <script src="/js/main.js?v=20261014-10"></script>
 </body>
 </html>
