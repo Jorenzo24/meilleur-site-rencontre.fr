@@ -35,6 +35,9 @@ MOTIFS = {
         r'(Avis sites de rencontre )(\d{4})( : nos tests)',
         r'("name": "Avis sites de rencontre )(\d{4})(")',
     ],
+    'comparatifs/index.html': [
+        r'(Comparatifs sites de rencontre )(\d{4})( : selon)',
+    ],
     # copyright du pied de page, sur toutes les pages
     '**/*.html': [
         r'(&copy; )(\d{4})( meilleur-site-rencontre\.fr)',

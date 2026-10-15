@@ -22,7 +22,10 @@
   <link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon-32.png">
   <link rel="icon" type="image/png" sizes="16x16" href="/assets/favicon-16.png">
   <link rel="apple-touch-icon" sizes="180x180" href="/assets/favicon-180.png">
-  <link rel="stylesheet" href="/css/style.css?v=20261015-1">
+  <link rel="preload" href="/assets/fonts/bodoni-moda.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="/css/style.css?v=20261015-3">
+  <link rel="stylesheet" href="/css/avis.css?v=20261015-3">
+  <link rel="stylesheet" href="/css/comparatif.css?v=20261015-3">
 
   <script type="application/ld+json">
   {
@@ -176,44 +179,43 @@
     </div>
   </header>
 
-  <main id="main" class="compare-page">
+  <main id="main" class="av cp">
 
-    <nav class="breadcrumb" aria-label="Fil d'Ariane">
+    <!-- Ouverture -->
+    <section class="av-ouverture">
+      <span class="av-motif av-motif--loupe" aria-hidden="true"></span>
       <div class="container">
+        <nav class="breadcrumb" aria-label="Fil d'Ariane">
+          <ol>
+            <li><a href="/">Accueil</a></li>
+            <li><a href="/comparatifs/">Comparatifs</a></li>
+            <li aria-current="page">Communauté gay</li>
+          </ol>
+        </nav>
+        <div class="av-ouverture-grille">
+          <div class="av-ouverture-texte">
+            <h1>Meilleur site de rencontre gay : notre comparatif en 2026</h1>
+            <p class="av-lede">Quel est, en 2026, le <strong>meilleur site de rencontre gay</strong> en France ? Notre panel testé compte aujourd'hui une plateforme dédiée à la <strong>communauté gay</strong> francophone et sera complété dans les prochains mois. Voici notre sélection actuelle, avec une approche transparente sur ce qui mérite vraiment la mention « testé en conditions réelles ».</p>
+            <div class="av-signature">
+              <img src="/assets/auteurs/jeanne.webp" alt="" width="44" height="44">
+              <p>Par <a href="/auteurs/jeanne/">Jeanne</a>, mis à jour le 23 juin 2026<br><a href="/notre-methode/">1 plateforme dédiée testée · 4 semaines de test</a></p>
+            </div>
+            <div class="av-actions">
+              <a class="btn-coeur" href="#top"><svg class="btn-coeur-ico" width="15" height="14" viewBox="0 0 24 22" aria-hidden="true"><path d="M12 20.3s-8.8-5.3-8.8-11.4A4.9 4.9 0 0 1 12 6.1a4.9 4.9 0 0 1 8.8 2.8c0 6.1-8.8 11.4-8.8 11.4z"/></svg><span>Voir le classement</span><svg class="btn-coeur-fl" width="18" height="10" viewBox="0 0 18 10" fill="none" aria-hidden="true"><path d="M1 5h15M12 1l4 4-4 4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg></a>
+            </div>
+          </div>
+          <figure class="cp-photo">
+            <img src="/assets/comparatifs/comparatif-gay.webp" alt="Deux hommes marchent main dans la main sur une colline en bord de mer" width="760" height="380" fetchpriority="high">
+          </figure>
+        </div>
+      </div>
+    </section>
+
+    <!-- Sommaire -->
+    <nav class="cp-sommaire" aria-label="Dans ce comparatif">
+      <div class="container">
+        <p>Dans ce comparatif</p>
         <ol>
-          <li><a href="/">Accueil</a></li>
-          <li><a href="/comparatifs/">Comparatifs</a></li>
-          <li aria-current="page">Communauté gay</li>
-        </ol>
-      </div>
-    </nav>
-
-    <section class="compare-hero">
-      <div class="container">
-        <p class="eyebrow">Comparatif rencontre gay</p>
-        <h1>Meilleur site de rencontre gay : notre comparatif en 2026</h1>
-        <p class="lede">Quel est, en 2026, le <strong>meilleur site de rencontre gay</strong> en France ? Notre panel testé compte aujourd'hui une plateforme dédiée à la <strong>communauté gay</strong> francophone et sera complété dans les prochains mois. Voici notre sélection actuelle, avec une approche transparente sur ce qui mérite vraiment la mention « testé en conditions réelles ».</p>
-        <p class="compare-meta">
-          <span>1 plateforme dédiée testée</span>
-          <span>4 semaines de test</span>
-          <span>Par <a href="/auteurs/jeanne/">Jeanne</a></span>
-          <span>Mise à jour le 23 juin 2026</span>
-        </p>
-      </div>
-    </section>
-
-    <section class="guide-figure">
-      <div class="container review-prose">
-        <figure class="edito-figure">
-          <img src="/assets/comparatifs/comparatif-gay.webp" alt="Deux hommes marchent main dans la main sur une colline en bord de mer" width="760" height="380" fetchpriority="high">
-        </figure>
-      </div>
-    </section>
-
-    <nav class="page-toc" aria-label="Sommaire">
-      <div class="container">
-        <h2 class="page-toc-title">Au sommaire</h2>
-        <ol class="page-toc-list">
           <li><a href="#criteres">Nos critères pour un site de rencontre gay</a></li>
           <li><a href="#top">Notre choix : Force Gay</a></li>
           <li><a href="#alternatives">Sites généralistes ouverts à la communauté</a></li>
@@ -223,8 +225,10 @@
       </div>
     </nav>
 
-    <section id="criteres" class="review-section">
-      <div class="container review-prose">
+    <section id="criteres" class="cp-sec">
+      <span class="av-motif av-motif--loupe" aria-hidden="true"></span>
+      <div class="container">
+        <div class="av-prose">
         <h2>Nos critères pour un site de rencontre gay</h2>
         <p>Un bon <strong>site de rencontre gay</strong> ne se résume pas à proposer un filtre d'orientation. La clarté du positionnement, la qualité de la modération et la cohérence de la communauté pèsent autant que les fonctionnalités. Voici la grille que nous appliquons.</p>
         <ul class="prose-list">
@@ -234,55 +238,48 @@
           <li><strong>Qualité du tchat et des outils de contact</strong> : messagerie fluide, indication de présence, partage de photos, conversations fluides sur web et mobile.</li>
           <li><strong>Conformité RGPD et transparence</strong> : politique de confidentialité claire, suppression du compte simple, paiement sécurisé.</li>
         </ul>
+        </div>
       </div>
     </section>
 
-    <section id="top" class="rank-section">
+    <section id="top" class="cp-sec cp-sec--classement">
+      <span class="av-motif av-motif--cafe" aria-hidden="true"></span>
       <div class="container">
-        <header class="section-head">
+        <header class="cp-tete" data-reveal>
           <h2>Notre choix actuel : Force Gay</h2>
           <p>Une plateforme dédiée francophone, testée sur quatre semaines en conditions réelles.</p>
         </header>
-
-        <ol class="rank-list">
-
-          <li class="rank-card rank-card--gold">
-            <div class="rank-badge">
-              <span class="rank-pos">1</span>
-              <span class="rank-pos-label">Notre choix communauté gay</span>
+        <div class="cp-rangs">
+        <article class="cp-rang" data-reveal>
+          <div class="cp-rang-media"><a class="cp-capture" href="/avis-force-gay/" tabindex="-1" aria-hidden="true"><img src="/assets/ui-forcegay.webp" alt="" width="2000" height="937" loading="lazy"></a></div>
+          <div class="cp-rang-corps">
+            <p class="cp-rang-k">N°1 · Notre choix communauté gay</p>
+            <header class="cp-rang-tete">
+              <h3><a href="/avis-force-gay/">Force Gay</a></h3>
+              <p class="cp-rang-note"><span>4,3</span>/5</p>
+            </header>
+            <p class="cp-rang-tag">Plateforme dédiée à la communauté gay francophone</p>
+            <p class="cp-rang-desc"><strong>Force Gay</strong> fait le pari d'une plateforme entièrement dédiée à la <strong>communauté gay</strong>, plutôt qu'un filtre posé sur une appli généraliste. L'intention est claire dès l'inscription : tous les profils viennent avec la même orientation, ce qui évite les filtres à ajuster en permanence. Le ton est celui d'un espace communautaire, pensé pour les <strong>rencontres tant sérieuses que plus décontractées</strong>, accessible depuis le web et l'application mobile sans perte de fonctionnalités.</p>
+            <ul class="av-plus">
+              <li>Positionnement clair : communauté gay dès l'inscription</li>
+              <li>Tchat intégré et messagerie fluide pour démarrer vite</li>
+              <li>Parité totale entre version web et application mobile</li>
+            </ul>
+            <div class="av-actions">
+              <a class="btn-coeur" href="/avis-force-gay/"><svg class="btn-coeur-ico" width="15" height="14" viewBox="0 0 24 22" aria-hidden="true"><path d="M12 20.3s-8.8-5.3-8.8-11.4A4.9 4.9 0 0 1 12 6.1a4.9 4.9 0 0 1 8.8 2.8c0 6.1-8.8 11.4-8.8 11.4z"/></svg><span>Lire notre avis Force Gay</span><svg class="btn-coeur-fl" width="18" height="10" viewBox="0 0 18 10" fill="none" aria-hidden="true"><path d="M1 5h15M12 1l4 4-4 4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg></a>
+              <a class="btn-site" href="/go/force-gay/" rel="sponsored nofollow noopener" target="_blank">Voir le site</a>
             </div>
-            <div class="rank-body">
-              <header class="rank-head">
-                <div class="rank-brand"><img src="/assets/logo-forcegay.png" alt="Logo Force Gay" width="160" height="33" loading="lazy"></div>
-                <div class="rank-meta">
-                  <h3>Force Gay</h3>
-                  <p class="rank-tag">Plateforme dédiée à la communauté gay francophone</p>
-                  <p class="rank-rating" aria-label="Note 4,3 sur 5"><strong>4,3</strong>/5</p>
-                </div>
-              </header>
-              <p class="rank-desc"><strong>Force Gay</strong> fait le pari d'une plateforme entièrement dédiée à la <strong>communauté gay</strong>, plutôt qu'un filtre posé sur une appli généraliste. L'intention est claire dès l'inscription : tous les profils viennent avec la même orientation, ce qui évite les filtres à ajuster en permanence. Le ton est celui d'un espace communautaire, pensé pour les <strong>rencontres tant sérieuses que plus décontractées</strong>, accessible depuis le web et l'application mobile sans perte de fonctionnalités.</p>
-              <ul class="rank-pros">
-                <li>Positionnement clair : communauté gay dès l'inscription</li>
-                <li>Tchat intégré et messagerie fluide pour démarrer vite</li>
-                <li>Parité totale entre version web et application mobile</li>
-              </ul>
-              <div class="rank-actions">
-                <a href="/avis-force-gay/" class="btn btn-link">Lire notre avis Force Gay</a>
-                <a href="/go/force-gay/" class="btn btn-primary" rel="sponsored nofollow noopener" target="_blank">Découvrir Force Gay
-                  <svg width="14" height="14" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
-                </a>
-              </div>
-            </div>
-          </li>
-
-        </ol>
-
-        <p class="rank-note">Ce comparatif est appelé à s'étoffer. Nous travaillons à intégrer d'autres plateformes dédiées à la communauté gay au fil de nos prochains tests, en respectant notre engagement de quatre semaines minimum d'utilisation avant publication.</p>
+          </div>
+        </article>
+        </div>
+        <p class="cp-note">Ce comparatif est appelé à s'étoffer. Nous travaillons à intégrer d'autres plateformes dédiées à la communauté gay au fil de nos prochains tests, en respectant notre engagement de quatre semaines minimum d'utilisation avant publication.</p>
       </div>
     </section>
 
-    <section id="alternatives" class="review-section">
-      <div class="container review-prose">
+    <section id="alternatives" class="cp-sec">
+      <span class="av-motif av-motif--lettre" aria-hidden="true"></span>
+      <div class="container">
+        <div class="av-prose">
         <h2>Sites généralistes ouverts à la communauté gay</h2>
         <p>En complément d'une plateforme dédiée comme Force Gay, plusieurs <strong>sites de rencontre généralistes</strong> du marché français acceptent et accueillent les célibataires gays. Ce ne sont pas leur cible première, mais leurs filtres d'orientation et leur modération les rendent utilisables, en particulier pour qui cherche une <strong>relation sérieuse</strong> longue durée.</p>
 
@@ -294,11 +291,14 @@
 
         <h3>Ce qu'on n'a pas testé (encore)</h3>
         <p>Les <strong>applications gay grand public</strong> dominantes du marché international visent essentiellement des interactions plus instantanées et un format mobile-only. Elles ne correspondent pas à la même intention que les sites de notre comparatif, qui privilégient des conversations plus posées et une démarche plus structurée. Nous prévoyons de les tester pour éclaircir cette distinction dans une mise à jour à venir.</p>
+        </div>
       </div>
     </section>
 
-    <section id="choisir" class="review-section">
-      <div class="container review-prose">
+    <section id="choisir" class="cp-sec">
+      <span class="av-motif av-motif--plume" aria-hidden="true"></span>
+      <div class="container">
+        <div class="av-prose">
         <h2>Comment choisir un site de rencontre gay en 2026</h2>
         <p>Choisir un <strong>site de rencontre gay</strong> revient à clarifier votre intention en amont, puis à aligner la plateforme avec cette intention. Voici les questions à se poser.</p>
 
@@ -313,102 +313,86 @@
 
         <h3>Recherche sérieuse ou plus décontractée ?</h3>
         <p>Force Gay accueille les deux intentions, avec une proportion équilibrée selon les zones géographiques. Pour une <strong>relation sérieuse</strong>, soyez explicite dans votre bio et dans le filtre d'intention, et préférez les conversations longues aux échanges rapides. Pour une recherche plus libre, la communauté est suffisamment vaste pour trouver des profils alignés, en particulier dans les grandes villes.</p>
-      </div>
-    </section>
-
-    <section class="review-section">
-      <div class="container review-prose">
-        <div class="author-box">
-          <div class="author-photo">
-            <img src="/assets/auteurs/jeanne.webp" alt="Photo de Jeanne" width="84" height="84" loading="lazy">
-          </div>
-          <div class="author-body">
-            <p class="author-eyebrow">Rédigé et testé par</p>
-            <p class="author-name">Jeanne</p>
-            <p class="author-role">Rédactrice · société et rencontres en ligne</p>
-            <p class="author-bio">J'attache de l'importance à la sécurité, à la sincérité des profils et à l'ambiance des communautés.</p>
-            <a class="author-link" href="/auteurs/jeanne/">Voir tous ses avis →</a>
-          </div>
         </div>
       </div>
     </section>
 
-    <section id="faq" class="faq">
-      <div class="container">
-        <header class="section-head">
-          <h2>Questions fréquentes sur la rencontre gay</h2>
-        </header>
-
-        <details class="faq-item">
-          <summary>Quel est le meilleur site de rencontre gay en 2026 ?</summary>
-          <p><strong>Force Gay</strong> est notre choix actuel parmi les sites de rencontre dédiés à la <strong>communauté gay</strong> testés en France. La plateforme propose un cadre clair, une modération active et une parité fonctionnelle entre web et mobile. Notre panel s'étoffera dans les prochains mois avec d'autres acteurs spécialisés.</p>
-        </details>
-
-        <details class="faq-item">
-          <summary>Existe-t-il un site de rencontre gay gratuit ?</summary>
-          <p>L'<strong>inscription Force Gay</strong> est gratuite et permet de créer un profil, parcourir la communauté et engager des conversations dans une certaine limite. La messagerie illimitée et les filtres avancés sont réservés au premium. Les apps gay grand public sont souvent gratuites mais avec des compromis sur la modération et la qualité des profils.</p>
-        </details>
-
-        <details class="faq-item">
-          <summary>Site de rencontre gay sérieux ou application : que choisir ?</summary>
-          <p>Pour une <strong>rencontre gay sérieuse</strong> orientée relation durable, un site dédié type Force Gay reste plus pertinent que les apps grand public dominantes du marché, qui privilégient des interactions plus rapides. Le site permet de prendre le temps de lire les profils, d'échanger en messagerie, et de filtrer selon les intentions affichées.</p>
-        </details>
-
-        <details class="faq-item">
-          <summary>Force Gay est-il fiable ?</summary>
-          <p>Oui. Force Gay applique une <strong>modération active</strong> sur les profils et les photos, propose un signalement direct depuis chaque profil, respecte le RGPD et permet de masquer son profil aux moteurs de recherche externes. Les paiements sont sécurisés via un prestataire reconnu et la facturation reste discrète sur les relevés.</p>
-        </details>
-
-        <details class="faq-item">
-          <summary>Quelles alternatives à Force Gay sur le marché français ?</summary>
-          <p>Sur le marché français des sites de rencontre dédiés gay, <strong>Force Gay</strong> reste l'une des rares plateformes francophones à proposer une expérience complète web et mobile sans le format swipe instantané. Les apps internationales dominantes existent mais visent des intentions différentes. Les généralistes comme Meetic ou Infinite Rencontre peuvent compléter, sans être leur cible première.</p>
-        </details>
-
-        <details class="faq-item">
-          <summary>Comment garder la discrétion sur un site de rencontre gay ?</summary>
-          <p>Trois leviers : choisir une plateforme qui permet de <strong>masquer le profil aux moteurs de recherche externes</strong> (comme Force Gay), ajuster les paramètres de visibilité pour limiter qui voit vos photos, et vérifier la discrétion de la facturation sur les relevés bancaires. Le compte peut être supprimé à tout moment.</p>
-        </details>
-
-      </div>
-    </section>
-
-    <section class="related-reviews">
-      <div class="container">
-        <header class="section-head">
-          <h2>Aller plus loin</h2>
-          <p>Approfondissez avec notre avis détaillé ou explorez nos autres comparatifs.</p>
-        </header>
-
-        <div class="related-grid">
-
-          <a href="/avis-force-gay/" class="related-card">
-            <h3>Avis Force Gay</h3>
-            <p>Notre test complet de la plateforme dédiée à la communauté gay francophone.</p>
-            <span class="related-link">Lire l'avis Force Gay
-              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
-            </span>
-          </a>
-
-          <a href="/comparatif-relation-serieuse/" class="related-card">
-            <h3>Meilleur site de rencontre sérieux</h3>
-            <p>Notre top 5 pour une relation durable, complémentaire à ce comparatif gay.</p>
-            <span class="related-link">Voir le comparatif
-              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
-            </span>
-          </a>
-
-          <a href="/comparatif-seniors/" class="related-card">
-            <h3>Meilleur site de rencontre senior</h3>
-            <p>Notre top 4 pour les célibataires de 50 ans et plus.</p>
-            <span class="related-link">Voir le comparatif
-              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
-            </span>
-          </a>
-
+    <section class="av-auteur">
+      <span class="av-motif av-motif--plume" aria-hidden="true"></span>
+      <div class="container av-auteur-grille" data-reveal>
+        <span class="av-auteur-img"><img src="/assets/auteurs/jeanne.webp" alt="Portrait de Jeanne" width="320" height="320" loading="lazy"></span>
+        <div>
+          <p class="av-auteur-k">Comparatif rédigé par</p>
+          <p class="av-auteur-nom">Jeanne</p>
+          <p class="av-auteur-role">Rédactrice · société et rencontres en ligne</p>
+          <p class="av-auteur-bio">J'attache de l'importance à la sécurité, à la sincérité des profils et à l'ambiance des communautés.</p>
+          <a class="btn-coeur" href="/auteurs/jeanne/"><svg class="btn-coeur-ico" width="15" height="14" viewBox="0 0 24 22" aria-hidden="true"><path d="M12 20.3s-8.8-5.3-8.8-11.4A4.9 4.9 0 0 1 12 6.1a4.9 4.9 0 0 1 8.8 2.8c0 6.1-8.8 11.4-8.8 11.4z"/></svg><span>Tous les articles de Jeanne</span><svg class="btn-coeur-fl" width="18" height="10" viewBox="0 0 18 10" fill="none" aria-hidden="true"><path d="M1 5h15M12 1l4 4-4 4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg></a>
         </div>
       </div>
     </section>
 
+    <!-- FAQ -->
+    <section id="faq" class="av-faq">
+      <span class="av-motif av-motif--bulles" aria-hidden="true"></span>
+      <div class="container av-faq-grille">
+        <header data-reveal>
+          <h2 class="av-h2">Questions fréquentes sur la rencontre gay</h2>
+          <p class="av-texte">Une autre question, une erreur à signaler&nbsp;? La rédaction vous lit.</p>
+          <a class="btn-coeur" href="/contact/"><svg class="btn-coeur-ico" width="15" height="14" viewBox="0 0 24 22" aria-hidden="true"><path d="M12 20.3s-8.8-5.3-8.8-11.4A4.9 4.9 0 0 1 12 6.1a4.9 4.9 0 0 1 8.8 2.8c0 6.1-8.8 11.4-8.8 11.4z"/></svg><span>Contacter la rédaction</span><svg class="btn-coeur-fl" width="18" height="10" viewBox="0 0 18 10" fill="none" aria-hidden="true"><path d="M1 5h15M12 1l4 4-4 4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg></a>
+        </header>
+        <div class="av-qa" data-reveal>
+          <details>
+            <summary>Quel est le meilleur site de rencontre gay en 2026 ?</summary>
+            <p><strong>Force Gay</strong> est notre choix actuel parmi les sites de rencontre dédiés à la <strong>communauté gay</strong> testés en France. La plateforme propose un cadre clair, une modération active et une parité fonctionnelle entre web et mobile. Notre panel s'étoffera dans les prochains mois avec d'autres acteurs spécialisés.</p>
+          </details>
+          <details>
+            <summary>Existe-t-il un site de rencontre gay gratuit ?</summary>
+            <p>L'<strong>inscription Force Gay</strong> est gratuite et permet de créer un profil, parcourir la communauté et engager des conversations dans une certaine limite. La messagerie illimitée et les filtres avancés sont réservés au premium. Les apps gay grand public sont souvent gratuites mais avec des compromis sur la modération et la qualité des profils.</p>
+          </details>
+          <details>
+            <summary>Site de rencontre gay sérieux ou application : que choisir ?</summary>
+            <p>Pour une <strong>rencontre gay sérieuse</strong> orientée relation durable, un site dédié type Force Gay reste plus pertinent que les apps grand public dominantes du marché, qui privilégient des interactions plus rapides. Le site permet de prendre le temps de lire les profils, d'échanger en messagerie, et de filtrer selon les intentions affichées.</p>
+          </details>
+          <details>
+            <summary>Force Gay est-il fiable ?</summary>
+            <p>Oui. Force Gay applique une <strong>modération active</strong> sur les profils et les photos, propose un signalement direct depuis chaque profil, respecte le RGPD et permet de masquer son profil aux moteurs de recherche externes. Les paiements sont sécurisés via un prestataire reconnu et la facturation reste discrète sur les relevés.</p>
+          </details>
+          <details>
+            <summary>Quelles alternatives à Force Gay sur le marché français ?</summary>
+            <p>Sur le marché français des sites de rencontre dédiés gay, <strong>Force Gay</strong> reste l'une des rares plateformes francophones à proposer une expérience complète web et mobile sans le format swipe instantané. Les apps internationales dominantes existent mais visent des intentions différentes. Les généralistes comme Meetic ou Infinite Rencontre peuvent compléter, sans être leur cible première.</p>
+          </details>
+          <details>
+            <summary>Comment garder la discrétion sur un site de rencontre gay ?</summary>
+            <p>Trois leviers : choisir une plateforme qui permet de <strong>masquer le profil aux moteurs de recherche externes</strong> (comme Force Gay), ajuster les paramètres de visibilité pour limiter qui voit vos photos, et vérifier la discrétion de la facturation sur les relevés bancaires. Le compte peut être supprimé à tout moment.</p>
+          </details>
+        </div>
+      </div>
+    </section>
+
+    <!-- Aller plus loin -->
+    <section class="av-autres">
+      <div class="container">
+        <h2 class="av-h2">Aller plus loin</h2>
+        <div class="av-autres-grille" data-reveal>
+          <a class="av-autre" href="/avis-force-gay/">
+            <span class="av-autre-img"><img src="/assets/ui-forcegay.webp" alt="" width="2000" height="937" loading="lazy"></span>
+            <span class="av-autre-tete"><span class="av-autre-nom">Avis Force Gay</span></span>
+            <span class="av-autre-acc">Notre test complet de la plateforme dédiée à la communauté gay francophone.</span>
+          </a>
+          <a class="av-autre" href="/comparatif-relation-serieuse/">
+            <span class="av-autre-img"><img src="/assets/comparatifs/comparatif-relation-serieuse.webp" alt="" width="960" height="480" loading="lazy"></span>
+            <span class="av-autre-tete"><span class="av-autre-nom">Meilleur site de rencontre sérieux</span></span>
+            <span class="av-autre-acc">Notre top 5 pour une relation durable, complémentaire à ce comparatif gay.</span>
+          </a>
+          <a class="av-autre" href="/comparatif-seniors/">
+            <span class="av-autre-img"><img src="/assets/comparatifs/comparatif-seniors.webp" alt="" width="960" height="480" loading="lazy"></span>
+            <span class="av-autre-tete"><span class="av-autre-nom">Meilleur site de rencontre senior</span></span>
+            <span class="av-autre-acc">Notre top 4 pour les célibataires de 50 ans et plus.</span>
+          </a>
+        </div>
+        <a class="btn-coeur" href="/comparatifs/"><svg class="btn-coeur-ico" width="15" height="14" viewBox="0 0 24 22" aria-hidden="true"><path d="M12 20.3s-8.8-5.3-8.8-11.4A4.9 4.9 0 0 1 12 6.1a4.9 4.9 0 0 1 8.8 2.8c0 6.1-8.8 11.4-8.8 11.4z"/></svg><span>Tous nos comparatifs</span><svg class="btn-coeur-fl" width="18" height="10" viewBox="0 0 18 10" fill="none" aria-hidden="true"><path d="M1 5h15M12 1l4 4-4 4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg></a>
+      </div>
+    </section>
   </main>
 
   <footer class="site-footer">
@@ -471,6 +455,6 @@
     </div>
   </footer>
 
-  <script src="/js/main.js?v=20261015-1"></script>
+  <script src="/js/main.js?v=20261015-3"></script>
 </body>
 </html>

@@ -281,7 +281,8 @@
 
   .hb-open h2 { display: inline; margin: 0 .35em 0 0; line-height: 1.22; }
   .hb-open:not(.hb-open--bloc) p { display: inline; text-align: left; }
-  .hb-open--bloc h1 { max-width: 18ch; margin-bottom: 1.6rem; }
+  .hb-open--bloc h1, .hb-open--bloc h2 { display: block; max-width: 18ch; margin-bottom: 1.2rem; }
+  .hb-open--bloc h1 { margin-bottom: 1.6rem; }
   .hb-open--bloc p { max-width: 46rem; }
 
   .hb-avis { grid-template-columns: minmax(0, 5fr) minmax(0, 7fr); gap: 3.5rem; align-items: start; padding: 3.5rem 0; }
@@ -300,4 +301,28 @@
 
 @media (prefers-reduced-motion: reduce) {
   .hb *, .hb *::before, .hb *::after { transition: none !important; }
+}
+
+/* --- Hub comparatifs : une entree par comparatif, fonds alternes -------- */
+
+.hb-cmp-sec { padding-bottom: 0; }
+.hb-cmp { display: grid; gap: 1.6rem; padding: 3rem 0; position: relative; }
+.hb-cmp:nth-child(even) { background: var(--bg-alt); box-shadow: 0 0 0 100vmax var(--bg-alt); clip-path: inset(0 -100vmax); }
+.hb-cmp-img { display: block; overflow: hidden; border-radius: 999px 999px 0 0; max-width: 26rem; }
+.hb-cmp-img img { width: 100%; aspect-ratio: 4 / 5; object-fit: cover; transition: transform .6s var(--hb-ease); }
+.hb-cmp:hover .hb-cmp-img img { transform: scale(1.03); }
+.hb-cmp h2 { font-size: clamp(2.1rem, 4.4vw, 3.4rem); font-weight: 500; line-height: 1.05; margin: 0 0 .5rem; }
+.hb-cmp h2 a { color: var(--text); transition: color .25s var(--hb-ease); }
+.hb-cmp h2 a:hover { color: var(--brand); text-decoration: none; }
+.hb-cmp-acc { margin: 0 0 1.2rem; font-family: var(--font-display); font-style: italic; font-size: 1.3rem; line-height: 1.45; color: var(--text); }
+.hb-cmp-h1 { margin: 0 0 1.2rem; font-size: .95rem; color: var(--text-muted); }
+.hb-cmp-noms { margin: 0 0 1.4rem; font-size: 1rem; line-height: 1.6; color: var(--text); }
+.hb-cmp-noms span { display: block; font-size: .82rem; font-weight: 600; color: var(--text-muted); margin-bottom: .2rem; }
+.hb-cmp-sign { display: flex; align-items: center; gap: .65rem; margin: 0 0 1.6rem; font-size: .88rem; color: var(--text-muted); }
+.hb-cmp-sign img { width: 36px; height: 36px; border-radius: 50%; object-fit: cover; filter: grayscale(1); }
+.hb-cmp-sign a { color: var(--text); font-weight: 600; }
+@media (min-width: 860px) {
+  .hb-cmp { grid-template-columns: 22rem minmax(0, 1fr); gap: 4rem; align-items: center; padding: 4rem 0; }
+  .hb-cmp:nth-child(even) { grid-template-columns: minmax(0, 1fr) 22rem; }
+  .hb-cmp:nth-child(even) .hb-cmp-img { order: 2; }
 }

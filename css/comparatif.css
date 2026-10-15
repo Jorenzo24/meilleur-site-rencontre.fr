@@ -1,0 +1,103 @@
+/* ==========================================================================
+   Pages comparatif (gabarit d'octobre 2026)
+   Charge apres style.css et avis.css, dont il reprend les composants av-.
+   Classes propres prefixees cp-.
+   ========================================================================== */
+
+/* --- Ouverture : photo en arche ---------------------------------------- */
+
+.cp-photo { margin: 0; overflow: hidden; border-radius: 999px 999px 0 0; box-shadow: none; }
+.cp-photo img { width: 100%; aspect-ratio: 4 / 5; object-fit: cover; }
+
+/* --- Sommaire en etiquettes -------------------------------------------- */
+
+.cp-sommaire { background: var(--bg); padding: 1.6rem 0; border-bottom: 1px solid var(--border); }
+.cp-sommaire p { margin: 0 0 .7rem; font-size: .85rem; font-weight: 600; color: var(--text-muted); }
+.cp-sommaire ol { list-style: none; margin: 0; padding: 0; display: flex; flex-wrap: wrap; gap: .5rem; }
+.cp-sommaire a {
+  display: inline-block;
+  padding: .5rem .95rem;
+  border: 1px solid var(--border-strong);
+  border-radius: 999px;
+  font-size: .85rem;
+  font-weight: 600;
+  color: var(--text);
+  transition: border-color .25s ease, background-color .25s ease, color .25s ease;
+}
+.cp-sommaire a:hover { border-color: var(--text); background: var(--text); color: #fff; text-decoration: none; }
+
+/* --- Sections a fonds alternes ----------------------------------------- */
+
+.cp-sec { position: relative; isolation: isolate; overflow: hidden; padding: var(--av-pad) 0; background: var(--bg); }
+.cp-sec:nth-of-type(odd) { background: var(--bg-alt); }
+.cp-sec > .container { position: relative; z-index: 1; }
+.cp-sec > .av-motif { right: -2rem; top: 2.5rem; transform: rotate(-8deg); }
+.cp-sec:nth-of-type(even) > .av-motif { right: auto; left: -2rem; transform: rotate(7deg); }
+
+.cp-tete { max-width: 46rem; margin: 0 0 clamp(2.5rem, 5vw, 3.5rem); }
+.cp-tete h2 { font-size: clamp(1.9rem, 3.6vw, 2.8rem); font-weight: 500; line-height: 1.08; letter-spacing: -.012em; margin: 0 0 1rem; }
+.cp-tete p { margin: 0; font-size: 1.05rem; line-height: 1.65; color: var(--text-muted); }
+.cp-note { margin: 2.5rem 0 0; max-width: 46rem; font-size: .92rem; font-style: italic; color: var(--text-muted); }
+
+/* --- Classement --------------------------------------------------------- */
+
+.cp-rangs { display: grid; }
+.cp-rang { display: grid; gap: 1.4rem; padding: 2.5rem 0; }
+.cp-rang + .cp-rang { border-top: 1px solid rgba(22, 20, 26, .1); }
+.cp-capture { display: block; overflow: hidden; border: 1px solid var(--border-strong); background: var(--bg-pure); }
+.cp-capture img { width: 100%; aspect-ratio: 16 / 10; object-fit: cover; object-position: top center; transition: transform .6s cubic-bezier(.2, .7, .2, 1); }
+.cp-rang:hover .cp-capture img { transform: scale(1.03); }
+.cp-rang:first-child .cp-capture { box-shadow: -1rem 1rem 0 var(--brand-soft); }
+.cp-rang-k { margin: 0 0 .5rem; font-size: .86rem; font-weight: 600; color: var(--brand); }
+.cp-rang-tete { display: flex; justify-content: space-between; align-items: baseline; gap: 1rem; margin-bottom: .25rem; }
+.cp-rang-tete h3 { margin: 0; font-family: var(--font-display); font-weight: 500; letter-spacing: -.01em; font-size: clamp(1.7rem, 2.8vw, 2.2rem); font-weight: 500; line-height: 1.1; }
+.cp-rang-tete h3 a { color: var(--text); transition: color .25s ease; }
+.cp-rang-tete h3 a:hover { color: var(--brand); text-decoration: none; }
+.cp-rang-note { margin: 0; font-family: var(--font-display); color: var(--text-muted); white-space: nowrap; }
+.cp-rang-note span { font-size: 2.2rem; font-weight: 600; color: var(--text); letter-spacing: -.02em; }
+.cp-rang-tag { margin: 0 0 1.1rem; font-size: .95rem; color: var(--text-muted); }
+.cp-rang-desc { margin: 0 0 1.2rem; font-size: 1.02rem; line-height: 1.75; color: #3d3842; }
+.cp-rang-desc strong { color: var(--text); }
+.cp-rang .av-plus { list-style: none; margin: 0 0 1.6rem; padding: 0; display: grid; gap: .55rem; }
+.cp-rang .av-plus li { position: relative; padding-left: 1.6rem; font-size: .96rem; line-height: 1.5; color: #3d3842; }
+.cp-rang .av-plus li::before { content: "+"; position: absolute; left: 0; top: -.05rem; font-family: var(--font-display); font-size: 1.25rem; font-weight: 600; line-height: 1.2; color: var(--brand); }
+
+/* --- Tableau : vrai tableau au desktop, fiches empilees sur mobile ------- */
+
+.cp-tab-cadre { background: var(--bg-pure); }
+.cp-tab { width: 100%; border-collapse: collapse; font-size: .95rem; }
+.cp-tab thead { display: none; }
+.cp-tab tr { display: block; padding: 1.3rem 1.3rem 1rem; border-bottom: 1px solid var(--border); }
+.cp-tab th[scope="row"] { display: flex; justify-content: space-between; align-items: baseline; gap: 1rem; padding: 0 0 .8rem; text-align: left; }
+.cp-tab th[scope="row"] a { font-family: var(--font-display); font-size: 1.4rem; font-weight: 600; color: var(--text); }
+.cp-tab th[scope="row"] a:hover { color: var(--brand); text-decoration: none; }
+.cp-tab-note { font-family: var(--font-display); font-size: 1.35rem; font-weight: 600; }
+.cp-tab-note small { font-size: .6em; color: var(--text-muted); font-weight: 500; }
+.cp-tab td { display: flex; justify-content: space-between; gap: 1rem; padding: .45rem 0; border-top: 1px solid rgba(22, 20, 26, .06); color: var(--text); }
+.cp-tab td::before { content: attr(data-label); color: var(--text-muted); font-size: .88rem; }
+
+@media (min-width: 600px) {
+  .cp-rang-desc { text-align: justify; -webkit-hyphens: auto; hyphens: auto; }
+}
+
+@media (min-width: 900px) {
+  .cp-tab thead { display: table-header-group; }
+  .cp-tab tr { display: table-row; padding: 0; }
+  .cp-tab th, .cp-tab td { display: table-cell; padding: 1.05rem 1rem; text-align: left; vertical-align: middle; border-top: 0; border-bottom: 1px solid var(--border); }
+  .cp-tab td::before { display: none; }
+  .cp-tab thead th { font-size: .8rem; font-weight: 600; color: var(--text-muted); border-bottom: 1px solid var(--text); }
+  .cp-tab th[scope="row"] { display: table-cell; padding-left: 1.4rem; white-space: nowrap; }
+  .cp-tab thead th:first-child { padding-left: 1.4rem; }
+  .cp-tab th[scope="row"] a { display: block; font-size: 1.3rem; }
+  .cp-tab-note { display: block; font-size: 1rem; color: var(--text-muted); font-weight: 500; }
+  .cp-tab tbody tr { transition: background-color .2s ease; }
+  .cp-tab tbody tr:hover { background: var(--bg); }
+}
+
+@media (min-width: 960px) {
+  .cp-photo img { aspect-ratio: 5 / 6; max-height: 34rem; }
+  .cp-rang { grid-template-columns: minmax(0, 5fr) minmax(0, 7fr); gap: 3.5rem; align-items: start; padding: 3.25rem 0; }
+  .cp-rang:first-child .cp-capture { box-shadow: -1.4rem 1.4rem 0 var(--brand-soft); }
+  .cp-sec > .av-motif { width: 13rem; right: max(1rem, calc((100vw - var(--container)) / 2 - 7rem)); }
+  .cp-sec:nth-of-type(even) > .av-motif { left: max(-2rem, calc((100vw - var(--container)) / 2 - 11rem)); }
+}
