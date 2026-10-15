@@ -245,6 +245,19 @@
 .av-auteur-role { margin: 0 0 1rem; font-size: .92rem; color: var(--text-muted); }
 .av-auteur-bio { margin: 0 0 1.5rem; font-family: var(--font-display); font-style: italic; font-size: 1.2rem; line-height: 1.5; color: var(--text); max-width: 38rem; }
 
+/* Mobile : portrait et nom sur une ligne, bio et bouton sur toute la largeur */
+@media (max-width: 759px) {
+  .av-auteur-grille { grid-template-columns: 5.5rem 1fr; grid-template-areas: "img k" "img nom" "img role" "bio bio" "btn btn"; column-gap: 1.1rem; row-gap: 0; align-items: end; }
+  .av-auteur-grille > div { display: contents; }
+  .av-auteur-img { grid-area: img; align-self: stretch; }
+  .av-auteur-img img { height: 100%; aspect-ratio: auto; }
+  .av-auteur-k { grid-area: k; }
+  .av-auteur-nom { grid-area: nom; }
+  .av-auteur-role { grid-area: role; margin-bottom: 0; }
+  .av-auteur-bio { grid-area: bio; margin-top: 1.4rem; }
+  .av-auteur-grille .btn-coeur { grid-area: btn; justify-self: start; }
+}
+
 /* --- FAQ ---------------------------------------------------------------- */
 
 .av-faq { position: relative; isolation: isolate; overflow: hidden; background: var(--bg); padding: var(--av-pad) 0; }
