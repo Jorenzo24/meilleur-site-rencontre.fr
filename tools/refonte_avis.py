@@ -211,7 +211,7 @@ def refait(dossier):
             <p class="av-lede">{lede}</p>
             <div class="av-signature">
               <img src="/assets/auteurs/{aslug}.webp" alt="" width="44" height="44">
-              <p>Par <a href="{aurl}">{anom}</a>, mis à jour le {maj}<br><a href="/notre-methode/">Test mené sur quatre semaines</a></p>
+              <p>Par <a href="{aurl}">{anom}</a>, mis à jour le {maj}</p>
             </div>
             <div class="av-ouverture-note">
               <p class="av-note-grande"><span>{note}</span>/5</p>

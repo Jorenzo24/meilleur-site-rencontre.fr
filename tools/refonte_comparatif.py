@@ -233,7 +233,7 @@ def refait(dossier):
             <p class="av-lede">{lede}</p>
             <div class="av-signature">
               <img src="/assets/auteurs/{aslug}.webp" alt="" width="44" height="44">
-              <p>Par <a href="{aurl}">{anom}</a>, mis à jour le {maj}<br><a href="/notre-methode/">{faits}</a></p>
+              <p>Par <a href="{aurl}">{anom}</a>, mis à jour le {maj}</p>
             </div>
             <div class="av-actions">
               {btn_top}
