@@ -41,4 +41,16 @@
 @media (min-width: 960px) {
   .gd-photo img { aspect-ratio: 5 / 6; max-height: 34rem; }
 }
-.gd-prose h3 + .gd-ex figcaption, .av-prose h3 + .gd-ex figcaption { display: none; }
+
+/* Article de blog : un seul fond, les sections s'enchainent comme un texte
+   continu ; seul l'espace marque le passage d'une partie a l'autre */
+.gd .av-corps { background: var(--bg); box-shadow: 0 0 0 100vmax var(--bg); clip-path: inset(0 -100vmax); padding-block: clamp(3rem, 6vw, 5rem); }
+.gd .av-sec,
+.gd .av-sec:nth-child(odd),
+.gd .av-sec:nth-child(even) { background: transparent; box-shadow: none; clip-path: none; padding: 0 0 clamp(2.5rem, 5vw, 3.5rem); }
+.gd .av-sec + .av-sec .av-prose > h2:first-child { padding-top: clamp(1.5rem, 3vw, 2rem); border-top: 1px solid var(--border); }
+.gd .gd-ex { background: var(--bg-alt); }
+.gd .gd-ex--mauvais { background: rgba(240, 228, 220, .5); }
+@media (min-width: 1100px) {
+  .gd .av-cote-carte { margin: 0; }
+}
