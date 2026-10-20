@@ -324,3 +324,5 @@
 @media (min-width: 960px) {
   .hb-arts { grid-template-columns: repeat(3, 1fr); }
 }
+/* Quatre guides : deux colonnes plus larges au desktop */
+@media (min-width: 960px) { .hb-arts--2 { grid-template-columns: 1fr 1fr; column-gap: 3rem; } }

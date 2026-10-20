@@ -22,7 +22,10 @@
   <link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon-32.png">
   <link rel="icon" type="image/png" sizes="16x16" href="/assets/favicon-16.png">
   <link rel="apple-touch-icon" sizes="180x180" href="/assets/favicon-180.png">
-  <link rel="stylesheet" href="/css/style.css?v=20261016-1">
+  <link rel="preload" href="/assets/fonts/bodoni-moda.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="/css/style.css?v=20261020-2">
+  <link rel="stylesheet" href="/css/avis.css?v=20261020-2">
+  <link rel="stylesheet" href="/css/guide.css?v=20261020-2">
 
   <script type="application/ld+json">
   {
@@ -59,7 +62,7 @@
       { "@type": "Question", "name": "Pourquoi mes premiers messages restent sans réponse ?", "acceptedAnswer": { "@type": "Answer", "text": "Trois raisons dominent : un message générique qui pourrait être copié-collé sur n'importe qui, une absence de question ouverte qui ne donne aucune prise pour répondre, ou un compliment trop appuyé sur le physique qui place mal la conversation. Personnaliser le message à partir d'un détail précis du profil change radicalement le taux de réponse." } },
       { "@type": "Question", "name": "Quelle est la longueur idéale d'un premier message ?", "acceptedAnswer": { "@type": "Answer", "text": "Entre deux et quatre phrases est l'idéal. Plus court, c'est trop sec et donne l'impression de ne pas s'investir. Plus long, c'est trop intense pour un premier contact et fait fuir. L'objectif est d'engager une conversation, pas de se présenter en intégralité." } },
       { "@type": "Question", "name": "Faut-il commencer par un compliment ?", "acceptedAnswer": { "@type": "Answer", "text": "Un compliment peut fonctionner s'il porte sur quelque chose de personnel (un goût, une activité, un détail de la bio) plutôt que sur le physique. Le compliment physique en ouverture est presque toujours mal reçu, surtout par les femmes qui en reçoivent en grand nombre. Privilégiez le compliment sur ce que la personne fait ou aime." } },
-      { "@type": "Question", "name": "Que faire si mon premier message reste sans réponse ?", "acceptedAnswer": { "@type": "Answer", "text": "Une seule relance, légère, après quelques jours, peut être tentée si le profil reste actif. Au-delà, mieux vaut accepter le non-retour et passer à un autre profil. L'insistance se voit immédiatement et n'aboutit qu'à se faire bloquer ou signaler. Le ratio de réponse moyen sur les sites de rencontre tourne autour de 20 à 40 %, le silence est statistiquement normal." } }
+      { "@type": "Question", "name": "Que faire si mon premier message reste sans réponse ?", "acceptedAnswer": { "@type": "Answer", "text": "Une seule relance, légère, après quelques jours, peut être tentée si le profil reste actif. Au-delà, mieux vaut accepter le non-retour et passer à un autre profil. L'insistance se voit immédiatement et n'aboutit qu'à se faire bloquer ou signaler. Le silence après un premier message est fréquent, et normal." } }
     ]
   }
   </script>
@@ -96,54 +99,54 @@
     </div>
   </header>
 
-  <main id="main" class="guide-page">
+  <main id="main" class="av gd">
 
-    <nav class="breadcrumb" aria-label="Fil d'Ariane">
+    <!-- Ouverture -->
+    <section class="av-ouverture">
+      <span class="av-motif av-motif--loupe" aria-hidden="true"></span>
       <div class="container">
-        <ol>
-          <li><a href="/">Accueil</a></li>
-          <li><a href="/guides/">Guides</a></li>
-          <li aria-current="page">Premier message</li>
-        </ol>
-      </div>
-    </nav>
-
-    <section class="compare-hero">
-      <div class="container">
-        <p class="eyebrow">Guide premier message</p>
-        <h1>Quel premier message envoyer sur un site de rencontre en 2026</h1>
-        <p class="lede">Un bon <strong>premier message</strong> n'est pas une question de talent : c'est une question de méthode. Voici les principes qui font la différence, les exemples qui marchent vraiment, et les formules à éviter à tout prix sur <a href="/avis-meetic/">Meetic</a>, Tinder et les autres apps de rencontre.</p>
-        <p class="compare-meta">
-          <span>Personnalisation · Question ouverte · Ton juste</span>
-          <span>Par <a href="/auteurs/bastien/">Bastien</a></span>
-          <span>Mise à jour le 23 juin 2026</span>
-        </p>
+        <nav class="breadcrumb" aria-label="Fil d'Ariane">
+          <ol>
+            <li><a href="/">Accueil</a></li>
+            <li><a href="/guides/">Guides</a></li>
+            <li aria-current="page">Premier message</li>
+          </ol>
+        </nav>
+        <div class="av-ouverture-grille">
+          <div class="av-ouverture-texte">
+            <h1>Quel premier message envoyer sur un site de rencontre en 2026</h1>
+            <p class="av-lede">Un bon <strong>premier message</strong> n'est pas une question de talent : c'est une question de méthode. Voici les principes qui font la différence, les exemples qui marchent vraiment, et les formules à éviter à tout prix sur <a href="/avis-meetic/">Meetic</a>, Tinder et les autres apps de rencontre.</p>
+            <div class="av-signature">
+              <img src="/assets/auteurs/bastien.webp" alt="" width="44" height="44">
+              <p>Par <a href="/auteurs/bastien/">Bastien</a>, mis à jour le 23 juin 2026</p>
+            </div>
+          </div>
+          <figure class="gd-photo">
+            <img src="/assets/guides/guide-premier-message.webp" alt="Une femme sourit en lisant un message sur son smartphone, installée dans un canapé" width="960" height="480" fetchpriority="high">
+          </figure>
+        </div>
       </div>
     </section>
 
-    <section class="guide-figure">
-      <div class="container review-prose">
-        <figure class="edito-figure">
-          <img src="/assets/guides/guide-premier-message.webp" alt="Une femme sourit en lisant un message sur son smartphone, installée dans un canapé" width="960" height="480" fetchpriority="high">
-        </figure>
-      </div>
-    </section>
-
-    <nav class="page-toc" aria-label="Sommaire">
-      <div class="container">
-        <h2 class="page-toc-title">Au sommaire</h2>
-        <ol class="page-toc-list">
-          <li><a href="#principes">Les trois principes d'un bon premier message</a></li>
-          <li><a href="#exemples">Exemples concrets qui marchent</a></li>
-          <li><a href="#eviter">Les formules à éviter absolument</a></li>
-          <li><a href="#relancer">Comment relancer (ou pas) sans réponse</a></li>
-          <li><a href="#faq">Questions fréquentes</a></li>
-        </ol>
-      </div>
-    </nav>
-
-    <section id="principes" class="review-section">
-      <div class="container review-prose">
+    <!-- Corps du guide, avec colonne collante -->
+    <div class="av-corps">
+      <aside class="av-cote" aria-label="Dans ce guide">
+        <div class="av-cote-carte gd-cote">
+          <p class="gd-cote-auteur"><img src="/assets/auteurs/bastien.webp" alt="" width="40" height="40"><span><a href="/auteurs/bastien/">Bastien</a><small>mis à jour le 23 juin 2026</small></span></p>
+          <p class="av-cote-t">Dans ce guide</p>
+          <ol class="av-sommaire" data-sommaire>
+            <li><a href="#principes">Les trois principes d'un bon premier message</a></li>
+            <li><a href="#exemples">Exemples concrets qui marchent</a></li>
+            <li><a href="#eviter">Les formules à éviter absolument</a></li>
+            <li><a href="#relancer">Comment relancer (ou pas) sans réponse</a></li>
+            <li><a href="#faq">Questions fréquentes</a></li>
+          </ol>
+        </div>
+      </aside>
+      <article class="av-article">
+      <section id="principes" class="av-sec">
+        <span class="av-motif av-motif--telephone" aria-hidden="true"></span>
+        <div class="av-prose">
         <h2>Les trois principes d'un bon premier message</h2>
         <p>Un <strong>bon premier message</strong> respecte presque toujours les mêmes règles, qu'on soit sur un site de rencontre sérieux comme Meetic ou sur une app mobile. Trois principes structurent l'efficacité.</p>
 
@@ -155,36 +158,41 @@
 
         <h3>Garder un ton juste</h3>
         <p>Le <strong>ton</strong> compte presque autant que le contenu. Évitez la familiarité excessive (« hey beauté », « salut princesse ») qui crée immédiatement de la distance. Évitez aussi le ton trop soutenu ou solennel qui sonne forcé. Visez un naturel posé, comme si vous abordiez quelqu'un dans une soirée : poli, mais pas guindé. Une touche d'humour, si elle vous est naturelle, est toujours un plus.</p>
-      </div>
-    </section>
+        </div>
+      </section>
 
-    <section id="exemples" class="review-section">
-      <div class="container review-prose">
+      <section id="exemples" class="av-sec">
+        <span class="av-motif av-motif--cafe" aria-hidden="true"></span>
+        <div class="av-prose">
         <h2>Exemples concrets qui marchent</h2>
         <p>Trois <strong>exemples</strong> à partir de situations réalistes, avec ce qui les rend efficaces.</p>
 
         <h3>Exemple 1 : la référence culturelle partagée</h3>
-        <blockquote class="example-quote example-quote--good">
-          <p>Bonsoir Sarah, je vois que tu as mis « <em>L'Anomalie</em> » dans tes lectures préférées : je l'ai dévoré l'an dernier et j'ai gardé en tête le chapitre du double pendant des semaines. Tu as un autre livre à conseiller dans le même genre ?</p>
-        </blockquote>
+        <figure class="gd-ex gd-ex--bon">
+          <figcaption>Bon exemple</figcaption>
+          <blockquote><p>Bonsoir Sarah, je vois que tu as mis « <em>L'Anomalie</em> » dans tes lectures préférées : je l'ai dévoré l'an dernier et j'ai gardé en tête le chapitre du double pendant des semaines. Tu as un autre livre à conseiller dans le même genre ?</p></blockquote>
+        </figure>
         <p><strong>Pourquoi ça marche</strong> : un détail précis pris dans la bio, une réaction personnelle qui montre que la lecture a vraiment compté, une question ouverte facile à traiter. La réponse vient presque toute seule.</p>
 
         <h3>Exemple 2 : la curiosité sur une activité</h3>
-        <blockquote class="example-quote example-quote--good">
-          <p>Hello Marc, tu fais de la grimpe en falaise sur tes photos. Je viens de la salle et je n'ai jamais osé passer dehors. Tu as commencé comment, et est-ce que c'est plus dur que ça en a l'air ?</p>
-        </blockquote>
+        <figure class="gd-ex gd-ex--bon">
+          <figcaption>Bon exemple</figcaption>
+          <blockquote><p>Hello Marc, tu fais de la grimpe en falaise sur tes photos. Je viens de la salle et je n'ai jamais osé passer dehors. Tu as commencé comment, et est-ce que c'est plus dur que ça en a l'air ?</p></blockquote>
+        </figure>
         <p><strong>Pourquoi ça marche</strong> : reconnaissance d'une expertise, position humble qui invite au partage, question concrète qui ouvre sur l'expérience de l'autre. C'est aussi une question qui flatte le destinataire sans tomber dans la flatterie creuse.</p>
 
         <h3>Exemple 3 : le clin d'œil sur un détail amusant</h3>
-        <blockquote class="example-quote example-quote--good">
-          <p>Salut Chloé, tu écris que tu fais le café avant le réveil de ton coloc, je vois la scène d'ici. C'est par bonté ou par stratégie pour avoir la meilleure tasse ?</p>
-        </blockquote>
+        <figure class="gd-ex gd-ex--bon">
+          <figcaption>Bon exemple</figcaption>
+          <blockquote><p>Salut Chloé, tu écris que tu fais le café avant le réveil de ton coloc, je vois la scène d'ici. C'est par bonté ou par stratégie pour avoir la meilleure tasse ?</p></blockquote>
+        </figure>
         <p><strong>Pourquoi ça marche</strong> : reprise précise d'un élément amusant de la bio, ton léger qui invite à jouer, question concrète qui ouvre sur le quotidien. La conversation peut partir dans plusieurs directions.</p>
-      </div>
-    </section>
+        </div>
+      </section>
 
-    <section id="eviter" class="review-section">
-      <div class="container review-prose">
+      <section id="eviter" class="av-sec">
+        <span class="av-motif av-motif--loupe" aria-hidden="true"></span>
+        <div class="av-prose">
         <h2>Les formules à éviter absolument</h2>
         <p>Certaines <strong>formules</strong> sont tellement répandues qu'elles condamnent presque automatiquement le message au silence. Voici les plus problématiques.</p>
 
@@ -199,13 +207,14 @@
 
         <h3>Les compliments-flatterie excessifs</h3>
         <p>« Tu es une déesse », « tu sembles parfaite », « je n'ai jamais vu quelqu'un comme toi » : ces compliments <strong>excessifs</strong> sonnent faux et mettent mal à l'aise. Ils suggèrent une exagération qui place la conversation dans un registre déséquilibré. La plupart des destinataires bloquent ou ignorent.</p>
-      </div>
-    </section>
+        </div>
+      </section>
 
-    <section id="relancer" class="review-section">
-      <div class="container review-prose">
+      <section id="relancer" class="av-sec">
+        <span class="av-motif av-motif--lettre" aria-hidden="true"></span>
+        <div class="av-prose">
         <h2>Comment relancer (ou pas) sans réponse</h2>
-        <p>Le silence après un premier message est <strong>statistiquement normal</strong>. Le ratio de réponse moyen sur les sites de rencontre tourne autour de 20 à 40 % selon les plateformes et les profils. Voici comment gérer ce silence sans tomber dans l'insistance.</p>
+        <p>Le silence après un premier message est <strong>fréquent, et normal</strong>. Voici comment gérer ce silence sans tomber dans l'insistance.</p>
 
         <h3>Une seule relance, légère, après quelques jours</h3>
         <p>Si le profil reste actif et que vous tenez à lui, une <strong>relance unique</strong>, légère, après trois ou quatre jours, peut être tentée. Quelque chose comme : « Mon message s'est peut-être perdu, mais ta réponse à la question sur les randos en hiver m'intéresse toujours ». Une référence à votre premier message rappelle le contexte, le ton léger évite le reproche.</p>
@@ -215,103 +224,81 @@
 
         <h3>Ne pas prendre le silence personnellement</h3>
         <p>Sur les sites de rencontre, les profils reçoivent des dizaines de messages par jour, certains scannent à peine les retours. Le silence ne dit pas grand-chose de vous : il dit beaucoup du <strong>volume reçu</strong> et du temps disponible de l'autre. Plus votre profil est soigné et vos messages personnalisés, plus le ratio de réponse monte. Mais il ne sera jamais à 100 %, et c'est normal.</p>
-      </div>
-    </section>
-
-    <section class="review-section">
-      <div class="container review-prose">
-        <div class="author-box">
-          <div class="author-photo">
-            <img src="/assets/auteurs/bastien.webp" alt="Photo de Bastien" width="84" height="84" loading="lazy">
-          </div>
-          <div class="author-body">
-            <p class="author-eyebrow">Rédigé par</p>
-            <p class="author-name">Bastien</p>
-            <p class="author-role">Rédacteur · analyse de plateformes et SEO</p>
-            <p class="author-bio">Je décortique chaque plateforme avec une approche pratique : inscription, navigation, messagerie, modération, rapport qualité-prix.</p>
-            <a class="author-link" href="/auteurs/bastien/">Voir toutes ses publications →</a>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <section id="faq" class="faq">
-      <div class="container">
-        <header class="section-head">
-          <h2>Questions fréquentes sur le premier message</h2>
-        </header>
-
-        <details class="faq-item">
-          <summary>Pourquoi mes premiers messages restent sans réponse ?</summary>
-          <p>Trois raisons dominent : un <strong>message générique</strong> qui pourrait être copié-collé sur n'importe qui, une <strong>absence de question ouverte</strong> qui ne donne aucune prise pour répondre, ou un <strong>compliment trop appuyé sur le physique</strong> qui place mal la conversation. Personnaliser le message à partir d'un détail précis du profil change radicalement le taux de réponse.</p>
-        </details>
-
-        <details class="faq-item">
-          <summary>Quelle est la longueur idéale d'un premier message ?</summary>
-          <p>Entre <strong>deux et quatre phrases</strong> est l'idéal. Plus court, c'est trop sec et donne l'impression de ne pas s'investir. Plus long, c'est trop intense pour un premier contact et fait fuir. L'objectif est d'engager une conversation, pas de se présenter en intégralité.</p>
-        </details>
-
-        <details class="faq-item">
-          <summary>Faut-il commencer par un compliment ?</summary>
-          <p>Un compliment peut fonctionner s'il porte sur quelque chose de <strong>personnel</strong> (un goût, une activité, un détail de la bio) plutôt que sur le physique. Le compliment physique en ouverture est presque toujours mal reçu, surtout par les femmes qui en reçoivent en grand nombre. Privilégiez le compliment sur ce que la personne fait ou aime.</p>
-        </details>
-
-        <details class="faq-item">
-          <summary>Que faire si mon premier message reste sans réponse ?</summary>
-          <p>Une seule <strong>relance</strong>, légère, après quelques jours, peut être tentée si le profil reste actif. Au-delà, mieux vaut accepter le non-retour et passer à un autre profil. L'insistance se voit immédiatement et n'aboutit qu'à se faire bloquer ou signaler. Le ratio de réponse moyen sur les sites de rencontre tourne autour de 20 à 40 %, le silence est statistiquement normal.</p>
-        </details>
-
-        <details class="faq-item">
-          <summary>Le premier message est-il différent sur Meetic et sur une app mobile ?</summary>
-          <p>Le ton et la longueur peuvent s'adapter. Sur <strong>Meetic, <a href="/avis-edarling/">eDarling</a> ou <a href="/avis-infinite-rencontre/">Infinite Rencontre</a></strong>, vous pouvez écrire des messages un peu plus développés (3 à 4 phrases, un ton plus posé), parce que la communauté y est plus mature et plus disposée à lire. Sur les apps mobile type <a href="/avis-spiice/">Spiice</a>, on resserre (2 phrases, plus de spontanéité). Les principes de fond restent identiques.</p>
-        </details>
-
-      </div>
-    </section>
-
-    <section class="review-section">
-      <div class="container review-prose">
         <p class="see-also"><strong>Quand la conversation s'arrête.</strong> Si le silence tombe d'un coup, voyez notre définition du <a href="/lexique/ghosting/">ghosting</a>. Si les réponses arrivent au compte-gouttes sans jamais rien concrétiser, il s'agit plutôt de <a href="/lexique/breadcrumbing/">breadcrumbing</a>.</p>
-      </div>
-    </section>
+        </div>
+      </section>
+      </article>
+    </div>
 
-    <section class="related-reviews">
-      <div class="container">
-        <header class="section-head">
-          <h2>Lire aussi</h2>
-          <p>Nos autres guides pour soigner votre démarche de bout en bout.</p>
-        </header>
-
-        <div class="related-grid">
-
-          <a href="/guide/profil-attractif/" class="related-card">
-            <h3>Rédiger un profil qui attire</h3>
-            <p>Photos, bio, intentions : les leviers pour soigner votre présentation.</p>
-            <span class="related-link">Lire le guide
-              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
-            </span>
-          </a>
-
-          <a href="/guide/faux-profils/" class="related-card">
-            <h3>Reconnaître un faux profil</h3>
-            <p>Les signaux qui ne trompent pas et les bons réflexes pour signaler.</p>
-            <span class="related-link">Lire le guide
-              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
-            </span>
-          </a>
-
-          <a href="/comparatif-relation-serieuse/" class="related-card">
-            <h3>Les sites les plus sérieux</h3>
-            <p>Notre top 5 des plateformes où les conversations aboutissent vraiment.</p>
-            <span class="related-link">Voir le comparatif
-              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
-            </span>
-          </a>
-
+    <section class="av-auteur">
+      <span class="av-motif av-motif--plume" aria-hidden="true"></span>
+      <div class="container av-auteur-grille" data-reveal>
+        <span class="av-auteur-img"><img src="/assets/auteurs/bastien.webp" alt="Portrait de Bastien" width="320" height="320" loading="lazy"></span>
+        <div>
+          <p class="av-auteur-k">Guide rédigé par</p>
+          <p class="av-auteur-nom">Bastien</p>
+          <p class="av-auteur-role">Rédacteur · analyse de plateformes et SEO</p>
+          <p class="av-auteur-bio">Je décortique chaque plateforme avec une approche pratique : inscription, navigation, messagerie, modération, rapport qualité-prix.</p>
+          <a class="btn-coeur" href="/auteurs/bastien/"><svg class="btn-coeur-ico" width="15" height="14" viewBox="0 0 24 22" aria-hidden="true"><path d="M12 20.3s-8.8-5.3-8.8-11.4A4.9 4.9 0 0 1 12 6.1a4.9 4.9 0 0 1 8.8 2.8c0 6.1-8.8 11.4-8.8 11.4z"/></svg><span>Tous les articles de Bastien</span><svg class="btn-coeur-fl" width="18" height="10" viewBox="0 0 18 10" fill="none" aria-hidden="true"><path d="M1 5h15M12 1l4 4-4 4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg></a>
         </div>
       </div>
     </section>
 
+    <!-- FAQ -->
+    <section id="faq" class="av-faq">
+      <span class="av-motif av-motif--bulles" aria-hidden="true"></span>
+      <div class="container av-faq-grille">
+        <header data-reveal>
+          <h2 class="av-h2">Questions fréquentes sur le premier message</h2>
+          <p class="av-texte">Une autre question, une erreur à signaler&nbsp;? La rédaction vous lit.</p>
+          <a class="btn-coeur" href="/contact/"><svg class="btn-coeur-ico" width="15" height="14" viewBox="0 0 24 22" aria-hidden="true"><path d="M12 20.3s-8.8-5.3-8.8-11.4A4.9 4.9 0 0 1 12 6.1a4.9 4.9 0 0 1 8.8 2.8c0 6.1-8.8 11.4-8.8 11.4z"/></svg><span>Contacter la rédaction</span><svg class="btn-coeur-fl" width="18" height="10" viewBox="0 0 18 10" fill="none" aria-hidden="true"><path d="M1 5h15M12 1l4 4-4 4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg></a>
+        </header>
+        <div class="av-qa" data-reveal>
+          <details>
+            <summary>Pourquoi mes premiers messages restent sans réponse ?</summary>
+            <p>Trois raisons dominent : un <strong>message générique</strong> qui pourrait être copié-collé sur n'importe qui, une <strong>absence de question ouverte</strong> qui ne donne aucune prise pour répondre, ou un <strong>compliment trop appuyé sur le physique</strong> qui place mal la conversation. Personnaliser le message à partir d'un détail précis du profil change radicalement le taux de réponse.</p>
+          </details>
+          <details>
+            <summary>Quelle est la longueur idéale d'un premier message ?</summary>
+            <p>Entre <strong>deux et quatre phrases</strong> est l'idéal. Plus court, c'est trop sec et donne l'impression de ne pas s'investir. Plus long, c'est trop intense pour un premier contact et fait fuir. L'objectif est d'engager une conversation, pas de se présenter en intégralité.</p>
+          </details>
+          <details>
+            <summary>Faut-il commencer par un compliment ?</summary>
+            <p>Un compliment peut fonctionner s'il porte sur quelque chose de <strong>personnel</strong> (un goût, une activité, un détail de la bio) plutôt que sur le physique. Le compliment physique en ouverture est presque toujours mal reçu, surtout par les femmes qui en reçoivent en grand nombre. Privilégiez le compliment sur ce que la personne fait ou aime.</p>
+          </details>
+          <details>
+            <summary>Que faire si mon premier message reste sans réponse ?</summary>
+            <p>Une seule <strong>relance</strong>, légère, après quelques jours, peut être tentée si le profil reste actif. Au-delà, mieux vaut accepter le non-retour et passer à un autre profil. L'insistance se voit immédiatement et n'aboutit qu'à se faire bloquer ou signaler. Le silence après un premier message est fréquent, et normal.</p>
+          </details>
+          <details>
+            <summary>Le premier message est-il différent sur Meetic et sur une app mobile ?</summary>
+            <p>Le ton et la longueur peuvent s'adapter. Sur <strong>Meetic, <a href="/avis-edarling/">eDarling</a> ou <a href="/avis-infinite-rencontre/">Infinite Rencontre</a></strong>, vous pouvez écrire des messages un peu plus développés (3 à 4 phrases, un ton plus posé), parce que la communauté y est plus mature et plus disposée à lire. Sur les apps mobile type <a href="/avis-spiice/">Spiice</a>, on resserre (2 phrases, plus de spontanéité). Les principes de fond restent identiques.</p>
+          </details>
+        </div>
+      </div>
+    </section>
+
+    <!-- Lire aussi -->
+    <section class="av-autres">
+      <div class="container">
+        <h2 class="av-h2">Lire aussi</h2>
+        <div class="av-autres-grille" data-reveal>
+          <a class="av-autre" href="/guide/profil-attractif/">
+            <span class="av-autre-img"><img src="/assets/guides/guide-profil-attractif.webp" alt="" width="960" height="480" loading="lazy"></span><span class="av-autre-tete"><span class="av-autre-nom">Rédiger un profil qui attire</span></span>
+            <span class="av-autre-acc">Photos, bio, intentions : les leviers pour soigner votre présentation.</span>
+          </a>
+          <a class="av-autre" href="/guide/faux-profils/">
+            <span class="av-autre-img"><img src="/assets/guides/guide-faux-profils.webp" alt="" width="960" height="480" loading="lazy"></span><span class="av-autre-tete"><span class="av-autre-nom">Reconnaître un faux profil</span></span>
+            <span class="av-autre-acc">Les signaux qui ne trompent pas et les bons réflexes pour signaler.</span>
+          </a>
+          <a class="av-autre" href="/comparatif-relation-serieuse/">
+            <span class="av-autre-img"><img src="/assets/comparatifs/comparatif-relation-serieuse.webp" alt="" width="960" height="480" loading="lazy"></span><span class="av-autre-tete"><span class="av-autre-nom">Les sites les plus sérieux</span></span>
+            <span class="av-autre-acc">Notre classement des plateformes où les conversations aboutissent vraiment.</span>
+          </a>
+        </div>
+        <a class="btn-coeur" href="/guides/"><svg class="btn-coeur-ico" width="15" height="14" viewBox="0 0 24 22" aria-hidden="true"><path d="M12 20.3s-8.8-5.3-8.8-11.4A4.9 4.9 0 0 1 12 6.1a4.9 4.9 0 0 1 8.8 2.8c0 6.1-8.8 11.4-8.8 11.4z"/></svg><span>Tous nos guides</span><svg class="btn-coeur-fl" width="18" height="10" viewBox="0 0 18 10" fill="none" aria-hidden="true"><path d="M1 5h15M12 1l4 4-4 4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg></a>
+      </div>
+    </section>
   </main>
 
   <footer class="site-footer">
@@ -374,6 +361,6 @@
     </div>
   </footer>
 
-  <script src="/js/main.js?v=20261016-1"></script>
+  <script src="/js/main.js?v=20261020-2"></script>
 </body>
 </html>

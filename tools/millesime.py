@@ -38,6 +38,9 @@ MOTIFS = {
     'comparatifs/index.html': [
         r'(Comparatifs sites de rencontre )(\d{4})( : selon)',
     ],
+    'guides/index.html': [
+        r'(Guides rencontre en ligne )(\d{4})( :)',
+    ],
     # copyright du pied de page, sur toutes les pages
     '**/*.html': [
         r'(&copy; )(\d{4})( meilleur-site-rencontre\.fr)',

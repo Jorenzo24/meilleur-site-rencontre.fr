@@ -22,7 +22,10 @@
   <link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon-32.png">
   <link rel="icon" type="image/png" sizes="16x16" href="/assets/favicon-16.png">
   <link rel="apple-touch-icon" sizes="180x180" href="/assets/favicon-180.png">
-  <link rel="stylesheet" href="/css/style.css?v=20261016-1">
+  <link rel="preload" href="/assets/fonts/bodoni-moda.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="/css/style.css?v=20261020-2">
+  <link rel="stylesheet" href="/css/avis.css?v=20261020-2">
+  <link rel="stylesheet" href="/css/guide.css?v=20261020-2">
 
   <script type="application/ld+json">
   {
@@ -96,55 +99,55 @@
     </div>
   </header>
 
-  <main id="main" class="guide-page">
+  <main id="main" class="av gd">
 
-    <nav class="breadcrumb" aria-label="Fil d'Ariane">
+    <!-- Ouverture -->
+    <section class="av-ouverture">
+      <span class="av-motif av-motif--loupe" aria-hidden="true"></span>
       <div class="container">
-        <ol>
-          <li><a href="/">Accueil</a></li>
-          <li><a href="/guides/">Guides</a></li>
-          <li aria-current="page">Reconnaître un faux profil</li>
-        </ol>
-      </div>
-    </nav>
-
-    <section class="compare-hero">
-      <div class="container">
-        <p class="eyebrow">Guide sécurité</p>
-        <h1>Reconnaître un faux profil sur un site de rencontre en 2026</h1>
-        <p class="lede">Les <strong>arnaques sentimentales</strong> et les <strong>faux profils</strong> coûtent chaque année plusieurs millions d'euros aux victimes en France. Bonne nouvelle : les signaux d'alerte sont presque toujours les mêmes. Voici comment les repérer en quelques minutes et que faire en cas de doute.</p>
-        <p class="compare-meta">
-          <span>5 signaux à croiser</span>
-          <span>Par <a href="/auteurs/jeanne/">Jeanne</a></span>
-          <span>Mise à jour le 23 juin 2026</span>
-        </p>
+        <nav class="breadcrumb" aria-label="Fil d'Ariane">
+          <ol>
+            <li><a href="/">Accueil</a></li>
+            <li><a href="/guides/">Guides</a></li>
+            <li aria-current="page">Reconnaître un faux profil</li>
+          </ol>
+        </nav>
+        <div class="av-ouverture-grille">
+          <div class="av-ouverture-texte">
+            <h1>Reconnaître un faux profil sur un site de rencontre en 2026</h1>
+            <p class="av-lede">Les <strong>arnaques sentimentales</strong> et les <strong>faux profils</strong> coûtent chaque année plusieurs millions d'euros aux victimes en France. Bonne nouvelle : les signaux d'alerte sont presque toujours les mêmes. Voici comment les repérer en quelques minutes et que faire en cas de doute.</p>
+            <div class="av-signature">
+              <img src="/assets/auteurs/jeanne.webp" alt="" width="44" height="44">
+              <p>Par <a href="/auteurs/jeanne/">Jeanne</a>, mis à jour le 23 juin 2026</p>
+            </div>
+          </div>
+          <figure class="gd-photo">
+            <img src="/assets/guides/guide-faux-profils.webp" alt="Une femme songeuse regarde par la fenêtre, l'air dubitatif" width="960" height="480" fetchpriority="high">
+          </figure>
+        </div>
       </div>
     </section>
 
-    <section class="guide-figure">
-      <div class="container review-prose">
-        <figure class="edito-figure">
-          <img src="/assets/guides/guide-faux-profils.webp" alt="Une femme songeuse regarde par la fenêtre, l'air dubitatif" width="960" height="480" fetchpriority="high">
-        </figure>
-      </div>
-    </section>
-
-    <nav class="page-toc" aria-label="Sommaire">
-      <div class="container">
-        <h2 class="page-toc-title">Au sommaire</h2>
-        <ol class="page-toc-list">
-          <li><a href="#signaux">Les signaux qui doivent vous alerter</a></li>
-          <li><a href="#types">Les types d'arnaques sentimentales courants</a></li>
-          <li><a href="#verifier">Comment vérifier un profil en pratique</a></li>
-          <li><a href="#reflexes">Les bons réflexes en cas de doute</a></li>
-          <li><a href="#signaler">Comment signaler et porter plainte</a></li>
-          <li><a href="#faq">Questions fréquentes</a></li>
-        </ol>
-      </div>
-    </nav>
-
-    <section id="signaux" class="review-section">
-      <div class="container review-prose">
+    <!-- Corps du guide, avec colonne collante -->
+    <div class="av-corps">
+      <aside class="av-cote" aria-label="Dans ce guide">
+        <div class="av-cote-carte gd-cote">
+          <p class="gd-cote-auteur"><img src="/assets/auteurs/jeanne.webp" alt="" width="40" height="40"><span><a href="/auteurs/jeanne/">Jeanne</a><small>mis à jour le 23 juin 2026</small></span></p>
+          <p class="av-cote-t">Dans ce guide</p>
+          <ol class="av-sommaire" data-sommaire>
+            <li><a href="#signaux">Les signaux qui doivent vous alerter</a></li>
+            <li><a href="#types">Les types d'arnaques sentimentales courants</a></li>
+            <li><a href="#verifier">Comment vérifier un profil en pratique</a></li>
+            <li><a href="#reflexes">Les bons réflexes en cas de doute</a></li>
+            <li><a href="#signaler">Comment signaler et porter plainte</a></li>
+            <li><a href="#faq">Questions fréquentes</a></li>
+          </ol>
+        </div>
+      </aside>
+      <article class="av-article">
+      <section id="signaux" class="av-sec">
+        <span class="av-motif av-motif--telephone" aria-hidden="true"></span>
+        <div class="av-prose">
         <h2>Les signaux qui doivent vous alerter</h2>
         <p>Aucun signal pris seul n'est une preuve absolue, mais <strong>deux ou trois cumulés</strong> suffisent à activer la prudence. Voici les cinq plus fréquents.</p>
 
@@ -162,11 +165,12 @@
 
         <h3>Une orientation rapide vers WhatsApp, Telegram ou un autre canal</h3>
         <p>Le passage rapide vers un <strong>canal externe</strong> (WhatsApp, Telegram, e-mail) est suspect. Les fraudeurs cherchent à sortir de la plateforme avant que la modération ne les bloque. Sur un site de rencontre sérieux, la conversation peut très bien se faire en messagerie interne pendant plusieurs semaines. Un interlocuteur qui presse pour quitter la plateforme dès le premier ou deuxième jour est rarement de bonne foi.</p>
-      </div>
-    </section>
+        </div>
+      </section>
 
-    <section id="types" class="review-section">
-      <div class="container review-prose">
+      <section id="types" class="av-sec">
+        <span class="av-motif av-motif--cafe" aria-hidden="true"></span>
+        <div class="av-prose">
         <h2>Les types d'arnaques sentimentales courants</h2>
         <p>Connaître les <strong>scénarios récurrents</strong> aide à les reconnaître quand ils arrivent. Voici les quatre les plus répandus en France en 2026.</p>
 
@@ -181,11 +185,12 @@
 
         <h3>Le sextorsion</h3>
         <p>Variante particulièrement violente : après quelques échanges, votre interlocuteur vous incite à partager des <strong>photos intimes</strong>, puis menace de les diffuser à vos contacts ou sur internet si vous ne payez pas. Si cela vous arrive, ne cédez jamais : payer ne stoppe pas le chantage, ça l'amorce.</p>
-      </div>
-    </section>
+        </div>
+      </section>
 
-    <section id="verifier" class="review-section">
-      <div class="container review-prose">
+      <section id="verifier" class="av-sec">
+        <span class="av-motif av-motif--loupe" aria-hidden="true"></span>
+        <div class="av-prose">
         <h2>Comment vérifier un profil en pratique</h2>
         <p>Trois techniques simples permettent de <strong>vérifier un profil</strong> en quelques minutes.</p>
 
@@ -197,11 +202,12 @@
 
         <h3>Les recoupements basiques</h3>
         <p>Croisez les <strong>informations partagées</strong> : la ville indiquée, le métier, les anecdotes. Une rapide recherche sur LinkedIn ou les réseaux sociaux permet souvent de confirmer ou d'invalider une identité. Si la personne est introuvable nulle part, ce n'est pas une preuve mais c'est un signal supplémentaire.</p>
-      </div>
-    </section>
+        </div>
+      </section>
 
-    <section id="reflexes" class="review-section">
-      <div class="container review-prose">
+      <section id="reflexes" class="av-sec">
+        <span class="av-motif av-motif--lettre" aria-hidden="true"></span>
+        <div class="av-prose">
         <h2>Les bons réflexes en cas de doute</h2>
         <p>Quand un profil active vos doutes, trois <strong>réflexes</strong> protègent efficacement.</p>
 
@@ -213,11 +219,12 @@
 
         <h3>Garder une lecture lucide des sentiments</h3>
         <p>Les arnaques sentimentales fonctionnent en <strong>jouant sur l'attachement</strong>. Plus vous êtes investi émotionnellement, plus vous êtes disposé à fermer les yeux sur les incohérences. Si une amie ou un proche vous fait remarquer que quelque chose cloche dans votre relation virtuelle, écoutez sa lecture extérieure : elle n'a pas votre attachement, donc voit souvent plus clair.</p>
-      </div>
-    </section>
+        </div>
+      </section>
 
-    <section id="signaler" class="review-section">
-      <div class="container review-prose">
+      <section id="signaler" class="av-sec">
+        <span class="av-motif av-motif--avion" aria-hidden="true"></span>
+        <div class="av-prose">
         <h2>Comment signaler et porter plainte</h2>
         <p>Si vous identifiez un <strong>faux profil</strong> ou si vous avez été victime d'une arnaque, plusieurs canaux sont à actionner.</p>
 
@@ -229,103 +236,81 @@
 
         <h3>Porter plainte si vous avez été victime</h3>
         <p>Si vous avez transmis de l'argent ou des informations sensibles, <strong>portez plainte</strong> au commissariat ou à la gendarmerie. Conservez toutes les preuves (captures d'écran des conversations, e-mails, virements bancaires, références utilisées). En cas de virement récent, contactez immédiatement votre banque : elle peut parfois bloquer le transfert avant qu'il soit définitif. La honte est une réaction normale, mais elle ne doit jamais empêcher le dépôt de plainte : sans signalement, les fraudeurs continuent.</p>
-      </div>
-    </section>
-
-    <section class="review-section">
-      <div class="container review-prose">
-        <div class="author-box">
-          <div class="author-photo">
-            <img src="/assets/auteurs/jeanne.webp" alt="Photo de Jeanne" width="84" height="84" loading="lazy">
-          </div>
-          <div class="author-body">
-            <p class="author-eyebrow">Rédigé par</p>
-            <p class="author-name">Jeanne</p>
-            <p class="author-role">Rédactrice · société et rencontres en ligne</p>
-            <p class="author-bio">J'attache de l'importance à la sécurité, à la sincérité des profils et à l'ambiance des communautés.</p>
-            <a class="author-link" href="/auteurs/jeanne/">Voir toutes ses publications →</a>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <section id="faq" class="faq">
-      <div class="container">
-        <header class="section-head">
-          <h2>Questions fréquentes sur les faux profils</h2>
-        </header>
-
-        <details class="faq-item">
-          <summary>Comment savoir si un profil de rencontre est faux ?</summary>
-          <p>Cinq signaux à croiser : <strong>photos trop parfaites</strong> ou trouvables en recherche d'image inversée, <strong>bio très courte</strong> ou générique, <strong>déclarations d'amour précoces</strong>, <strong>refus de l'appel vidéo</strong>, et <strong>orientation rapide vers WhatsApp ou Telegram</strong>. Aucun signal seul n'est suffisant, mais deux ou trois cumulés suffisent à se méfier.</p>
-        </details>
-
-        <details class="faq-item">
-          <summary>Comment vérifier la photo d'un profil de rencontre ?</summary>
-          <p>Téléchargez la photo et passez-la dans une <strong>recherche d'image inversée</strong> (Google Images, TinEye, Yandex). Si la photo apparaît sur d'autres sites, en particulier des banques d'images ou des comptes Instagram non liés au profil, c'est presque toujours un faux. Vous pouvez aussi demander un <strong>selfie spontané</strong> avec un geste précis pour vérifier l'identité.</p>
-        </details>
-
-        <details class="faq-item">
-          <summary>Que faire si on a été victime d'une arnaque sentimentale ?</summary>
-          <p><strong>Coupez immédiatement le contact</strong>, signalez le profil à la plateforme et déposez plainte au commissariat ou via la plateforme officielle <strong>Pharos</strong>. Si vous avez transmis de l'argent, contactez votre banque pour tenter de bloquer le virement et conservez toutes les preuves (captures d'écran, e-mails, références bancaires).</p>
-        </details>
-
-        <details class="faq-item">
-          <summary>Y a-t-il plus de faux profils sur certains sites ?</summary>
-          <p>Oui. Les sites avec une <strong>modération humaine active</strong> (Meetic, eDarling, Infinite Rencontre) ont un ratio de faux profils nettement plus faible que les apps gratuites grand public. Le caractère payant de l'abonnement filtre par ailleurs une part des comptes opportunistes. Aucune plateforme n'est totalement immunisée, mais la qualité de la modération fait une vraie différence.</p>
-        </details>
-
-        <details class="faq-item">
-          <summary>Les arnaques touchent-elles plus les seniors ?</summary>
-          <p>Oui. Les <strong>seniors</strong> sont une cible privilégiée des arnaques sentimentales, en particulier les personnes en situation de veuvage ou de célibat de longue durée. Cela ne signifie pas que les autres tranches d'âge sont à l'abri, mais une vigilance renforcée est utile. Choisir un site avec modération humaine active est l'un des leviers les plus efficaces pour réduire le risque.</p>
-        </details>
-
-      </div>
-    </section>
-
-    <section class="review-section">
-      <div class="container review-prose">
         <p class="see-also"><strong>Les mots pour le dire.</strong> Le <a href="/lexique/catfishing/">catfishing</a> désigne précisément l'usage d'une fausse identité, et le <a href="/lexique/love-bombing/">love bombing</a> la phase d'attention excessive qui ouvre presque toutes les arnaques sentimentales.</p>
-      </div>
-    </section>
+        </div>
+      </section>
+      </article>
+    </div>
 
-    <section class="related-reviews">
-      <div class="container">
-        <header class="section-head">
-          <h2>Lire aussi</h2>
-          <p>Nos autres guides pour une démarche en ligne maîtrisée.</p>
-        </header>
-
-        <div class="related-grid">
-
-          <a href="/guide/site-fiable/" class="related-card">
-            <h3>Comment choisir un site fiable</h3>
-            <p>Modération, RGPD, vérification : les critères à vérifier avant de s'inscrire.</p>
-            <span class="related-link">Lire le guide
-              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
-            </span>
-          </a>
-
-          <a href="/comparatif-relation-serieuse/" class="related-card">
-            <h3>Les sites les plus sérieux</h3>
-            <p>Notre top 5 des plateformes où les profils sont vérifiés et la modération suivie.</p>
-            <span class="related-link">Voir le comparatif
-              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
-            </span>
-          </a>
-
-          <a href="/guide/premier-message/" class="related-card">
-            <h3>Quel premier message envoyer</h3>
-            <p>Des accroches qui ouvrent vraiment la conversation, sans formules toutes faites.</p>
-            <span class="related-link">Lire le guide
-              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
-            </span>
-          </a>
-
+    <section class="av-auteur">
+      <span class="av-motif av-motif--plume" aria-hidden="true"></span>
+      <div class="container av-auteur-grille" data-reveal>
+        <span class="av-auteur-img"><img src="/assets/auteurs/jeanne.webp" alt="Portrait de Jeanne" width="320" height="320" loading="lazy"></span>
+        <div>
+          <p class="av-auteur-k">Guide rédigé par</p>
+          <p class="av-auteur-nom">Jeanne</p>
+          <p class="av-auteur-role">Rédactrice · société et rencontres en ligne</p>
+          <p class="av-auteur-bio">J'attache de l'importance à la sécurité, à la sincérité des profils et à l'ambiance des communautés.</p>
+          <a class="btn-coeur" href="/auteurs/jeanne/"><svg class="btn-coeur-ico" width="15" height="14" viewBox="0 0 24 22" aria-hidden="true"><path d="M12 20.3s-8.8-5.3-8.8-11.4A4.9 4.9 0 0 1 12 6.1a4.9 4.9 0 0 1 8.8 2.8c0 6.1-8.8 11.4-8.8 11.4z"/></svg><span>Tous les articles de Jeanne</span><svg class="btn-coeur-fl" width="18" height="10" viewBox="0 0 18 10" fill="none" aria-hidden="true"><path d="M1 5h15M12 1l4 4-4 4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg></a>
         </div>
       </div>
     </section>
 
+    <!-- FAQ -->
+    <section id="faq" class="av-faq">
+      <span class="av-motif av-motif--bulles" aria-hidden="true"></span>
+      <div class="container av-faq-grille">
+        <header data-reveal>
+          <h2 class="av-h2">Questions fréquentes sur les faux profils</h2>
+          <p class="av-texte">Une autre question, une erreur à signaler&nbsp;? La rédaction vous lit.</p>
+          <a class="btn-coeur" href="/contact/"><svg class="btn-coeur-ico" width="15" height="14" viewBox="0 0 24 22" aria-hidden="true"><path d="M12 20.3s-8.8-5.3-8.8-11.4A4.9 4.9 0 0 1 12 6.1a4.9 4.9 0 0 1 8.8 2.8c0 6.1-8.8 11.4-8.8 11.4z"/></svg><span>Contacter la rédaction</span><svg class="btn-coeur-fl" width="18" height="10" viewBox="0 0 18 10" fill="none" aria-hidden="true"><path d="M1 5h15M12 1l4 4-4 4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg></a>
+        </header>
+        <div class="av-qa" data-reveal>
+          <details>
+            <summary>Comment savoir si un profil de rencontre est faux ?</summary>
+            <p>Cinq signaux à croiser : <strong>photos trop parfaites</strong> ou trouvables en recherche d'image inversée, <strong>bio très courte</strong> ou générique, <strong>déclarations d'amour précoces</strong>, <strong>refus de l'appel vidéo</strong>, et <strong>orientation rapide vers WhatsApp ou Telegram</strong>. Aucun signal seul n'est suffisant, mais deux ou trois cumulés suffisent à se méfier.</p>
+          </details>
+          <details>
+            <summary>Comment vérifier la photo d'un profil de rencontre ?</summary>
+            <p>Téléchargez la photo et passez-la dans une <strong>recherche d'image inversée</strong> (Google Images, TinEye, Yandex). Si la photo apparaît sur d'autres sites, en particulier des banques d'images ou des comptes Instagram non liés au profil, c'est presque toujours un faux. Vous pouvez aussi demander un <strong>selfie spontané</strong> avec un geste précis pour vérifier l'identité.</p>
+          </details>
+          <details>
+            <summary>Que faire si on a été victime d'une arnaque sentimentale ?</summary>
+            <p><strong>Coupez immédiatement le contact</strong>, signalez le profil à la plateforme et déposez plainte au commissariat ou via la plateforme officielle <strong>Pharos</strong>. Si vous avez transmis de l'argent, contactez votre banque pour tenter de bloquer le virement et conservez toutes les preuves (captures d'écran, e-mails, références bancaires).</p>
+          </details>
+          <details>
+            <summary>Y a-t-il plus de faux profils sur certains sites ?</summary>
+            <p>Oui. Les sites avec une <strong>modération humaine active</strong> (Meetic, eDarling, Infinite Rencontre) ont un ratio de faux profils nettement plus faible que les apps gratuites grand public. Le caractère payant de l'abonnement filtre par ailleurs une part des comptes opportunistes. Aucune plateforme n'est totalement immunisée, mais la qualité de la modération fait une vraie différence.</p>
+          </details>
+          <details>
+            <summary>Les arnaques touchent-elles plus les seniors ?</summary>
+            <p>Oui. Les <strong>seniors</strong> sont une cible privilégiée des arnaques sentimentales, en particulier les personnes en situation de veuvage ou de célibat de longue durée. Cela ne signifie pas que les autres tranches d'âge sont à l'abri, mais une vigilance renforcée est utile. Choisir un site avec modération humaine active est l'un des leviers les plus efficaces pour réduire le risque.</p>
+          </details>
+        </div>
+      </div>
+    </section>
+
+    <!-- Lire aussi -->
+    <section class="av-autres">
+      <div class="container">
+        <h2 class="av-h2">Lire aussi</h2>
+        <div class="av-autres-grille" data-reveal>
+          <a class="av-autre" href="/guide/site-fiable/">
+            <span class="av-autre-img"><img src="/assets/guides/guide-site-fiable.webp" alt="" width="960" height="480" loading="lazy"></span><span class="av-autre-tete"><span class="av-autre-nom">Comment choisir un site fiable</span></span>
+            <span class="av-autre-acc">Modération, RGPD, vérification : les critères à vérifier avant de s'inscrire.</span>
+          </a>
+          <a class="av-autre" href="/comparatif-relation-serieuse/">
+            <span class="av-autre-img"><img src="/assets/comparatifs/comparatif-relation-serieuse.webp" alt="" width="960" height="480" loading="lazy"></span><span class="av-autre-tete"><span class="av-autre-nom">Les sites les plus sérieux</span></span>
+            <span class="av-autre-acc">Notre classement des plateformes où les profils sont vérifiés et la modération suivie.</span>
+          </a>
+          <a class="av-autre" href="/guide/premier-message/">
+            <span class="av-autre-img"><img src="/assets/guides/guide-premier-message.webp" alt="" width="960" height="480" loading="lazy"></span><span class="av-autre-tete"><span class="av-autre-nom">Quel premier message envoyer</span></span>
+            <span class="av-autre-acc">Des accroches qui ouvrent vraiment la conversation, sans formules toutes faites.</span>
+          </a>
+        </div>
+        <a class="btn-coeur" href="/guides/"><svg class="btn-coeur-ico" width="15" height="14" viewBox="0 0 24 22" aria-hidden="true"><path d="M12 20.3s-8.8-5.3-8.8-11.4A4.9 4.9 0 0 1 12 6.1a4.9 4.9 0 0 1 8.8 2.8c0 6.1-8.8 11.4-8.8 11.4z"/></svg><span>Tous nos guides</span><svg class="btn-coeur-fl" width="18" height="10" viewBox="0 0 18 10" fill="none" aria-hidden="true"><path d="M1 5h15M12 1l4 4-4 4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg></a>
+      </div>
+    </section>
   </main>
 
   <footer class="site-footer">
@@ -388,6 +373,6 @@
     </div>
   </footer>
 
-  <script src="/js/main.js?v=20261016-1"></script>
+  <script src="/js/main.js?v=20261020-2"></script>
 </body>
 </html>

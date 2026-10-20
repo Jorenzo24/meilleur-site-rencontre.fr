@@ -22,7 +22,10 @@
   <link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon-32.png">
   <link rel="icon" type="image/png" sizes="16x16" href="/assets/favicon-16.png">
   <link rel="apple-touch-icon" sizes="180x180" href="/assets/favicon-180.png">
-  <link rel="stylesheet" href="/css/style.css?v=20261016-1">
+  <link rel="preload" href="/assets/fonts/bodoni-moda.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="/css/style.css?v=20261020-2">
+  <link rel="stylesheet" href="/css/avis.css?v=20261020-2">
+  <link rel="stylesheet" href="/css/guide.css?v=20261020-2">
 
   <script type="application/ld+json">
   {
@@ -96,57 +99,57 @@
     </div>
   </header>
 
-  <main id="main" class="guide-page">
+  <main id="main" class="av gd">
 
-    <nav class="breadcrumb" aria-label="Fil d'Ariane">
+    <!-- Ouverture -->
+    <section class="av-ouverture">
+      <span class="av-motif av-motif--loupe" aria-hidden="true"></span>
       <div class="container">
-        <ol>
-          <li><a href="/">Accueil</a></li>
-          <li><a href="/guides/">Guides</a></li>
-          <li aria-current="page">Profil attractif</li>
-        </ol>
-      </div>
-    </nav>
-
-    <section class="compare-hero">
-      <div class="container">
-        <p class="eyebrow">Guide profil de rencontre</p>
-        <h1>Comment rédiger un profil de rencontre qui attire en 2026</h1>
-        <p class="lede">Un <strong>bon profil de rencontre</strong> double votre taux de réponse, sans rien changer à qui vous êtes. Voici notre guide complet pour soigner vos photos, écrire une bio qui ouvre la conversation et préciser vos intentions sans vous fermer de portes.</p>
-        <p class="compare-meta">
-          <span>Photos · Bio · Intentions</span>
-          <span>Par <a href="/auteurs/lucie/">Lucie</a></span>
-          <span>Mise à jour le 23 juin 2026</span>
-        </p>
+        <nav class="breadcrumb" aria-label="Fil d'Ariane">
+          <ol>
+            <li><a href="/">Accueil</a></li>
+            <li><a href="/guides/">Guides</a></li>
+            <li aria-current="page">Profil attractif</li>
+          </ol>
+        </nav>
+        <div class="av-ouverture-grille">
+          <div class="av-ouverture-texte">
+            <h1>Comment rédiger un profil de rencontre qui attire en 2026</h1>
+            <p class="av-lede">Un <strong>bon profil de rencontre</strong> change les réponses que vous recevez, sans rien changer à qui vous êtes. Voici notre guide complet pour soigner vos photos, écrire une bio qui ouvre la conversation et préciser vos intentions sans vous fermer de portes.</p>
+            <div class="av-signature">
+              <img src="/assets/auteurs/lucie.webp" alt="" width="44" height="44">
+              <p>Par <a href="/auteurs/lucie/">Lucie</a>, mis à jour le 23 juin 2026</p>
+            </div>
+          </div>
+          <figure class="gd-photo">
+            <img src="/assets/guides/guide-profil-attractif.webp" alt="Un homme souriant prend un selfie en extérieur avec son smartphone" width="960" height="480" fetchpriority="high">
+          </figure>
+        </div>
       </div>
     </section>
 
-    <section class="guide-figure">
-      <div class="container review-prose">
-        <figure class="edito-figure">
-          <img src="/assets/guides/guide-profil-attractif.webp" alt="Un homme souriant prend un selfie en extérieur avec son smartphone" width="960" height="480" fetchpriority="high">
-        </figure>
-      </div>
-    </section>
-
-    <nav class="page-toc" aria-label="Sommaire">
-      <div class="container">
-        <h2 class="page-toc-title">Au sommaire</h2>
-        <ol class="page-toc-list">
-          <li><a href="#photos">Choisir les bonnes photos de profil</a></li>
-          <li><a href="#bio">Rédiger une bio qui sort du lot</a></li>
-          <li><a href="#intentions">Préciser ses intentions sans se fermer</a></li>
-          <li><a href="#erreurs">Les erreurs qui font fuir</a></li>
-          <li><a href="#exemples">Bonne bio vs mauvaise bio : exemples</a></li>
-          <li><a href="#faq">Questions fréquentes</a></li>
-        </ol>
-      </div>
-    </nav>
-
-    <section id="photos" class="review-section">
-      <div class="container review-prose">
+    <!-- Corps du guide, avec colonne collante -->
+    <div class="av-corps">
+      <aside class="av-cote" aria-label="Dans ce guide">
+        <div class="av-cote-carte gd-cote">
+          <p class="gd-cote-auteur"><img src="/assets/auteurs/lucie.webp" alt="" width="40" height="40"><span><a href="/auteurs/lucie/">Lucie</a><small>mis à jour le 23 juin 2026</small></span></p>
+          <p class="av-cote-t">Dans ce guide</p>
+          <ol class="av-sommaire" data-sommaire>
+            <li><a href="#photos">Choisir les bonnes photos de profil</a></li>
+            <li><a href="#bio">Rédiger une bio qui sort du lot</a></li>
+            <li><a href="#intentions">Préciser ses intentions sans se fermer</a></li>
+            <li><a href="#erreurs">Les erreurs qui font fuir</a></li>
+            <li><a href="#exemples">Bonne bio vs mauvaise bio : exemples</a></li>
+            <li><a href="#faq">Questions fréquentes</a></li>
+          </ol>
+        </div>
+      </aside>
+      <article class="av-article">
+      <section id="photos" class="av-sec">
+        <span class="av-motif av-motif--telephone" aria-hidden="true"></span>
+        <div class="av-prose">
         <h2>Choisir les bonnes photos de profil</h2>
-        <p>Les <strong>photos</strong> font 80 % du travail. C'est rarement ce qui vous fera gagner un match, mais c'est presque toujours ce qui vous le fera perdre. Trois règles simples encadrent les choix à faire.</p>
+        <p>Les <strong>photos</strong> font l'essentiel du travail. C'est rarement ce qui vous fera gagner un match, mais c'est presque toujours ce qui vous le fera perdre. Trois règles simples encadrent les choix à faire.</p>
 
         <h3>La photo principale : nette, récente, le visage visible</h3>
         <p>La <strong>photo principale</strong> est la seule que la plupart des utilisateurs verront. Elle doit être nette (pas de flou de mouvement ou de qualité approximative), récente (moins de deux ans, idéalement moins d'un an) et montrer clairement votre visage. Pas de lunettes de soleil, pas de casquette qui couvre le regard, pas de filtre qui transforme la peau. Un cadrage poitrine ou plan américain (taille à tête) fonctionne mieux qu'un gros plan extrême ou qu'un plan en pied de loin.</p>
@@ -156,11 +159,12 @@
 
         <h3>Combien de photos au total ?</h3>
         <p>Entre <strong>quatre et six photos</strong> est l'idéal. En dessous de quatre, vous donnez l'impression de ne pas vous investir. Au-dessus de six, vous diluez l'impression et augmentez les chances qu'une photo moyenne efface les bonnes. Tester l'ordre est utile : sur la plupart des plateformes, vous pouvez réorganiser facilement et observer si une photo principale marche mieux qu'une autre.</p>
-      </div>
-    </section>
+        </div>
+      </section>
 
-    <section id="bio" class="review-section">
-      <div class="container review-prose">
+      <section id="bio" class="av-sec">
+        <span class="av-motif av-motif--cafe" aria-hidden="true"></span>
+        <div class="av-prose">
         <h2>Rédiger une bio qui sort du lot</h2>
         <p>La <strong>bio</strong> sépare les profils tièdes des profils marquants. Trois règles font la différence.</p>
 
@@ -172,11 +176,12 @@
 
         <h3>Donner des prises pour la conversation</h3>
         <p>Une bio efficace contient au moins <strong>deux ou trois prises pour engager la conversation</strong>. Une question ouverte (« qui pour me convaincre que les randonnées en hiver, c'est mieux qu'en été ? »), une référence culturelle précise, un projet à venir. Votre interlocuteur n'a pas à inventer son premier message à partir de rien : vous lui en avez fourni les ingrédients.</p>
-      </div>
-    </section>
+        </div>
+      </section>
 
-    <section id="intentions" class="review-section">
-      <div class="container review-prose">
+      <section id="intentions" class="av-sec">
+        <span class="av-motif av-motif--loupe" aria-hidden="true"></span>
+        <div class="av-prose">
         <h2>Préciser ses intentions sans se fermer</h2>
         <p>L'erreur la plus fréquente sur les <strong>sites de rencontre</strong> : entretenir l'ambiguïté sur ce qu'on cherche, par peur de fermer des portes. C'est en réalité l'inverse qui se produit.</p>
 
@@ -188,11 +193,12 @@
 
         <h3>Et si vous cherchez quelque chose de plus libre ?</h3>
         <p>Le principe vaut aussi dans l'autre sens. Si vous cherchez quelque chose de <strong>plus libre</strong>, dites-le clairement plutôt que d'entretenir l'ambiguïté. Vous éviterez les déceptions et les conversations qui s'enlisent. Beaucoup de plateformes proposent des champs dédiés (« recherche : relation sérieuse / amitié / sans engagement »), utilisez-les. Une intention claire, quelle qu'elle soit, attire une communauté plus alignée que l'ambiguïté.</p>
-      </div>
-    </section>
+        </div>
+      </section>
 
-    <section id="erreurs" class="review-section">
-      <div class="container review-prose">
+      <section id="erreurs" class="av-sec">
+        <span class="av-motif av-motif--lettre" aria-hidden="true"></span>
+        <div class="av-prose">
         <h2>Les erreurs qui font fuir</h2>
         <p>Au-delà des bonnes pratiques, certaines <strong>erreurs récurrentes</strong> font fuir les visiteurs avant même qu'ils lisent votre bio. Les voici par ordre d'impact.</p>
 
@@ -207,122 +213,103 @@
 
         <h3>Les photos trop retouchées</h3>
         <p>Filtre Snapchat, gommage de peau, lumière artificielle : tout ce qui éloigne la photo de votre apparence réelle se paye au moment du premier rendez-vous. Une <strong>photo authentique</strong> attire moins de matches mais convertit mieux. Mieux vaut moins de matches qui aboutissent que beaucoup qui se déçoivent.</p>
-      </div>
-    </section>
+        </div>
+      </section>
 
-    <section id="exemples" class="review-section">
-      <div class="container review-prose">
+      <section id="exemples" class="av-sec">
+        <span class="av-motif av-motif--avion" aria-hidden="true"></span>
+        <div class="av-prose">
         <h2>Bonne bio vs mauvaise bio : deux exemples</h2>
         <p>Pour rendre ces principes concrets, voici deux exemples opposés sur un même cas (femme, 32 ans, cherche une relation sérieuse).</p>
 
         <h3>Mauvais exemple</h3>
-        <blockquote class="example-quote example-quote--bad">
-          <p>32 ans, je cherche l'homme de ma vie. J'aime rire, voyager, passer du temps avec mes amis et ma famille. Je suis une fille simple, je n'aime pas les prises de tête. Pas de joueurs ni de tordus, passez votre chemin si c'est juste pour s'amuser.</p>
-        </blockquote>
+        <figure class="gd-ex gd-ex--mauvais">
+          <figcaption>À éviter</figcaption>
+          <blockquote><p>32 ans, je cherche l'homme de ma vie. J'aime rire, voyager, passer du temps avec mes amis et ma famille. Je suis une fille simple, je n'aime pas les prises de tête. Pas de joueurs ni de tordus, passez votre chemin si c'est juste pour s'amuser.</p></blockquote>
+        </figure>
         <p><strong>Pourquoi ça ne marche pas</strong> : généralités absolues, ton négatif en clôture, aucune prise pour engager la conversation. Le visiteur n'a rien à quoi s'accrocher pour écrire un premier message.</p>
 
         <h3>Bon exemple</h3>
-        <blockquote class="example-quote example-quote--good">
-          <p>32 ans, kinésithérapeute en région parisienne. Je viens de finir <em>L'Anomalie</em> de Le Tellier et je n'ai pas dormi avant la dernière page. Le week-end, je grimpe (en salle l'hiver, en falaise dès qu'il fait beau). J'ai longtemps cru que la rencontre, ce serait le hasard. À 32 ans, j'ai envie de construire quelque chose qui dure, sans me presser pour autant. Convainquez-moi que les randos en hiver, c'est mieux qu'en été (j'attends de voir).</p>
-        </blockquote>
+        <figure class="gd-ex gd-ex--bon">
+          <figcaption>Bon exemple</figcaption>
+          <blockquote><p>32 ans, kinésithérapeute en région parisienne. Je viens de finir <em>L'Anomalie</em> de Le Tellier et je n'ai pas dormi avant la dernière page. Le week-end, je grimpe (en salle l'hiver, en falaise dès qu'il fait beau). J'ai longtemps cru que la rencontre, ce serait le hasard. À 32 ans, j'ai envie de construire quelque chose qui dure, sans me presser pour autant. Convainquez-moi que les randos en hiver, c'est mieux qu'en été (j'attends de voir).</p></blockquote>
+        </figure>
         <p><strong>Pourquoi ça marche</strong> : un métier qui plante un cadre, une référence culturelle précise, une activité concrète, une intention claire formulée en positif, et une question ouverte à la fin qui invite à répondre. Le premier message s'écrit presque tout seul.</p>
-      </div>
-    </section>
-
-    <section class="review-section">
-      <div class="container review-prose">
-        <div class="author-box">
-          <div class="author-photo">
-            <img src="/assets/auteurs/lucie.webp" alt="Photo de Lucie" width="84" height="84" loading="lazy">
-          </div>
-          <div class="author-body">
-            <p class="author-eyebrow">Rédigé par</p>
-            <p class="author-name">Lucie</p>
-            <p class="author-role">Rédactrice · web, modes de vie et relations</p>
-            <p class="author-bio">Je regarde ce qui compte vraiment pour l'utilisateur : qualité des profils, ambiance, simplicité et clarté des abonnements.</p>
-            <a class="author-link" href="/auteurs/lucie/">Voir toutes ses publications →</a>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <section id="faq" class="faq">
-      <div class="container">
-        <header class="section-head">
-          <h2>Questions fréquentes sur le profil de rencontre</h2>
-        </header>
-
-        <details class="faq-item">
-          <summary>Combien de photos mettre sur un profil de rencontre ?</summary>
-          <p><strong>Entre quatre et six photos</strong> est l'idéal. Une photo principale nette en gros plan, deux ou trois photos en pied ou en activité, et une photo plus spontanée pour humaniser. Au-delà de six, vous diluez l'impression et augmentez les chances qu'une photo moyenne efface les bonnes.</p>
-        </details>
-
-        <details class="faq-item">
-          <summary>Comment rédiger une bonne bio sur un site de rencontre ?</summary>
-          <p>Privilégiez les <strong>détails concrets</strong> aux généralités. Un livre marquant, une passion précise, un projet en cours ou une habitude amusante valent mieux que mille « j'aime rire et voyager ». La bonne longueur tourne autour de 100 à 200 mots, suffisamment pour donner matière à conversation sans saturer.</p>
-        </details>
-
-        <details class="faq-item">
-          <summary>Faut-il préciser ce qu'on cherche sur son profil ?</summary>
-          <p>Oui, et c'est même l'un des leviers les plus efficaces. Un profil qui assume chercher une <strong>relation sérieuse</strong> attire davantage de personnes alignées et fait gagner du temps à tout le monde. L'inverse fonctionne aussi : si vous cherchez quelque chose de plus libre, dites-le clairement plutôt que d'entretenir l'ambiguïté.</p>
-        </details>
-
-        <details class="faq-item">
-          <summary>Quelles erreurs éviter sur un profil de site de rencontre ?</summary>
-          <p>Les pièges les plus courants : <strong>photos floues</strong> ou trop anciennes, bio remplie de clichés, <strong>ton négatif</strong> (ce que vous ne voulez pas), photos de groupe en première position, absence totale de bio. Chacun de ces points fait baisser significativement le taux de mise en contact.</p>
-        </details>
-
-        <details class="faq-item">
-          <summary>Faut-il un profil différent selon la plateforme ?</summary>
-          <p>Oui, en partie. Le format des bios diffère entre Meetic, <a href="/avis-infinite-rencontre/">Infinite Rencontre</a>, eDarling ou une app comme <a href="/avis-spiice/">Spiice</a>. Les principes restent les mêmes (concret, intentions claires, photos nettes), mais la longueur, le ton et les éléments mis en avant peuvent s'adapter. Sur les sites sérieux, on peut développer ; sur les apps mobile, on resserre.</p>
-        </details>
-
-      </div>
-    </section>
-
-    <section class="review-section">
-      <div class="container review-prose">
         <p class="see-also"><strong>Dire ce que vous cherchez évite les malentendus.</strong> C'est ce qui sépare une relation assumée d'une <a href="/lexique/situationship/">situationship</a>, ou du <a href="/lexique/benching/">benching</a> quand on vous garde en réserve.</p>
-      </div>
-    </section>
+        </div>
+      </section>
+      </article>
+    </div>
 
-    <section class="related-reviews">
-      <div class="container">
-        <header class="section-head">
-          <h2>Lire aussi</h2>
-          <p>Nos autres guides et nos comparatifs pour aller plus loin.</p>
-        </header>
-
-        <div class="related-grid">
-
-          <a href="/guide/premier-message/" class="related-card">
-            <h3>Quel premier message envoyer</h3>
-            <p>Des accroches qui ouvrent vraiment la conversation, sans formules toutes faites.</p>
-            <span class="related-link">Lire le guide
-              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
-            </span>
-          </a>
-
-          <a href="/guide/faux-profils/" class="related-card">
-            <h3>Reconnaître un faux profil</h3>
-            <p>Les signaux qui ne trompent pas et les bons réflexes pour signaler.</p>
-            <span class="related-link">Lire le guide
-              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
-            </span>
-          </a>
-
-          <a href="/comparatif-relation-serieuse/" class="related-card">
-            <h3>Les sites les plus sérieux</h3>
-            <p>Notre top 5 des plateformes où un profil soigné est vraiment valorisé.</p>
-            <span class="related-link">Voir le comparatif
-              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
-            </span>
-          </a>
-
+    <section class="av-auteur">
+      <span class="av-motif av-motif--plume" aria-hidden="true"></span>
+      <div class="container av-auteur-grille" data-reveal>
+        <span class="av-auteur-img"><img src="/assets/auteurs/lucie.webp" alt="Portrait de Lucie" width="320" height="320" loading="lazy"></span>
+        <div>
+          <p class="av-auteur-k">Guide rédigé par</p>
+          <p class="av-auteur-nom">Lucie</p>
+          <p class="av-auteur-role">Rédactrice · web, modes de vie et relations</p>
+          <p class="av-auteur-bio">Je regarde ce qui compte vraiment pour l'utilisateur : qualité des profils, ambiance, simplicité et clarté des abonnements.</p>
+          <a class="btn-coeur" href="/auteurs/lucie/"><svg class="btn-coeur-ico" width="15" height="14" viewBox="0 0 24 22" aria-hidden="true"><path d="M12 20.3s-8.8-5.3-8.8-11.4A4.9 4.9 0 0 1 12 6.1a4.9 4.9 0 0 1 8.8 2.8c0 6.1-8.8 11.4-8.8 11.4z"/></svg><span>Tous les articles de Lucie</span><svg class="btn-coeur-fl" width="18" height="10" viewBox="0 0 18 10" fill="none" aria-hidden="true"><path d="M1 5h15M12 1l4 4-4 4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg></a>
         </div>
       </div>
     </section>
 
+    <!-- FAQ -->
+    <section id="faq" class="av-faq">
+      <span class="av-motif av-motif--bulles" aria-hidden="true"></span>
+      <div class="container av-faq-grille">
+        <header data-reveal>
+          <h2 class="av-h2">Questions fréquentes sur le profil de rencontre</h2>
+          <p class="av-texte">Une autre question, une erreur à signaler&nbsp;? La rédaction vous lit.</p>
+          <a class="btn-coeur" href="/contact/"><svg class="btn-coeur-ico" width="15" height="14" viewBox="0 0 24 22" aria-hidden="true"><path d="M12 20.3s-8.8-5.3-8.8-11.4A4.9 4.9 0 0 1 12 6.1a4.9 4.9 0 0 1 8.8 2.8c0 6.1-8.8 11.4-8.8 11.4z"/></svg><span>Contacter la rédaction</span><svg class="btn-coeur-fl" width="18" height="10" viewBox="0 0 18 10" fill="none" aria-hidden="true"><path d="M1 5h15M12 1l4 4-4 4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg></a>
+        </header>
+        <div class="av-qa" data-reveal>
+          <details>
+            <summary>Combien de photos mettre sur un profil de rencontre ?</summary>
+            <p><strong>Entre quatre et six photos</strong> est l'idéal. Une photo principale nette en gros plan, deux ou trois photos en pied ou en activité, et une photo plus spontanée pour humaniser. Au-delà de six, vous diluez l'impression et augmentez les chances qu'une photo moyenne efface les bonnes.</p>
+          </details>
+          <details>
+            <summary>Comment rédiger une bonne bio sur un site de rencontre ?</summary>
+            <p>Privilégiez les <strong>détails concrets</strong> aux généralités. Un livre marquant, une passion précise, un projet en cours ou une habitude amusante valent mieux que mille « j'aime rire et voyager ». La bonne longueur tourne autour de 100 à 200 mots, suffisamment pour donner matière à conversation sans saturer.</p>
+          </details>
+          <details>
+            <summary>Faut-il préciser ce qu'on cherche sur son profil ?</summary>
+            <p>Oui, et c'est même l'un des leviers les plus efficaces. Un profil qui assume chercher une <strong>relation sérieuse</strong> attire davantage de personnes alignées et fait gagner du temps à tout le monde. L'inverse fonctionne aussi : si vous cherchez quelque chose de plus libre, dites-le clairement plutôt que d'entretenir l'ambiguïté.</p>
+          </details>
+          <details>
+            <summary>Quelles erreurs éviter sur un profil de site de rencontre ?</summary>
+            <p>Les pièges les plus courants : <strong>photos floues</strong> ou trop anciennes, bio remplie de clichés, <strong>ton négatif</strong> (ce que vous ne voulez pas), photos de groupe en première position, absence totale de bio. Chacun de ces points fait baisser significativement le taux de mise en contact.</p>
+          </details>
+          <details>
+            <summary>Faut-il un profil différent selon la plateforme ?</summary>
+            <p>Oui, en partie. Le format des bios diffère entre Meetic, <a href="/avis-infinite-rencontre/">Infinite Rencontre</a>, eDarling ou une app comme <a href="/avis-spiice/">Spiice</a>. Les principes restent les mêmes (concret, intentions claires, photos nettes), mais la longueur, le ton et les éléments mis en avant peuvent s'adapter. Sur les sites sérieux, on peut développer ; sur les apps mobile, on resserre.</p>
+          </details>
+        </div>
+      </div>
+    </section>
+
+    <!-- Lire aussi -->
+    <section class="av-autres">
+      <div class="container">
+        <h2 class="av-h2">Lire aussi</h2>
+        <div class="av-autres-grille" data-reveal>
+          <a class="av-autre" href="/guide/premier-message/">
+            <span class="av-autre-img"><img src="/assets/guides/guide-premier-message.webp" alt="" width="960" height="480" loading="lazy"></span><span class="av-autre-tete"><span class="av-autre-nom">Quel premier message envoyer</span></span>
+            <span class="av-autre-acc">Des accroches qui ouvrent vraiment la conversation, sans formules toutes faites.</span>
+          </a>
+          <a class="av-autre" href="/guide/faux-profils/">
+            <span class="av-autre-img"><img src="/assets/guides/guide-faux-profils.webp" alt="" width="960" height="480" loading="lazy"></span><span class="av-autre-tete"><span class="av-autre-nom">Reconnaître un faux profil</span></span>
+            <span class="av-autre-acc">Les signaux qui ne trompent pas et les bons réflexes pour signaler.</span>
+          </a>
+          <a class="av-autre" href="/comparatif-relation-serieuse/">
+            <span class="av-autre-img"><img src="/assets/comparatifs/comparatif-relation-serieuse.webp" alt="" width="960" height="480" loading="lazy"></span><span class="av-autre-tete"><span class="av-autre-nom">Les sites les plus sérieux</span></span>
+            <span class="av-autre-acc">Notre classement des plateformes où un profil soigné est vraiment valorisé.</span>
+          </a>
+        </div>
+        <a class="btn-coeur" href="/guides/"><svg class="btn-coeur-ico" width="15" height="14" viewBox="0 0 24 22" aria-hidden="true"><path d="M12 20.3s-8.8-5.3-8.8-11.4A4.9 4.9 0 0 1 12 6.1a4.9 4.9 0 0 1 8.8 2.8c0 6.1-8.8 11.4-8.8 11.4z"/></svg><span>Tous nos guides</span><svg class="btn-coeur-fl" width="18" height="10" viewBox="0 0 18 10" fill="none" aria-hidden="true"><path d="M1 5h15M12 1l4 4-4 4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg></a>
+      </div>
+    </section>
   </main>
 
   <footer class="site-footer">
@@ -385,6 +372,6 @@
     </div>
   </footer>
 
-  <script src="/js/main.js?v=20261016-1"></script>
+  <script src="/js/main.js?v=20261020-2"></script>
 </body>
 </html>

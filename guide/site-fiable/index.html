@@ -22,7 +22,10 @@
   <link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon-32.png">
   <link rel="icon" type="image/png" sizes="16x16" href="/assets/favicon-16.png">
   <link rel="apple-touch-icon" sizes="180x180" href="/assets/favicon-180.png">
-  <link rel="stylesheet" href="/css/style.css?v=20261016-1">
+  <link rel="preload" href="/assets/fonts/bodoni-moda.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="/css/style.css?v=20261020-2">
+  <link rel="stylesheet" href="/css/avis.css?v=20261020-2">
+  <link rel="stylesheet" href="/css/guide.css?v=20261020-2">
 
   <script type="application/ld+json">
   {
@@ -96,55 +99,55 @@
     </div>
   </header>
 
-  <main id="main" class="guide-page">
+  <main id="main" class="av gd">
 
-    <nav class="breadcrumb" aria-label="Fil d'Ariane">
+    <!-- Ouverture -->
+    <section class="av-ouverture">
+      <span class="av-motif av-motif--loupe" aria-hidden="true"></span>
       <div class="container">
-        <ol>
-          <li><a href="/">Accueil</a></li>
-          <li><a href="/guides/">Guides</a></li>
-          <li aria-current="page">Choisir un site fiable</li>
-        </ol>
-      </div>
-    </nav>
-
-    <section class="compare-hero">
-      <div class="container">
-        <p class="eyebrow">Guide fiabilité</p>
-        <h1>Comment choisir un site de rencontre fiable en 2026</h1>
-        <p class="lede">Tous les <strong>sites de rencontre</strong> ne se valent pas. Entre les plateformes sérieuses et les acteurs douteux, l'écart se mesure sur cinq critères vérifiables avant même l'inscription. Voici comment faire le tri en quelques minutes.</p>
-        <p class="compare-meta">
-          <span>5 critères à vérifier</span>
-          <span>Par <a href="/auteurs/patrice/">Patrice</a></span>
-          <span>Mise à jour le 23 juin 2026</span>
-        </p>
+        <nav class="breadcrumb" aria-label="Fil d'Ariane">
+          <ol>
+            <li><a href="/">Accueil</a></li>
+            <li><a href="/guides/">Guides</a></li>
+            <li aria-current="page">Choisir un site fiable</li>
+          </ol>
+        </nav>
+        <div class="av-ouverture-grille">
+          <div class="av-ouverture-texte">
+            <h1>Comment choisir un site de rencontre fiable en 2026</h1>
+            <p class="av-lede">Tous les <strong>sites de rencontre</strong> ne se valent pas. Entre les plateformes sérieuses et les acteurs douteux, l'écart se mesure sur cinq critères vérifiables avant même l'inscription. Voici comment faire le tri en quelques minutes.</p>
+            <div class="av-signature">
+              <img src="/assets/auteurs/patrice.webp" alt="" width="44" height="44">
+              <p>Par <a href="/auteurs/patrice/">Patrice</a>, mis à jour le 23 juin 2026</p>
+            </div>
+          </div>
+          <figure class="gd-photo">
+            <img src="/assets/guides/guide-site-fiable.webp" alt="Une femme consulte un site sur son ordinateur portable, vue de dessus, une tasse de café à côté" width="960" height="480" fetchpriority="high">
+          </figure>
+        </div>
       </div>
     </section>
 
-    <section class="guide-figure">
-      <div class="container review-prose">
-        <figure class="edito-figure">
-          <img src="/assets/guides/guide-site-fiable.webp" alt="Une femme consulte un site sur son ordinateur portable, vue de dessus, une tasse de café à côté" width="960" height="480" fetchpriority="high">
-        </figure>
-      </div>
-    </section>
-
-    <nav class="page-toc" aria-label="Sommaire">
-      <div class="container">
-        <h2 class="page-toc-title">Au sommaire</h2>
-        <ol class="page-toc-list">
-          <li><a href="#criteres">Les 5 critères de fiabilité à vérifier</a></li>
-          <li><a href="#moderation">Modération et qualité des profils</a></li>
-          <li><a href="#rgpd">Conformité RGPD et données personnelles</a></li>
-          <li><a href="#economie">Le modèle économique en dit beaucoup</a></li>
-          <li><a href="#alerte">Les signaux qui doivent alerter</a></li>
-          <li><a href="#faq">Questions fréquentes</a></li>
-        </ol>
-      </div>
-    </nav>
-
-    <section id="criteres" class="review-section">
-      <div class="container review-prose">
+    <!-- Corps du guide, avec colonne collante -->
+    <div class="av-corps">
+      <aside class="av-cote" aria-label="Dans ce guide">
+        <div class="av-cote-carte gd-cote">
+          <p class="gd-cote-auteur"><img src="/assets/auteurs/patrice.webp" alt="" width="40" height="40"><span><a href="/auteurs/patrice/">Patrice</a><small>mis à jour le 23 juin 2026</small></span></p>
+          <p class="av-cote-t">Dans ce guide</p>
+          <ol class="av-sommaire" data-sommaire>
+            <li><a href="#criteres">Les 5 critères de fiabilité à vérifier</a></li>
+            <li><a href="#moderation">Modération et qualité des profils</a></li>
+            <li><a href="#rgpd">Conformité RGPD et données personnelles</a></li>
+            <li><a href="#economie">Le modèle économique en dit beaucoup</a></li>
+            <li><a href="#alerte">Les signaux qui doivent alerter</a></li>
+            <li><a href="#faq">Questions fréquentes</a></li>
+          </ol>
+        </div>
+      </aside>
+      <article class="av-article">
+      <section id="criteres" class="av-sec">
+        <span class="av-motif av-motif--telephone" aria-hidden="true"></span>
+        <div class="av-prose">
         <h2>Les 5 critères de fiabilité à vérifier</h2>
         <p>Un <strong>site de rencontre fiable</strong> coche cinq cases vérifiables sans même créer de compte. Si trois ou plus sont absents, passez votre chemin.</p>
         <ul class="prose-list">
@@ -154,11 +157,12 @@
           <li><strong>Des avis utilisateurs cohérents</strong> : évaluations Trustpilot ou stores récentes, équilibrées, avec des retours circonstanciés et pas seulement des notes brutes.</li>
           <li><strong>Des mentions légales complètes</strong> : éditeur identifié avec adresse, hébergeur précisé, contact accessible. Un site qui se cache n'inspire pas confiance.</li>
         </ul>
-      </div>
-    </section>
+        </div>
+      </section>
 
-    <section id="moderation" class="review-section">
-      <div class="container review-prose">
+      <section id="moderation" class="av-sec">
+        <span class="av-motif av-motif--cafe" aria-hidden="true"></span>
+        <div class="av-prose">
         <h2>Modération et qualité des profils</h2>
         <p>La <strong>modération</strong> est probablement le critère qui sépare le plus nettement les sites sérieux des plateformes opportunistes. Voici comment l'évaluer concrètement.</p>
 
@@ -170,11 +174,12 @@
 
         <h3>Présence de profils vérifiés</h3>
         <p>Beaucoup de plateformes proposent une option de <strong>vérification de profil</strong> par photo en direct ou par badge, qui distingue les comptes authentifiés des autres. Cette option n'est pas obligatoire mais elle indique que la plateforme se préoccupe de la qualité de sa communauté. Sa présence est un bon signe.</p>
-      </div>
-    </section>
+        </div>
+      </section>
 
-    <section id="rgpd" class="review-section">
-      <div class="container review-prose">
+      <section id="rgpd" class="av-sec">
+        <span class="av-motif av-motif--loupe" aria-hidden="true"></span>
+        <div class="av-prose">
         <h2>Conformité RGPD et données personnelles</h2>
         <p>Un site de rencontre stocke par nature des <strong>données sensibles</strong> : photos, préférences, conversations, parfois orientation et localisation. La conformité RGPD n'est pas un détail technique, c'est une protection essentielle.</p>
 
@@ -186,11 +191,12 @@
 
         <h3>Localisation des données et sous-traitance</h3>
         <p>Les sites sérieux mentionnent dans leur politique <strong>où sont stockées les données</strong> et avec quels sous-traitants ils travaillent. Un stockage en Europe ou dans un pays adéquat (au sens RGPD) est préférable. L'absence totale de cette information est un signal de désinvolture juridique.</p>
-      </div>
-    </section>
+        </div>
+      </section>
 
-    <section id="economie" class="review-section">
-      <div class="container review-prose">
+      <section id="economie" class="av-sec">
+        <span class="av-motif av-motif--lettre" aria-hidden="true"></span>
+        <div class="av-prose">
         <h2>Le modèle économique en dit beaucoup</h2>
         <p>Le <strong>modèle économique</strong> d'un site de rencontre influence directement sa fiabilité. Trois grandes catégories existent, avec leurs forces et leurs limites.</p>
 
@@ -202,11 +208,12 @@
 
         <h3>Le 100 % gratuit : à manier avec précaution</h3>
         <p>Les sites entièrement <strong>gratuits</strong> sont à manier avec précaution. La modération y est souvent moins stricte (par défaut de financement), la publicité plus envahissante, et le ratio de faux profils plus élevé. Cela ne signifie pas qu'aucun site gratuit n'est fiable, mais qu'il faut redoubler de vigilance sur les autres critères (RGPD, mentions légales, avis utilisateurs).</p>
-      </div>
-    </section>
+        </div>
+      </section>
 
-    <section id="alerte" class="review-section">
-      <div class="container review-prose">
+      <section id="alerte" class="av-sec">
+        <span class="av-motif av-motif--avion" aria-hidden="true"></span>
+        <div class="av-prose">
         <h2>Les signaux qui doivent alerter</h2>
         <p>Au-delà des critères positifs, certains <strong>signaux</strong> doivent vous faire reculer immédiatement, quelle que soit la promesse de la plateforme.</p>
 
@@ -224,103 +231,81 @@
 
         <h3>Avis utilisateurs majoritairement très négatifs</h3>
         <p>Vérifiez systématiquement les <strong>avis Trustpilot</strong> ou des stores avant inscription. Une note majoritairement très basse, accompagnée de retours détaillés sur des problèmes de paiement, de modération ou de service client, est un indicateur sérieux. Quelques avis négatifs sont normaux sur tout site, mais une dynamique majoritairement négative ne ment pas.</p>
-      </div>
-    </section>
-
-    <section class="review-section">
-      <div class="container review-prose">
-        <div class="author-box">
-          <div class="author-photo">
-            <img src="/assets/auteurs/patrice.webp" alt="Photo de Patrice" width="84" height="84" loading="lazy">
-          </div>
-          <div class="author-body">
-            <p class="author-eyebrow">Rédigé par</p>
-            <p class="author-name">Patrice</p>
-            <p class="author-role">Rédacteur · veille digitale et services en ligne</p>
-            <p class="author-bio">Je m'intéresse à la fiabilité, à la lisibilité des offres et aux différences concrètes entre les services.</p>
-            <a class="author-link" href="/auteurs/patrice/">Voir toutes ses publications →</a>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <section id="faq" class="faq">
-      <div class="container">
-        <header class="section-head">
-          <h2>Questions fréquentes sur la fiabilité d'un site de rencontre</h2>
-        </header>
-
-        <details class="faq-item">
-          <summary>Comment savoir si un site de rencontre est fiable ?</summary>
-          <p>Vérifiez cinq critères : <strong>modération</strong> humaine ou hybride, <strong>conformité RGPD</strong> avec politique de confidentialité claire, <strong>modèle économique</strong> transparent, <strong>avis utilisateurs</strong> récents sur Trustpilot ou les stores, et présence de <strong>mentions légales</strong> complètes avec éditeur identifié. Un site qui coche ces cinq cases est en général digne de confiance.</p>
-        </details>
-
-        <details class="faq-item">
-          <summary>Les sites de rencontre gratuits sont-ils fiables ?</summary>
-          <p>Pas systématiquement. Le <strong>gratuit total</strong> est souvent associé à une modération moins stricte et à une publicité plus agressive. Les sites avec inscription gratuite mais abonnement pour les fonctionnalités avancées (Meetic, eDarling, Infinite Rencontre) offrent généralement un meilleur niveau de fiabilité, parce que le modèle économique permet de financer une vraie modération humaine.</p>
-        </details>
-
-        <details class="faq-item">
-          <summary>Comment vérifier la conformité RGPD d'un site de rencontre ?</summary>
-          <p>Trois éléments doivent être présents : une <strong>politique de confidentialité</strong> accessible et lisible, la possibilité d'<strong>exporter et de supprimer</strong> ses données depuis le compte, et la présence de <strong>mentions légales</strong> avec les coordonnées de l'éditeur. L'absence de l'un de ces trois points est rédhibitoire pour un site français ou européen.</p>
-        </details>
-
-        <details class="faq-item">
-          <summary>À quoi reconnaît-on un site de rencontre douteux ?</summary>
-          <p>Plusieurs signaux : avalanche de <strong>notifications de messages</strong> au moment de l'inscription, profils manifestement automatisés, <strong>mentions légales absentes</strong> ou floues, paiements via des intermédiaires non reconnus, désabonnement masqué dans les paramètres, avis utilisateurs majoritairement très négatifs. Un seul signal peut suffire à passer son chemin.</p>
-        </details>
-
-        <details class="faq-item">
-          <summary>Quels sites de rencontre sont vraiment fiables en France ?</summary>
-          <p>D'après nos tests, <strong>Meetic, Infinite Rencontre, eDarling, Spiice, Rencontres Locales, <a href="/avis-rencontres-mixtes/">Rencontres Mixtes</a>, <a href="/avis-force-gay/">Force Gay</a> et <a href="/avis-jm-messenger/">JM Messenger</a></strong> remplissent tous les critères de fiabilité présentés dans ce guide. Vous pouvez consulter nos avis détaillés sur chacun pour aller plus loin, ou notre comparatif des sites de rencontre sérieux pour une vue d'ensemble.</p>
-        </details>
-
-      </div>
-    </section>
-
-    <section class="review-section">
-      <div class="container review-prose">
         <p class="see-also"><strong>Le vocabulaire des mauvaises surprises.</strong> Notre lexique détaille le <a href="/lexique/catfishing/">catfishing</a> et le <a href="/lexique/love-bombing/">love bombing</a>, les deux comportements que la modération d'une plateforme doit savoir traiter.</p>
-      </div>
-    </section>
+        </div>
+      </section>
+      </article>
+    </div>
 
-    <section class="related-reviews">
-      <div class="container">
-        <header class="section-head">
-          <h2>Lire aussi</h2>
-          <p>Nos autres guides et nos avis détaillés.</p>
-        </header>
-
-        <div class="related-grid">
-
-          <a href="/comparatif-relation-serieuse/" class="related-card">
-            <h3>Meilleur site de rencontre sérieux</h3>
-            <p>Notre top 5 pour une relation durable, après tests sur 4 semaines minimum.</p>
-            <span class="related-link">Voir le comparatif
-              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
-            </span>
-          </a>
-
-          <a href="/guide/faux-profils/" class="related-card">
-            <h3>Reconnaître un faux profil</h3>
-            <p>Les signaux qui ne trompent pas et les bons réflexes pour signaler.</p>
-            <span class="related-link">Lire le guide
-              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
-            </span>
-          </a>
-
-          <a href="/notre-methode/" class="related-card">
-            <h3>Notre méthode de test</h3>
-            <p>Comment nous évaluons la fiabilité concrète des sites de notre panel.</p>
-            <span class="related-link">Voir la méthode
-              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
-            </span>
-          </a>
-
+    <section class="av-auteur">
+      <span class="av-motif av-motif--plume" aria-hidden="true"></span>
+      <div class="container av-auteur-grille" data-reveal>
+        <span class="av-auteur-img"><img src="/assets/auteurs/patrice.webp" alt="Portrait de Patrice" width="320" height="320" loading="lazy"></span>
+        <div>
+          <p class="av-auteur-k">Guide rédigé par</p>
+          <p class="av-auteur-nom">Patrice</p>
+          <p class="av-auteur-role">Rédacteur · veille digitale et services en ligne</p>
+          <p class="av-auteur-bio">Je m'intéresse à la fiabilité, à la lisibilité des offres et aux différences concrètes entre les services.</p>
+          <a class="btn-coeur" href="/auteurs/patrice/"><svg class="btn-coeur-ico" width="15" height="14" viewBox="0 0 24 22" aria-hidden="true"><path d="M12 20.3s-8.8-5.3-8.8-11.4A4.9 4.9 0 0 1 12 6.1a4.9 4.9 0 0 1 8.8 2.8c0 6.1-8.8 11.4-8.8 11.4z"/></svg><span>Tous les articles de Patrice</span><svg class="btn-coeur-fl" width="18" height="10" viewBox="0 0 18 10" fill="none" aria-hidden="true"><path d="M1 5h15M12 1l4 4-4 4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg></a>
         </div>
       </div>
     </section>
 
+    <!-- FAQ -->
+    <section id="faq" class="av-faq">
+      <span class="av-motif av-motif--bulles" aria-hidden="true"></span>
+      <div class="container av-faq-grille">
+        <header data-reveal>
+          <h2 class="av-h2">Questions fréquentes sur la fiabilité d'un site de rencontre</h2>
+          <p class="av-texte">Une autre question, une erreur à signaler&nbsp;? La rédaction vous lit.</p>
+          <a class="btn-coeur" href="/contact/"><svg class="btn-coeur-ico" width="15" height="14" viewBox="0 0 24 22" aria-hidden="true"><path d="M12 20.3s-8.8-5.3-8.8-11.4A4.9 4.9 0 0 1 12 6.1a4.9 4.9 0 0 1 8.8 2.8c0 6.1-8.8 11.4-8.8 11.4z"/></svg><span>Contacter la rédaction</span><svg class="btn-coeur-fl" width="18" height="10" viewBox="0 0 18 10" fill="none" aria-hidden="true"><path d="M1 5h15M12 1l4 4-4 4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg></a>
+        </header>
+        <div class="av-qa" data-reveal>
+          <details>
+            <summary>Comment savoir si un site de rencontre est fiable ?</summary>
+            <p>Vérifiez cinq critères : <strong>modération</strong> humaine ou hybride, <strong>conformité RGPD</strong> avec politique de confidentialité claire, <strong>modèle économique</strong> transparent, <strong>avis utilisateurs</strong> récents sur Trustpilot ou les stores, et présence de <strong>mentions légales</strong> complètes avec éditeur identifié. Un site qui coche ces cinq cases est en général digne de confiance.</p>
+          </details>
+          <details>
+            <summary>Les sites de rencontre gratuits sont-ils fiables ?</summary>
+            <p>Pas systématiquement. Le <strong>gratuit total</strong> est souvent associé à une modération moins stricte et à une publicité plus agressive. Les sites avec inscription gratuite mais abonnement pour les fonctionnalités avancées (Meetic, eDarling, Infinite Rencontre) offrent généralement un meilleur niveau de fiabilité, parce que le modèle économique permet de financer une vraie modération humaine.</p>
+          </details>
+          <details>
+            <summary>Comment vérifier la conformité RGPD d'un site de rencontre ?</summary>
+            <p>Trois éléments doivent être présents : une <strong>politique de confidentialité</strong> accessible et lisible, la possibilité d'<strong>exporter et de supprimer</strong> ses données depuis le compte, et la présence de <strong>mentions légales</strong> avec les coordonnées de l'éditeur. L'absence de l'un de ces trois points est rédhibitoire pour un site français ou européen.</p>
+          </details>
+          <details>
+            <summary>À quoi reconnaît-on un site de rencontre douteux ?</summary>
+            <p>Plusieurs signaux : avalanche de <strong>notifications de messages</strong> au moment de l'inscription, profils manifestement automatisés, <strong>mentions légales absentes</strong> ou floues, paiements via des intermédiaires non reconnus, désabonnement masqué dans les paramètres, avis utilisateurs majoritairement très négatifs. Un seul signal peut suffire à passer son chemin.</p>
+          </details>
+          <details>
+            <summary>Quels sites de rencontre sont vraiment fiables en France ?</summary>
+            <p>D'après nos tests, <strong>Meetic, Infinite Rencontre, eDarling, Spiice, Rencontres Locales, <a href="/avis-rencontres-mixtes/">Rencontres Mixtes</a>, <a href="/avis-force-gay/">Force Gay</a> et <a href="/avis-jm-messenger/">JM Messenger</a></strong> remplissent tous les critères de fiabilité présentés dans ce guide. Vous pouvez consulter nos avis détaillés sur chacun pour aller plus loin, ou notre comparatif des sites de rencontre sérieux pour une vue d'ensemble.</p>
+          </details>
+        </div>
+      </div>
+    </section>
+
+    <!-- Lire aussi -->
+    <section class="av-autres">
+      <div class="container">
+        <h2 class="av-h2">Lire aussi</h2>
+        <div class="av-autres-grille" data-reveal>
+          <a class="av-autre" href="/comparatif-relation-serieuse/">
+            <span class="av-autre-img"><img src="/assets/comparatifs/comparatif-relation-serieuse.webp" alt="" width="960" height="480" loading="lazy"></span><span class="av-autre-tete"><span class="av-autre-nom">Meilleur site de rencontre sérieux</span></span>
+            <span class="av-autre-acc">Notre classement des plateformes pour une relation durable.</span>
+          </a>
+          <a class="av-autre" href="/guide/faux-profils/">
+            <span class="av-autre-img"><img src="/assets/guides/guide-faux-profils.webp" alt="" width="960" height="480" loading="lazy"></span><span class="av-autre-tete"><span class="av-autre-nom">Reconnaître un faux profil</span></span>
+            <span class="av-autre-acc">Les signaux qui ne trompent pas et les bons réflexes pour signaler.</span>
+          </a>
+          <a class="av-autre av-autre--texte" href="/notre-methode/">
+            <span class="av-autre-tete"><span class="av-autre-nom">Notre méthode de test</span></span>
+            <span class="av-autre-acc">Comment nous évaluons la fiabilité concrète des sites de notre panel.</span>
+          </a>
+        </div>
+        <a class="btn-coeur" href="/guides/"><svg class="btn-coeur-ico" width="15" height="14" viewBox="0 0 24 22" aria-hidden="true"><path d="M12 20.3s-8.8-5.3-8.8-11.4A4.9 4.9 0 0 1 12 6.1a4.9 4.9 0 0 1 8.8 2.8c0 6.1-8.8 11.4-8.8 11.4z"/></svg><span>Tous nos guides</span><svg class="btn-coeur-fl" width="18" height="10" viewBox="0 0 18 10" fill="none" aria-hidden="true"><path d="M1 5h15M12 1l4 4-4 4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg></a>
+      </div>
+    </section>
   </main>
 
   <footer class="site-footer">
@@ -383,6 +368,6 @@
     </div>
   </footer>
 
-  <script src="/js/main.js?v=20261016-1"></script>
+  <script src="/js/main.js?v=20261020-2"></script>
 </body>
 </html>
