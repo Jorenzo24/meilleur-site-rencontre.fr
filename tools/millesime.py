@@ -29,7 +29,7 @@ MOTIFS = {
         r'(Comparatif )(\d{4})( des meilleurs sites de rencontre)',
         r'(Sites de rencontre recommandés )(\d{4})',
         r'(meilleur site de rencontre en )(\d{4})',
-        r'(notre comparatif )(\d{4})(</h1>)',
+        r'(notre comparatif )(\d{4})(</em></h1>|</h1>)',
     ],
     'avis/index.html': [
         r'(Avis sites de rencontre )(\d{4})( : nos tests)',

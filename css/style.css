@@ -2905,3 +2905,10 @@ a:hover > .btn-coeur .btn-coeur-ico, .btn-coeur:hover .btn-coeur-ico { animation
 }
 .btn-site:hover { background: var(--brand); border-color: var(--brand); color: #fff; text-decoration: none; }
 .btn-site:focus-visible { outline: 2px solid var(--brand); outline-offset: 3px; }
+
+/* Grands titres : une partie en italique, dans le rose du site */
+h1 em {
+  font-style: italic;
+  font-weight: inherit;
+  color: var(--brand);
+}
