@@ -105,3 +105,20 @@
   box-shadow: 0 0 0 100vmax #fcfaf8;
 }
 .lx-mot + .lx-mot a { border-top-color: #ece6df; }
+
+/* "Lire la fiche" : italique Bodoni souligne d'une fine vague, plus de tire */
+.lx-lien {
+  display: inline-block;
+  margin-top: .55rem;
+  font-family: var(--font-display);
+  font-style: italic;
+  font-size: 1.02rem;
+  font-weight: 500;
+  color: var(--brand);
+  padding-bottom: .3rem;
+  background: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='12' height='5' viewBox='0 0 12 5'><path d='M0 2.5 C3 0, 3 0, 6 2.5 S9 5, 12 2.5' fill='none' stroke='%23a81e46' stroke-width='1.1'/></svg>") repeat-x 0 100% / 12px 5px;
+  transition: background-position .6s ease;
+}
+.lx-lien::after { content: none; }
+.lx-mot a:hover .lx-lien { background-position: 24px 100%; }
+@media (prefers-reduced-motion: reduce) { .lx-lien { transition: none; } }
