@@ -101,7 +101,7 @@
   clip-path: inset(0 -100vmax);
 }
 .lx-lettre:nth-child(even) {
-  background: #faf6f2;
-  box-shadow: 0 0 0 100vmax #faf6f2;
+  background: #fcfaf8;
+  box-shadow: 0 0 0 100vmax #fcfaf8;
 }
 .lx-mot + .lx-mot a { border-top-color: #ece6df; }
