@@ -113,3 +113,12 @@
   .cp-sec > .av-motif { width: 13rem; right: max(1rem, calc((100vw - var(--container)) / 2 - 7rem)); }
   .cp-sec:nth-of-type(even) > .av-motif { left: max(-2rem, calc((100vw - var(--container)) / 2 - 11rem)); }
 }
+
+/* Photo d'ouverture : horizontale sur telephone, arche carree sur ordinateur */
+@media (max-width: 959px) {
+  .cp-photo { border-radius: 0; }
+  .cp-photo img { aspect-ratio: 3 / 2; }
+}
+@media (min-width: 960px) {
+  .cp-photo img { aspect-ratio: 1; max-height: none; }
+}

@@ -154,3 +154,69 @@
 }
 .gd-check input:focus-visible { outline: 2px solid var(--brand); outline-offset: 2px; }
 .gd-check input:checked + span { color: var(--text-muted); }
+
+/* ==========================================================================
+   Motifs au trait : dans la marge sur ordinateur, au bout des filets
+   entre les parties sur telephone, jamais sous le texte
+   ========================================================================== */
+.gd .av-corps { position: relative; }
+.gd-deco { display: none; }
+.gd-m {
+  --m: url(/assets/motifs/cafe.svg);
+  -webkit-mask: var(--m) no-repeat center / contain;
+          mask: var(--m) no-repeat center / contain;
+  background: var(--brand);
+}
+.gd-m--telephone { --m: url(/assets/motifs/telephone.svg); }
+.gd-m--lettre    { --m: url(/assets/motifs/lettre.svg); }
+.gd-m--cafe      { --m: url(/assets/motifs/cafe.svg); }
+.gd-m--avion     { --m: url(/assets/motifs/avion.svg); }
+.gd-m--bulles    { --m: url(/assets/motifs/bulles.svg); }
+.gd-m--plume     { --m: url(/assets/motifs/plume.svg); }
+.gd-m--loupe     { --m: url(/assets/motifs/loupe.svg); }
+
+/* Ordinateur : dessins epars dans la marge de droite, a gauche et a droite en alternance */
+@media (min-width: 1100px) {
+  .gd-deco { display: block; position: absolute; inset: 0; z-index: 0; pointer-events: none; overflow: hidden; }
+  .gd-m { position: absolute; top: var(--y); right: max(0rem, calc((100vw - var(--container)) / 2 - 7rem)); width: 9.5rem; aspect-ratio: 1; opacity: .11; transform: rotate(-8deg); }
+  .gd-m:nth-child(even) { right: max(2rem, calc((100vw - var(--container)) / 2 + 1rem)); width: 7.5rem; transform: rotate(9deg); opacity: .09; }
+  .gd .av-article, .gd .av-cote { position: relative; z-index: 1; }
+}
+
+/* Telephone et tablette : le filet entre deux parties s'arrete avant un
+   petit motif pose a son extremite */
+@media (max-width: 1099px) {
+  .gd .av-sec + .av-sec .av-prose > h2:first-child {
+    position: relative;
+    border-top: 0;
+    background: linear-gradient(var(--border), var(--border)) 0 0 / calc(100% - 3.4rem) 1px no-repeat;
+  }
+  .gd .av-sec + .av-sec .av-prose > h2:first-child::after {
+    content: "";
+    position: absolute;
+    right: 0;
+    top: -1.35rem;
+    width: 2.8rem;
+    height: 2.8rem;
+    background: var(--brand);
+    opacity: .3;
+    -webkit-mask: var(--m, url(/assets/motifs/cafe.svg)) no-repeat center / contain;
+            mask: var(--m, url(/assets/motifs/cafe.svg)) no-repeat center / contain;
+  }
+  .gd .av-sec:nth-child(7n+2) { --m: url(/assets/motifs/telephone.svg); }
+  .gd .av-sec:nth-child(7n+3) { --m: url(/assets/motifs/lettre.svg); }
+  .gd .av-sec:nth-child(7n+4) { --m: url(/assets/motifs/bulles.svg); }
+  .gd .av-sec:nth-child(7n+5) { --m: url(/assets/motifs/avion.svg); }
+  .gd .av-sec:nth-child(7n+6) { --m: url(/assets/motifs/plume.svg); }
+  .gd .av-sec:nth-child(7n)   { --m: url(/assets/motifs/loupe.svg); }
+  .gd .av-sec:nth-child(7n+1) { --m: url(/assets/motifs/cafe.svg); }
+}
+
+/* Image a la une : horizontale sur telephone, arche carree sur ordinateur */
+@media (max-width: 959px) {
+  .gd-photo { border-radius: 0; }
+  .gd-photo img { aspect-ratio: 3 / 2; }
+}
+@media (min-width: 960px) {
+  .gd-photo img { aspect-ratio: 1; max-height: none; }
+}
