@@ -17,24 +17,6 @@
 .gd-cote-auteur small { font-size: .78rem; color: var(--text-muted); }
 .gd .av-cote-t { margin-top: 1.2rem; }
 
-/* Exemples : bon / a eviter, en citations marquees */
-.gd-ex { margin: 1.4rem 0 1.2rem; padding: 1.4rem 1.5rem 1.3rem; background: var(--bg-pure); border-left: 3px solid var(--brand); }
-.gd-ex--mauvais { border-left-color: var(--text-muted); background: rgba(255, 255, 255, .55); }
-.gd-ex figcaption { margin: 0 0 .6rem; font-size: .82rem; font-weight: 700; color: var(--brand); }
-.gd-ex--mauvais figcaption { color: var(--text-muted); }
-.gd-ex blockquote { margin: 0; }
-.gd-ex blockquote p {
-  margin: 0 0 .6rem;
-  font-family: var(--font-display);
-  font-style: italic;
-  font-size: 1.18rem;
-  line-height: 1.55;
-  color: var(--text);
-  text-align: left !important;
-}
-.gd-ex blockquote p:last-child { margin-bottom: 0; }
-.gd-ex--mauvais blockquote p { color: #5a5260; }
-
 /* Lectures liees sans image (fiches du lexique) */
 .av-autre--texte { padding: 1.4rem 1.4rem 1.3rem; background: var(--bg-pure); border-top: 2px solid var(--brand); }
 
@@ -49,8 +31,78 @@
 .gd .av-sec:nth-child(odd),
 .gd .av-sec:nth-child(even) { background: transparent; box-shadow: none; clip-path: none; padding: 0 0 clamp(2.5rem, 5vw, 3.5rem); }
 .gd .av-sec + .av-sec .av-prose > h2:first-child { padding-top: clamp(1.5rem, 3vw, 2rem); border-top: 1px solid var(--border); }
-.gd .gd-ex { background: var(--bg-alt); }
-.gd .gd-ex--mauvais { background: rgba(240, 228, 220, .5); }
 @media (min-width: 1100px) {
   .gd .av-cote-carte { margin: 0; }
 }
+
+/* ==========================================================================
+   Maquettes d'appli : conversation (premier message) et fiche (bio)
+   Un exemple se lit comme un ecran de rencontre, pas comme un encadre.
+   ========================================================================== */
+
+.ch, .pf {
+  max-width: 27rem;
+  margin: 1.6rem 0 1.4rem;
+  border-radius: 1.4rem;
+  background: var(--bg-pure);
+  border: 1px solid var(--border);
+  overflow: hidden;
+  font-family: var(--font-text);
+}
+
+/* Conversation */
+.ch-tete { display: flex; align-items: center; gap: .7rem; padding: .8rem 1rem; border-bottom: 1px solid var(--border); background: var(--bg); }
+.ch-av {
+  width: 2.1rem; height: 2.1rem; flex: none;
+  display: grid; place-items: center;
+  border-radius: 50%;
+  background: var(--sable);
+  font-family: var(--font-display); font-size: 1rem; font-weight: 600; color: var(--prune);
+}
+.ch-nom { display: flex; flex-direction: column; font-size: .95rem; font-weight: 600; line-height: 1.2; color: var(--text); }
+.ch-ligne { display: flex; align-items: center; gap: .35rem; font-size: .74rem; font-weight: 500; color: #2f7a52; }
+.ch-ligne::before { content: ""; width: .45rem; height: .45rem; border-radius: 50%; background: #39a96b; }
+.ch-fil { display: flex; flex-direction: column; align-items: flex-end; gap: .45rem; padding: 1.2rem 1rem 1rem; background: #f6f1ee; }
+.av-prose .ch-bulle {
+  margin: 0;
+  max-width: 88%;
+  padding: .75rem 1rem;
+  border-radius: 1.15rem 1.15rem .3rem 1.15rem;
+  background: var(--brand);
+  color: #fff;
+  font-size: .95rem;
+  line-height: 1.5;
+  text-align: left;
+  -webkit-hyphens: manual; hyphens: manual;
+}
+.ch-bulle em { font-style: italic; }
+.ch--mauvais .ch-bulle { background: #8d8590; }
+.av-prose .ch-vu { margin: 0; font-size: .74rem; color: var(--text-muted); text-align: right; }
+.ch-ecrit {
+  align-self: flex-start;
+  display: inline-flex; gap: .25rem;
+  margin: .3rem 0 0;
+  padding: .7rem .9rem;
+  border-radius: 1.15rem 1.15rem 1.15rem .3rem;
+  background: var(--bg-pure);
+  border: 1px solid var(--border);
+}
+.ch-ecrit span { width: .4rem; height: .4rem; border-radius: 50%; background: #b3aab0; animation: ch-point 1.2s infinite ease-in-out; }
+.ch-ecrit span:nth-child(2) { animation-delay: .15s; }
+.ch-ecrit span:nth-child(3) { animation-delay: .3s; }
+@keyframes ch-point { 0%, 60%, 100% { transform: translateY(0); opacity: .5; } 30% { transform: translateY(-3px); opacity: 1; } }
+
+/* Fiche de profil */
+.pf { padding: 0 0 1rem; }
+.pf-tete { display: flex; align-items: center; gap: .8rem; padding: 1rem 1.1rem; background: var(--bg); border-bottom: 1px solid var(--border); }
+.pf-photo { width: 3rem; height: 3rem; flex: none; border-radius: 50%; background: linear-gradient(135deg, var(--sable), #dcc6bb); }
+.pf-id { display: flex; flex-direction: column; font-weight: 600; font-size: .95rem; line-height: 1.25; color: var(--text); }
+.pf-id small { font-weight: 500; font-size: .78rem; color: var(--text-muted); }
+.av-prose .pf-t { margin: 1rem 1.1rem .35rem; font-size: .78rem; font-weight: 700; color: var(--text-muted); }
+.av-prose .pf-bio { margin: 0 1.1rem 1rem; font-size: .96rem; line-height: 1.6; color: var(--text); text-align: left; }
+.av-prose .pf-notif, .av-prose .pf-rien { margin: 0 1.1rem; display: inline-flex; align-items: center; gap: .4rem; padding: .35rem .8rem; border-radius: 999px; font-size: .8rem; font-weight: 600; }
+.pf-notif { background: var(--brand); color: #fff !important; }
+.pf-rien { background: var(--bg-alt); color: var(--text-muted) !important; }
+.pf--mauvais .pf-bio { color: #6b6370; }
+
+@media (prefers-reduced-motion: reduce) { .ch-ecrit span { animation: none; } }
