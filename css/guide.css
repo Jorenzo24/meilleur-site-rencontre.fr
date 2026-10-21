@@ -106,3 +106,7 @@
 .pf--mauvais .pf-bio { color: #6b6370; }
 
 @media (prefers-reduced-motion: reduce) { .ch-ecrit span { animation: none; } }
+
+/* Photos dans le texte : pleine largeur de colonne, en ouverture de partie */
+.gd-img { margin: 1.6rem 0 1.8rem; }
+.gd-img img { width: 100%; height: auto; aspect-ratio: 3 / 2; object-fit: cover; }
