@@ -88,3 +88,20 @@
   .lx-mot + .lx-mot a { border-top: 0; }
   .lx-mot a { padding: .4rem 0 1.4rem; }
 }
+
+/* Alternance tres legere : une lettre sur blanc, la suivante sur beige tres clair,
+   en bande pleine largeur */
+.lx-corps { padding-top: 0; padding-bottom: 0; background: var(--bg-pure); overflow-x: clip; }
+.lx-lettre,
+.lx-lettre:first-child {
+  padding: clamp(2.4rem, 5vw, 3.4rem) 0;
+  border-top: 0;
+  background: var(--bg-pure);
+  box-shadow: 0 0 0 100vmax var(--bg-pure);
+  clip-path: inset(0 -100vmax);
+}
+.lx-lettre:nth-child(even) {
+  background: #faf6f2;
+  box-shadow: 0 0 0 100vmax #faf6f2;
+}
+.lx-mot + .lx-mot a { border-top-color: #ece6df; }
