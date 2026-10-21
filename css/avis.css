@@ -428,3 +428,13 @@
   -webkit-mask: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 22'><path d='M12 20.3s-8.8-5.3-8.8-11.4A4.9 4.9 0 0 1 12 6.1a4.9 4.9 0 0 1 8.8 2.8c0 6.1-8.8 11.4-8.8 11.4z' fill='none' stroke='black' stroke-width='2.4' stroke-linejoin='round'/></svg>") no-repeat center / contain;
           mask: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 22'><path d='M12 20.3s-8.8-5.3-8.8-11.4A4.9 4.9 0 0 1 12 6.1a4.9 4.9 0 0 1 8.8 2.8c0 6.1-8.8 11.4-8.8 11.4z' fill='none' stroke='black' stroke-width='2.4' stroke-linejoin='round'/></svg>") no-repeat center / contain;
 }
+
+/* Ouverture : H1, auteur, chapeau, image. Espacements resserres et reguliers */
+.av-ouverture h1 { margin-bottom: 1rem; }
+.av-signature { margin-bottom: 1.2rem; }
+.av-lede { margin-bottom: 1.6rem; }
+.av-ouverture-texte > :last-child { margin-bottom: 0; }
+@media (max-width: 959px) {
+  .av-ouverture-grille { gap: 1.8rem; }
+  .av-ouverture { padding-bottom: 2.5rem; }
+}

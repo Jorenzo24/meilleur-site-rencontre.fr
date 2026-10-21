@@ -230,11 +230,11 @@ def refait(dossier):
         <div class="av-ouverture-grille">
           <div class="av-ouverture-texte">
             <h1>{h1}</h1>
-            <p class="av-lede">{lede}</p>
             <div class="av-signature">
               <img src="/assets/auteurs/{aslug}.webp" alt="" width="44" height="44">
               <p>Par <a href="{aurl}">{anom}</a>, mis à jour le {maj}</p>
             </div>
+            <p class="av-lede">{lede}</p>
             <div class="av-actions">
               {btn_top}
             </div>

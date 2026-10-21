@@ -220,3 +220,12 @@
 @media (min-width: 960px) {
   .gd-photo img { aspect-ratio: 1; max-height: none; }
 }
+
+/* Maquette de recherche d'image inversee */
+.rech { max-width: 34rem; margin: 1.6rem 0 1.2rem; border: 1px solid var(--border); border-radius: 1rem; background: var(--bg-pure); overflow: hidden; font-family: var(--font-text); }
+.av-prose .rech-tete { margin: 0; padding: .7rem 1rem; border-bottom: 1px solid var(--border); background: var(--bg); font-size: .82rem; font-weight: 600; color: var(--text-muted); }
+.rech-corps { display: grid; grid-template-columns: 6.5rem 1fr; gap: 1rem; padding: 1rem; align-items: start; }
+.rech-corps img { width: 100%; aspect-ratio: 1; object-fit: cover; border-radius: .5rem; }
+.av-prose .rech-n { margin: 0 0 .6rem; font-size: .9rem; font-weight: 600; color: var(--brand); text-align: left; }
+.av-prose .rech-l { margin: 0 0 .55rem; padding: .5rem .7rem; border-radius: .5rem; background: #f6f1ee; font-size: .85rem; line-height: 1.4; color: var(--text-muted); text-align: left; }
+.rech-l span { display: block; font-weight: 600; color: var(--text); }
