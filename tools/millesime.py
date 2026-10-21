@@ -59,7 +59,7 @@ MOTIFS = {
 # Pages "edition" : tout millesime de l'annee precedente passe a l'annee en
 # cours, sauf les dates (precedees d'un mois), les dates ISO et les versions
 # de cache. Les comparatifs sont des classements dates de l'annee en cours.
-PAGES_EDITION = ['comparatif-*/index.html']
+PAGES_EDITION = ['comparatif-*/index.html', 'avis-*/index.html', 'auteurs/*/index.html']
 GABARITS = ['tools/gabarits/*.html']
 MOIS = r'(?:janvier|février|mars|avril|mai|juin|juillet|août|septembre|octobre|novembre|décembre)'
 
