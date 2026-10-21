@@ -23,6 +23,7 @@
 
 - **Titres de partie (H2) des avis, comparatifs et guides** : texte enveloppé dans `<span class="tt">…</span>` pour le double soulignage façon surligneur (style dans `css/avis.css`). À reprendre sur toute nouvelle page de ces rubriques.
 - **H1** : la partie qui porte le sens en `<em>`, rendue en italique rose.
+- **Sous-titres (H3)** des avis, comparatifs et guides : petit cœur au trait rose devant, en CSS seul (`.av-prose h3`), rien à ajouter dans le HTML.
 
 ## Règles SEO
 - Chaque page doit avoir : `<title>` unique, `<meta name="description">`, balises Open Graph complètes
