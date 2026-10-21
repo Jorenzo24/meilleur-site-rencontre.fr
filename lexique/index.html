@@ -22,7 +22,10 @@
   <link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon-32.png">
   <link rel="icon" type="image/png" sizes="16x16" href="/assets/favicon-16.png">
   <link rel="apple-touch-icon" sizes="180x180" href="/assets/favicon-180.png">
-  <link rel="stylesheet" href="/css/style.css?v=20261021-9">
+  <link rel="preload" href="/assets/fonts/bodoni-moda.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="/css/style.css?v=20261021-10">
+  <link rel="stylesheet" href="/css/hub.css?v=20261021-10">
+  <link rel="stylesheet" href="/css/lexique.css?v=20261021-10">
 
   <script type="application/ld+json">
   {
@@ -44,66 +47,75 @@
     ]
   }
   </script>
-
+  <!-- lexique:jsonld:debut -->
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
     "@type": "DefinedTermSet",
     "name": "Lexique du dating",
-    "description": "Ghosting, love bombing, situationship, catfishing : le lexique des comportements et des mots de la rencontre en ligne, définis simplement et sans jargon.",
     "url": "https://meilleur-site-rencontre.fr/lexique/",
+    "inLanguage": "fr-FR",
     "hasDefinedTerm": [
       {
         "@type": "DefinedTerm",
+        "name": "Benching",
+        "description": "Fait de maintenir un contact sans l'écarter ni s'y investir, pour le garder disponible si les autres options n'aboutissent pas.",
+        "url": "https://meilleur-site-rencontre.fr/lexique/benching/"
+      },
+      {
+        "@type": "DefinedTerm",
+        "name": "Breadcrumbing",
+        "description": "Envoi de signaux d'intérêt sporadiques, sans intention réelle de construire quoi que ce soit.",
+        "url": "https://meilleur-site-rencontre.fr/lexique/breadcrumbing/"
+      },
+      {
+        "@type": "DefinedTerm",
+        "name": "Catfishing",
+        "description": "Fait de créer et d'entretenir un profil au nom d'une personne qui n'existe pas, ou qui n'est pas celle qui écrit.",
+        "url": "https://meilleur-site-rencontre.fr/lexique/catfishing/"
+      },
+      {
+        "@type": "DefinedTerm",
+        "name": "Cushioning",
+        "description": "Fait d'entretenir des contacts de réserve pendant qu'on est déjà engagé dans une relation, pour amortir une éventuelle rupture.",
+        "url": "https://meilleur-site-rencontre.fr/lexique/cushioning/"
+      },
+      {
+        "@type": "DefinedTerm",
         "name": "Ghosting",
+        "description": "Fait de couper tout contact avec quelqu'un du jour au lendemain, sans prévenir et sans répondre aux messages suivants.",
         "url": "https://meilleur-site-rencontre.fr/lexique/ghosting/"
       },
       {
         "@type": "DefinedTerm",
         "name": "Love bombing",
+        "description": "Fait de submerger quelqu'un d'attentions, de compliments et de promesses dès le début d'une relation, à un rythme qui laisse peu de place au recul.",
         "url": "https://meilleur-site-rencontre.fr/lexique/love-bombing/"
       },
       {
         "@type": "DefinedTerm",
-        "name": "Catfishing",
-        "url": "https://meilleur-site-rencontre.fr/lexique/catfishing/"
-      },
-      {
-        "@type": "DefinedTerm",
-        "name": "Situationship",
-        "url": "https://meilleur-site-rencontre.fr/lexique/situationship/"
-      },
-      {
-        "@type": "DefinedTerm",
-        "name": "Breadcrumbing",
-        "url": "https://meilleur-site-rencontre.fr/lexique/breadcrumbing/"
-      },
-      {
-        "@type": "DefinedTerm",
-        "name": "Benching",
-        "url": "https://meilleur-site-rencontre.fr/lexique/benching/"
-      },
-      {
-        "@type": "DefinedTerm",
         "name": "Orbiting",
+        "description": "Fait d'interrompre toute conversation avec quelqu'un tout en continuant à suivre son activité en ligne : vues de stories, likes, réactions.",
         "url": "https://meilleur-site-rencontre.fr/lexique/orbiting/"
       },
       {
         "@type": "DefinedTerm",
-        "name": "Zombieing",
-        "url": "https://meilleur-site-rencontre.fr/lexique/zombieing/"
+        "name": "Situationship",
+        "description": "Relation suivie et souvent intime, qui n'a fait l'objet d'aucune définition explicite.",
+        "url": "https://meilleur-site-rencontre.fr/lexique/situationship/"
       },
       {
         "@type": "DefinedTerm",
-        "name": "Cushioning",
-        "url": "https://meilleur-site-rencontre.fr/lexique/cushioning/"
+        "name": "Zombieing",
+        "description": "Retour d'une personne qui vous avait ghosté, souvent après plusieurs mois, comme si l'interruption n'avait jamais eu lieu.",
+        "url": "https://meilleur-site-rencontre.fr/lexique/zombieing/"
       }
     ]
   }
   </script>
+  <!-- lexique:jsonld:fin -->
 </head>
 <body>
-
   <a class="skip-link" href="#main">Aller au contenu</a>
 
   <header class="site-header">
@@ -133,109 +145,164 @@
       </nav>
     </div>
   </header>
+  <main id="main" class="hb lx">
 
-  <main id="main">
+    <section class="hb-ouverture">
+      <span class="hb-motif hb-motif--loupe" aria-hidden="true"></span>
+      <div class="container">
+        <nav class="breadcrumb" aria-label="Fil d'Ariane">
+          <ol>
+            <li><a href="/">Accueil</a></li>
+            <li aria-current="page">Lexique</li>
+          </ol>
+        </nav>
+        <header class="hb-open hb-open--bloc">
+          <h1>Le lexique <em>du dating</em></h1>
+          <p>Ghosting, benching, situationship : la rencontre en ligne a inventé son vocabulaire, et il désigne souvent des situations que beaucoup ont vécues sans savoir les nommer. Voici nos définitions, sans jargon, avec pour chaque mot une fiche complète.</p>
+        </header>
+      </div>
+    </section>
 
-    <nav class="breadcrumb" aria-label="Fil d'Ariane">
+    <nav class="lx-alpha" aria-label="Lettres du lexique">
       <div class="container">
         <ol>
-          <li><a href="/">Accueil</a></li>
-          <li aria-current="page">Lexique</li>
+          <!-- lexique:alphabet:debut -->
+            <li><span aria-disabled="true" title="Bientôt">A</span></li>
+            <li><a href="#lettre-b">B</a></li>
+            <li><a href="#lettre-c">C</a></li>
+            <li><span aria-disabled="true" title="Bientôt">D</span></li>
+            <li><span aria-disabled="true" title="Bientôt">E</span></li>
+            <li><span aria-disabled="true" title="Bientôt">F</span></li>
+            <li><a href="#lettre-g">G</a></li>
+            <li><span aria-disabled="true" title="Bientôt">H</span></li>
+            <li><span aria-disabled="true" title="Bientôt">I</span></li>
+            <li><span aria-disabled="true" title="Bientôt">J</span></li>
+            <li><span aria-disabled="true" title="Bientôt">K</span></li>
+            <li><a href="#lettre-l">L</a></li>
+            <li><span aria-disabled="true" title="Bientôt">M</span></li>
+            <li><span aria-disabled="true" title="Bientôt">N</span></li>
+            <li><a href="#lettre-o">O</a></li>
+            <li><span aria-disabled="true" title="Bientôt">P</span></li>
+            <li><span aria-disabled="true" title="Bientôt">Q</span></li>
+            <li><span aria-disabled="true" title="Bientôt">R</span></li>
+            <li><a href="#lettre-s">S</a></li>
+            <li><span aria-disabled="true" title="Bientôt">T</span></li>
+            <li><span aria-disabled="true" title="Bientôt">U</span></li>
+            <li><span aria-disabled="true" title="Bientôt">V</span></li>
+            <li><span aria-disabled="true" title="Bientôt">W</span></li>
+            <li><span aria-disabled="true" title="Bientôt">X</span></li>
+            <li><span aria-disabled="true" title="Bientôt">Y</span></li>
+            <li><a href="#lettre-z">Z</a></li>
+          <!-- lexique:alphabet:fin -->
         </ol>
       </div>
     </nav>
 
-    <section class="guides">
+    <div class="lx-corps">
       <div class="container">
-        <header class="section-head">
-          <h1>Le lexique du dating</h1>
-          <p>Ghosting, benching, situationship : la rencontre en ligne a inventé son vocabulaire, et il désigne souvent des situations que tout le monde a vécues sans savoir les nommer. Voici nos définitions, sans jargon, avec ce qu'il y a à faire quand ça vous arrive.</p>
-        </header>
-
-        <div class="related-grid">
-          <!-- fiches:debut -->
-
-          <a href="/lexique/ghosting/" class="related-card">
-            <h3>Ghosting</h3>
-            <p>Disparition sans explication</p>
-            <span class="related-link">Lire la définition
-              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
-            </span>
-          </a>
-
-          <a href="/lexique/love-bombing/" class="related-card">
-            <h3>Love bombing</h3>
-            <p>Excès d'attention calculé</p>
-            <span class="related-link">Lire la définition
-              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
-            </span>
-          </a>
-
-          <a href="/lexique/catfishing/" class="related-card">
-            <h3>Catfishing</h3>
-            <p>Fausse identité en ligne</p>
-            <span class="related-link">Lire la définition
-              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
-            </span>
-          </a>
-
-          <a href="/lexique/situationship/" class="related-card">
-            <h3>Situationship</h3>
-            <p>Relation sans statut défini</p>
-            <span class="related-link">Lire la définition
-              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
-            </span>
-          </a>
-
-          <a href="/lexique/breadcrumbing/" class="related-card">
-            <h3>Breadcrumbing</h3>
-            <p>Attention distillée au compte-gouttes</p>
-            <span class="related-link">Lire la définition
-              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
-            </span>
-          </a>
-
-          <a href="/lexique/benching/" class="related-card">
-            <h3>Benching</h3>
-            <p>Gardé en réserve, au cas où</p>
-            <span class="related-link">Lire la définition
-              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
-            </span>
-          </a>
-
-
-          <a href="/lexique/orbiting/" class="related-card">
-            <h3>Orbiting</h3>
-            <p>Disparu, mais toujours là</p>
-            <span class="related-link">Lire la définition
-              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
-            </span>
-          </a>
-
-          <a href="/lexique/zombieing/" class="related-card">
-            <h3>Zombieing</h3>
-            <p>Le retour du disparu</p>
-            <span class="related-link">Lire la définition
-              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
-            </span>
-          </a>
-
-          <a href="/lexique/cushioning/" class="related-card">
-            <h3>Cushioning</h3>
-            <p>Des plans B entretenus</p>
-            <span class="related-link">Lire la définition
-              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
-            </span>
-          </a>
-          <!-- fiches:fin -->
-        </div>
-
-        <p class="see-also"><strong>Ce lexique s'étoffe régulièrement.</strong> Pour la pratique, passez à nos <a href="/guides/">guides</a>, et pour choisir une plateforme, à nos <a href="/comparatifs/">comparatifs</a> ou nos <a href="/avis/">avis détaillés</a>.</p>
+        <!-- lexique:liste:debut -->
+        <section class="lx-lettre" id="lettre-b" aria-labelledby="titre-b">
+          <h2 class="lx-initiale" id="titre-b">B</h2>
+          <ul class="lx-mots">
+            <li class="lx-mot">
+              <a href="/lexique/benching/">
+                <span class="lx-tete"><dfn>Benching</dfn> <span class="lx-genre">n.&nbsp;m.</span> <span class="lx-ety">(de l'anglais <i>bench</i>, le banc des remplaçants)</span></span>
+                <span class="lx-def">Fait de maintenir un contact sans l'écarter ni s'y investir, pour le garder disponible si les autres options n'aboutissent pas.</span>
+                <span class="lx-lien">Lire la fiche</span>
+              </a>
+            </li>
+            <li class="lx-mot">
+              <a href="/lexique/breadcrumbing/">
+                <span class="lx-tete"><dfn>Breadcrumbing</dfn> <span class="lx-genre">n.&nbsp;m.</span> <span class="lx-ety">(de l'anglais <i>breadcrumb</i>, la miette de pain)</span></span>
+                <span class="lx-def">Envoi de signaux d'intérêt sporadiques, sans intention réelle de construire quoi que ce soit.</span>
+                <span class="lx-lien">Lire la fiche</span>
+              </a>
+            </li>
+          </ul>
+        </section>
+        <section class="lx-lettre" id="lettre-c" aria-labelledby="titre-c">
+          <h2 class="lx-initiale" id="titre-c">C</h2>
+          <ul class="lx-mots">
+            <li class="lx-mot">
+              <a href="/lexique/catfishing/">
+                <span class="lx-tete"><dfn>Catfishing</dfn> <span class="lx-genre">n.&nbsp;m.</span> <span class="lx-ety">(du documentaire américain <i>Catfish</i>, 2010)</span></span>
+                <span class="lx-def">Fait de créer et d'entretenir un profil au nom d'une personne qui n'existe pas, ou qui n'est pas celle qui écrit.</span>
+                <span class="lx-lien">Lire la fiche</span>
+              </a>
+            </li>
+            <li class="lx-mot">
+              <a href="/lexique/cushioning/">
+                <span class="lx-tete"><dfn>Cushioning</dfn> <span class="lx-genre">n.&nbsp;m.</span> <span class="lx-ety">(de l'anglais <i>cushion</i>, le coussin)</span></span>
+                <span class="lx-def">Fait d'entretenir des contacts de réserve pendant qu'on est déjà engagé dans une relation, pour amortir une éventuelle rupture.</span>
+                <span class="lx-lien">Lire la fiche</span>
+              </a>
+            </li>
+          </ul>
+        </section>
+        <section class="lx-lettre" id="lettre-g" aria-labelledby="titre-g">
+          <h2 class="lx-initiale" id="titre-g">G</h2>
+          <ul class="lx-mots">
+            <li class="lx-mot">
+              <a href="/lexique/ghosting/">
+                <span class="lx-tete"><dfn>Ghosting</dfn> <span class="lx-genre">n.&nbsp;m.</span> <span class="lx-ety">(de l'anglais <i>ghost</i>, le fantôme)</span></span>
+                <span class="lx-def">Fait de couper tout contact avec quelqu'un du jour au lendemain, sans prévenir et sans répondre aux messages suivants.</span>
+                <span class="lx-lien">Lire la fiche</span>
+              </a>
+            </li>
+          </ul>
+        </section>
+        <section class="lx-lettre" id="lettre-l" aria-labelledby="titre-l">
+          <h2 class="lx-initiale" id="titre-l">L</h2>
+          <ul class="lx-mots">
+            <li class="lx-mot">
+              <a href="/lexique/love-bombing/">
+                <span class="lx-tete"><dfn>Love bombing</dfn> <span class="lx-genre">n.&nbsp;m.</span></span>
+                <span class="lx-def">Fait de submerger quelqu'un d'attentions, de compliments et de promesses dès le début d'une relation, à un rythme qui laisse peu de place au recul.</span>
+                <span class="lx-lien">Lire la fiche</span>
+              </a>
+            </li>
+          </ul>
+        </section>
+        <section class="lx-lettre" id="lettre-o" aria-labelledby="titre-o">
+          <h2 class="lx-initiale" id="titre-o">O</h2>
+          <ul class="lx-mots">
+            <li class="lx-mot">
+              <a href="/lexique/orbiting/">
+                <span class="lx-tete"><dfn>Orbiting</dfn> <span class="lx-genre">n.&nbsp;m.</span></span>
+                <span class="lx-def">Fait d'interrompre toute conversation avec quelqu'un tout en continuant à suivre son activité en ligne&nbsp;: vues de stories, likes, réactions.</span>
+                <span class="lx-lien">Lire la fiche</span>
+              </a>
+            </li>
+          </ul>
+        </section>
+        <section class="lx-lettre" id="lettre-s" aria-labelledby="titre-s">
+          <h2 class="lx-initiale" id="titre-s">S</h2>
+          <ul class="lx-mots">
+            <li class="lx-mot">
+              <a href="/lexique/situationship/">
+                <span class="lx-tete"><dfn>Situationship</dfn> <span class="lx-genre">n.&nbsp;f.</span> <span class="lx-ety">(formé sur <i>situation</i> et <i>relationship</i>)</span></span>
+                <span class="lx-def">Relation suivie et souvent intime, qui n'a fait l'objet d'aucune définition explicite.</span>
+                <span class="lx-lien">Lire la fiche</span>
+              </a>
+            </li>
+          </ul>
+        </section>
+        <section class="lx-lettre" id="lettre-z" aria-labelledby="titre-z">
+          <h2 class="lx-initiale" id="titre-z">Z</h2>
+          <ul class="lx-mots">
+            <li class="lx-mot">
+              <a href="/lexique/zombieing/">
+                <span class="lx-tete"><dfn>Zombieing</dfn> <span class="lx-genre">n.&nbsp;m.</span> <span class="lx-ety">(par allusion au mort-vivant)</span></span>
+                <span class="lx-def">Retour d'une personne qui vous avait ghosté, souvent après plusieurs mois, comme si l'interruption n'avait jamais eu lieu.</span>
+                <span class="lx-lien">Lire la fiche</span>
+              </a>
+            </li>
+          </ul>
+        </section>
+        <!-- lexique:liste:fin -->
       </div>
-    </section>
-
+    </div>
   </main>
-
   <footer class="site-footer">
     <span class="footer-motif" aria-hidden="true"></span>
     <div class="container">
@@ -295,7 +362,6 @@
       </div>
     </div>
   </footer>
-
-  <script src="/js/main.js?v=20261021-9"></script>
+  <script src="/js/main.js?v=20261021-10"></script>
 </body>
 </html>

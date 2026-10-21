@@ -1,0 +1,77 @@
+{
+  "_lisezmoi": "Source du glossaire /lexique/. Une entree par fiche publiee. 'definition' = premiere phrase de la definition de la fiche, reformulee en style dictionnaire ; 'etymologie' peut rester vide. Apres modification : python3 tools/hub_lexique.py --appliquer. Le script de publication ajoute lui-meme les nouvelles fiches.",
+  "mots": [
+    {
+      "slug": "benching",
+      "mot": "Benching",
+      "genre": "n. m.",
+      "etymologie": "de l'anglais <i>bench</i>, le banc des remplaçants",
+      "resume": "Gardé en réserve, au cas où",
+      "definition": "Fait de maintenir un contact sans l'écarter ni s'y investir, pour le garder disponible si les autres options n'aboutissent pas."
+    },
+    {
+      "slug": "breadcrumbing",
+      "mot": "Breadcrumbing",
+      "genre": "n. m.",
+      "etymologie": "de l'anglais <i>breadcrumb</i>, la miette de pain",
+      "resume": "Attention distillée au compte-gouttes",
+      "definition": "Envoi de signaux d'intérêt sporadiques, sans intention réelle de construire quoi que ce soit."
+    },
+    {
+      "slug": "catfishing",
+      "mot": "Catfishing",
+      "genre": "n. m.",
+      "etymologie": "du documentaire américain <i>Catfish</i>, 2010",
+      "resume": "Fausse identité en ligne",
+      "definition": "Fait de créer et d'entretenir un profil au nom d'une personne qui n'existe pas, ou qui n'est pas celle qui écrit."
+    },
+    {
+      "slug": "cushioning",
+      "mot": "Cushioning",
+      "genre": "n. m.",
+      "etymologie": "de l'anglais <i>cushion</i>, le coussin",
+      "resume": "Des plans B entretenus",
+      "definition": "Fait d'entretenir des contacts de réserve pendant qu'on est déjà engagé dans une relation, pour amortir une éventuelle rupture."
+    },
+    {
+      "slug": "ghosting",
+      "mot": "Ghosting",
+      "genre": "n. m.",
+      "etymologie": "de l'anglais <i>ghost</i>, le fantôme",
+      "resume": "Disparition sans explication",
+      "definition": "Fait de couper tout contact avec quelqu'un du jour au lendemain, sans prévenir et sans répondre aux messages suivants."
+    },
+    {
+      "slug": "love-bombing",
+      "mot": "Love bombing",
+      "genre": "n. m.",
+      "etymologie": "",
+      "resume": "Excès d'attention calculé",
+      "definition": "Fait de submerger quelqu'un d'attentions, de compliments et de promesses dès le début d'une relation, à un rythme qui laisse peu de place au recul."
+    },
+    {
+      "slug": "orbiting",
+      "mot": "Orbiting",
+      "genre": "n. m.",
+      "etymologie": "",
+      "resume": "Disparu, mais toujours là",
+      "definition": "Fait d'interrompre toute conversation avec quelqu'un tout en continuant à suivre son activité en ligne&nbsp;: vues de stories, likes, réactions."
+    },
+    {
+      "slug": "situationship",
+      "mot": "Situationship",
+      "genre": "n. f.",
+      "etymologie": "formé sur <i>situation</i> et <i>relationship</i>",
+      "resume": "Relation sans statut défini",
+      "definition": "Relation suivie et souvent intime, qui n'a fait l'objet d'aucune définition explicite."
+    },
+    {
+      "slug": "zombieing",
+      "mot": "Zombieing",
+      "genre": "n. m.",
+      "etymologie": "par allusion au mort-vivant",
+      "resume": "Le retour du disparu",
+      "definition": "Retour d'une personne qui vous avait ghosté, souvent après plusieurs mois, comme si l'interruption n'avait jamais eu lieu."
+    }
+  ]
+}

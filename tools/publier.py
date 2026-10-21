@@ -42,6 +42,20 @@ def carte(entree, cfg):
 
 
 def ajouter_au_hub(entree, cfg, appliquer):
+    if entree['type'] == 'lexique':
+        # le lexique est un glossaire genere depuis tools/donnees/lexique.json
+        sys.path.insert(0, str(RACINE / 'tools'))
+        import hub_lexique
+        neuf = hub_lexique.ajouter(entree['slug'], entree['titre'], entree['resume'],
+                                   definition=entree.get('definition', ''),
+                                   genre=entree.get('genre', 'n. m.'),
+                                   etymologie=entree.get('etymologie', ''),
+                                   appliquer=appliquer)
+        if not neuf:
+            return 'deja dans le glossaire'
+        if appliquer:
+            hub_lexique.regenerer(appliquer=True)
+        return 'mot ajoute au glossaire, sous sa lettre'
     page = cfg['page']
     html = page.read_text(encoding='utf-8')
     if '/%s/%s/' % (entree['type'], entree['slug']) in html:

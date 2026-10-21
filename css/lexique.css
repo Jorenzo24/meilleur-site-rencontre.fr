@@ -1,0 +1,90 @@
+/* ==========================================================================
+   Lexique : un glossaire alphabetique, comme une page de dictionnaire
+   Charge apres style.css et hub.css. Classes prefixees lx-.
+   ========================================================================== */
+
+/* Alphabet collant : les lettres sans mot restent visibles mais grisees */
+.lx-alpha {
+  position: sticky;
+  top: var(--header-h, 4.1rem);
+  z-index: 5;
+  background: var(--bg);
+  border-bottom: 1px solid var(--border);
+}
+.lx-alpha ol {
+  list-style: none;
+  margin: 0;
+  padding: .7rem 0;
+  display: flex;
+  gap: .15rem;
+  overflow-x: auto;
+  scrollbar-width: none;
+}
+.lx-alpha ol::-webkit-scrollbar { display: none; }
+.lx-alpha a, .lx-alpha span {
+  display: grid;
+  place-items: center;
+  width: 2.1rem;
+  height: 2.1rem;
+  flex: none;
+  border-radius: 50%;
+  font-family: var(--font-display);
+  font-size: 1.15rem;
+  font-weight: 600;
+}
+.lx-alpha a { color: var(--text); transition: background-color .2s ease, color .2s ease; }
+.lx-alpha a:hover, .lx-alpha a:focus-visible { background: var(--brand); color: #fff; text-decoration: none; }
+.lx-alpha span { color: var(--border-strong); font-weight: 400; cursor: default; }
+
+/* Corps : une grande initiale par lettre, les mots en regard */
+.lx-corps { padding: clamp(2.5rem, 6vw, 4.5rem) 0 clamp(4rem, 8vw, 7rem); background: var(--bg); }
+.lx-lettre {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: .4rem;
+  padding: 2.2rem 0 1.6rem;
+  border-top: 1px solid var(--border);
+  scroll-margin-top: calc(var(--header-h, 4.1rem) + 4rem);
+}
+.lx-lettre:first-child { border-top: 0; padding-top: 0; }
+.lx-initiale {
+  margin: 0;
+  font-family: var(--font-display);
+  font-size: clamp(3.4rem, 9vw, 5.5rem);
+  font-weight: 500;
+  font-style: italic;
+  line-height: .9;
+  color: var(--brand);
+}
+.lx-mots { list-style: none; margin: 0; padding: 0; display: grid; gap: .4rem; }
+.lx-mot a { display: block; padding: 1rem 0; color: var(--text); }
+.lx-mot + .lx-mot a { border-top: 1px dashed var(--border); }
+.lx-mot a:hover { text-decoration: none; }
+.lx-tete { display: block; margin-bottom: .35rem; }
+.lx-tete dfn { font-style: normal; font-family: var(--font-display); font-size: 1.65rem; font-weight: 600; letter-spacing: -.01em; transition: color .25s ease; }
+.lx-genre { font-family: var(--font-display); font-style: italic; font-size: 1.05rem; color: var(--brand); white-space: nowrap; }
+.lx-ety { font-family: var(--font-display); font-style: italic; font-size: 1.02rem; color: var(--text-muted); }
+.lx-ety i { font-style: normal; }
+.lx-def { display: block; max-width: 44rem; font-size: 1.02rem; line-height: 1.65; color: #3d3842; }
+.lx-lien {
+  display: inline-flex;
+  align-items: center;
+  gap: .4rem;
+  margin-top: .6rem;
+  font-size: .86rem;
+  font-weight: 600;
+  color: var(--brand);
+}
+.lx-lien::after { content: ""; width: 1rem; height: 1px; background: currentColor; transition: width .25s ease; }
+.lx-mot a:hover dfn { color: var(--brand); }
+.lx-mot a:hover .lx-lien::after { width: 1.6rem; }
+
+@media (min-width: 760px) {
+  .lx-lettre { grid-template-columns: 7rem minmax(0, 1fr); gap: 2rem; align-items: start; }
+  .lx-alpha ol { justify-content: space-between; }
+}
+@media (min-width: 960px) {
+  .lx-mots { grid-template-columns: 1fr 1fr; column-gap: 3rem; }
+  .lx-mot + .lx-mot a { border-top: 0; }
+  .lx-mot a { padding: .4rem 0 1.4rem; }
+}

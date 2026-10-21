@@ -12,6 +12,13 @@ interdit par le `.htaccess`.
    à échéance est déplacé à la racine, ajouté au hub et au sitemap, puis commité.
 4. Le serveur récupère le commit via sa tâche cron `git pull`.
 
+## Champs d'une entrée de lexique
+
+`slug`, `type` (`lexique`), `titre`, `resume`, `publier_le`, `statut`, et de
+préférence `definition` (une phrase en style dictionnaire), `genre`
+(`n. m.` ou `n. f.`) et `etymologie` (facultative). Le mot apparaît alors
+dans le glossaire `/lexique/`, sous sa lettre.
+
 ## Règles à respecter
 
 - **Ne jamais faire pointer une page en attente vers une autre page en attente** :
