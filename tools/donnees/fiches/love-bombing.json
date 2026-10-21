@@ -6,7 +6,7 @@
   "resume": "Excès d'attention calculé",
   "definition_courte": "Fait de submerger quelqu'un d'attentions, de compliments et de promesses dès le début d'une relation, à un rythme qui laisse peu de place au recul.",
   "title": "Love bombing : reconnaître l'excès d'attention qui piège",
-  "description": "Le love bombing, c'est une avalanche d'attentions dès les premiers jours. Comment le distinguer d'un vrai coup de foudre, pourquoi c'est un signal d'alerte et comment réagir.",
+  "description": "Une avalanche d'attentions dès les premiers jours ? Le love bombing se distingue d'un coup de foudre. Les signes qui doivent alerter et comment réagir.",
   "h1": "Love bombing : <em>quand trop d'attention devient un signal d'alarme</em>",
   "lede": "Des messages du matin au soir, des compliments qui montent vite, des projets d'avenir au bout de trois jours. Le <strong>love bombing</strong> a tout l'air d'une rencontre exceptionnelle, et c'est précisément ce qui le rend efficace.",
   "definition": "Le love bombing consiste à submerger quelqu'un d'attentions, de compliments et de promesses dès le début d'une relation, à un rythme qui laisse peu de place au recul. L'objectif, conscient ou non, est de créer un attachement rapide et de désamorcer l'esprit critique.",
@@ -14,7 +14,7 @@
     {
       "id": "manifeste",
       "titre": "À quoi ça ressemble concrètement",
-      "html": "<p>Ce n'est pas l'intensité seule qui doit alerter, c'est la vitesse et l'asymétrie. Quelques marqueurs reviennent systématiquement.</p>\n        <ul class=\"prose-list\"><li><strong>Le rythme est imposé</strong> : plusieurs messages par heure, et un reproche à peine voilé quand vous mettez du temps à répondre.</li><li><strong>Le vocabulaire brûle les étapes</strong> : on vous parle d'évidence, d'âme sœur, de destin, avant même de s'être rencontrés.</li><li><strong>Les projets arrivent avant la connaissance</strong> : des vacances, un emménagement, un avenir commun dessiné en quelques jours.</li><li><strong>Vous vous justifiez déjà</strong> d'avoir une soirée entre amis ou un week-end en famille.</li></ul>"
+      "html": "<p>Ce qui doit alerter, c'est la vitesse et l'asymétrie, bien plus que l'intensité. Quelques marqueurs reviennent souvent.</p>\n        <ul class=\"prose-list\"><li><strong>Le rythme est imposé</strong> : plusieurs messages par heure, et un reproche à peine voilé quand vous mettez du temps à répondre.</li><li><strong>Le vocabulaire brûle les étapes</strong> : on vous parle d'évidence, d'âme sœur, de destin, avant même de s'être rencontrés.</li><li><strong>Les projets arrivent avant la connaissance</strong> : des vacances, un emménagement, un avenir commun dessiné en quelques jours.</li><li><strong>Vous vous justifiez déjà</strong> d'avoir une soirée entre amis ou un week-end en famille.</li></ul>"
     },
     {
       "id": "alerte",
@@ -24,17 +24,39 @@
     {
       "id": "reagir",
       "titre": "Comment réagir",
-      "html": "<p>Il n'est pas question de repousser quiconque se montre chaleureux. Le bon réflexe est de <strong>ralentir et d'observer la réaction</strong>. Espacez les réponses, gardez vos soirées, proposez une rencontre en visio ou en personne dans un lieu public.</p>\n        <p>Une personne sincèrement intéressée s'adapte sans drame. Quelqu'un qui pratiquait le love bombing réagit en général par la culpabilisation, le reproche ou le retrait brutal. Vous avez alors votre réponse, et elle vous a coûté quelques jours au lieu de plusieurs mois.</p>\n        <p>Si de l'argent entre dans la conversation, quelle que soit l'histoire qui l'accompagne, arrêtez tout et signalez le profil. Notre <a href=\"/guide/faux-profils/\">guide sur les faux profils</a> détaille les recours et la marche à suivre.</p>"
+      "html": "<p>Il n'est pas question de repousser quiconque se montre chaleureux. Le bon réflexe est de <strong>ralentir et d'observer la réaction</strong>. Espacez les réponses, gardez vos soirées, proposez une rencontre en visio ou en personne dans un lieu public.</p>\n        <p>Une personne sincèrement intéressée s'adapte sans drame. Quelqu'un qui pratiquait le love bombing réagit en général par la culpabilisation, le reproche ou le retrait brutal. Vous avez alors votre réponse, et elle vous a coûté quelques jours au lieu de plusieurs mois.</p>\n        <p>Si de l'argent entre dans la conversation, quelle que soit l'histoire qui l'accompagne, arrêtez tout et signalez le profil. Notre <a href=\"/guide/faux-profils/\">guide sur les faux profils</a> détaille les recours et la marche à suivre.</p>\n        <h3>Et si c'est vous qui en faites trop ?</h3>\n        <p>Le love bombing a aussi une version involontaire. Quand une rencontre vous emballe, la tentation est forte d'écrire du matin au soir et de parler d'avenir très tôt. Rien de malveillant, mais l'autre peut le vivre comme une pression, et s'éloigner pour cette seule raison. Un bon repère : votre rythme de messages ressemble à peu près au sien. Gardez aussi les grands mots (« âme sœur », « évidence ») pour après quelques rencontres réelles : dits trop tôt, ils deviennent suspects aux yeux de quelqu'un qui connaît le phénomène, même quand ils sont sincères.</p>"
     },
     {
       "id": "en-pratique",
       "titre": "En pratique",
-      "html": "<h3>Comment différencier le love bombing d'un coup de foudre sincère ?</h3>\n        <p>Par la réaction à la distance. Proposez de ralentir un peu le rythme : un enthousiasme sincère l'accepte, un love bombing le vit comme un rejet et le fait savoir. L'autre indice est l'équilibre, un coup de foudre réciproque s'intéresse à vous autant qu'il parle de lui.</p>\n        <h3>Le love bombing annonce-t-il forcément une arnaque ?</h3>\n        <p>Non. Certaines personnes fonctionnent ainsi sans aucune intention malveillante, par anxiété ou par besoin de rassurance immédiate. En revanche, presque toutes les arnaques sentimentales commencent par là, ce qui justifie de rester attentif tant que la relation n'a pas été vérifiée hors ligne.</p>"
+      "html": "<h3>Comment différencier le love bombing d'un coup de foudre sincère ?</h3>\n        <p>Par la réaction à la distance. Proposez de ralentir un peu le rythme : un enthousiasme sincère l'accepte, un love bombing le vit comme un rejet et le fait savoir. L'autre indice est l'équilibre, un coup de foudre réciproque s'intéresse à vous autant qu'il parle de lui.</p>\n        <h3>Le love bombing annonce-t-il forcément une arnaque ?</h3>\n        <p>Non. Certaines personnes fonctionnent ainsi sans aucune intention malveillante, par anxiété ou par besoin de rassurance immédiate. En revanche, presque toutes les arnaques sentimentales commencent par là, ce qui justifie de rester attentif tant que la relation n'a pas été vérifiée hors ligne.</p>\n        <h3>Que faire si on s'est déjà attaché à quelqu'un qui pratique le love bombing ?</h3>\n        <p>Parlez-en à un proche qui ne connaît pas la personne : un regard extérieur repère vite ce que l'attachement masque. Reprenez vos habitudes, vos soirées, vos amis, et observez la réaction de l'autre à cette autonomie retrouvée. Si vous doutez de son identité même, les réflexes du <a href=\"/lexique/catfishing/\">catfishing</a> s'appliquent. Et si la relation devient contrôlante ou menaçante, le 3919, numéro national gratuit, écoute et oriente les victimes de violences conjugales.</p>"
     }
   ],
+  "conversation": {
+    "nom": "Alexandre",
+    "legende": "Exemple de love bombing dans une conversation",
+    "messages": [
+      {
+        "de": "recu",
+        "texte": "Je n'ai jamais ressenti ça avec personne. On se parle depuis cinq jours et j'ai l'impression de te connaître depuis toujours. Je regarde déjà des week-ends à Rome pour nous deux."
+      },
+      {
+        "de": "recu",
+        "texte": "Tu ne m'as pas répondu de la soirée, j'ai cru que je t'avais perdue..."
+      },
+      {
+        "de": "envoye",
+        "texte": "C'est gentil, mais j'aime prendre mon temps. Et si on commençait par un café samedi, en vrai ?"
+      }
+    ],
+    "apres": "manifeste",
+    "commentaire": "<p>En deux messages, on retrouve l'intensité qui brûle les étapes, les projets avant la rencontre et un reproche glissé sur votre temps de réponse. La réponse ne rejette rien : elle ralentit et propose une rencontre réelle. La façon dont l'autre accueille ce rythme vous en apprendra beaucoup.</p>"
+  },
   "parti_pris": "Le love bombing est le seul comportement de notre liste qui appelle une vraie prudence, au-delà de l'agacement. Sur une plateforme dotée d'une modération humaine, un profil qui accélère de façon suspecte peut être signalé et traité : n'hésitez jamais à utiliser ce bouton.",
   "lies": [
     "catfishing",
+    "red-flag",
+    "gaslighting",
     "ghosting"
   ],
   "lire_aussi": [

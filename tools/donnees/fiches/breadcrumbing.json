@@ -6,7 +6,7 @@
   "resume": "Attention distillée au compte-gouttes",
   "definition_courte": "Envoi de signaux d'intérêt sporadiques, sans intention réelle de construire quoi que ce soit.",
   "title": "Breadcrumbing : les miettes d'attention qui font patienter",
-  "description": "Un message tous les quinze jours, un like sur une story, jamais de rendez-vous : le breadcrumbing entretient l'intérêt sans rien concrétiser. Comment le repérer et y mettre fin.",
+  "description": "Un message de temps en temps, un like sur une story, jamais de rendez-vous : le breadcrumbing vous fait patienter. Comment le repérer et y mettre fin.",
   "h1": "Breadcrumbing : <em>entretenir l'intérêt sans jamais avancer</em>",
   "lede": "Un message chaleureux tous les quinze jours, un like sur une publication, une promesse de se voir bientôt qui ne se concrétise jamais. Le <strong>breadcrumbing</strong>, ce sont des miettes : juste assez pour vous garder, jamais assez pour avancer.",
   "definition": "Le breadcrumbing consiste à envoyer des signaux d'intérêt sporadiques, sans intention réelle de construire quoi que ce soit. Le mot vient de l'anglais <em>breadcrumb</em>, la miette de pain, en référence au sentier semé par le Petit Poucet.",
@@ -14,7 +14,7 @@
     {
       "id": "signes",
       "titre": "Les signes qui ne trompent pas",
-      "html": "<ul class=\"prose-list\"><li><strong>Le rythme est irrégulier</strong> : des échanges nourris pendant deux jours, puis dix jours de silence, et la boucle recommence.</li><li><strong>Rien ne se fixe jamais</strong> : on vous parle d'un verre, d'un dîner, d'un week-end, sans qu'une date soit posée.</li><li><strong>Les messages relancent sans engager</strong> : une réaction à une story, un souvenir partagé, une question vague à laquelle vous répondez longuement.</li><li><strong>L'effort est à sens unique</strong> : vous relisez, vous soignez vos réponses, en face on envoie trois mots.</li></ul>"
+      "html": "<ul class=\"prose-list\"><li><strong>Le rythme est irrégulier</strong> : des échanges nourris pendant deux jours, puis dix jours de silence, et la boucle recommence.</li><li><strong>Rien ne se fixe jamais</strong> : on vous parle d'un verre, d'un dîner, d'un week-end, sans qu'une date soit posée.</li><li><strong>Les messages relancent sans engager</strong> : une réaction à une story, un souvenir partagé, une question vague à laquelle vous répondez longuement.</li><li><strong>L'effort est à sens unique</strong> : vous relisez, vous soignez vos réponses, en face on envoie trois mots.</li></ul>\n        <h3>Breadcrumbing, ghosting ou orbiting ?</h3>\n        <p>Ces mots décrivent tous une relation qui ne va nulle part, mais ils ne racontent pas la même histoire.</p>\n        <ul class=\"prose-list\"><li><strong>Le <a href=\"/lexique/ghosting/\">ghosting</a></strong> coupe tout : plus de message, plus de réponse. Cela fait mal, mais c'est clair.</li><li><strong>L'<a href=\"/lexique/orbiting/\">orbiting</a></strong> coupe la conversation et garde un œil sur vous, par des vues de stories et des likes. Aucun mot, seulement de la présence.</li><li><strong>Le breadcrumbing</strong> garde la conversation en vie au minimum, avec des messages réels mais espacés et des promesses qui ne se concrétisent pas.</li></ul>\n        <p>Des trois, le breadcrumbing est souvent le plus usant, parce qu'il redonne régulièrement une raison d'espérer. Un silence finit par se lire, une miette relance l'attente à chaque fois.</p>"
     },
     {
       "id": "pourquoi",
@@ -29,13 +29,35 @@
     {
       "id": "en-pratique",
       "titre": "En pratique",
-      "html": "<h3>Breadcrumbing ou simple manque de temps ?</h3>\n        <p>Le manque de temps empêche de se voir, pas de fixer une date. Quelqu'un de réellement occupé vous proposera un créneau dans trois semaines. Le breadcrumbing, lui, entretient la conversation mais ne pose jamais de date.</p>\n        <h3>Faut-il en parler à la personne concernée ?</h3>\n        <p>Ce n'est pas indispensable, et cela tourne souvent au dialogue de sourds. Une proposition concrète en dit autant qu'un long message, et vous donne une réponse claire sans avoir à débattre des intentions de l'autre.</p>"
+      "html": "<h3>Breadcrumbing ou simple manque de temps ?</h3>\n        <p>Le manque de temps empêche de se voir, pas de fixer une date. Quelqu'un de réellement occupé vous proposera un créneau dans trois semaines. Le breadcrumbing, lui, entretient la conversation mais ne pose jamais de date.</p>\n        <h3>Faut-il en parler à la personne concernée ?</h3>\n        <p>Ce n'est pas indispensable, et cela tourne souvent au dialogue de sourds. Une proposition concrète en dit autant qu'un long message, et vous donne une réponse claire sans avoir à débattre des intentions de l'autre.</p>\n        <h3>Comment savoir si on me fait du breadcrumbing ?</h3>\n        <p>Faites le compte, sur les dernières semaines, de ce qui a été proposé et de ce qui a eu lieu. Beaucoup de messages, plusieurs « il faut qu'on se voie » et aucun rendez-vous : le tableau parle de lui-même. Le contenu des messages compte moins que leur résultat.</p>"
     }
   ],
+  "conversation": {
+    "nom": "Karim",
+    "legende": "Exemple de breadcrumbing dans une conversation",
+    "messages": [
+      {
+        "de": "recu",
+        "texte": "Je repensais à notre discussion sur les road trips, il faut absolument qu'on se fasse un verre un de ces jours !"
+      },
+      {
+        "de": "envoye",
+        "texte": "Avec plaisir ! Je suis libre jeudi soir ou dimanche midi, qu'est-ce qui t'arrange ?"
+      },
+      {
+        "de": "recu",
+        "texte": "Ah, cette semaine c'est compliqué... Mais on se cale ça vite, promis !"
+      }
+    ],
+    "apres": "fin",
+    "commentaire": "<p>Le premier message relance avec chaleur, sans rien engager. La réponse transforme l'envie vague en deux créneaux précis. Le troisième montre le schéma typique : l'enthousiasme reste, la date disparaît. Après une deuxième esquive de ce genre, inutile de proposer une troisième fois.</p>"
+  },
   "parti_pris": "Le breadcrumbing prospère là où s'inscrire ne coûte rien et où les profils s'accumulent sans intention déclarée. Sur les plateformes où chacun annonce ce qu'il cherche, il trouve moins de prise : afficher clairement vos intentions reste la meilleure protection.",
   "lies": [
     "ghosting",
-    "benching"
+    "benching",
+    "talking-stage",
+    "slow-fade"
   ],
   "lire_aussi": [
     "/guide/premier-message/",

@@ -6,7 +6,7 @@
   "resume": "Le retour du disparu",
   "definition_courte": "Retour d'une personne qui vous avait ghosté, souvent après plusieurs mois, comme si l'interruption n'avait jamais eu lieu.",
   "title": "Zombieing : quand un disparu réapparaît des mois plus tard",
-  "description": "Le zombieing, c'est le retour d'une personne qui vous avait ghosté, des mois après, comme si de rien n'était. Ce que ça révèle et comment décider d'y répondre ou non.",
+  "description": "Des mois après vous avoir ghosté, la personne revient comme si de rien n'était : c'est le zombieing. Ce que ça révèle et comment décider de répondre.",
   "h1": "Zombieing : <em>le retour d'un disparu, des mois plus tard</em>",
   "lede": "Un « coucou, tu vas bien ? » tombe un mardi soir, six mois après un silence total, sans un mot d'explication. La personne que vous aviez fini par ranger dans le passé ressort de terre. C'est ce que décrit le <strong>zombieing</strong>.",
   "definition": "Le zombieing désigne le retour d'une personne qui vous avait ghosté, souvent après plusieurs mois, et qui reprend la conversation comme si l'interruption n'avait jamais eu lieu. Le mot renvoie au mort-vivant qui revient sans prévenir.",
@@ -14,28 +14,50 @@
     {
       "id": "ressemble",
       "titre": "À quoi ressemble un retour de zombie",
-      "html": "<p>Le scénario est remarquablement constant. Le message est court, léger, sans référence au silence. Il arrive souvent le soir ou le week-end. Et il ne comporte presque jamais d'excuse, parce qu'une excuse obligerait à reconnaître qu'il s'est passé quelque chose.</p>\n        <p>Si vous répondez, la conversation reprend en général exactement là où elle s'était arrêtée, ton compris. C'est ce qui déstabilise le plus : plusieurs mois de votre côté, apparemment aucun du sien.</p>"
+      "html": "<p>Le scénario se ressemble souvent d'une fois à l'autre. Le message est court, léger, sans référence au silence. Il arrive souvent le soir ou le week-end. Et il ne comporte presque jamais d'excuse, parce qu'une excuse obligerait à reconnaître qu'il s'est passé quelque chose.</p>\n        <p>Si vous répondez, la conversation reprend en général exactement là où elle s'était arrêtée, ton compris. C'est ce qui déstabilise le plus : plusieurs mois de votre côté, apparemment aucun du sien.</p>"
     },
     {
       "id": "motive",
       "titre": "Ce qui motive ces réapparitions",
-      "html": "<p>Trois cas de figure couvrent presque tout. La solitude passagère, qui pousse à rouvrir les conversations les plus faciles. La fin d'une autre relation, qui libère du temps et de l'attention. Et l'ennui, tout simplement.</p>\n        <p>Aucun de ces motifs ne dit qu'on a pensé à vous pendant ces mois. Ils disent surtout que la conversation est redevenue disponible, ce qui n'est pas la même chose.</p>"
+      "html": "<p>Trois motifs reviennent souvent. La solitude passagère, qui pousse à rouvrir les conversations les plus faciles. La fin d'une autre relation, qui libère du temps et de l'attention. Et l'ennui, tout simplement.</p>\n        <p>Aucun de ces motifs ne dit qu'on a pensé à vous pendant ces mois. Ils disent surtout que la conversation est redevenue disponible, ce qui n'est pas la même chose.</p>\n        <h3>Zombieing ou retour sincère ?</h3>\n        <p>Tous les retours ne se valent pas. Une personne qui revient sincèrement commence en général par reconnaître sa disparition, même en une phrase (« je suis parti sans rien dire, j'aurais dû t'écrire »). Elle explique un peu, sans forcément tout raconter, et propose quelque chose de concret. Le zombie, lui, revient comme si de rien n'était et attend que vous fassiez le travail.</p>\n        <p>Le retour est souvent précédé d'une phase d'<a href=\"/lexique/orbiting/\">orbiting</a> : des semaines de vues de stories, puis un message. Le zombieing marque le moment où la personne reprend la parole.</p>"
     },
     {
       "id": "repondre",
       "titre": "Répondre ou pas",
-      "html": "<p>Il n'y a pas de bonne réponse universelle, mais une question qui tranche : <strong>qu'est-ce qui a changé ?</strong> Si le message ne contient aucune explication et aucune proposition concrète, rien n'a changé, et la suite ressemblera beaucoup au premier épisode.</p>\n        <p>Si vous avez envie de répondre, faites-le sans rejouer le procès du silence, mais en demandant directement ce qui motive ce retour. Une personne sincère répond sans se dérober. Une personne qui cherchait juste à occuper une soirée change de sujet.</p>\n        <p>Et si vous préférez ne pas répondre, sachez que vous ne devez aucune explication. Le silence de six mois en était une.</p>"
+      "html": "<p>Il n'y a pas de bonne réponse universelle, mais une question qui tranche : <strong>qu'est-ce qui a changé ?</strong> Si le message ne contient aucune explication et aucune proposition concrète, rien n'a changé, et la suite ressemblera beaucoup au premier épisode.</p>\n        <p>Si vous avez envie de répondre, faites-le sans rejouer le procès du silence, mais en demandant directement ce qui motive ce retour. Une personne sincère répond sans se dérober. Une personne qui cherchait juste à occuper une soirée change de sujet.</p>\n        <p>Et si vous préférez ne pas répondre, sachez que vous ne devez aucune explication. Le silence de six mois en était une.</p>\n        <h3>Comment le dire si vous ne souhaitez pas reprendre</h3>\n        <p>Certaines personnes préfèrent clore proprement plutôt que laisser le message sans suite. Une phrase suffit : « Merci pour le message, mais je préfère en rester là. Bonne continuation. » Inutile de revenir sur le passé ou d'expliquer ce que la disparition vous a fait : vous n'avez besoin d'aucune reconnaissance pour avoir le droit de tourner la page.</p>"
     },
     {
       "id": "en-pratique",
       "titre": "En pratique",
-      "html": "<h3>Pourquoi les gens reviennent-ils après avoir ghosté ?</h3>\n        <p>Le plus souvent parce que leur situation a changé, pas leur regard sur vous : une solitude, une rupture ailleurs, un moment d'ennui. Le retour dit quelque chose de leur présent, rarement de vos qualités.</p>\n        <h3>Faut-il exiger une explication avant de reprendre contact ?</h3>\n        <p>Exiger est un grand mot, mais demander simplement ce qui motive ce retour est parfaitement légitime, et très informatif. Une réponse évasive vous évite de revivre la même histoire.</p>"
+      "html": "<h3>Pourquoi les gens reviennent-ils après avoir ghosté ?</h3>\n        <p>Le plus souvent parce que leur situation a changé : une solitude, une rupture ailleurs, un moment d'ennui. Le retour dit quelque chose de leur présent, rarement de vos qualités.</p>\n        <h3>Faut-il exiger une explication avant de reprendre contact ?</h3>\n        <p>Exiger est un grand mot, mais demander simplement ce qui motive ce retour est parfaitement légitime, et très informatif. Une réponse évasive vous évite de revivre la même histoire.</p>\n        <h3>Comment réagir quand un ex réapparaît après des mois de silence ?</h3>\n        <p>Prenez le temps avant de répondre, ne serait-ce qu'une journée : le message joue sur la surprise. Demandez-vous ensuite ce que vous attendez de ce retour. Si c'est une explication, demandez-la. Si c'est rien, vous pouvez laisser le message sans suite.</p>"
     }
   ],
+  "conversation": {
+    "nom": "Julie",
+    "legende": "Exemple de zombieing dans une conversation",
+    "messages": [
+      {
+        "de": "recu",
+        "texte": "Hey ! Ça fait un bail. Tu deviens quoi ?"
+      },
+      {
+        "de": "envoye",
+        "texte": "Bonjour ! En effet, ça fait plusieurs mois. Qu'est-ce qui te fait revenir aujourd'hui ?"
+      },
+      {
+        "de": "recu",
+        "texte": "Haha je sais pas, je suis tombée sur ta photo et j'ai pensé à toi. Ça te dit un verre ce week-end ?"
+      }
+    ],
+    "apres": "ressemble",
+    "commentaire": "<p>Le premier message ignore totalement le silence. La réponse, polie, le nomme sans reproche et pose la seule question utile. Le retour reste vague sur le motif mais propose quelque chose de concret : à vous de juger si cela suffit, en gardant en tête que la première fois aussi, tout avait commencé avec légèreté.</p>"
+  },
   "parti_pris": "Nous ne conseillons ni de répondre systématiquement, ni de claquer la porte par principe. La seule chose qui nous paraît utile, c'est de ne pas repartir à zéro sur une conversation qui s'était déjà arrêtée sans un mot : demandez ce qui a changé, et jugez sur la réponse.",
   "lies": [
     "ghosting",
-    "breadcrumbing"
+    "orbiting",
+    "breadcrumbing",
+    "vu"
   ],
   "lire_aussi": [
     "/guide/premier-message/",

@@ -6,7 +6,7 @@
   "resume": "Gardé en réserve, au cas où",
   "definition_courte": "Fait de maintenir un contact sans l'écarter ni s'y investir, pour le garder disponible si les autres options n'aboutissent pas.",
   "title": "Benching : être gardé sur le banc de touche",
-  "description": "Ni choisi, ni écarté : le benching consiste à garder quelqu'un en réserve au cas où. Comment repérer qu'on vous met sur le banc et quoi faire ensuite.",
+  "description": "Ni choisi, ni écarté : le benching consiste à vous garder en réserve, au cas où. Comment repérer qu'on vous met sur le banc et quoi faire ensuite.",
   "h1": "Benching : <em>quand on vous garde en réserve</em>",
   "lede": "On ne vous dit pas non, mais on ne vous dit jamais tout à fait oui. Vous restez disponible, vaguement entretenu, pendant que d'autres pistes sont explorées. Le <strong>benching</strong> emprunte son image au sport : vous êtes sur le banc de touche.",
   "definition": "Le benching consiste à maintenir un contact sans l'écarter ni s'y investir, pour le garder disponible si les autres options n'aboutissent pas. Le mot vient de l'anglais <em>bench</em>, le banc des remplaçants.",
@@ -24,17 +24,35 @@
     {
       "id": "faire",
       "titre": "Que faire quand c'est votre cas",
-      "html": "<p>Arrêtez de relancer et observez ce qui se passe. C'est le test le plus fiable qui soit : si la personne tenait à vous, votre silence se remarquera vite. S'il ne se passe rien pendant deux semaines, vous avez la réponse que les mots ne donnaient pas.</p>\n        <p>Pendant ce temps, continuez de rencontrer d'autres personnes. Le banc de touche n'a de pouvoir que si vous acceptez d'y attendre.</p>"
+      "html": "<p>Arrêtez de relancer et observez ce qui se passe. C'est le test le plus fiable qui soit : si la personne tenait à vous, votre silence se remarquera vite. S'il ne se passe rien pendant deux semaines, vous avez la réponse que les mots ne donnaient pas.</p>\n        <p>Pendant ce temps, continuez de rencontrer d'autres personnes. Le banc de touche n'a de pouvoir que si vous acceptez d'y attendre.</p>\n        <h3>Et si c'est vous qui gardez quelqu'un en réserve ?</h3>\n        <p>Le benching se pratique souvent sans se l'avouer. Vous parlez à plusieurs personnes au début, ce qui est normal sur une application, puis l'une d'elles prend la tête et les autres restent là, entretenues par une réponse de temps en temps. Le signe qui ne trompe pas : vous ressortez une conversation précisément le soir où vos autres plans sont tombés à l'eau.</p>\n        <p>Parler à plusieurs personnes en parallèle n'a rien de condamnable, à condition de ne laisser croire à aucune qu'elle est la seule. Quand une piste ne vous intéresse plus vraiment, un message bref et honnête libère l'autre, et vous évite de jouer un jour le rôle du <a href=\"/lexique/zombieing/\">zombie</a> qui revient sans explication.</p>"
     },
     {
       "id": "en-pratique",
       "titre": "En pratique",
-      "html": "<h3>Quelle différence entre benching et breadcrumbing ?</h3>\n        <p>Le breadcrumbing se joue presque entièrement par messages, sans que rien ne se concrétise jamais. Le benching va parfois jusqu'au rendez-vous, mais toujours quand cela arrange l'autre. Dans les deux cas, vous n'êtes pas la priorité.</p>\n        <h3>Faut-il en parler ou simplement s'éloigner ?</h3>\n        <p>S'éloigner est plus efficace, et beaucoup moins coûteux. Une discussion sur le sujet aboutit le plus souvent à des promesses qui retiennent quelques semaines de plus. Le retrait, lui, produit une réponse immédiate et sans ambiguïté.</p>"
+      "html": "<h3>Quelle différence entre benching et breadcrumbing ?</h3>\n        <p>Le breadcrumbing se joue presque entièrement par messages, sans que rien ne se concrétise jamais. Le benching va parfois jusqu'au rendez-vous, mais toujours quand cela arrange l'autre. Dans les deux cas, vous n'êtes pas la priorité.</p>\n        <h3>Faut-il en parler ou simplement s'éloigner ?</h3>\n        <p>S'éloigner est plus efficace, et beaucoup moins coûteux. Une discussion sur le sujet aboutit le plus souvent à des promesses qui retiennent quelques semaines de plus. Le retrait, lui, produit une réponse immédiate et sans ambiguïté.</p>\n        <h3>Comment savoir si je suis un plan B ?</h3>\n        <p>Regardez quand on vous propose de vous voir. Si c'est presque toujours à la dernière minute, en semaine, et jamais pour un moment qui compte (un samedi soir, une fête, une soirée avec ses amis), vous êtes probablement en réserve. Une personne qui vous place en priorité anticipe, et vous le fait sentir.</p>"
     }
   ],
+  "conversation": {
+    "nom": "Thomas",
+    "legende": "Exemple de benching dans une conversation",
+    "messages": [
+      {
+        "de": "recu",
+        "texte": "Hello ! Désolé, semaine de fou. Un verre ce soir, si ça te dit ? Je te confirme dans la journée."
+      },
+      {
+        "de": "envoye",
+        "texte": "Ce soir, ça ne va pas être possible. Je suis libre samedi après-midi, si tu veux qu'on se voie pour de bon."
+      }
+    ],
+    "apres": "reperer",
+    "commentaire": "<p>Le message reçu cumule les marqueurs : une excuse générique, une proposition pour le soir même, une confirmation laissée en suspens. La réponse refuse la disponibilité de dernière minute et propose un créneau ferme. La façon dont l'autre s'en saisit, ou pas, vaut toutes les explications.</p>"
+  },
   "parti_pris": "De tous les comportements de notre lexique, le benching est celui qui use le plus, parce qu'il n'offre jamais le point final qui permettrait de tourner la page. Notre conseil tient en une phrase : ne négociez pas votre place, retirez-vous du banc et voyez qui vient vous chercher.",
   "lies": [
     "breadcrumbing",
+    "cushioning",
+    "monkey-branching",
     "ghosting"
   ],
   "lire_aussi": [

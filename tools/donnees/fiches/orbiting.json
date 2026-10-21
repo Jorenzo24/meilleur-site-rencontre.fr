@@ -6,9 +6,9 @@
   "resume": "Disparu, mais toujours là",
   "definition_courte": "Fait d'interrompre toute conversation avec quelqu'un tout en continuant à suivre son activité en ligne&nbsp;: vues de stories, likes, réactions.",
   "title": "Orbiting : disparu des conversations, présent dans vos notifications",
-  "description": "L'orbiting, c'est couper la conversation tout en continuant à regarder vos stories et à liker vos photos. Pourquoi c'est déstabilisant et comment y mettre fin.",
+  "description": "L'orbiting, c'est couper la conversation tout en continuant à regarder vos stories et à liker vos photos. Pourquoi ça déstabilise et comment y mettre fin.",
   "h1": "Orbiting : <em>disparu des conversations, présent dans vos notifications</em>",
-  "lede": "Plus un message depuis trois semaines. Mais vos stories sont vues dans la minute, vos photos likées, vos publications commentées d'un emoji. Le <strong>orbiting</strong> a ceci de particulier qu'il ne ferme aucune porte, et c'est précisément le problème.",
+  "lede": "Plus un message depuis trois semaines. Mais vos stories sont vues dans la minute, vos photos likées, vos publications commentées d'un emoji. L'<strong>orbiting</strong> a ceci de particulier qu'il ne ferme aucune porte, et c'est précisément le problème.",
   "definition": "L'orbiting désigne le fait d'interrompre toute conversation avec quelqu'un tout en continuant à suivre son activité en ligne : vues de stories, likes, réactions. La personne a quitté l'échange mais reste dans votre champ de vision, en orbite.",
   "sections": [
     {
@@ -19,23 +19,41 @@
     {
       "id": "cache",
       "titre": "Ce que ça cache le plus souvent",
-      "html": "<p>Dans la grande majorité des cas, il n'y a pas de calcul. La personne a mis fin à l'échange parce qu'il ne l'intéressait plus assez, mais suivre un compte ne coûte rien et l'habitude reste. Une part de curiosité, un peu de confort, aucune intention particulière.</p>\n        <p>Une minorité l'utilise pour garder une porte entrouverte sans assumer de la maintenir ouverte, ce qui rejoint le <a href=\"/lexique/benching/\">benching</a>. Dans les deux cas, la conclusion pratique est la même : ce qui ne s'exprime pas en message ne compte pas.</p>"
+      "html": "<p>Le plus souvent, il n'y a aucun calcul. La personne a mis fin à l'échange parce qu'il ne l'intéressait plus assez, mais suivre un compte ne coûte rien et l'habitude reste. Une part de curiosité, un peu de confort, aucune intention particulière.</p>\n        <p>Certaines personnes l'utilisent pour garder une porte entrouverte sans assumer de la maintenir ouverte, ce qui rejoint le <a href=\"/lexique/benching/\">benching</a>. Dans les deux cas, la conclusion pratique est la même : ce qui ne s'exprime pas en message ne compte pas.</p>"
     },
     {
       "id": "fin",
       "titre": "Comment y mettre fin",
-      "html": "<p>La règle la plus utile que nous puissions donner tient en une phrase : <strong>une vue de story n'est pas un message</strong>. Tant qu'il n'y a pas de mots, il n'y a pas de conversation, et il n'y a rien à interpréter.</p>\n        <p>Ensuite, coupez la visibilité. La plupart des réseaux permettent de masquer ses publications à une personne précise sans la bloquer ni la retirer de ses contacts. C'est discret, réversible, et cela suffit à faire retomber la pression.</p>\n        <p>Le piège à éviter, c'est de publier pour une audience d'une personne. Si vous vous surprenez à choisir une photo en pensant à ce qu'elle en pensera, l'orbiting a atteint son but sans que personne l'ait voulu.</p>"
+      "html": "<p>La règle la plus utile que nous puissions donner tient en une phrase : <strong>une vue de story n'est pas un message</strong>. Tant qu'il n'y a pas de mots, il n'y a pas de conversation, et il n'y a rien à interpréter.</p>\n        <p>Ensuite, coupez la visibilité. La plupart des réseaux permettent de masquer ses publications à une personne précise sans la bloquer ni la retirer de ses contacts. C'est discret, réversible, et cela suffit à faire retomber la pression.</p>\n        <p>Le piège à éviter, c'est de publier pour une audience d'une personne. Si vous vous surprenez à choisir une photo en pensant à ce qu'elle en pensera, l'orbiting a atteint son but sans que personne l'ait voulu.</p>\n        <h3>Et si c'est vous qui regardez encore ses stories ?</h3>\n        <p>L'orbiting se pratique aussi sans y penser. Vous avez cessé de parler à quelqu'un, parfois sans prévenir, ce qui ressemble déjà à un <a href=\"/lexique/ghosting/\">ghosting</a>, et pourtant vous regardez ses stories chaque soir, par habitude. Sur la plupart des réseaux, la personne voit qui a regardé. Pour vous, le geste est anodin. Pour elle, c'est un signe qu'elle risque de surinterpréter.</p>\n        <p>Si l'histoire est finie pour vous, arrêtez de suivre le compte ou masquez ses publications : vous vous épargnez la tentation, et vous n'entretenez pas un espoir que vous ne comptez pas nourrir. Si au contraire vous avez envie de reprendre contact, un message vaut mieux que cent vues : il dit clairement ce qu'un like laisse seulement deviner.</p>"
     },
     {
       "id": "en-pratique",
       "titre": "En pratique",
-      "html": "<h3>Faut-il bloquer quelqu'un qui fait de l'orbiting ?</h3>\n        <p>Le blocage est une option, mais elle est souvent vécue comme excessive et déclenche parfois une réaction qui relance tout. Masquer ses stories à cette personne produit le même effet, sans le geste.</p>\n        <h3>Une vue de story veut-elle dire que je lui manque ?</h3>\n        <p>Non, et c'est précisément ce que l'orbiting fait croire. Regarder une story demande un dixième de seconde et aucune intention. Un message en demande davantage, c'est pour cela qu'il est le seul signal fiable.</p>"
+      "html": "<h3>Faut-il bloquer quelqu'un qui fait de l'orbiting ?</h3>\n        <p>Le blocage est une option, mais elle est souvent vécue comme excessive et déclenche parfois une réaction qui relance tout. Masquer ses stories à cette personne produit le même effet, sans le geste.</p>\n        <h3>Une vue de story veut-elle dire que je lui manque ?</h3>\n        <p>Non, et c'est précisément ce que l'orbiting fait croire. Regarder une story demande un dixième de seconde et aucune intention. Un message en demande davantage, c'est pour cela qu'il est le seul signal fiable.</p>\n        <h3>Pourquoi mon ex regarde-t-il toutes mes stories ?</h3>\n        <p>Le plus souvent par habitude et par curiosité, deux motifs qui ne demandent aucun effort et n'annoncent aucun retour. Un reste d'attachement est possible, mais tant qu'il ne s'exprime pas par un message, vous ne pouvez rien en tirer. Masquer vos stories reste la manière la plus simple d'arrêter de vous poser la question.</p>"
     }
   ],
+  "conversation": {
+    "nom": "Maxime",
+    "legende": "Exemple d'orbiting dans une conversation",
+    "messages": [
+      {
+        "de": "recu",
+        "texte": "Trop bien cet endroit ! (en réaction à votre story, après trois semaines sans un mot)"
+      },
+      {
+        "de": "envoye",
+        "texte": "Merci ! Ça fait un moment qu'on ne s'est pas parlé. Tu voulais me dire quelque chose ?"
+      }
+    ],
+    "apres": "cache",
+    "commentaire": "<p>Une réaction à une story est le seul moment où l'orbiting prend la forme d'un message. Vous pouvez l'ignorer. Si vous répondez, une question directe ramène l'échange sur le terrain des mots : soit une vraie conversation reprend, soit le silence revient, et dans les deux cas vous êtes fixé.</p>"
+  },
   "parti_pris": "L'orbiting est le seul comportement de ce lexique qui ne demande aucun effort à celui qui le pratique, et beaucoup d'énergie à celui qui le subit. C'est ce déséquilibre qui le rend pénible, plus que l'intention, qui est généralement inexistante.",
   "lies": [
     "ghosting",
-    "benching"
+    "benching",
+    "zombieing",
+    "vu"
   ],
   "lire_aussi": [
     "/guide/premier-message/",

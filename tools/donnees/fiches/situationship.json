@@ -6,7 +6,7 @@
   "resume": "Relation sans statut défini",
   "definition_courte": "Relation suivie et souvent intime, qui n'a fait l'objet d'aucune définition explicite.",
   "title": "Situationship : la relation qui n'en est pas vraiment une",
-  "description": "Ni célibataires, ni en couple : la situationship décrit une relation régulière dont le statut n'a jamais été défini. Comment on y entre, pourquoi ça dure et comment en sortir.",
+  "description": "Ni célibataires, ni en couple : la situationship est une relation régulière au statut jamais défini. Comment on y entre et comment en sortir.",
   "h1": "Situationship : <em>ni célibataires, ni en couple</em>",
   "lede": "Vous vous voyez chaque semaine, vous dormez l'un chez l'autre, vous comptez l'un pour l'autre. Mais la question du statut n'a jamais été posée, et l'éviter est devenu un réflexe commun. C'est ce que décrit le mot <strong>situationship</strong>.",
   "definition": "Une situationship est une relation suivie et souvent intime, qui n'a fait l'objet d'aucune définition explicite. Le terme, formé sur <em>situation</em> et <em>relationship</em>, décrit cet entre-deux qui n'est ni une simple aventure ni un couple assumé.",
@@ -19,23 +19,41 @@
     {
       "id": "dure",
       "titre": "Pourquoi ça peut durer longtemps",
-      "html": "<p>Une situationship tient parce qu'elle offre une partie des bénéfices d'une relation sans la part qui engage. Elle dure aussi parce que les deux personnes n'en attendent pas la même chose, et que celle qui en attend le plus craint de rompre l'équilibre en le disant.</p>\n        <p>Le signe qui ne trompe pas : vous connaissez ses amis d'enfance et ses horaires, mais vous ne sauriez pas quel mot employer pour la présenter à votre famille.</p>"
+      "html": "<p>Une situationship tient parce qu'elle offre une partie des bénéfices d'une relation sans la part qui engage. Elle dure aussi parce que les deux personnes n'en attendent pas la même chose, et que celle qui en attend le plus craint de rompre l'équilibre en le disant.</p>\n        <p>Le signe qui ne trompe pas : vous connaissez ses amis d'enfance et ses horaires, mais vous ne sauriez pas quel mot employer pour la présenter à votre famille.</p>\n        <h3>Les signes que vous y êtes</h3>\n        <ul class=\"prose-list\"><li><strong>Les projets restent à court terme</strong> : vous savez ce que vous faites ce week-end, rarement le mois prochain.</li><li><strong>Vous êtes présenté par votre prénom seul</strong> : ses proches vous connaissent parfois, mais personne ne sait vraiment qui vous êtes pour lui ou pour elle.</li><li><strong>Les profils restent actifs</strong> sur les applications sans que personne n'en parle, ce qui ressemble parfois à du <a href=\"/lexique/cushioning/\">cushioning</a>.</li><li><strong>Le sujet du statut met mal à l'aise</strong>, et la conversation dévie dès qu'il approche.</li></ul>"
     },
     {
       "id": "sortir",
       "titre": "Comment en sortir ou la transformer",
-      "html": "<p>Une seule chose fonctionne, poser la question directement, en parlant de vous plutôt que de l'autre : ce que vous cherchez, et si cela correspond à ce qu'il ou elle cherche aussi. Ce n'est pas un ultimatum, c'est une information dont vous avez besoin.</p>\n        <p>Les réponses évasives répétées sont une réponse. Une personne qui veut construire quelque chose vous le dit, même maladroitement.</p>\n        <p>Si vous enchaînez les situationships, la plateforme joue un rôle qu'on sous-estime. Les sites où l'on déclare son intention dès l'inscription, et où l'abonnement filtre les curieux, produisent nettement moins de flou. C'est l'objet de notre <a href=\"/comparatif-relation-serieuse/\">comparatif des sites de rencontre sérieux</a>.</p>"
+      "html": "<p>Une seule chose fonctionne, poser la question directement, en parlant de vous plutôt que de l'autre : ce que vous cherchez, et si cela correspond à ce qu'il ou elle cherche aussi. C'est une simple information, et vous en avez besoin.</p>\n        <p>Les réponses évasives répétées sont une réponse. Une personne qui veut construire quelque chose vous le dit, même maladroitement.</p>\n        <p>Si vous enchaînez les situationships, la plateforme joue un rôle qu'on sous-estime. Les sites où l'on déclare son intention dès l'inscription, et où l'abonnement filtre les curieux, laissent moins de place au flou. C'est l'objet de notre <a href=\"/comparatif-relation-serieuse/\">comparatif des sites de rencontre sérieux</a>.</p>\n        <h3>Quand le flou vous convient aussi</h3>\n        <p>Certaines personnes ne cherchent pas de couple et se sentent bien dans une relation sans étiquette. Dans ce cas, dites-le aussi : un flou assumé à deux devient un accord, et vous évitez que l'autre bâtisse des attentes en silence. Le problème naît du non-dit.</p>"
     },
     {
       "id": "en-pratique",
       "titre": "En pratique",
-      "html": "<h3>Une situationship peut-elle devenir une vraie relation ?</h3>\n        <p>Oui, et cela arrive souvent quand la conversation est enfin posée. Ce qui bloque n'est pas la nature de la relation mais le non-dit. En revanche, espérer que le statut vienne tout seul avec le temps mène rarement quelque part.</p>\n        <h3>Comment savoir si je suis dans une situationship ?</h3>\n        <p>Posez-vous une question simple : sauriez-vous dire, sans hésiter, comment cette personne vous décrit à ses proches ? Si la réponse demande une explication de deux minutes, vous y êtes.</p>"
+      "html": "<h3>Une situationship peut-elle devenir une vraie relation ?</h3>\n        <p>Oui, et cela arrive souvent quand la conversation est enfin posée. Ce qui bloque, le plus souvent, c'est le non-dit. En revanche, espérer que le statut vienne tout seul avec le temps mène rarement quelque part.</p>\n        <h3>Comment savoir si je suis dans une situationship ?</h3>\n        <p>Posez-vous une question simple : sauriez-vous dire, sans hésiter, comment cette personne vous décrit à ses proches ? Si la réponse demande une explication de deux minutes, vous y êtes.</p>\n        <h3>Combien de temps peut durer une situationship ?</h3>\n        <p>Aucune durée type : certaines s'éteignent en quelques semaines, d'autres s'étirent sur des mois. Tout dépend du moment où l'un des deux pose la question du statut. Plus elle attend, plus la réponse coûte à entendre.</p>"
     }
   ],
+  "conversation": {
+    "nom": "Hugo",
+    "legende": "Exemple de conversation pour sortir d'une situationship",
+    "messages": [
+      {
+        "de": "envoye",
+        "texte": "J'aime beaucoup ce qu'on vit. J'ai besoin de savoir si on construit quelque chose ensemble, parce que moi, c'est ce que je cherche."
+      },
+      {
+        "de": "recu",
+        "texte": "Je suis bien avec toi aussi... Mais je ne sais pas si je suis prêt à mettre un mot dessus."
+      }
+    ],
+    "apres": "sortir",
+    "commentaire": "<p>Le premier message parle de soi et de ce qu'on cherche, sans accuser. La réponse est typique : chaleureuse, mais sans engagement. Elle ne ferme pas la porte, elle vous donne une information. À vous de décider si « je ne sais pas » vous suffit encore, et pour combien de temps.</p>"
+  },
   "parti_pris": "Nous ne voyons rien de condamnable dans une relation sans étiquette, à condition qu'elle soit choisie par les deux personnes. Ce qui fait mal, c'est le malentendu : quand l'un attend un couple et l'autre un arrangement, la conversation qu'on repousse coûte toujours plus cher que celle qu'on ose.",
   "lies": [
     "breadcrumbing",
-    "benching"
+    "cushioning",
+    "talking-stage",
+    "exclusivite"
   ],
   "lire_aussi": [
     "/comparatif-relation-serieuse/",

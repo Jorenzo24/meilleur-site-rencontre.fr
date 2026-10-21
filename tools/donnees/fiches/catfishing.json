@@ -6,7 +6,7 @@
   "resume": "Fausse identité en ligne",
   "definition_courte": "Fait de créer et d'entretenir un profil au nom d'une personne qui n'existe pas, ou qui n'est pas celle qui écrit.",
   "title": "Catfishing : définition et comment démasquer un faux profil",
-  "description": "Le catfishing, c'est se faire passer pour quelqu'un d'autre derrière un faux profil. Comment ça fonctionne, les signaux qui trahissent et quoi faire quand vous en croisez un.",
+  "description": "Photos empruntées, vie inventée : le catfishing consiste à se cacher derrière un faux profil. Les signaux qui le trahissent et que faire face à un catfish.",
   "h1": "Catfishing : <em>se faire passer pour quelqu'un d'autre</em>",
   "lede": "Des photos empruntées, une vie inventée, parfois un métier et une famille entièrement fictifs. Le <strong>catfishing</strong> désigne l'art de tenir une fausse identité en ligne, et les sites de rencontre en sont le terrain le plus propice.",
   "definition": "Le catfishing consiste à créer et à entretenir un profil au nom d'une personne qui n'existe pas, ou qui existe mais n'est pas celle qui écrit. Le mot vient du documentaire américain <em>Catfish</em>, sorti en 2010, qui a popularisé le phénomène.",
@@ -19,7 +19,7 @@
     {
       "id": "signaux",
       "titre": "Les signaux qui trahissent un catfish",
-      "html": "<ul class=\"prose-list\"><li><strong>Aucun appel vidéo n'est jamais possible</strong>, avec chaque fois une raison nouvelle et plausible.</li><li><strong>Les photos sont trop propres</strong> : cadrage professionnel, aucune photo banale du quotidien, aucun ami présent dessus.</li><li><strong>Le profil est récent et peu fourni</strong>, avec peu de texte personnel et des centres d'intérêt génériques.</li><li><strong>Les détails bougent</strong> : un âge, une ville ou un métier qui ne correspond plus à ce qui avait été dit trois semaines plus tôt.</li><li><strong>La relation s'intensifie vite</strong>, ce qui recoupe souvent le <a href=\"/lexique/love-bombing/\">love bombing</a>.</li></ul>\n        <p>Aucun de ces signaux ne suffit isolément. C'est leur accumulation qui doit décider à votre place.</p>"
+      "html": "<ul class=\"prose-list\"><li><strong>Aucun appel vidéo n'est jamais possible</strong>, avec chaque fois une raison nouvelle et plausible.</li><li><strong>Les photos sont trop propres</strong> : cadrage professionnel, aucune photo banale du quotidien, aucun ami présent dessus.</li><li><strong>Le profil est récent et peu fourni</strong>, avec peu de texte personnel et des centres d'intérêt génériques.</li><li><strong>Les détails bougent</strong> : un âge, une ville ou un métier qui ne correspond plus à ce qui avait été dit trois semaines plus tôt.</li><li><strong>La relation s'intensifie vite</strong>, ce qui recoupe souvent le <a href=\"/lexique/love-bombing/\">love bombing</a>.</li></ul>\n        <p>Aucun de ces signaux ne suffit isolément. C'est leur accumulation qui doit décider à votre place.</p>\n        <h3>Catfishing ou simple photo flatteuse ?</h3>\n        <p>Tout écart entre un profil et la réalité ne relève pas du catfishing. Choisir sa meilleure photo ou arrondir sa taille de quelques centimètres, tout le monde le fait à des degrés divers. Quand l'écart devient sensible (des photos vieilles de dix ans, un filtre qui change le visage, un âge rajeuni), on parle plutôt de <em>kittenfishing</em> : la personne existe, en version très embellie.</p>\n        <p>Le catfishing commence quand l'identité elle-même est fausse : un autre visage, un autre nom, une autre vie. La différence compte, parce qu'un kittenfish décevra au premier rendez-vous, alors qu'un catfish fera tout pour que ce rendez-vous n'ait jamais lieu. Pour votre propre profil, la règle est simple : des photos récentes, où l'on vous reconnaît sans effort. Notre <a href=\"/guide/profil-attractif/\">guide du profil attractif</a> explique comment se mettre en valeur sans tricher.</p>"
     },
     {
       "id": "faire",
@@ -29,12 +29,30 @@
     {
       "id": "en-pratique",
       "titre": "En pratique",
-      "html": "<h3>Le catfishing est-il illégal ?</h3>\n        <p>Usurper l'identité d'une personne réelle est un délit en France, indépendamment de tout préjudice financier. Une plainte reste donc recevable même si vous n'avez pas envoyé d'argent. Si de l'argent a été versé, il s'agit en plus d'une escroquerie.</p>\n        <h3>Comment vérifier une photo de profil ?</h3>\n        <p>Enregistrez l'image et lancez une recherche d'image inversée sur un moteur de recherche. Si la photo apparaît sur d'autres comptes, sous un autre nom, ou sur des banques d'images, vous avez affaire à un faux profil.</p>"
+      "html": "<h3>Le catfishing est-il illégal ?</h3>\n        <p>Usurper l'identité d'une personne réelle est un délit en France, indépendamment de tout préjudice financier. Une plainte reste donc recevable même si vous n'avez pas envoyé d'argent. Si de l'argent a été versé, il s'agit en plus d'une escroquerie.</p>\n        <h3>Comment vérifier une photo de profil ?</h3>\n        <p>Enregistrez l'image et lancez une recherche d'image inversée sur un moteur de recherche. Si la photo apparaît sur d'autres comptes, sous un autre nom, ou sur des banques d'images, vous avez affaire à un faux profil.</p>\n        <h3>Que faire si j'ai déjà envoyé de l'argent à un faux profil ?</h3>\n        <p>Cessez immédiatement tout versement, même si l'on vous promet un remboursement contre un dernier paiement. Contactez votre banque au plus vite, conservez les captures d'écran et les échanges, puis portez plainte. Signalez aussi le profil à la plateforme pour qu'il soit retiré.</p>"
     }
   ],
-  "parti_pris": "C'est le point où les plateformes se distinguent le plus nettement. Celles qui vérifient les photos à l'inscription et emploient une modération humaine réduisent beaucoup la quantité de faux profils en circulation. C'est un critère que nous regardons systématiquement dans nos avis, et il pèse plus lourd que le nombre d'inscrits affiché en page d'accueil.",
+  "conversation": {
+    "nom": "Antoine",
+    "legende": "Exemple de catfishing dans une conversation",
+    "messages": [
+      {
+        "de": "recu",
+        "texte": "J'aimerais tellement qu'on s'appelle en vidéo, mais ma caméra est cassée depuis des semaines, et sur la plateforme pétrolière le réseau est catastrophique."
+      },
+      {
+        "de": "envoye",
+        "texte": "Pas de souci. Envoie-moi juste une photo de toi avec un papier où est écrit mon prénom, ça prend deux minutes."
+      }
+    ],
+    "apres": "faire",
+    "commentaire": "<p>Une caméra en panne et un métier isolé : deux excuses classiques réunies dans le même message. La demande en retour est simple, rapide et impossible à satisfaire avec des photos volées. Un refus, ou une nouvelle explication compliquée, tranche la question.</p>"
+  },
+  "parti_pris": "C'est le point où les plateformes se distinguent le plus nettement. Celles qui vérifient les photos à l'inscription et emploient une modération humaine limitent la quantité de faux profils en circulation. C'est un critère que nous regardons systématiquement dans nos avis, et il pèse plus lourd que le nombre d'inscrits affiché en page d'accueil.",
   "lies": [
     "love-bombing",
+    "kittenfishing",
+    "red-flag",
     "ghosting"
   ],
   "lire_aussi": [
