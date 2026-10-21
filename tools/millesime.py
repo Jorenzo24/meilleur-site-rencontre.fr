@@ -40,12 +40,43 @@ MOTIFS = {
     ],
     'guides/index.html': [
         r'(Guides rencontre en ligne )(\d{4})( :)',
+        r'(rencontres en ligne en )(\d{4})( :)',
     ],
-    # copyright du pied de page, sur toutes les pages
+    'qui-sommes-nous/index.html': [
+        r'(recommandons en )(\d{4})(,)',
+    ],
+    'notre-methode/index.html': [
+        r'(recommandons en )(\d{4})(,)',
+    ],
+    # sur toutes les pages : copyright, et liens qui citent le titre d'un comparatif
     '**/*.html': [
         r'(&copy; )(\d{4})( meilleur-site-rencontre\.fr)',
+        r'(sites? de rencontre (?:sérieux|gay|senior|seniors) )(\d{4})(</a>)',
     ],
 }
+
+
+# Pages "edition" : tout millesime de l'annee precedente passe a l'annee en
+# cours, sauf les dates (precedees d'un mois), les dates ISO et les versions
+# de cache. Les comparatifs sont des classements dates de l'annee en cours.
+PAGES_EDITION = ['comparatif-*/index.html']
+GABARITS = ['tools/gabarits/*.html']
+MOIS = r'(?:janvier|février|mars|avril|mai|juin|juillet|août|septembre|octobre|novembre|décembre)'
+
+
+def edition(texte, annee):
+    ancienne = str(int(annee) - 1)
+    # les dates ("23 juin 2026") sont mises de cote avant le remplacement
+    protege = {}
+    def garde(m):
+        cle = '\x00%d\x00' % len(protege)
+        protege[cle] = m.group(0)
+        return cle
+    texte = re.sub(r'\b\d{1,2}(?:er)? %s %s\b' % (MOIS, ancienne), garde, texte)
+    texte = re.sub(r'(?<![\d=-])%s(?![\d-])' % ancienne, annee, texte)
+    for cle, val in protege.items():
+        texte = texte.replace(cle, val)
+    return texte
 
 
 def main():
@@ -58,7 +89,7 @@ def main():
     modifies = 0
     for motif_fichiers, motifs in MOTIFS.items():
         for chemin in sorted(glob.glob(str(RACINE / motif_fichiers), recursive=True)):
-            if '/_planning/' in chemin or '/node_modules/' in chemin:
+            if '/node_modules/' in chemin:
                 continue
             texte = Path(chemin).read_text(encoding='utf-8')
             nouveau = texte
@@ -67,6 +98,23 @@ def main():
             if nouveau != texte:
                 modifies += 1
                 print('%s : millesime passe a %s' % (Path(chemin).relative_to(RACINE), annee))
+                if args.appliquer:
+                    Path(chemin).write_text(nouveau, encoding='utf-8')
+    for chemin in sorted(glob.glob(str(RACINE / GABARITS[0]))):
+        texte = Path(chemin).read_text(encoding='utf-8')
+        nouveau = re.sub(r'(&copy; )(\d{4})( meilleur-site-rencontre\.fr)', lambda m: m.group(1) + annee + m.group(3), texte)
+        if nouveau != texte:
+            modifies += 1
+            print('%s : copyright passe a %s' % (Path(chemin).relative_to(RACINE), annee))
+            if args.appliquer:
+                Path(chemin).write_text(nouveau, encoding='utf-8')
+    for motif_fichiers in PAGES_EDITION:
+        for chemin in sorted(glob.glob(str(RACINE / motif_fichiers))):
+            texte = Path(chemin).read_text(encoding='utf-8')
+            nouveau = edition(texte, annee)
+            if nouveau != texte:
+                modifies += 1
+                print('%s : edition passee a %s' % (Path(chemin).relative_to(RACINE), annee))
                 if args.appliquer:
                     Path(chemin).write_text(nouveau, encoding='utf-8')
     if not modifies:
