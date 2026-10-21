@@ -396,3 +396,21 @@
 @media (prefers-reduced-motion: reduce) {
   .av *, .av *::before, .av *::after { transition: none !important; }
 }
+
+/* ==========================================================================
+   Titres de partie : double soulignage facon surligneur
+   Une bande rose pale sous le bas des lettres, un trait fin juste dessous.
+   Repete sur chaque ligne quand le titre passe a la ligne.
+   ========================================================================== */
+.av-prose h2 .tt {
+  padding: 0 .06em;
+  background-image:
+    linear-gradient(rgba(168, 30, 70, .14), rgba(168, 30, 70, .14)),
+    linear-gradient(var(--brand), var(--brand));
+  background-repeat: no-repeat;
+  background-size: 100% .34em, 100% 1.5px;
+  background-position: 0 86%, 0 100%;
+  -webkit-box-decoration-break: clone;
+          box-decoration-break: clone;
+  line-height: 1.32;
+}
