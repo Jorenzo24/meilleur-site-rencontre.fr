@@ -1,0 +1,47 @@
+{
+  "slug": "breadcrumbing",
+  "mot": "Breadcrumbing",
+  "genre": "n. m.",
+  "etymologie": "de l'anglais <i>breadcrumb</i>, la miette de pain",
+  "resume": "Attention distillée au compte-gouttes",
+  "definition_courte": "Envoi de signaux d'intérêt sporadiques, sans intention réelle de construire quoi que ce soit.",
+  "title": "Breadcrumbing : les miettes d'attention qui font patienter",
+  "description": "Un message tous les quinze jours, un like sur une story, jamais de rendez-vous : le breadcrumbing entretient l'intérêt sans rien concrétiser. Comment le repérer et y mettre fin.",
+  "h1": "Breadcrumbing : <em>entretenir l'intérêt sans jamais avancer</em>",
+  "lede": "Un message chaleureux tous les quinze jours, un like sur une publication, une promesse de se voir bientôt qui ne se concrétise jamais. Le <strong>breadcrumbing</strong>, ce sont des miettes : juste assez pour vous garder, jamais assez pour avancer.",
+  "definition": "Le breadcrumbing consiste à envoyer des signaux d'intérêt sporadiques, sans intention réelle de construire quoi que ce soit. Le mot vient de l'anglais <em>breadcrumb</em>, la miette de pain, en référence au sentier semé par le Petit Poucet.",
+  "sections": [
+    {
+      "id": "signes",
+      "titre": "Les signes qui ne trompent pas",
+      "html": "<ul class=\"prose-list\"><li><strong>Le rythme est irrégulier</strong> : des échanges nourris pendant deux jours, puis dix jours de silence, et la boucle recommence.</li><li><strong>Rien ne se fixe jamais</strong> : on vous parle d'un verre, d'un dîner, d'un week-end, sans qu'une date soit posée.</li><li><strong>Les messages relancent sans engager</strong> : une réaction à une story, un souvenir partagé, une question vague à laquelle vous répondez longuement.</li><li><strong>L'effort est à sens unique</strong> : vous relisez, vous soignez vos réponses, en face on envoie trois mots.</li></ul>"
+    },
+    {
+      "id": "pourquoi",
+      "titre": "Pourquoi certains le pratiquent",
+      "html": "<p>Il y a rarement un plan machiavélique derrière. Le breadcrumbing sert le plus souvent à maintenir une validation à moindre frais, ou à garder ouverte une option dont on ne veut pas vraiment. Certaines personnes le font sans en avoir conscience, par incapacité à clore une relation qui ne les intéresse plus.</p>\n        <p>Cela ne change pas grand-chose à ce que vous vivez. Le coût, lui, est bien réel : l'attente occupe une place mentale considérable, et elle vous retient d'aller voir ailleurs.</p>"
+    },
+    {
+      "id": "fin",
+      "titre": "Comment y mettre fin",
+      "html": "<p>La méthode la plus efficace est aussi la plus simple : <strong>proposer une date précise</strong>. Pas « on se voit bientôt » mais « jeudi 19 h, ce café ». Une proposition concrète oblige à un oui, à un non, ou à une esquive que vous ne pourrez plus interpréter comme de la timidité.</p>\n        <p>Si l'esquive se répète deux fois, considérez que la réponse est donnée. Vous n'avez pas besoin d'une confrontation, seulement d'arrêter d'alimenter la conversation.</p>"
+    },
+    {
+      "id": "en-pratique",
+      "titre": "En pratique",
+      "html": "<h3>Breadcrumbing ou simple manque de temps ?</h3>\n        <p>Le manque de temps empêche de se voir, pas de fixer une date. Quelqu'un de réellement occupé vous proposera un créneau dans trois semaines. Le breadcrumbing, lui, entretient la conversation mais ne pose jamais de date.</p>\n        <h3>Faut-il en parler à la personne concernée ?</h3>\n        <p>Ce n'est pas indispensable, et cela tourne souvent au dialogue de sourds. Une proposition concrète en dit autant qu'un long message, et vous donne une réponse claire sans avoir à débattre des intentions de l'autre.</p>"
+    }
+  ],
+  "parti_pris": "Le breadcrumbing prospère là où s'inscrire ne coûte rien et où les profils s'accumulent sans intention déclarée. Sur les plateformes où chacun annonce ce qu'il cherche, il trouve moins de prise : afficher clairement vos intentions reste la meilleure protection.",
+  "lies": [
+    "ghosting",
+    "benching"
+  ],
+  "lire_aussi": [
+    "/guide/premier-message/",
+    "/comparatif-relation-serieuse/"
+  ],
+  "auteur": "lucie",
+  "publie_le": "2026-09-18",
+  "modifie_le": "2026-10-21"
+}

@@ -122,3 +122,38 @@
 .lx-lien::after { content: none; }
 .lx-mot a:hover .lx-lien { background-position: 24px 100%; }
 @media (prefers-reduced-motion: reduce) { .lx-lien { transition: none; } }
+
+/* ==========================================================================
+   Fiche du lexique : ouverture en une colonne, entree de dictionnaire,
+   article en lecture continue, termes lies en etiquettes
+   ========================================================================== */
+.lxf-ouverture { max-width: 46rem; }
+.lxf-ouverture h1 { max-width: 20ch; }
+.lxf .av-ouverture { padding-bottom: clamp(2.5rem, 5vw, 4rem); }
+.lxf-corps { grid-template-columns: minmax(0, 1fr) !important; }
+.lxf .av-article { max-width: 44rem; }
+
+/* L'entree de dictionnaire, en tete d'article */
+.lxf-entree { padding: 0 0 clamp(2rem, 4vw, 2.75rem); margin: 0 0 clamp(2rem, 4vw, 2.75rem); border-bottom: 1px solid var(--border); }
+.lxf-entree-tete { margin: 0 0 .7rem; }
+.lxf-entree-tete dfn { font-style: normal; font-family: var(--font-display); font-size: clamp(2rem, 4vw, 2.6rem); font-weight: 600; letter-spacing: -.01em; }
+.lxf-genre { font-family: var(--font-display); font-style: italic; font-size: 1.2rem; color: var(--brand); white-space: nowrap; }
+.lxf-ety { font-family: var(--font-display); font-style: italic; font-size: 1.15rem; color: var(--text-muted); }
+.lxf-ety i, .lxf-ety em { font-style: normal; }
+.lxf-entree-def { margin: 0; font-family: var(--font-display); font-size: clamp(1.2rem, 2vw, 1.4rem); line-height: 1.55; color: var(--text); }
+.lxf-entree-def em { font-style: italic; }
+
+/* Termes lies : etiquettes en rangee */
+.lxf-lies { padding: clamp(2.5rem, 5vw, 3.5rem) 0; background: #fcfaf8; border-top: 1px solid var(--border); }
+.lxf-lies-t { margin: 0 0 1.2rem; font-family: var(--font-display); font-size: 1.5rem; font-weight: 600; }
+.lxf-lies ul { list-style: none; margin: 0; padding: 0; display: grid; gap: .8rem; }
+.lxf-lies a { display: flex; flex-direction: column; padding: .9rem 1.1rem; border: 1px solid var(--border-strong); border-radius: .9rem; background: var(--bg-pure); color: var(--text); transition: border-color .2s ease; }
+.lxf-lies a:hover { border-color: var(--brand); text-decoration: none; }
+.lxf-lie-mot { font-family: var(--font-display); font-size: 1.2rem; font-weight: 600; }
+.lxf-lie-res { font-size: .88rem; color: var(--text-muted); }
+@media (min-width: 760px) { .lxf-lies ul { grid-template-columns: repeat(2, 1fr); } }
+@media (min-width: 960px) { .lxf-lies ul { grid-template-columns: repeat(4, 1fr); } }
+@media (min-width: 1100px) {
+  .lxf .gd-m { right: max(0rem, calc((100vw - var(--container)) / 2 - 2rem)); }
+  .lxf .gd-m:nth-child(even) { right: max(2rem, calc((100vw - var(--container)) / 2 + 6rem)); }
+}

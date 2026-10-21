@@ -1,0 +1,47 @@
+{
+  "slug": "benching",
+  "mot": "Benching",
+  "genre": "n. m.",
+  "etymologie": "de l'anglais <i>bench</i>, le banc des remplaçants",
+  "resume": "Gardé en réserve, au cas où",
+  "definition_courte": "Fait de maintenir un contact sans l'écarter ni s'y investir, pour le garder disponible si les autres options n'aboutissent pas.",
+  "title": "Benching : être gardé sur le banc de touche",
+  "description": "Ni choisi, ni écarté : le benching consiste à garder quelqu'un en réserve au cas où. Comment repérer qu'on vous met sur le banc et quoi faire ensuite.",
+  "h1": "Benching : <em>quand on vous garde en réserve</em>",
+  "lede": "On ne vous dit pas non, mais on ne vous dit jamais tout à fait oui. Vous restez disponible, vaguement entretenu, pendant que d'autres pistes sont explorées. Le <strong>benching</strong> emprunte son image au sport : vous êtes sur le banc de touche.",
+  "definition": "Le benching consiste à maintenir un contact sans l'écarter ni s'y investir, pour le garder disponible si les autres options n'aboutissent pas. Le mot vient de l'anglais <em>bench</em>, le banc des remplaçants.",
+  "sections": [
+    {
+      "id": "reperer",
+      "titre": "Comment repérer qu'on vous met sur le banc",
+      "html": "<p>Le benching est plus difficile à identifier que le silence, parce qu'il n'y a jamais de rupture nette. Trois indices reviennent.</p>\n        <ul class=\"prose-list\"><li><strong>Vous êtes toujours celui ou celle qui relance</strong>, et les réponses arrivent, aimables mais tardives.</li><li><strong>Les rendez-vous se décident à la dernière minute</strong>, souvent le soir même, rarement le week-end.</li><li><strong>Votre disponibilité est attendue</strong> alors que la sienne reste floue.</li></ul>\n        <p>La différence avec le <a href=\"/lexique/breadcrumbing/\">breadcrumbing</a> est subtile mais réelle : le breadcrumbing entretient une conversation sans jamais rien concrétiser, le benching vous voit parfois pour de bon, simplement jamais en priorité.</p>"
+    },
+    {
+      "id": "applications",
+      "titre": "Pourquoi les applications y poussent",
+      "html": "<p>Quand l'interface donne le sentiment qu'un meilleur profil se trouve à un balayage d'écran, s'engager revient à renoncer à tout le reste. Garder plusieurs contacts tièdes devient alors une stratégie rationnelle, et c'est exactement ce que le fonctionnement de beaucoup d'applications encourage.</p>\n        <p>Le même mécanisme produit le <a href=\"/lexique/ghosting/\">ghosting</a> et la <a href=\"/lexique/situationship/\">situationship</a>. Trois symptômes, une cause commune : l'abondance perçue.</p>"
+    },
+    {
+      "id": "faire",
+      "titre": "Que faire quand c'est votre cas",
+      "html": "<p>Arrêtez de relancer et observez ce qui se passe. C'est le test le plus fiable qui soit : si la personne tenait à vous, votre silence se remarquera vite. S'il ne se passe rien pendant deux semaines, vous avez la réponse que les mots ne donnaient pas.</p>\n        <p>Pendant ce temps, continuez de rencontrer d'autres personnes. Le banc de touche n'a de pouvoir que si vous acceptez d'y attendre.</p>"
+    },
+    {
+      "id": "en-pratique",
+      "titre": "En pratique",
+      "html": "<h3>Quelle différence entre benching et breadcrumbing ?</h3>\n        <p>Le breadcrumbing se joue presque entièrement par messages, sans que rien ne se concrétise jamais. Le benching va parfois jusqu'au rendez-vous, mais toujours quand cela arrange l'autre. Dans les deux cas, vous n'êtes pas la priorité.</p>\n        <h3>Faut-il en parler ou simplement s'éloigner ?</h3>\n        <p>S'éloigner est plus efficace, et beaucoup moins coûteux. Une discussion sur le sujet aboutit le plus souvent à des promesses qui retiennent quelques semaines de plus. Le retrait, lui, produit une réponse immédiate et sans ambiguïté.</p>"
+    }
+  ],
+  "parti_pris": "De tous les comportements de notre lexique, le benching est celui qui use le plus, parce qu'il n'offre jamais le point final qui permettrait de tourner la page. Notre conseil tient en une phrase : ne négociez pas votre place, retirez-vous du banc et voyez qui vient vous chercher.",
+  "lies": [
+    "breadcrumbing",
+    "ghosting"
+  ],
+  "lire_aussi": [
+    "/guide/profil-attractif/",
+    "/comparatif-relation-serieuse/"
+  ],
+  "auteur": "lucie",
+  "publie_le": "2026-09-18",
+  "modifie_le": "2026-10-21"
+}

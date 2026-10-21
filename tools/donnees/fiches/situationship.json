@@ -1,0 +1,47 @@
+{
+  "slug": "situationship",
+  "mot": "Situationship",
+  "genre": "n. f.",
+  "etymologie": "formé sur <i>situation</i> et <i>relationship</i>",
+  "resume": "Relation sans statut défini",
+  "definition_courte": "Relation suivie et souvent intime, qui n'a fait l'objet d'aucune définition explicite.",
+  "title": "Situationship : la relation qui n'en est pas vraiment une",
+  "description": "Ni célibataires, ni en couple : la situationship décrit une relation régulière dont le statut n'a jamais été défini. Comment on y entre, pourquoi ça dure et comment en sortir.",
+  "h1": "Situationship : <em>ni célibataires, ni en couple</em>",
+  "lede": "Vous vous voyez chaque semaine, vous dormez l'un chez l'autre, vous comptez l'un pour l'autre. Mais la question du statut n'a jamais été posée, et l'éviter est devenu un réflexe commun. C'est ce que décrit le mot <strong>situationship</strong>.",
+  "definition": "Une situationship est une relation suivie et souvent intime, qui n'a fait l'objet d'aucune définition explicite. Le terme, formé sur <em>situation</em> et <em>relationship</em>, décrit cet entre-deux qui n'est ni une simple aventure ni un couple assumé.",
+  "sections": [
+    {
+      "id": "entre",
+      "titre": "Comment on y entre sans l'avoir décidé",
+      "html": "<p>Personne ne choisit une situationship, on y glisse. Les premières semaines, ne rien définir paraît confortable, voire élégant : on évite la conversation solennelle et la pression des étiquettes. Puis les habitudes s'installent, et la conversation devient de plus en plus difficile à ouvrir précisément parce qu'on a attendu.</p>\n        <p>Les applications amplifient le phénomène. Quand rien n'oblige à clarifier, et que chacun garde son profil actif par prudence ou par confort, l'ambiguïté devient le réglage par défaut.</p>"
+    },
+    {
+      "id": "dure",
+      "titre": "Pourquoi ça peut durer longtemps",
+      "html": "<p>Une situationship tient parce qu'elle offre une partie des bénéfices d'une relation sans la part qui engage. Elle dure aussi parce que les deux personnes n'en attendent pas la même chose, et que celle qui en attend le plus craint de rompre l'équilibre en le disant.</p>\n        <p>Le signe qui ne trompe pas : vous connaissez ses amis d'enfance et ses horaires, mais vous ne sauriez pas quel mot employer pour la présenter à votre famille.</p>"
+    },
+    {
+      "id": "sortir",
+      "titre": "Comment en sortir ou la transformer",
+      "html": "<p>Une seule chose fonctionne, poser la question directement, en parlant de vous plutôt que de l'autre : ce que vous cherchez, et si cela correspond à ce qu'il ou elle cherche aussi. Ce n'est pas un ultimatum, c'est une information dont vous avez besoin.</p>\n        <p>Les réponses évasives répétées sont une réponse. Une personne qui veut construire quelque chose vous le dit, même maladroitement.</p>\n        <p>Si vous enchaînez les situationships, la plateforme joue un rôle qu'on sous-estime. Les sites où l'on déclare son intention dès l'inscription, et où l'abonnement filtre les curieux, produisent nettement moins de flou. C'est l'objet de notre <a href=\"/comparatif-relation-serieuse/\">comparatif des sites de rencontre sérieux</a>.</p>"
+    },
+    {
+      "id": "en-pratique",
+      "titre": "En pratique",
+      "html": "<h3>Une situationship peut-elle devenir une vraie relation ?</h3>\n        <p>Oui, et cela arrive souvent quand la conversation est enfin posée. Ce qui bloque n'est pas la nature de la relation mais le non-dit. En revanche, espérer que le statut vienne tout seul avec le temps mène rarement quelque part.</p>\n        <h3>Comment savoir si je suis dans une situationship ?</h3>\n        <p>Posez-vous une question simple : sauriez-vous dire, sans hésiter, comment cette personne vous décrit à ses proches ? Si la réponse demande une explication de deux minutes, vous y êtes.</p>"
+    }
+  ],
+  "parti_pris": "Nous ne voyons rien de condamnable dans une relation sans étiquette, à condition qu'elle soit choisie par les deux personnes. Ce qui fait mal, c'est le malentendu : quand l'un attend un couple et l'autre un arrangement, la conversation qu'on repousse coûte toujours plus cher que celle qu'on ose.",
+  "lies": [
+    "breadcrumbing",
+    "benching"
+  ],
+  "lire_aussi": [
+    "/comparatif-relation-serieuse/",
+    "/guide/profil-attractif/"
+  ],
+  "auteur": "lucie",
+  "publie_le": "2026-09-18",
+  "modifie_le": "2026-10-21"
+}

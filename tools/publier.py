@@ -55,7 +55,11 @@ def ajouter_au_hub(entree, cfg, appliquer):
             return 'deja dans le glossaire'
         if appliquer:
             hub_lexique.regenerer(appliquer=True)
-        return 'mot ajoute au glossaire, sous sa lettre'
+            # les "termes lies" ne pointent que vers des fiches en ligne :
+            # on reconstruit toutes les fiches pour faire apparaitre les nouveaux liens
+            import fiche_lexique
+            fiche_lexique.reconstruire_en_ligne(appliquer=True)
+        return 'mot ajoute au glossaire, sous sa lettre, termes lies mis a jour'
     page = cfg['page']
     html = page.read_text(encoding='utf-8')
     if '/%s/%s/' % (entree['type'], entree['slug']) in html:

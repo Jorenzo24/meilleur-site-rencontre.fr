@@ -1,0 +1,47 @@
+{
+  "slug": "orbiting",
+  "mot": "Orbiting",
+  "genre": "n. m.",
+  "etymologie": "",
+  "resume": "Disparu, mais toujours là",
+  "definition_courte": "Fait d'interrompre toute conversation avec quelqu'un tout en continuant à suivre son activité en ligne&nbsp;: vues de stories, likes, réactions.",
+  "title": "Orbiting : disparu des conversations, présent dans vos notifications",
+  "description": "L'orbiting, c'est couper la conversation tout en continuant à regarder vos stories et à liker vos photos. Pourquoi c'est déstabilisant et comment y mettre fin.",
+  "h1": "Orbiting : <em>disparu des conversations, présent dans vos notifications</em>",
+  "lede": "Plus un message depuis trois semaines. Mais vos stories sont vues dans la minute, vos photos likées, vos publications commentées d'un emoji. Le <strong>orbiting</strong> a ceci de particulier qu'il ne ferme aucune porte, et c'est précisément le problème.",
+  "definition": "L'orbiting désigne le fait d'interrompre toute conversation avec quelqu'un tout en continuant à suivre son activité en ligne : vues de stories, likes, réactions. La personne a quitté l'échange mais reste dans votre champ de vision, en orbite.",
+  "sections": [
+    {
+      "id": "deroutant",
+      "titre": "Pourquoi c'est plus déroutant qu'un silence complet",
+      "html": "<p>Un silence total est douloureux, mais il est lisible. L'orbiting, lui, envoie deux messages contradictoires : je ne te parle plus, et je te regarde encore. Votre cerveau s'accroche logiquement au second.</p>\n        <p>C'est ce qui rend la page si difficile à tourner. Chaque vue de story est réinterprétée comme un signe, chaque like comme un début de retour. Vous restez disponible pour quelqu'un qui, lui, ne l'est plus depuis longtemps.</p>"
+    },
+    {
+      "id": "cache",
+      "titre": "Ce que ça cache le plus souvent",
+      "html": "<p>Dans la grande majorité des cas, il n'y a pas de calcul. La personne a mis fin à l'échange parce qu'il ne l'intéressait plus assez, mais suivre un compte ne coûte rien et l'habitude reste. Une part de curiosité, un peu de confort, aucune intention particulière.</p>\n        <p>Une minorité l'utilise pour garder une porte entrouverte sans assumer de la maintenir ouverte, ce qui rejoint le <a href=\"/lexique/benching/\">benching</a>. Dans les deux cas, la conclusion pratique est la même : ce qui ne s'exprime pas en message ne compte pas.</p>"
+    },
+    {
+      "id": "fin",
+      "titre": "Comment y mettre fin",
+      "html": "<p>La règle la plus utile que nous puissions donner tient en une phrase : <strong>une vue de story n'est pas un message</strong>. Tant qu'il n'y a pas de mots, il n'y a pas de conversation, et il n'y a rien à interpréter.</p>\n        <p>Ensuite, coupez la visibilité. La plupart des réseaux permettent de masquer ses publications à une personne précise sans la bloquer ni la retirer de ses contacts. C'est discret, réversible, et cela suffit à faire retomber la pression.</p>\n        <p>Le piège à éviter, c'est de publier pour une audience d'une personne. Si vous vous surprenez à choisir une photo en pensant à ce qu'elle en pensera, l'orbiting a atteint son but sans que personne l'ait voulu.</p>"
+    },
+    {
+      "id": "en-pratique",
+      "titre": "En pratique",
+      "html": "<h3>Faut-il bloquer quelqu'un qui fait de l'orbiting ?</h3>\n        <p>Le blocage est une option, mais elle est souvent vécue comme excessive et déclenche parfois une réaction qui relance tout. Masquer ses stories à cette personne produit le même effet, sans le geste.</p>\n        <h3>Une vue de story veut-elle dire que je lui manque ?</h3>\n        <p>Non, et c'est précisément ce que l'orbiting fait croire. Regarder une story demande un dixième de seconde et aucune intention. Un message en demande davantage, c'est pour cela qu'il est le seul signal fiable.</p>"
+    }
+  ],
+  "parti_pris": "L'orbiting est le seul comportement de ce lexique qui ne demande aucun effort à celui qui le pratique, et beaucoup d'énergie à celui qui le subit. C'est ce déséquilibre qui le rend pénible, plus que l'intention, qui est généralement inexistante.",
+  "lies": [
+    "ghosting",
+    "benching"
+  ],
+  "lire_aussi": [
+    "/guide/premier-message/",
+    "/comparatif-relation-serieuse/"
+  ],
+  "auteur": "lucie",
+  "publie_le": "2026-09-18",
+  "modifie_le": "2026-10-21"
+}

@@ -1,0 +1,47 @@
+{
+  "slug": "ghosting",
+  "mot": "Ghosting",
+  "genre": "n. m.",
+  "etymologie": "de l'anglais <i>ghost</i>, le fantôme",
+  "resume": "Disparition sans explication",
+  "definition_courte": "Fait de couper tout contact avec quelqu'un du jour au lendemain, sans prévenir et sans répondre aux messages suivants.",
+  "title": "Ghosting : définition, pourquoi ça arrive et comment réagir",
+  "description": "Le ghosting, c'est la disparition sans un mot après des semaines d'échanges. Ce que le terme recouvre, pourquoi c'est si fréquent en ligne et quoi faire quand ça vous arrive.",
+  "h1": "Ghosting : <em>quand la conversation s'arrête sans un mot</em>",
+  "lede": "Vous échangiez tous les jours, parfois depuis plusieurs semaines. Et puis plus rien. Pas de dispute, pas de message d'adieu, juste le silence. Le <strong>ghosting</strong> est devenu assez banal sur les applications de rencontre pour qu'on ait fini par lui donner un nom.",
+  "definition": "Le ghosting désigne le fait de couper tout contact avec quelqu'un du jour au lendemain, sans prévenir et sans répondre aux messages suivants. Le mot vient de l'anglais <em>ghost</em>, le fantôme : la personne ne rompt pas, elle s'évapore.",
+  "sections": [
+    {
+      "id": "reconnaitre",
+      "titre": "Reconnaître un ghosting d'un simple silence",
+      "html": "<p>Tout le monde a déjà mis trois jours à répondre à un message. Une vie chargée, une semaine difficile, une lassitude passagère : le silence n'est pas toujours un abandon. Ce qui caractérise le ghosting, c'est la combinaison de trois choses.</p>\n        <ul class=\"prose-list\"><li><strong>La rupture est nette</strong> : les échanges étaient réguliers, parfois quotidiens, et s'arrêtent d'un coup.</li><li><strong>Les relances restent sans réponse</strong>, y compris une relance espacée de plusieurs jours.</li><li><strong>La personne reste active ailleurs</strong> : son profil vit toujours, elle se connecte, elle publie.</li></ul>\n        <p>Quand ces trois éléments sont réunis, inutile de chercher une panne de réseau. La décision a été prise, elle n'a simplement pas été dite.</p>"
+    },
+    {
+      "id": "pourquoi",
+      "titre": "Pourquoi c'est si fréquent en ligne",
+      "html": "<p>Le ghosting n'a rien inventé, on se perdait de vue bien avant les applications. Ce que le numérique a changé, c'est son coût. Dans la vie hors ligne, disparaître suppose d'éviter des lieux, des amis communs, des regards. En ligne, il suffit de ne plus ouvrir une conversation.</p>\n        <p>S'ajoute l'effet du nombre. Quand l'interface promet des dizaines de profils par jour, chaque échange devient remplaçable, et annoncer une fin demande un effort que beaucoup n'ont plus envie de fournir. Ce n'est pas une excuse, c'est un mécanisme, et le connaître aide à ne pas le prendre pour soi.</p>"
+    },
+    {
+      "id": "reagir",
+      "titre": "Comment réagir sans y laisser trop d'énergie",
+      "html": "<p>Notre conseil tient en une règle simple : <strong>une relance, pas deux</strong>. Un message court, sans reproche, laissé quelques jours après le silence. S'il reste sans réponse, la réponse est là.</p>\n        <p>Le réflexe qui fait le plus de mal, c'est l'enquête. Vérifier l'heure de dernière connexion, guetter les stories, relire les échanges à la recherche du faux pas : tout cela entretient la blessure sans rien apporter. Archivez la conversation, ou supprimez-la si elle vous attire l'œil.</p>\n        <p>Une nuance importante : si le silence s'accompagne de messages insistants, de menaces ou d'une pression quelconque, on ne parle plus de ghosting mais de harcèlement, et la marche à suivre est le signalement. Notre <a href=\"/guide/faux-profils/\">guide sur les faux profils</a> détaille la procédure, identique dans les deux cas.</p>"
+    },
+    {
+      "id": "en-pratique",
+      "titre": "En pratique",
+      "html": "<h3>Faut-il relancer quelqu'un qui vous a ghosté ?</h3>\n        <p>Une fois, oui, avec un message court et sans reproche : un silence peut avoir une cause banale. Au-delà, vous nourrissez une attente qui ne sera pas comblée. L'absence de réponse à une relance est elle-même une réponse.</p>\n        <h3>Le ghosting est-il un manque de respect ?</h3>\n        <p>C'est surtout un évitement de la confrontation. La personne ne cherche pas nécessairement à blesser, elle fuit un moment inconfortable. Cela n'enlève rien à ce que vous ressentez, mais cela évite de chercher une faute de votre côté, qui n'existe pas.</p>"
+    }
+  ],
+  "parti_pris": "Le ghosting en dit long sur la personne qui l'utilise, et rien sur celle qui le subit. On le croise partout, sur les applis gratuites comme sur les sites payants. Là où créer un profil demande du temps et un vrai investissement, les échanges sont simplement moins jetables.",
+  "lies": [
+    "breadcrumbing",
+    "benching"
+  ],
+  "lire_aussi": [
+    "/guide/premier-message/",
+    "/comparatif-relation-serieuse/"
+  ],
+  "auteur": "lucie",
+  "publie_le": "2026-09-18",
+  "modifie_le": "2026-10-21"
+}
