@@ -1,0 +1,65 @@
+{
+  "slug": "blind-date",
+  "mot": "Blind date",
+  "genre": "n. m.",
+  "etymologie": "de l'anglais <i>blind</i>, aveugle, et <i>date</i>, rendez-vous",
+  "resume": "Rendez-vous avec un inconnu",
+  "definition_courte": "Rendez-vous galant avec une personne qu'on n'a jamais vue, le plus souvent arrangé par un ami ou un proche.",
+  "title": "Blind date : comment réussir un rendez-vous à l'aveugle",
+  "description": "Un rendez-vous avec quelqu'un que vous n'avez jamais vu, souvent arrangé par un ami : pourquoi accepter un blind date, comment le préparer et en sortir.",
+  "h1": "Blind date : <em>le rendez-vous où l'on ne sait rien d'avance</em>",
+  "lede": "Votre collègue est formelle : « Tu vas adorer mon cousin, vous avez exactement le même humour. » Vous n'avez vu ni photo ni profil, seulement un prénom et un numéro. Le <strong>blind date</strong> est la plus ancienne forme de rendez-vous arrangé, et elle séduit de nouveau ceux qui saturent des applis.",
+  "definition": "Le blind date, ou rendez-vous à l'aveugle, désigne une rencontre entre deux personnes qui ne se sont jamais vues ni parlé, organisée le plus souvent par un ami commun. Par extension, on emploie le terme pour toute rencontre où l'on découvre l'autre sans avoir vu son visage au préalable.",
+  "sections": [
+    {
+      "id": "pourquoi-accepter",
+      "titre": "Pourquoi accepter un rendez-vous dont on ne sait rien",
+      "html": "<p>Sur une application, on juge en quelques secondes, sur des photos et trois lignes de présentation. Le blind date inverse la logique : quelqu'un qui vous connaît a pensé que cette personne pourrait vous plaire, pour des raisons qui tiennent rarement à une photo. Votre amie sait ce qui vous fait rire, elle a vu vos ex, elle connaît votre rythme de vie. Ce tri humain, imparfait, voit des choses qu'aucun filtre ne mesure.</p>\n        <p>L'autre avantage est plus discret : la personne en face arrive avec une forme de caution. Elle connaît quelqu'un que vous connaissez, ce qui écarte d'emblée le faux profil ou l'identité inventée, un risque bien réel en ligne (notre <a href=\"/guide/faux-profils/\">guide sur les faux profils</a> en détaille les signes).</p>\n        <p>Enfin, le rendez-vous à l'aveugle libère de la comparaison. Aucune file de profils n'attend derrière : il y a une personne, une soirée, et la curiosité de voir ce que ça donne.</p>"
+    },
+    {
+      "id": "pieges",
+      "titre": "Les pièges du rendez-vous arrangé par un proche",
+      "html": "<ul class=\"prose-list\"><li><strong>Les attentes de l'entremetteur</strong> : votre amie a parfois présenté la soirée comme une évidence. Si l'étincelle ne vient pas, vous aurez l'impression de la décevoir, elle aussi.</li><li><strong>Le critère unique</strong> : « vous êtes tous les deux célibataires » ne fait pas une compatibilité, et certains entremetteurs n'en cherchent pas davantage.</li><li><strong>Le débrief obligé</strong> : le lendemain, tout le monde veut savoir. Ce que vous confiez à votre ami a de bonnes chances d'arriver jusqu'à l'autre.</li><li><strong>Le malaise du refus</strong> : décliner un second rendez-vous est plus délicat quand vous recroiserez la personne au prochain anniversaire.</li></ul>\n        <p>Rien de tout cela n'interdit d'y aller. Il suffit de poser deux règles avec la personne qui organise : vous lui direz franchement si ça n'a pas pris, et ce que vous lui raconterez restera entre vous.</p>"
+    },
+    {
+      "id": "preparer",
+      "titre": "Comment préparer un blind date sans tout gâcher",
+      "html": "<h3>Ce qu'il est utile de savoir avant</h3>\n        <p>Demandez à votre ami deux ou trois informations pratiques plutôt qu'un portrait flatteur : si la personne cherche une histoire sérieuse, si elle a des enfants, ce qu'elle fait de ses week-ends. Ce sont ces points qui évitent les malentendus, bien plus que la couleur de ses yeux.</p>\n        <h3>Le lieu et le format</h3>\n        <p>Préférez un verre ou un café à un dîner : un format court se prolonge facilement si tout va bien et s'écourte sans gêne dans le cas contraire. Choisissez un lieu public que vous connaissez, et rentrez par vos propres moyens. Ces précautions valent même pour « le cousin de Léa » : vous ne le connaissez pas encore.</p>\n        <h3>La première impression</h3>\n        <p>Un court échange de messages pour fixer l'heure aide à briser la glace. Résistez en revanche à l'envie d'éplucher ses réseaux sociaux pendant une heure : l'intérêt du blind date tient à la découverte, et une impression bâtie sur un compte Instagram fausse souvent la rencontre avant qu'elle commence.</p>"
+    },
+    {
+      "id": "en-pratique",
+      "titre": "En pratique",
+      "html": "<h3>Comment refuser un deuxième rendez-vous après un blind date ?</h3>\n        <p>Directement auprès de la personne, et avant d'en parler à l'ami qui vous a présentés. Un message simple suffit : vous avez passé un bon moment, vous n'avez pas envie d'aller plus loin, vous lui souhaitez de belles rencontres. Disparaître sans un mot passe encore plus mal quand vous avez des amis communs, comme le montre notre fiche sur le <a href=\"/lexique/ghosting/\">ghosting</a>.</p>\n        <h3>Peut-on demander à ses amis d'organiser un blind date ?</h3>\n        <p>Oui, et c'est souvent une bonne idée. Beaucoup de gens connaissent un célibataire qui pourrait vous correspondre mais n'osent pas le proposer, de peur de se mêler de ce qui ne les regarde pas. Dites clairement ce que vous cherchez : vos amis feront un tri plus fin qu'un filtre d'âge.</p>\n        <h3>Comment se reconnaître le jour du rendez-vous ?</h3>\n        <p>Convenez d'un repère à l'avance : une table précise, un détail de tenue, ou un simple message « je suis arrivée, au fond à gauche ». Échanger vos numéros avant le jour J règle la question et évite de dévisager chaque inconnu qui entre.</p>"
+    }
+  ],
+  "conversation": {
+    "nom": "Léa",
+    "legende": "Exemple de message pour organiser un blind date",
+    "messages": [
+      {
+        "de": "recu",
+        "texte": "J'ai parlé de toi à Thomas, il est partant pour un verre jeudi. Franchement, vous allez vous adorer."
+      },
+      {
+        "de": "envoye",
+        "texte": "Avec plaisir ! Juste deux choses : si ça ne prend pas, je te le dirai franchement, et ce que je te raconte après reste entre nous, d'accord ?"
+      }
+    ],
+    "apres": "pieges",
+    "commentaire": "<p>Poser les règles au moment où le rendez-vous s'organise protège l'amitié, quelle que soit l'issue de la soirée. Votre amie saura à quoi s'attendre, et vous aussi.</p>"
+  },
+  "parti_pris": "Le blind date reste l'une des meilleures façons de rencontrer quelqu'un hors de la logique du catalogue, à condition d'y aller avec de la curiosité plutôt qu'avec une liste d'attentes. Faites savoir autour de vous que vous êtes ouvert à une présentation : c'est gratuit, et vos proches vous connaissent mieux que n'importe quel algorithme.",
+  "lies": [
+    "ghosting",
+    "catfishing",
+    "deal-breaker",
+    "date"
+  ],
+  "lire_aussi": [
+    "/guide/site-fiable/",
+    "/comparatif-relation-serieuse/"
+  ],
+  "auteur": "lucie",
+  "publie_le": "2026-11-24",
+  "modifie_le": "2026-11-24"
+}

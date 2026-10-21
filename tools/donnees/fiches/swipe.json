@@ -1,0 +1,49 @@
+{
+  "slug": "swipe",
+  "mot": "Swipe",
+  "genre": "n. m.",
+  "etymologie": "de l'anglais <i>to swipe</i>, balayer d'un geste",
+  "resume": "Glisser à droite ou à gauche",
+  "definition_courte": "Geste qui consiste à faire glisser un profil vers la droite pour dire oui, ou vers la gauche pour passer, sur une application de rencontre.",
+  "title": "Swipe : définition, fonctionnement et bons réflexes pour swiper",
+  "description": "Glisser à droite pour dire oui, à gauche pour passer : comment fonctionne le swipe, pourquoi il rend accro et comment swiper mieux plutôt que plus.",
+  "h1": "Swipe : <em>le geste qui a changé la rencontre en ligne</em>",
+  "lede": "Le pouce glisse à droite, à gauche, à gauche, encore à gauche. Dans une file d'attente, dans le métro, devant la télé. Le <strong>swipe</strong> a tellement marqué la rencontre en ligne qu'il a donné un verbe au français courant : on <em>swipe</em>, et on avoue parfois avoir passé une soirée entière « à swiper ».",
+  "definition": "Le swipe désigne le geste qui consiste à faire glisser un profil sur l'écran : vers la droite pour signaler son intérêt, vers la gauche pour passer. Popularisé par Tinder, ce mécanisme a été repris par de nombreuses applications de rencontre, avec des variantes de boutons et de sens.",
+  "sections": [
+    {
+      "id": "mecanique",
+      "titre": "Comment fonctionne le swipe, concrètement",
+      "html": "<p>Le principe tient en une règle : à droite, oui ; à gauche, non. L'autre personne ne sait pas que vous avez swipé à gauche, et ne découvre votre swipe à droite que si elle vous a elle aussi liké. Dans ce cas, c'est un match, et la conversation s'ouvre.</p>\n<p>Autour de ce geste, les applis ont ajouté des variantes. Le swipe vers le haut sert souvent au super like. Un bouton de retour permet, sur beaucoup d'applis, de rattraper un swipe malheureux, une fonction fréquemment réservée aux abonnements. Certaines applis limitent aussi le nombre de swipes à droite gratuits sur une période donnée, ce qui oblige à choisir.</p>\n<p>Toutes les applis ne fonctionnent pas ainsi. Hinge, par exemple, met en avant des likes posés sur une photo ou une réponse précise. Les sites orientés relation sérieuse, que nous passons en revue dans notre <a href=\"/comparatif-relation-serieuse/\">comparatif</a>, proposent plutôt des recherches par critères et des listes de profils jugés compatibles.</p>"
+    },
+    {
+      "id": "pilote-automatique",
+      "titre": "Pourquoi on peut swiper des heures sans s'en rendre compte",
+      "html": "<p>Le swipe est rapide, gratuit, et chaque geste peut déboucher sur une bonne surprise : un match qui arrive sans prévenir. Ce mélange de geste simple et de récompense imprévisible rappelle celui des machines à sous, une comparaison que reprennent souvent les critiques des applis de rencontre.</p>\n<p>Le revers, beaucoup d'utilisateurs le connaissent. On finit par juger un visage en une fraction de seconde, on swipe par réflexe plutôt que par envie, et on accumule des matchs qu'on n'a pas vraiment choisis. Cette lassitude porte même un nom, la <em>dating fatigue</em>, et le swipe à la chaîne en est l'un des carburants.</p>\n<p>Le swipe favorise aussi la photo au détriment du reste. Sur une pile qui défile vite, la première image fait presque tout le travail, et les profils dont le charme tient aux mots ou à l'humour partent avec un handicap. Raison de plus pour soigner votre première photo, et pour ralentir quand c'est vous qui swipez.</p>"
+    },
+    {
+      "id": "swiper-mieux",
+      "titre": "Swiper mieux plutôt que plus",
+      "html": "<ul class=\"prose-list\"><li><strong>Regardez au-delà de la première photo.</strong> La deuxième et la troisième en disent souvent plus sur la personne que le portrait soigné qui ouvre le profil.</li><li><strong>Lisez la bio avant de décider.</strong> Deux lignes suffisent parfois à voir que vous ne cherchez pas la même chose, ou au contraire à trouver le sujet de votre premier message.</li><li><strong>Fixez-vous une limite.</strong> Quelques minutes de swipe attentif valent mieux qu'une heure en pilote automatique. Fermez l'appli dès que vous vous surprenez à swiper sans regarder.</li><li><strong>Swipez quand vous pouvez répondre.</strong> Les matchs arrivent souvent pendant la session, et la conversation démarre mieux si vous êtes disponible.</li></ul><p>Votre façon de swiper alimente aussi les propositions qu'on vous fait : un tri sincère aide l'appli à comprendre ce que vous cherchez. Et si vos swipes à droite restent sans retour, regardez d'abord votre propre profil avec notre <a href=\"/guide/profil-attractif/\">guide du profil attractif</a>.</p>"
+    },
+    {
+      "id": "en-pratique",
+      "titre": "En pratique",
+      "html": "<h3>Swiper à droite ou à gauche, ça veut dire quoi ?</h3>\n<p>À droite, vous signalez votre intérêt pour le profil ; à gauche, vous passez au suivant. Le sens est le même sur les applis qui utilisent ce geste, et il suffit de s'en souvenir une fois : droite, comme « d'accord ».</p>\n<h3>La personne sait-elle qu'on a swipé à gauche sur son profil ?</h3>\n<p>Non. Un swipe à gauche reste invisible, et la personne ne sait même pas que son profil vous a été présenté. Vous pouvez trier sans aucune gêne.</p>\n<h3>Peut-on retrouver un profil swipé à gauche par erreur ?</h3>\n<p>Sur beaucoup d'applis, une fonction de retour permet d'annuler le dernier swipe, souvent dans une formule payante. Sinon, le profil peut réapparaître plus tard dans vos propositions, sans aucune garantie.</p>"
+    }
+  ],
+  "parti_pris": "Le swipe a rendu la rencontre en ligne accessible à tous, et il l'a aussi rendue jetable. Utilisez-le lentement, comme une porte d'entrée, et changez d'appli le jour où vous ne vous en servez plus qu'en pilote automatique.",
+  "lies": [
+    "like",
+    "match",
+    "algorithme-de-matching",
+    "boost"
+  ],
+  "lire_aussi": [
+    "/guide/profil-attractif/",
+    "/comparatif-relation-serieuse/"
+  ],
+  "auteur": "bastien",
+  "publie_le": "2026-10-27",
+  "modifie_le": "2026-10-27"
+}

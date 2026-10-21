@@ -1,0 +1,49 @@
+{
+  "slug": "boost",
+  "mot": "Boost",
+  "genre": "n. m.",
+  "etymologie": "de l'anglais <i>to boost</i>, donner un coup de pouce, amplifier",
+  "resume": "Mise en avant payante du profil",
+  "definition_courte": "Option, payante ou incluse dans certains abonnements, qui place un profil en tête des propositions faites aux autres utilisateurs pendant une durée limitée.",
+  "title": "Boost : à quoi sert cette option et quand elle vaut le coup",
+  "description": "Le boost met votre profil en avant pendant un temps limité. Comment il fonctionne, à quel moment l'acheter, et dans quels cas c'est de l'argent jeté.",
+  "h1": "Boost : <em>payer pour être vu, et savoir quand ça sert</em>",
+  "lede": "Un dimanche soir, une notification vous propose de « multiplier votre visibilité » pour quelques euros. Vous acceptez, votre profil passe en tête de pile pendant un moment, puis tout redevient calme. Le <strong>boost</strong> est l'une des options payantes les plus mises en avant par les applis de rencontre, et l'une des plus mal comprises.",
+  "definition": "Un boost est une option, payante ou incluse dans certains abonnements, qui place votre profil en tête des propositions faites aux autres utilisateurs de votre zone pendant une durée courte. Il augmente le nombre de personnes qui vous voient, sans rien changer à la façon dont elles vous jugent.",
+  "sections": [
+    {
+      "id": "fonctionnement",
+      "titre": "Ce qui se passe pendant un boost",
+      "html": "<p>Le principe est le même partout, sous des noms différents selon les applis (boost, spotlight, mise en avant). Pendant la fenêtre achetée, votre profil passe devant les autres dans les piles des personnes qui correspondent à vos critères et se trouvent à proximité. Certaines applis proposent aussi des formules plus longues, ou programmables à l'heure de votre choix.</p>\n<p>Deux choses ne bougent pas. Les gens qui vous voient restent ceux que vos filtres et les leurs autorisent : un boost n'ouvre ni une nouvelle ville ni une nouvelle tranche d'âge. Et chacun reste libre de passer son chemin. Vous achetez de l'exposition ; ce que les gens en font dépend toujours de votre profil.</p>\n<p>Pour l'appli, le calcul est simple : elle vend un emplacement en haut de la pile, un peu comme un commerçant loue une tête de gondole. Comprendre cela aide à juger le prix à sa juste valeur.</p>"
+    },
+    {
+      "id": "quand-oui",
+      "titre": "Quand un boost vaut le coup",
+      "html": "<h3>Aux heures où les gens sont connectés</h3>\n<p>Un boost lancé au milieu de la nuit un mardi expose votre profil à une salle presque vide. Les applis sont en général plus fréquentées en soirée et le week-end, quand les gens ont du temps devant eux. C'est à ces moments qu'une mise en avant a une chance de toucher du monde.</p>\n<h3>Juste après avoir refait votre profil</h3>\n<p>Le meilleur moment pour un boost, c'est après une vraie amélioration : nouvelles photos, bio réécrite, réponses aux questions remplies. Vous montrez la meilleure version de votre profil à beaucoup de monde d'un coup, au lieu de la laisser se diffuser lentement.</p>\n<h3>En arrivant dans une nouvelle ville</h3>\n<p>Après un déménagement ou pour un séjour prolongé, vous êtes un visage nouveau pour tous les profils du coin. Un boost accélère cette première présentation, à un moment où vous avez justement envie de rencontrer du monde.</p>"
+    },
+    {
+      "id": "quand-non",
+      "titre": "Quand c'est de l'argent jeté",
+      "html": "<p>Si votre profil reçoit peu de likes en temps normal, un boost montrera ce même profil à plus de monde, avec le même résultat en proportion. Le problème se situe en amont : photo sombre, bio vide, première image où l'on ne voit pas votre visage. Notre <a href=\"/guide/profil-attractif/\">guide du profil attractif</a> vous fera gagner plus qu'une série de boosts.</p>\n<p>Méfiez-vous aussi des achats dans un moment de creux. Le soir où l'on se sent seul est rarement celui où l'on fait de bons achats : décidez à froid, pas sous l'effet d'une notification.</p>\n<p>Enfin, un boost ne sert pas à grand-chose si vous n'êtes pas disponible pour répondre. Les likes et les messages reçus pendant la fenêtre appellent une réaction rapide. Lancer la mise en avant puis partir au cinéma, c'est gaspiller l'élan. Avant de payer des options à l'unité, regardez aussi ce que chaque plateforme inclut déjà dans son abonnement : nos <a href=\"/avis/\">avis détaillés</a> passent en revue les formules site par site.</p>"
+    },
+    {
+      "id": "en-pratique",
+      "titre": "En pratique",
+      "html": "<h3>Combien de temps dure un boost sur une appli de rencontre ?</h3>\n<p>Cela dépend de l'appli et de la formule. Sa durée est limitée et varie selon les applis : elle est indiquée avant l'achat, et certaines options durent plus longtemps. La durée exacte est affichée au moment de l'achat : vérifiez-la avant de payer.</p>\n<h3>Un boost garantit-il des matchs ?</h3>\n<p>Non. Il garantit seulement que davantage de personnes verront votre profil pendant la durée achetée. Le nombre de matchs dépend ensuite de vos photos, de votre bio et de l'affinité avec les personnes exposées.</p>\n<h3>Les autres voient-ils que vous avez utilisé un boost ?</h3>\n<p>Sur la plupart des applis, rien ne l'indique aux autres utilisateurs. Votre profil apparaît simplement plus tôt dans leur pile, comme n'importe quel autre.</p>"
+    }
+  ],
+  "parti_pris": "Le boost est un amplificateur : il rend plus visible un bon profil, et tout aussi visible un profil bâclé. Achetez-en un seulement le jour où vous seriez fier de montrer votre profil à toute la ville d'un coup.",
+  "lies": [
+    "algorithme-de-matching",
+    "like",
+    "swipe",
+    "match"
+  ],
+  "lire_aussi": [
+    "/guide/profil-attractif/",
+    "/avis/"
+  ],
+  "auteur": "bastien",
+  "publie_le": "2026-12-08",
+  "modifie_le": "2026-12-08"
+}

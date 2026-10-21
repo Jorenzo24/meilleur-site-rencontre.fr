@@ -1,0 +1,65 @@
+{
+  "slug": "unmatch",
+  "mot": "Unmatch",
+  "genre": "n. m.",
+  "etymologie": "de l'anglais <i>to unmatch</i>, défaire une paire",
+  "resume": "Annuler un match",
+  "definition_courte": "Action d'annuler un match sur une application de rencontre, ce qui supprime la conversation et empêche les deux personnes de s'écrire.",
+  "title": "Unmatch : ce qui se passe quand on annule un match",
+  "description": "Une conversation qui disparaît d'un coup, c'est un unmatch. Ce qu'il efface, comment s'en servir pour vous protéger et que faire si on vous unmatche.",
+  "h1": "Unmatch : <em>le bouton qui efface une conversation</em>",
+  "lede": "Vous ouvrez l'appli, vous cherchez la conversation d'hier soir, et elle a disparu. Pas de message d'adieu, pas de trace. Vous venez de subir un <strong>unmatch</strong>, le geste le plus discret et le plus définitif des applis de rencontre.",
+  "definition": "L'unmatch est l'action d'annuler un match sur une application de rencontre. Sur la plupart des applis, la conversation disparaît alors des deux côtés, et les deux profils ne peuvent plus s'écrire ni se retrouver dans leurs propositions.",
+  "sections": [
+    {
+      "id": "ce-qui-se-passe",
+      "titre": "Ce qui se passe concrètement quand on annule un match",
+      "html": "<p>Le détail varie d'une appli à l'autre, mais le schéma général est le même.</p><ul class=\"prose-list\"><li><strong>La conversation disparaît.</strong> Les messages échangés ne sont plus accessibles, ni pour vous ni pour l'autre personne.</li><li><strong>En général, aucune notification n'est envoyée.</strong> L'autre constate l'unmatch en ne trouvant plus la conversation, parfois par un court message système.</li><li><strong>Le geste est définitif.</strong> On ne revient pas sur un unmatch, et le profil ne vous est en principe plus proposé.</li></ul><p>C'est ce dernier point qui compte. Avant d'appuyer, vérifiez que vous n'avez rien à récupérer dans la conversation : un numéro, l'adresse d'un bar, une information utile.</p>\n<p>Une précision : unmatcher ne supprime pas votre compte et ne vous rend pas invisible sur le reste de l'appli. Pour ne plus croiser quelqu'un que vous connaissez dans la vie, un ex ou un collègue, certaines applis proposent un blocage de contacts ou un mode masqué dans leurs réglages.</p>"
+    },
+    {
+      "id": "se-proteger",
+      "titre": "Unmatcher pour se protéger : le bon réflexe, dans le bon ordre",
+      "html": "<p>L'unmatch est aussi un outil de sécurité. Face à un message insistant ou insultant, à une photo non sollicitée ou à une demande d'argent, il coupe le contact immédiatement, sans avoir à se justifier. Comme il efface la conversation, il y a un ordre à respecter.</p><ul class=\"prose-list\"><li><strong>Faites des captures d'écran</strong> des messages problématiques et du profil (photos, prénom, bio). Une fois le match annulé, ces éléments peuvent devenir inaccessibles.</li><li><strong>Signalez le profil</strong> depuis la conversation ou depuis sa fiche. Sur beaucoup d'applis, les deux actions se trouvent dans le même menu, et le signalement annule souvent le match au passage.</li><li><strong>Unmatchez, puis bloquez ailleurs</strong> si la personne a votre numéro ou vos réseaux : l'unmatch ne protège que sur l'appli.</li></ul><p>Si vous hésitez entre répondre et partir, gardez en tête que vous ne devez aucune explication à quelqu'un qui vous met mal à l'aise. En cas de menaces ou de harcèlement, gardez précieusement vos captures, elles serviront pour un signalement ou un dépôt de plainte. Notre <a href=\"/guide/faux-profils/\">guide sur les faux profils</a> détaille les procédures.</p>"
+    },
+    {
+      "id": "subir",
+      "titre": "Quand c'est vous qui avez été unmatché",
+      "html": "<p>Un unmatch peut piquer, surtout après une conversation qui semblait bien partie. Les raisons sont souvent banales et sans rapport avec vous : la personne a rencontré quelqu'un, fait le tri dans ses matchs, quitté l'appli, ou changé d'avis après coup.</p>\n<p>Évitez de la chercher sur une autre appli ou sur les réseaux pour demander des explications. L'unmatch est une réponse claire, et relancer ailleurs peut vite paraître intrusif. Recréer un compte pour réapparaître dans ses propositions est pire encore : une fin banale devient alors un comportement insistant. Il a au moins un mérite par rapport au <a href=\"/lexique/ghosting/\">ghosting</a> : il ne laisse aucune ambiguïté sur la suite.</p>\n<p>Côté politesse, rien ne vous oblige à prévenir avant d'unmatcher quelqu'un avec qui vous avez à peine échangé. Après plusieurs jours de conversation ou un rendez-vous, un message court est plus élégant : « J'ai apprécié nos échanges, mais je ne le sens pas pour la suite. Bonne continuation ! »</p>"
+    },
+    {
+      "id": "en-pratique",
+      "titre": "En pratique",
+      "html": "<h3>Est-ce que la personne sait qu'on l'a unmatchée ?</h3>\n<p>Elle n'est généralement pas prévenue par une notification, mais elle s'en rend compte en ne trouvant plus la conversation. Sur certaines applis, un message système indique que le match n'existe plus.</p>\n<h3>Peut-on récupérer une conversation après un unmatch ?</h3>\n<p>Non, sur la plupart des applis l'unmatch est définitif et les messages disparaissent. Si vous l'avez fait par erreur, seul un autre moyen de contact échangé avant permet de renouer, d'où l'intérêt de ne pas unmatcher sur un coup de tête.</p>\n<h3>Vaut-il mieux unmatcher ou bloquer ?</h3>\n<p>Unmatcher suffit dans la plupart des cas. Bloquer devient utile quand la personne a d'autres moyens de vous joindre ou se montre insistante. En cas de comportement déplacé, signalez avant de faire l'un ou l'autre.</p>"
+    }
+  ],
+  "conversation": {
+    "nom": "Thomas",
+    "legende": "Avant d'unmatcher : une réponse ferme, et rien de plus",
+    "messages": [
+      {
+        "de": "recu",
+        "texte": "Sérieusement, tu ne réponds plus ? Je t'écris depuis ce matin, tu pourrais au moins être polie."
+      },
+      {
+        "de": "envoye",
+        "texte": "Je ne souhaite pas continuer cette conversation. Bonne continuation."
+      }
+    ],
+    "apres": "se-proteger",
+    "commentaire": "<p>Une phrase courte et neutre suffit, sans justification que l'autre pourrait discuter. Si le ton monte encore, inutile de répondre : capture d'écran, signalement, puis unmatch.</p>"
+  },
+  "parti_pris": "L'unmatch est un outil de tri parfaitement légitime, et le meilleur réflexe de protection quand une conversation dérape, à condition de capturer et de signaler d'abord. Personne n'a à justifier un unmatch, et personne n'a à le contester.",
+  "lies": [
+    "match",
+    "ghosting",
+    "orbiting",
+    "zombieing"
+  ],
+  "lire_aussi": [
+    "/guide/faux-profils/",
+    "/guide/site-fiable/"
+  ],
+  "auteur": "bastien",
+  "publie_le": "2026-11-10",
+  "modifie_le": "2026-11-10"
+}

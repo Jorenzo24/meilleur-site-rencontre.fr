@@ -1,0 +1,65 @@
+{
+  "slug": "monkey-branching",
+  "mot": "Monkey branching",
+  "genre": "n. m.",
+  "etymologie": "de l'anglais <i>monkey</i>, le singe, et <i>branch</i>, la branche : le singe ne lâche une branche qu'en tenant déjà la suivante",
+  "resume": "Partir une fois le suivant trouvé",
+  "definition_courte": "Fait de ne quitter son ou sa partenaire qu'après s'être assuré une nouvelle relation, en préparant la suivante pendant que la première dure encore.",
+  "title": "Monkey branching : définition et signes d'un départ préparé",
+  "description": "Le monkey branching, c'est ne quitter quelqu'un qu'une fois le suivant trouvé. Comment le reconnaître, ce qui le distingue du cushioning et comment réagir.",
+  "h1": "Monkey branching : <em>quitter une branche en tenant déjà la suivante</em>",
+  "lede": "Il a rompu un dimanche soir, en expliquant qu'il avait besoin d'être seul pour faire le point. Trois semaines plus tard, il s'affiche en couple avec une collègue dont il vous parlait souvent, « juste une amie ». Le <strong>monkey branching</strong> décrit cette façon de partir avec un filet de sécurité déjà tendu.",
+  "definition": "Le monkey branching désigne le fait de ne quitter son ou sa partenaire qu'après s'être assuré une nouvelle relation. Comme un singe qui ne lâche une branche qu'en tenant déjà la suivante, la personne prépare son atterrissage pendant que la relation en cours dure encore, et ne rompt qu'une fois la place suivante garantie.",
+  "sections": [
+    {
+      "id": "reconnaitre",
+      "titre": "Les signes qu'un départ se prépare ailleurs",
+      "html": "<p>Le monkey branching se voit rarement sur le moment, et beaucoup le comprennent seulement après coup, en recollant les morceaux. Certains signes reviennent pourtant souvent.</p><ul class=\"prose-list\"><li><strong>Un nouveau prénom omniprésent</strong> : une collègue, un ami de la salle de sport, un contact retrouvé, dont on vous parle beaucoup puis soudain plus du tout.</li><li><strong>Un téléphone devenu privé</strong> : retourné sur la table, emporté dans la salle de bain, verrouillé avec un nouveau code.</li><li><strong>Une distance sans dispute</strong> : moins de projets, moins de gestes, mais aucun conflit ouvert qui l'expliquerait.</li><li><strong>Un profil de rencontre réactivé</strong>, découvert par hasard ou par une amie.</li><li><strong>Une rupture suivie d'un couple très rapide</strong>, avec quelqu'un qui était déjà dans le paysage.</li></ul><p>Pris séparément, aucun de ces signes ne prouve rien. Un nouvel ami peut être un ami, et un téléphone verrouillé peut cacher une surprise d'anniversaire. C'est leur accumulation qui raconte une histoire.</p>"
+    },
+    {
+      "id": "difference",
+      "titre": "En quoi le monkey branching diffère du cushioning",
+      "html": "<p>Les deux comportements se ressemblent et sont souvent confondus. Le <a href=\"/lexique/cushioning/\">cushioning</a> consiste à garder des « coussins », des personnes avec qui l'on flirte à distance pour amortir une éventuelle rupture, sans forcément vouloir partir. Le monkey branching a une direction : la personne a déjà décidé de s'en aller et attend seulement d'avoir où aller.</p><p>On le distingue aussi du <a href=\"/lexique/benching/\">benching</a>, où quelqu'un vous garde sur le banc de touche sans s'engager. Dans le monkey branching, c'est vous qui êtes la branche qu'on s'apprête à lâcher, et parfois aussi celle qu'on attrape : si vous discutez avec quelqu'un qui est encore en couple et vous dit que « c'est presque fini », vous êtes peut-être la branche suivante.</p>"
+    },
+    {
+      "id": "pourquoi",
+      "titre": "Pourquoi certaines personnes fonctionnent ainsi",
+      "html": "<p>Le moteur principal est la peur de la solitude. Pour certains, l'idée de se retrouver seul, même quelques semaines, paraît insupportable, et ils enchaînent les relations sans jamais traverser de période de célibat. D'autres évitent simplement le moment désagréable de la rupture tant qu'ils n'ont pas une raison concrète d'y aller.</p><p>Les applications facilitent le mouvement. Un profil réinstallé en cachette permet de tâter le terrain, de vérifier qu'on plaît encore et de préparer la suite sans rien risquer, là où il fallait autrefois passer par des amis communs ou des sorties difficiles à justifier.</p><p>Comprendre ce ressort ne rend pas le procédé plus acceptable. Pendant des semaines, parfois des mois, la personne quittée a vécu dans une relation dont l'autre était déjà sorti, et elle a pris des décisions (un appartement, des vacances, un projet) sur des bases qui n'existaient plus. C'est cette part de mensonge qui blesse le plus, davantage que la rupture elle-même.</p>"
+    },
+    {
+      "id": "en-pratique",
+      "titre": "En pratique",
+      "html": "<h3>Comment savoir si mon partenaire prépare son départ ?</h3><p>Le plus fiable reste de poser la question directement, sans accusation : « Je te sens loin depuis quelques semaines, il se passe quelque chose ? » Une réponse évasive, agacée ou trop rapide est déjà une information. Évitez de fouiller son téléphone : vous obtiendriez peut-être une preuve, mais vous entreriez dans une logique de surveillance qui use les deux personnes.</p><h3>Faut-il fréquenter quelqu'un qui n'a pas encore quitté son couple ?</h3><p>C'est votre choix, mais regardez la situation en face. Une personne qui prépare sa sortie en draguant ailleurs vous montre comment elle pourrait partir un jour de chez vous. Proposer de reprendre contact une fois la séparation effective est une façon simple de vérifier ses intentions.</p><h3>Comment se remettre d'un monkey branching ?</h3><p>En acceptant que la rupture a eu lieu bien avant l'annonce, et que vous n'aviez pas les cartes pour la voir venir. Évitez de comparer votre histoire à la nouvelle relation affichée sur les réseaux : elle repose sur les mêmes fondations que celle que vous venez de quitter.</p>"
+    }
+  ],
+  "conversation": {
+    "nom": "Romain",
+    "legende": "Exemple de monkey branching sur une application de rencontre",
+    "messages": [
+      {
+        "de": "recu",
+        "texte": "C'est compliqué avec elle en ce moment, on est presque séparés. Toi au moins tu me comprends, j'ai l'impression qu'on se connaît depuis toujours."
+      },
+      {
+        "de": "envoye",
+        "texte": "Je veux bien qu'on reparle quand tu seras vraiment séparé. D'ici là, je préfère en rester là."
+      }
+    ],
+    "apres": "difference",
+    "commentaire": "<p>« Presque séparés » est la formule typique de celui qui cherche sa branche suivante avant de lâcher la sienne. La réponse ne juge pas, elle remet simplement la conversation au moment où la situation sera claire.</p>"
+  },
+  "parti_pris": "On peut tomber amoureux de quelqu'un d'autre quand on est en couple, cela arrive et personne n'en est à l'abri. La rédaction attend seulement une chose de ceux qui le vivent : partir avant de recommencer, pour que l'autre ne passe pas des semaines à aimer une relation qui n'existe plus.",
+  "lies": [
+    "cushioning",
+    "benching",
+    "roaching",
+    "rebound"
+  ],
+  "lire_aussi": [
+    "/comparatif-relation-serieuse/",
+    "/guide/site-fiable/"
+  ],
+  "auteur": "jeanne",
+  "publie_le": "2026-12-01",
+  "modifie_le": "2026-12-01"
+}

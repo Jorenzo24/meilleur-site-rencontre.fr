@@ -1,0 +1,65 @@
+{
+  "slug": "slow-fade",
+  "mot": "Slow fade",
+  "genre": "n. m.",
+  "etymologie": "de l'anglais <i>slow</i>, lent, et <i>fade</i>, le fondu, comme le fondu au noir d'une fin de film",
+  "resume": "Disparition au ralenti",
+  "definition_courte": "Fait de se retirer progressivement d'une relation naissante, en espaçant les messages et les rendez-vous jusqu'à disparaître, sans jamais annoncer la fin.",
+  "title": "Slow fade : reconnaître la disparition au ralenti et réagir",
+  "description": "Le slow fade, c'est le ghosting au ralenti : des réponses toujours plus courtes et rares, sans un mot de rupture. Comment le repérer et quoi en faire.",
+  "h1": "Slow fade : <em>quand l'autre s'efface un message à la fois</em>",
+  "lede": "Au début, il répondait dans l'heure, avec des paragraphes et des questions. Puis le soir seulement. Puis le lendemain, avec un « Haha oui » et un pouce levé. Aucune dispute, aucune annonce, et pourtant vous sentez bien que quelque chose s'éteint : c'est un <strong>slow fade</strong>.",
+  "definition": "Le slow fade désigne le fait de se retirer progressivement d'une relation naissante : les messages s'espacent, raccourcissent, les rendez-vous sont repoussés, jusqu'à ce que le contact disparaisse sans que la fin ait jamais été dite. On le décrit souvent comme un <em>ghosting</em> au ralenti. La personne qui le pratique y voit une façon douce de partir, celle qui le subit y vit surtout des semaines de doute.",
+  "sections": [
+    {
+      "id": "signes",
+      "titre": "Les signes d'un slow fade, message après message",
+      "html": "<p>Un seul jour de silence ne veut rien dire. Le slow fade se lit sur la durée, dans une tendance qui va toujours dans le même sens.</p>\n        <ul class=\"prose-list\"><li><strong>Les délais s'allongent</strong> : d'une heure à une soirée, puis à deux jours, sans changement de vie qui l'explique.</li><li><strong>Les réponses rétrécissent</strong> : des phrases, puis des mots, puis des emojis. Les questions en retour disparaissent.</li><li><strong>L'initiative change de camp</strong> : c'est toujours vous qui relancez, qui proposez, qui demandez des nouvelles.</li><li><strong>Les rendez-vous flottent</strong> : « Cette semaine c'est compliqué, on se redit », sans jamais de contre-proposition.</li><li><strong>Le ton se refroidit</strong> : plus de surnoms, plus de taquineries, une politesse un peu distante.</li></ul>\n        <p>Pris isolément, chacun de ces signes peut avoir une cause banale, comme une période chargée au travail. C'est leur combinaison, semaine après semaine, qui dessine un départ.</p>"
+    },
+    {
+      "id": "pourquoi",
+      "titre": "Pourquoi certains préfèrent s'effacer plutôt que rompre",
+      "html": "<p>Le slow fade est rarement une stratégie cruelle. La plupart du temps, la personne ne sait pas comment dire qu'elle n'est plus intéressée, ou elle a peur de blesser. Espacer les messages lui paraît plus doux qu'un « Je préfère arrêter là ». Elle espère que vous comprendrez de vous-même, et qu'ainsi personne n'aura à prononcer la phrase difficile.</p>\n        <p>Parfois, il s'agit aussi d'hésitation. L'autre n'est plus très motivé, mais pas assez décidé pour couper, et il garde la porte entrouverte au cas où. Dans ce cas, le slow fade glisse vers le <a href=\"/lexique/benching/\">benching</a> : vous êtes mis sur le banc, avec juste assez de signes de vie pour ne pas partir.</p>\n        <p>Le problème du slow fade tient à son effet sur celui qui le subit. Faute de message clair, vous cherchez des explications, vous relisez vos derniers échanges, vous vous demandez ce que vous avez mal dit. L'intention douce produit un effet qui ne l'est pas du tout.</p>"
+    },
+    {
+      "id": "reagir",
+      "titre": "Comment réagir quand vous sentez l'autre s'éloigner",
+      "html": "<h3>Poser la question, une fois</h3>\n        <p>Un message direct, sans reproche, met fin à l'incertitude. La conversation ci-dessous en donne un exemple. Si la réponse est floue ou ne vient pas, vous savez à quoi vous en tenir.</p>\n        <h3>Aligner votre rythme sur le sien</h3>\n        <p>Arrêtez de relancer. Si l'autre tient à la relation, il reviendra vers vous. S'il ne revient pas, vous n'aurez pas dépensé d'énergie à porter seul une conversation qui ne l'intéressait plus.</p>\n        <h3>Si c'est vous qui avez envie de partir</h3>\n        <p>Un message bref suffit, et il rend service à l'autre : « J'ai apprécié nos échanges, mais je ne ressens pas ce qu'il faudrait pour continuer. Je préfère te le dire ». Trente secondes d'inconfort de votre côté, des semaines de doute en moins du sien.</p>"
+    },
+    {
+      "id": "en-pratique",
+      "titre": "En pratique",
+      "html": "<h3>Quelle différence entre slow fade et ghosting ?</h3>\n        <p>Le <a href=\"/lexique/ghosting/\">ghosting</a> coupe tout d'un coup : un jour la conversation existe, le lendemain plus rien. Le slow fade étale la disparition sur des jours ou des semaines. Le résultat est le même, mais le slow fade laisse plus longtemps place au doute.</p>\n        <h3>Est-ce que quelqu'un peut revenir après un slow fade ?</h3>\n        <p>Cela arrive, souvent quand la personne s'ennuie ou traverse un creux, et on parle alors de <a href=\"/lexique/zombieing/\">zombieing</a>. Avant de reprendre comme si de rien n'était, demandez-lui ce qui a changé. Sans réponse claire, le même scénario risque de se répéter.</p>\n        <h3>Faut-il confronter quelqu'un qui pratique le slow fade ?</h3>\n        <p>Confronter, non : une question calme suffit. Vous n'obtiendrez rien de bon d'un message accusateur, alors qu'une question ouverte laisse à l'autre la possibilité d'être enfin honnête.</p>"
+    }
+  ],
+  "conversation": {
+    "nom": "Julien",
+    "legende": "Après trois semaines de réponses de plus en plus courtes",
+    "messages": [
+      {
+        "de": "recu",
+        "texte": "Haha oui 😅 grosse semaine, je te redis"
+      },
+      {
+        "de": "envoye",
+        "texte": "J'ai l'impression que tu es moins dispo pour nos échanges, et c'est ok. Dis-moi juste si tu as envie de continuer, ça m'aidera à y voir clair."
+      }
+    ],
+    "apres": "reagir",
+    "commentaire": "<p>Le message envoyé ne reproche rien et ne supplie pas : il nomme ce qui se passe et demande une réponse. Quelle qu'elle soit, vous sortez du flou.</p>"
+  },
+  "parti_pris": "Le slow fade se présente comme une manière gentille de partir, mais il fait payer à l'autre le prix d'une phrase qu'on n'a pas eu le courage d'écrire. Si vous le subissez, une seule question claire vous rend la main ; si vous êtes tenté de le pratiquer, deux lignes honnêtes valent toujours mieux.",
+  "lies": [
+    "ghosting",
+    "benching",
+    "zombieing",
+    "talking-stage"
+  ],
+  "lire_aussi": [
+    "/guide/premier-message/",
+    "/comparatif-relation-serieuse/"
+  ],
+  "auteur": "marie",
+  "publie_le": "2026-11-17",
+  "modifie_le": "2026-11-17"
+}

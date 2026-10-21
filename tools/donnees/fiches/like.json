@@ -1,0 +1,49 @@
+{
+  "slug": "like",
+  "mot": "Like",
+  "genre": "n. m.",
+  "etymologie": "de l'anglais <i>to like</i>, aimer, apprécier",
+  "resume": "Signal d'intérêt sur une appli",
+  "definition_courte": "Signal envoyé sur une application de rencontre pour indiquer qu'un profil vous intéresse, et qui devient un match s'il est réciproque.",
+  "title": "Like : définition, super like et like sur un détail du profil",
+  "description": "Like simple, super like, like commenté : à quoi sert chaque forme, ce que voit l'autre et comment liker pour obtenir de vraies conversations.",
+  "h1": "Like : <em>le petit geste qui ouvre toutes les portes</em>",
+  "lede": "Un cœur, une flèche, un pouce levé : chaque appli a son symbole, mais le geste reste le même. Le <strong>like</strong> est la brique de base de la rencontre en ligne, et sa façon de fonctionner varie bien plus d'une appli à l'autre qu'on ne l'imagine.",
+  "definition": "Un like est le signal que vous envoyez sur une application de rencontre pour indiquer qu'un profil vous intéresse. Sur la plupart des applis, il reste invisible tant que l'autre ne vous a pas liké en retour ; quand l'intérêt est réciproque, il devient un match et la conversation s'ouvre.",
+  "sections": [
+    {
+      "id": "trois-formes",
+      "titre": "Like simple, super like, like sur un détail : les trois formes à connaître",
+      "html": "<h3>Le like simple</h3>\n<p>C'est le geste par défaut, un swipe à droite ou un cœur. Il ne dit qu'une chose : ce profil m'intéresse. Sur les applis de swipe, la personne ne le découvre que si elle vous like aussi, ou si elle paie une option qui affiche la liste des personnes qui l'ont likée.</p>\n<h3>Le super like</h3>\n<p>Il porte des noms différents selon les applis (Super Like chez Tinder, par exemple). Il prévient la personne que vous l'avez likée avant même qu'elle ait pris sa décision, et votre profil lui apparaît mis en évidence. Il est rationné : quelques-uns sont offerts selon les formules, les autres se paient.</p>\n<h3>Le like sur un détail</h3>\n<p>Popularisé par Hinge, ce format permet de liker une photo précise ou la réponse à une question du profil, et d'y joindre un commentaire. La personne voit alors ce qui vous a plu. C'est le format le plus proche d'une vraie entrée en matière, parce qu'il contient déjà le début d'une conversation.</p>"
+    },
+    {
+      "id": "super-like",
+      "titre": "Le super like, bonne ou mauvaise idée ?",
+      "html": "<p>Le super like divise. Côté positif, il sort votre profil du lot et signale un intérêt marqué. Côté négatif, il met une petite pression : la personne sait que vous attendez sa réponse, et certains le vivent comme un enthousiasme excessif de la part d'un inconnu.</p>\n<p>Notre lecture : réservez-le aux profils qui vous accrochent pour une raison précise, une raison que vous pourriez formuler dans votre premier message. Un super like distribué à la chaîne perd tout son sens, et sur les applis où il est payant, il coûte cher pour pas grand-chose.</p>"
+    },
+    {
+      "id": "bien-liker",
+      "titre": "Comment liker pour obtenir de vraies conversations",
+      "html": "<p>Le réflexe de liker tout ce qui passe pour maximiser ses chances se retourne vite contre vous. Les matchs obtenus ainsi concernent des personnes que vous n'avez pas vraiment regardées, et les conversations tournent court. Sur les applis qui limitent le nombre de likes gratuits par jour, vous épuisez en plus votre quota sur des profils qui ne vous intéressaient pas.</p>\n<p>Prenez quelques secondes par profil : la bio, les photos au-delà de la première, les réponses aux questions. Si rien ne vous donne envie d'écrire, passez. Ce tri en amont rend chaque like plus utile, et vous arrivez au match avec déjà une idée de premier message.</p>\n<p>Quand l'appli permet de commenter un like, profitez-en. « J'ai liké pour la photo au marché aux puces : tu chines quoi, en général ? » donne à l'autre une raison concrète de répondre. Notre <a href=\"/guide/premier-message/\">guide du premier message</a> propose d'autres pistes, et si vous recevez peu de likes vous-même, c'est souvent le profil qu'il faut retravailler : voyez notre <a href=\"/guide/profil-attractif/\">guide du profil attractif</a>.</p>"
+    },
+    {
+      "id": "en-pratique",
+      "titre": "En pratique",
+      "html": "<h3>Est-ce que la personne sait qu'on l'a likée ?</h3>\n<p>Avec un like simple, en général non, tant qu'elle ne vous a pas liké en retour. Elle peut le savoir si elle paie une option qui affiche les personnes qui l'ont likée, ou si vous avez utilisé un super like ou un like commenté, conçus justement pour être vus.</p>\n<h3>Peut-on annuler un like envoyé par erreur ?</h3>\n<p>Beaucoup d'applis proposent une fonction de retour en arrière, souvent réservée aux abonnés. Si le match a déjà eu lieu, vous pouvez l'annuler depuis la conversation : c'est ce qu'on appelle un <em>unmatch</em>.</p>\n<h3>Pourquoi je reçois des likes mais pas de matchs ?</h3>\n<p>Parce que les personnes qui vous likent ne sont pas celles que vous likez, ou que vous ne les voyez pas encore dans votre pile. Sur les applis qui floutent la liste des likes reçus, ces profils finissent souvent par apparaître parmi vos propositions : continuez à trier normalement.</p>"
+    }
+  ],
+  "parti_pris": "Un like réfléchi vaut davantage que dix likes réflexes, pour vous comme pour l'algorithme qui observe vos choix. Les formats qui permettent de commenter un détail du profil sont les plus honnêtes, parce qu'ils obligent à regarder la personne avant de la liker.",
+  "lies": [
+    "match",
+    "swipe",
+    "boost",
+    "algorithme-de-matching"
+  ],
+  "lire_aussi": [
+    "/guide/premier-message/",
+    "/guide/profil-attractif/"
+  ],
+  "auteur": "bastien",
+  "publie_le": "2026-11-03",
+  "modifie_le": "2026-11-03"
+}

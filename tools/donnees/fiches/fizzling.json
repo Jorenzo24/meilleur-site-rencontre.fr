@@ -1,0 +1,65 @@
+{
+  "slug": "fizzling",
+  "mot": "Fizzling",
+  "genre": "n. m.",
+  "etymologie": "de l'anglais <i>to fizzle out</i>, s'éteindre en pétillant, tourner court",
+  "resume": "Relation qui s'éteint à petit feu",
+  "definition_courte": "Fait de laisser une relation s'éteindre progressivement, les messages et les rendez-vous s'espaçant sans qu'aucune rupture ne soit annoncée.",
+  "title": "Fizzling : quand une relation s'éteint sans rupture déclarée",
+  "description": "Les messages s'espacent, les rendez-vous se font rares, personne ne rompt. Le fizzling expliqué : comment le reconnaître, pourquoi il arrive, quoi faire.",
+  "h1": "Fizzling : <em>quand la relation s'éteint à petit feu</em>",
+  "lede": "Au début, vous vous écriviez chaque soir. Puis un soir sur deux, puis seulement le week-end, avec des réponses de plus en plus courtes. Personne n'a rien annoncé, et pourtant vous sentez que quelque chose se termine. Ce lent effacement porte un nom : le <strong>fizzling</strong>.",
+  "definition": "Le fizzling désigne une relation, naissante ou déjà installée, qui s'éteint à petit feu : les messages s'espacent, les propositions de se voir se raréfient, sans que l'un des deux formule une rupture. Le mot vient de l'anglais <em>to fizzle out</em>, qui évoque une boisson gazeuse qui perd ses bulles ou un pétard qui fait long feu.",
+  "sections": [
+    {
+      "id": "reconnaitre",
+      "titre": "Comment savoir si la relation s'éteint ou traverse un simple creux",
+      "html": "<p>Toutes les relations connaissent des semaines plus calmes. Un gros dossier au travail, un enfant malade, une fatigue de fin d'hiver : le rythme baisse, puis repart. Le fizzling se reconnaît à une tendance qui dure plusieurs semaines, plutôt qu'à un épisode isolé.</p>\n        <ul class=\"prose-list\"><li><strong>Les initiatives viennent toujours du même côté</strong> : c'est vous qui relancez, qui proposez, qui posez les questions.</li><li><strong>Les réponses rétrécissent</strong> : « haha », « trop bien », un pouce levé, là où il y avait des paragraphes.</li><li><strong>Les projets restent au conditionnel</strong> : « on se fait ça bientôt », sans date, et le « bientôt » ne vient jamais.</li><li><strong>Le passé devient plus vivant que le présent</strong> : vous relisez vos premiers échanges pour retrouver la sensation du début.</li></ul>\n        <p>Un creux passager s'accompagne souvent d'une explication spontanée (« désolé, semaine de fou, je te raconte dès que je respire »). Le fizzling se passe de commentaire : l'autre ne semble pas remarquer, ou ne veut pas nommer, ce qui change.</p>"
+    },
+    {
+      "id": "difference",
+      "titre": "Fizzling, ghosting, slow fade : quelle différence ?",
+      "html": "<p>Ces mots décrivent tous une fin sans rupture, mais à des vitesses et avec des intentions différentes. Le <a href=\"/lexique/ghosting/\">ghosting</a> est une coupure nette : la conversation s'arrête du jour au lendemain. Le <em>slow fade</em> est un retrait progressif, en général choisi par une personne qui espère que l'autre comprendra toute seule.</p>\n        <p>Le fizzling est plus flou encore. Souvent, personne ne l'a décidé : l'enthousiasme retombe des deux côtés, chacun attend que l'autre relance, et la relation se dissout dans cette attente mutuelle. C'est ce qui le rend si déroutant à vivre. Il n'y a pas de coupable à désigner, seulement un élan qui manque.</p>\n        <p>On le distingue aussi du <a href=\"/lexique/breadcrumbing/\">breadcrumbing</a>, où quelqu'un continue d'envoyer de petits signes pour vous garder sous la main sans intention d'avancer. Dans le fizzling, même les miettes finissent par disparaître.</p>"
+    },
+    {
+      "id": "pourquoi",
+      "titre": "Pourquoi on laisse les choses s'éteindre plutôt que d'en parler",
+      "html": "<p>Dire « je crois que je n'ai plus vraiment envie » demande du courage, et beaucoup espèrent s'épargner ce moment. Laisser filer paraît plus doux : on ne blesse personne de front, on se dit que l'autre a sans doute ressenti la même chose.</p>\n        <p>Il y a aussi les histoires nées en ligne qui n'ont jamais trouvé leur rythme hors de l'écran. Quand on s'écrit beaucoup sans se voir, l'échange tient sur la curiosité, et la curiosité s'use. Sans rendez-vous pour lui donner un corps, la conversation finit par tourner à vide. Raison de plus pour proposer une rencontre assez tôt, une fois que le <a href=\"/guide/premier-message/\">premier message</a> a pris.</p>\n        <p>Enfin, le fizzling arrange parfois les deux personnes. Si vous ressentez au fond un certain soulagement quand les messages s'espacent, la question mérite d'être posée à vous-même autant qu'à l'autre.</p>"
+    },
+    {
+      "id": "en-pratique",
+      "titre": "En pratique",
+      "html": "<h3>Que faire quand une relation commence à s'éteindre ?</h3>\n        <p>Nommez-le, simplement et sans reproche. Un message comme « j'ai l'impression qu'on s'écrit moins, tu as toujours envie qu'on se voie ? » offre à l'autre une porte de sortie autant qu'une occasion de relancer. Sa réponse, ou son absence de réponse, vous éclaire en quelques jours au lieu de plusieurs semaines.</p>\n        <h3>Le fizzling est-il une forme de rupture ?</h3>\n        <p>Dans les faits, souvent oui, même si personne ne l'a formulée. Vous avez le droit de considérer qu'une relation est terminée quand l'autre ne la fait plus vivre, sans attendre une annonce officielle qui ne viendra peut-être jamais.</p>\n        <h3>Peut-on raviver une relation qui s'éteint ?</h3>\n        <p>Parfois, quand l'essoufflement vient de la routine des messages plus que d'un désintérêt. Un vrai rendez-vous, une activité nouvelle, un appel à la place d'un texto peuvent remettre de l'élan. Si l'autre décline chaque proposition concrète, inutile d'insister : vous avez votre réponse.</p>"
+    }
+  ],
+  "conversation": {
+    "nom": "Thomas",
+    "legende": "Exemple de conversation qui s'essouffle",
+    "messages": [
+      {
+        "de": "recu",
+        "texte": "Haha trop bien. On se fait ça un de ces jours !"
+      },
+      {
+        "de": "envoye",
+        "texte": "J'ai l'impression qu'on se parle moins ces temps-ci, et ça me va si c'est ton cas aussi. Tu as encore envie qu'on se voie ? Dis-moi franchement, je préfère savoir."
+      }
+    ],
+    "apres": "reconnaitre",
+    "commentaire": "<p>La réponse conseillée ne fait aucun reproche et ne supplie pas : elle constate, puis laisse à l'autre la liberté de relancer ou de clore. Une nouvelle réponse vague vaudra alors réponse.</p>"
+  },
+  "parti_pris": "Laisser une relation s'éteindre toute seule fait souvent plus mal aux deux qu'un message de clôture un peu maladroit. Si vous sentez que l'envie vous quitte, dites-le en deux phrases : c'est la forme de respect la plus simple qui existe.",
+  "lies": [
+    "ghosting",
+    "slow-fade",
+    "breadcrumbing",
+    "situationship"
+  ],
+  "lire_aussi": [
+    "/guide/premier-message/",
+    "/comparatif-relation-serieuse/"
+  ],
+  "auteur": "lucie",
+  "publie_le": "2026-12-08",
+  "modifie_le": "2026-12-08"
+}

@@ -1,0 +1,69 @@
+{
+  "slug": "opener",
+  "mot": "Opener",
+  "genre": "n. m.",
+  "etymologie": "de l'anglais <i>to open</i>, ouvrir",
+  "resume": "Première phrase d'une conversation",
+  "definition_courte": "Première phrase envoyée pour lancer une conversation avec quelqu'un, en particulier après un match sur une application de rencontre.",
+  "title": "Opener : définition et exemples de premiers messages réussis",
+  "description": "L'opener, c'est la phrase qui décide si la conversation aura lieu. Les ingrédients d'un bon premier message, les erreurs à éviter et un exemple.",
+  "h1": "Opener : <em>la première phrase qui décide de la suite</em>",
+  "lede": "« Salut. » « Coucou ça va ? » « Hey. » Si vous recevez beaucoup de messages, vous connaissez la pile. L'<strong>opener</strong>, cette toute première phrase, décide souvent si la conversation aura lieu ou si elle restera dans la liste des messages jamais ouverts.",
+  "definition": "L'opener est la première phrase envoyée pour lancer une conversation, en particulier après un match sur une application de rencontre. Le mot est emprunté à l'anglais, où il désigne toute entrée en matière. Un bon opener donne à l'autre une raison de répondre, et une réponse facile à écrire.",
+  "sections": [
+    {
+      "id": "pourquoi",
+      "titre": "Pourquoi la première phrase compte autant",
+      "html": "<p>Sur une appli, la personne qui reçoit votre message voit votre photo, votre prénom et un aperçu de ce que vous avez écrit, souvent au milieu d'autres conversations. Elle décide en un coup d'œil si elle ouvre, répond, ou remet à plus tard. Et sur une appli, « plus tard » veut souvent dire jamais.</p>\n<p>Un opener générique reste poli. Il transfère simplement tout le travail à l'autre : après « Salut, ça va ? », c'est à elle de trouver un sujet, de relancer, de porter l'échange. Un opener précis fait ce travail à sa place, et lui facilite la réponse.</p>\n<p>Il y a aussi un effet de contraste. Quand la plupart des messages reçus se ressemblent, une phrase qui cite un détail du profil se remarque dans la liste avant même d'être ouverte, parce que son aperçu ne ressemble à aucun autre.</p>"
+    },
+    {
+      "id": "ingredients",
+      "titre": "Les ingrédients d'un opener qui donne envie de répondre",
+      "html": "<ul class=\"prose-list\"><li><strong>Un détail du profil.</strong> La photo de randonnée, le livre cité dans la bio, la réponse à une question. Allez au-delà de la première photo, que tout le monde commente.</li><li><strong>Une question ouverte.</strong> Elle appelle une réponse qui raconte quelque chose. « Tu fais de l'escalade ? » se ferme vite ; « C'est quoi la voie qui t'a fait le plus peur ? » lance une histoire.</li><li><strong>Un peu de vous.</strong> Une phrase sur ce qui vous a fait réagir donne un point d'accroche, et montre qui vous êtes dès le premier échange.</li></ul><p>Gardez-le court. Deux phrases suffisent ; un long paragraphe au premier message met une pression que l'autre n'a pas demandée, et se lit mal sur un écran de téléphone. Relisez-vous aussi : une faute dans le prénom de l'autre gâche le meilleur des openers. Notre <a href=\"/guide/premier-message/\">guide du premier message</a> développe la méthode avec d'autres exemples.</p>"
+    },
+    {
+      "id": "a-eviter",
+      "titre": "Les openers qui finissent sans réponse",
+      "html": "<ul class=\"prose-list\"><li><strong>Le message vide</strong> : « Salut », « Hey », un emoji seul. Il ne coûte rien à envoyer et ne donne rien à quoi répondre.</li><li><strong>Le compliment physique</strong> : « Tu es magnifique. » Flatteur sur le papier, il ressemble à beaucoup d'autres reçus le même jour et oriente d'emblée l'échange sur l'apparence.</li><li><strong>La phrase copiée d'internet</strong> : les openers « garantis » circulent tellement que votre match les a peut-être déjà vus. Ils trahissent surtout que vous n'avez pas lu son profil.</li><li><strong>La question-interrogatoire</strong> : « Tu cherches quoi ici ? » en guise de bonjour. Légitime plus tard dans la conversation, abrupte en ouverture.</li><li><strong>Le message déplacé</strong> : une allusion sexuelle ou une photo non sollicitée. En plus de fermer la conversation, il expose à un signalement et à la suspension du compte.</li></ul>"
+    },
+    {
+      "id": "en-pratique",
+      "titre": "En pratique",
+      "html": "<h3>Quel premier message envoyer sur Tinder ou une autre appli ?</h3>\n<p>Le même principe vaut partout : un détail du profil, une question ouverte, une ou deux phrases. Les applis diffèrent par leur présentation ; ce qui donne envie de répondre reste identique. Si l'appli affiche des réponses à des questions de profil, profitez-en : réagir à l'une d'elles est souvent l'opener le plus naturel.</p>\n<h3>Que faire si la personne n'a rien mis dans sa bio ?</h3>\n<p>Partez des photos : un lieu, un animal, une activité, un objet en arrière-plan. Si rien n'accroche, un dilemme léger fait l'affaire. Demandez-vous aussi si un profil vide vous donne vraiment envie d'écrire : c'est parfois le signe d'un compte peu utilisé, voire d'un <a href=\"/lexique/catfishing/\">faux profil</a>.</p>\n<h3>Faut-il utiliser l'humour dans un premier message ?</h3>\n<p>Oui, si c'est votre façon naturelle de parler, à condition qu'il porte sur le profil de l'autre ou sur une situation partagée. Le second degré passe mal par écrit sans contexte : gardez-le pour quand vous vous connaîtrez un peu.</p>"
+    }
+  ],
+  "conversation": {
+    "nom": "Sarah",
+    "legende": "Un opener construit sur une phrase de la bio",
+    "messages": [
+      {
+        "de": "envoye",
+        "texte": "Salut Sarah ! Ta bio dit « cherche partenaire pour tester toutes les boulangeries du quartier ». J'ai une candidate sérieuse pour la meilleure baguette, tu acceptes les recommandations extérieures ?"
+      },
+      {
+        "de": "recu",
+        "texte": "Enfin quelqu'un qui prend le sujet au sérieux. Laquelle ? Je te préviens, j'ai déjà un classement."
+      },
+      {
+        "de": "envoye",
+        "texte": "Celle du coin de ma rue, avec la file d'attente le dimanche matin. Je te laisse juger, et tu me diras si elle entre dans ton classement."
+      }
+    ],
+    "apres": "ingredients",
+    "commentaire": "<p>L'opener reprend une phrase précise de la bio et pose une question à laquelle on a envie de répondre. Le troisième message glisse déjà vers une idée de sortie, sans rien forcer.</p>"
+  },
+  "parti_pris": "Un opener personnel demande une minute de plus qu'un « Salut », et cette minute est le meilleur investissement de toute la rencontre en ligne. Si vous n'avez rien de précis à dire à quelqu'un, son profil ne vous intéresse peut-être pas tant que ça.",
+  "lies": [
+    "icebreaker",
+    "match",
+    "bio",
+    "ghosting"
+  ],
+  "lire_aussi": [
+    "/guide/premier-message/",
+    "/guide/profil-attractif/"
+  ],
+  "auteur": "bastien",
+  "publie_le": "2026-11-17",
+  "modifie_le": "2026-11-17"
+}

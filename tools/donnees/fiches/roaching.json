@@ -1,0 +1,65 @@
+{
+  "slug": "roaching",
+  "mot": "Roaching",
+  "genre": "n. m.",
+  "etymologie": "de l'anglais <i>roach</i>, abréviation de <i>cockroach</i>, le cafard : quand on en voit un, il y en a d'autres cachés",
+  "resume": "Fréquentations multiples cachées",
+  "definition_courte": "Fait de fréquenter plusieurs personnes en même temps en le cachant, de sorte que chacune se croit seule dans la vie de l'autre.",
+  "title": "Roaching : définition et comment parler d'exclusivité",
+  "description": "Le roaching, c'est cacher qu'on voit plusieurs personnes à la fois. Pourquoi le mensonge pose problème, comment le repérer et parler d'exclusivité.",
+  "h1": "Roaching : <em>quand votre histoire se jouait à plusieurs</em>",
+  "lede": "Vous vous voyez depuis un mois, et vous pensiez que c'était clair. Puis une amie vous envoie une capture : son profil est toujours actif, avec une photo prise lors de votre dernier week-end. Quand vous lui en parlez, il répond, étonné : « On n'avait jamais dit qu'on était exclusifs. » Bienvenue dans le <strong>roaching</strong>.",
+  "definition": "Le roaching désigne le fait de fréquenter plusieurs personnes en même temps en le cachant, de sorte que chacune se croit seule dans la vie de l'autre. Le mot vient de <em>cockroach</em>, le cafard : quand on en aperçoit un dans la cuisine, on sait qu'il y en a d'autres derrière les placards. Quand la vérité sort, elle sort rarement pour une seule personne.",
+  "sections": [
+    {
+      "id": "mensonge",
+      "titre": "Voir plusieurs personnes, est-ce déjà du roaching ?",
+      "html": "<p>Sur les applications de rencontre, discuter avec plusieurs personnes et enchaîner quelques premiers rendez-vous en parallèle est courant, et rien n'oblige à l'exclusivité avant d'en avoir parlé. Le roaching commence au moment où la personne laisse croire le contraire.</p><p>Concrètement, trois attitudes font basculer :</p><ul class=\"prose-list\"><li><strong>Le mensonge direct</strong> : « Je ne vois personne d'autre », « J'ai supprimé l'appli », alors que c'est faux.</li><li><strong>Le flou entretenu</strong> : la personne vous parle comme à quelqu'un d'unique, fait des projets à deux, et évite soigneusement toute question sur l'exclusivité.</li><li><strong>L'argument de la technicité</strong> une fois découvert : « On n'avait jamais dit qu'on était ensemble. » Techniquement vrai, mais tout le reste disait le contraire.</li></ul><p>Le problème tient donc à la sincérité. Quelqu'un qui vous dit franchement « Je vois d'autres personnes en ce moment, je ne suis pas encore prêt à choisir » vous laisse décider en connaissance de cause.</p>"
+    },
+    {
+      "id": "reperer",
+      "titre": "Les signes qui doivent vous mettre la puce à l'oreille",
+      "html": "<ul class=\"prose-list\"><li><strong>Des disponibilités en pointillé</strong> : des soirs toujours pris sans explication, des week-ends où il « voit des amis » qu'il ne nomme jamais.</li><li><strong>Un téléphone très surveillé</strong>, des notifications masquées, des messages auxquels il répond en se détournant.</li><li><strong>Un profil toujours actif</strong>, avec parfois des photos récentes ou une bio mise à jour.</li><li><strong>Des confusions de détails</strong> : un restaurant où vous n'êtes jamais allés ensemble, une anecdote qu'il croit vous avoir racontée, un prénom qui n'est pas le vôtre dans un moment d'inattention.</li><li><strong>Une gêne nette</strong> dès que la conversation approche de la question « on en est où ? ».</li></ul><p>Aucun de ces signes ne prouve rien isolément. Ensemble, ils justifient une conversation franche.</p><p>Ne confondez pas le roaching avec le <a href=\"/lexique/cushioning/\">cushioning</a>, qui consiste à garder des contacts de secours pendant une relation installée pour amortir une éventuelle rupture. Le roaching se joue plus tôt, dans la phase où l'on se découvre, et il ne garde personne en réserve : il fait vivre plusieurs histoires de front en laissant chacune croire qu'elle est la seule.</p>"
+    },
+    {
+      "id": "exclusivite",
+      "titre": "Comment poser la question de l'exclusivité",
+      "html": "<p>La meilleure protection contre le roaching reste de ne pas laisser la question en suspens. Après quelques rendez-vous qui vous plaisent, demandez simplement où en est l'autre : « De mon côté, je n'ai plus envie de voir d'autres personnes. Et toi, tu en es où ? » La formulation parle de vous, ne réclame rien et laisse la place à une réponse honnête.</p><p>Si la réponse est floue, posez une seconde question, plus précise. Si elle est claire mais ne vous convient pas, vous avez au moins l'information dont vous aviez besoin. Une relation qui ne peut pas supporter cette question au bout de quelques semaines ressemble beaucoup à une <a href=\"/lexique/situationship/\">situationship</a>.</p><p>Un point concret à ne pas négliger : quand on découvre qu'on n'était pas seul, la question de la santé sexuelle se pose. Se faire dépister est une précaution simple, sans honte, et votre médecin ou un centre de santé sexuelle peut vous orienter.</p>"
+    },
+    {
+      "id": "en-pratique",
+      "titre": "En pratique",
+      "html": "<h3>Est-ce normal de parler à plusieurs personnes sur une appli de rencontre ?</h3><p>Oui, c'est l'usage le plus répandu au début, et personne ne vous doit l'exclusivité après deux messages. La règle tient en un mot : la franchise. Dès que la relation devient plus sérieuse, ou si l'autre vous pose la question, vous lui devez une réponse vraie.</p><h3>Que faire si je découvre que la personne voit quelqu'un d'autre ?</h3><p>Demandez-lui directement, en précisant ce que vous avez vu, sans mener d'enquête. Puis décidez selon sa réponse : une explication honnête peut permettre de repartir sur des bases claires, un mensonge supplémentaire vous indique le chemin de la sortie.</p><h3>Quelle différence entre roaching et relation libre ?</h3><p>Le consentement. Dans une relation libre ou un polyamour assumé, chacun sait qu'il y a d'autres personnes et l'a accepté. Le roaching repose sur l'ignorance de l'autre.</p>"
+    }
+  ],
+  "conversation": {
+    "nom": "Hugo",
+    "legende": "Exemple de roaching dans une conversation",
+    "messages": [
+      {
+        "de": "recu",
+        "texte": "Moi ? Je ne vois personne d'autre, j'ai même plus l'appli depuis qu'on se voit."
+      },
+      {
+        "de": "envoye",
+        "texte": "Ton profil était en ligne hier soir, Léa me l'a montré. Tu as le droit de voir d'autres personnes, j'ai juste besoin que tu me le dises franchement."
+      }
+    ],
+    "apres": "mensonge",
+    "commentaire": "<p>La réponse sépare clairement les deux choses : voir d'autres personnes peut s'entendre, mentir à ce sujet beaucoup moins. Elle s'appuie sur un fait précis et ne laisse pas de place à un nouveau démenti.</p>"
+  },
+  "parti_pris": "La rédaction n'a aucun problème avec ceux qui rencontrent plusieurs personnes en parallèle, tant qu'ils le disent quand on le leur demande. Le roaching rend chaque relation bancale, y compris pour celui qui le pratique, qui finit par devoir tenir plusieurs versions de sa propre vie.",
+  "lies": [
+    "situationship",
+    "exclusivite",
+    "monkey-branching",
+    "relation-libre"
+  ],
+  "lire_aussi": [
+    "/comparatif-relation-serieuse/",
+    "/guide/premier-message/"
+  ],
+  "auteur": "jeanne",
+  "publie_le": "2026-12-01",
+  "modifie_le": "2026-12-01"
+}

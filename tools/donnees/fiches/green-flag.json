@@ -1,0 +1,64 @@
+{
+  "slug": "green-flag",
+  "mot": "Green flag",
+  "genre": "n. m.",
+  "etymologie": "de l'anglais <i>green flag</i>, le drapeau vert, par opposition au <i>red flag</i>",
+  "resume": "Signe positif chez quelqu'un",
+  "definition_courte": "Comportement ou trait qui, au début d'une relation, indique que la personne est fiable, respectueuse et capable d'une relation saine.",
+  "title": "Green flag : les signes positifs qui ne trompent pas en amour",
+  "description": "Un green flag, c'est un signe rassurant chez quelqu'un que vous découvrez. Ceux qui comptent vraiment et comment les distinguer d'un charme calculé.",
+  "h1": "Green flag : <em>les signes qui rassurent pour de bonnes raisons</em>",
+  "lede": "Vous avez annulé le deuxième rendez-vous à la dernière minute, un imprévu au travail. Elle vous a répondu « Pas de souci, on décale à jeudi ? », sans soupir ni reproche. Ce genre de réaction passe presque inaperçu, et c'est pourtant l'un des meilleurs <strong>green flags</strong> qui existent.",
+  "definition": "Un green flag (drapeau vert) désigne un comportement ou un trait qui, au début d'une relation, indique que la personne est fiable, respectueuse et capable d'une relation saine. Le terme s'est construit en miroir du <em>red flag</em>, le signal d'alerte, à mesure que les réseaux sociaux popularisaient ce vocabulaire.",
+  "sections": [
+    {
+      "id": "exemples",
+      "titre": "Quels sont les green flags qui comptent vraiment",
+      "html": "<p>Les green flags les plus fiables sont rarement spectaculaires. Ils tiennent à la façon dont la personne réagit quand les choses ne se passent pas exactement comme elle le voulait.</p><ul class=\"prose-list\"><li><strong>Elle accepte un « non » sans négocier</strong> : un rendez-vous décliné, une photo que vous ne voulez pas envoyer, un sujet que vous préférez garder pour plus tard.</li><li><strong>Ses actes suivent ses paroles</strong> : elle propose un jour et s'y tient, elle dit qu'elle rappellera et elle rappelle.</li><li><strong>Elle pose des questions et écoute les réponses</strong>, au point de se souvenir du prénom de votre sœur ou de l'entretien que vous redoutiez.</li><li><strong>Elle parle de ses ex sans haine</strong>, en reconnaissant sa part dans ce qui n'a pas marché.</li><li><strong>Elle respecte votre rythme</strong> : pas de pression pour accélérer, pas de vexation quand vous mettez une journée à répondre.</li><li><strong>Elle propose un premier rendez-vous dans un lieu public</strong>, et trouve normal que vous préveniez une amie.</li><li><strong>Elle sait s'excuser</strong> simplement, sans retourner la faute ni se lancer dans une justification de dix lignes.</li></ul>"
+    },
+    {
+      "id": "pieges",
+      "titre": "Comment ne pas confondre green flag et charme bien rodé",
+      "html": "<p>Certains comportements ressemblent à des green flags et n'en sont pas. Le plus trompeur est l'attention excessive : des messages du matin au soir, des compliments qui montent très vite, des projets d'avenir au bout d'une semaine. Ça flatte, ça rassure, et c'est exactement la mécanique du <a href=\"/lexique/love-bombing/\">love bombing</a>.</p><p>La différence se lit dans le temps et dans la réciprocité. Un green flag est un comportement constant, qui reste le même quand vous posez une limite. Le charme calculé, lui, s'effrite dès que vous ralentissez : la gentillesse devient reproche, l'enthousiasme devient bouderie.</p><p>Méfiez-vous aussi des profils qui affichent leurs qualités comme une vitrine. « Je suis quelqu'un de très respectueux » écrit dans une bio ne prouve rien. Un green flag se constate, il ne s'annonce pas.</p>"
+    },
+    {
+      "id": "vous",
+      "titre": "Les green flags que vous envoyez, vous aussi",
+      "html": "<p>Le vocabulaire marche dans les deux sens, et il est utile de se poser la question pour soi. Répondre honnêtement quand une conversation ne vous intéresse plus, plutôt que de disparaître comme dans le <a href=\"/lexique/ghosting/\">ghosting</a>. Dire clairement ce que vous cherchez, une relation sérieuse ou quelque chose de plus léger. Proposer de vous rencontrer assez vite plutôt que d'entretenir des semaines d'échanges écrits.</p><p>Et quand une personne vous plaît sans vous convenir, un message court et poli fait toute la différence : « J'ai apprécié nos échanges, mais je ne ressens pas d'élan pour aller plus loin. Je te souhaite une belle suite. » Deux phrases, quelques secondes, et personne ne reste à attendre une réponse qui ne viendra pas.</p><p>Un profil qui montre ces intentions dès la bio attire des personnes qui fonctionnent pareil. Notre <a href=\"/guide/profil-attractif/\">guide pour un profil attractif</a> explique comment formuler ce que vous cherchez sans paraître exigeant ni froid.</p>"
+    },
+    {
+      "id": "en-pratique",
+      "titre": "En pratique",
+      "html": "<h3>Quels sont les meilleurs green flags chez un homme ou une femme ?</h3><p>Le respect d'un refus vient en premier, parce qu'il en dit long sur tout le reste. Viennent ensuite la cohérence entre les paroles et les actes, la curiosité sincère pour votre vie et la capacité à reconnaître ses torts. Ce sont des qualités qui ne dépendent pas du genre.</p><h3>Un green flag suffit-il à faire confiance ?</h3><p>Non, il en faut plusieurs, et sur la durée. Un green flag isolé peut être sincère ou joué. Plusieurs, constants pendant quelques semaines et observés aussi quand vous dites non, donnent une base solide pour aller plus loin.</p><h3>Peut-on avoir des green flags et des red flags en même temps ?</h3><p>Oui, et c'est même le cas le plus fréquent. Quelqu'un peut être attentionné et jaloux, drôle et méprisant avec les serveurs. Dans ce cas, le signal d'alerte pèse plus lourd : les qualités ne compensent pas un comportement qui touche à votre sécurité ou à votre liberté.</p>"
+    }
+  ],
+  "conversation": {
+    "nom": "Claire",
+    "legende": "Exemple de green flag dans une conversation",
+    "messages": [
+      {
+        "de": "envoye",
+        "texte": "Je suis désolé, je dois annuler ce soir, j'ai une urgence au boulot."
+      },
+      {
+        "de": "recu",
+        "texte": "Pas de souci, ça arrive. On décale à jeudi ? Et bon courage pour ce soir."
+      }
+    ],
+    "apres": "exemples",
+    "commentaire": "<p>Aucun reproche, une nouvelle date proposée tout de suite et un mot gentil : la réponse montre que la personne tient au rendez-vous sans vous faire payer l'imprévu. C'est discret, et c'est ce qu'il faut retenir.</p>"
+  },
+  "parti_pris": "La rédaction place un green flag au-dessus de tous les autres : la façon dont quelqu'un réagit à votre premier « non ». Une personne qui l'accepte avec légèreté vous a déjà montré comment elle traitera vos limites plus tard.",
+  "lies": [
+    "red-flag",
+    "love-bombing",
+    "ghosting"
+  ],
+  "lire_aussi": [
+    "/guide/profil-attractif/",
+    "/comparatif-relation-serieuse/"
+  ],
+  "auteur": "jeanne",
+  "publie_le": "2026-11-03",
+  "modifie_le": "2026-11-03"
+}

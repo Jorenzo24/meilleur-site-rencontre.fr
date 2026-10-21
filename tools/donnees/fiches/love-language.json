@@ -1,0 +1,64 @@
+{
+  "slug": "love-language",
+  "mot": "Love language",
+  "genre": "n. m.",
+  "etymologie": "de l'anglais <i>love language</i>, langage de l'amour, expression issue du livre de Gary Chapman",
+  "resume": "Sa façon d'exprimer l'amour",
+  "definition_courte": "Manière privilégiée dont une personne exprime et reçoit l'affection, selon le modèle des cinq langages de l'amour proposé par Gary Chapman.",
+  "title": "Love language : les 5 langages de l'amour expliqués simplement",
+  "description": "Paroles, moments de qualité, cadeaux, services, toucher : les 5 love languages de Gary Chapman, avec exemples concrets et conseils pour les repérer.",
+  "h1": "Love language : <em>chacun sa façon de dire « je t'aime »</em>",
+  "lede": "Vous attendez qu'on vous dise qu'on est fier de vous, l'autre vous répare votre vélo sans qu'on le lui demande. Ou bien on vous offre des petits cadeaux alors que vous rêvez d'une soirée sans téléphone. Deux personnes peuvent s'aimer sincèrement et se sentir mal aimées, simplement parce qu'elles ne parlent pas le même <strong>love language</strong>.",
+  "definition": "Le love language, ou langage de l'amour, désigne la manière privilégiée dont une personne exprime son affection et a besoin de la recevoir. L'expression vient du livre du conseiller conjugal américain Gary Chapman, <em>Les 5 langages de l'amour</em>, qui en distingue cinq : les paroles valorisantes, les moments de qualité, les cadeaux, les services rendus et le toucher physique.",
+  "sections": [
+    {
+      "id": "cinq-langages",
+      "titre": "Les cinq langages, avec des exemples de tous les jours",
+      "html": "<ul class=\"prose-list\"><li><strong>Les paroles valorisantes</strong> : les compliments, les encouragements, le « merci » dit pour de bon, le message « je pense à toi » au milieu de la journée. Pour ces personnes, une remarque sèche blesse plus longtemps qu'on ne l'imagine.</li><li><strong>Les moments de qualité</strong> : une attention entière, sans téléphone posé sur la table. Une balade où l'on se parle compte davantage qu'un week-end coûteux passé chacun dans son coin.</li><li><strong>Les cadeaux</strong> : une affaire de pensée plus que de prix. Le livre dont vous aviez parlé une seule fois, la pâtisserie rapportée en passant : la preuve qu'on a pensé à vous en votre absence.</li><li><strong>Les services rendus</strong> : faire les courses quand l'autre est débordé, emmener sa voiture au garage, préparer le dîner un soir difficile. Ici, l'amour se prouve par des actes.</li><li><strong>Le toucher physique</strong> : une main dans le dos, s'asseoir collés sur le canapé, un câlin en rentrant. Pour ces personnes, la distance physique se ressent vite comme une distance affective.</li></ul>\n        <p>La plupart des gens se reconnaissent dans plusieurs langages, avec un ou deux qui dominent nettement.</p>"
+    },
+    {
+      "id": "malentendus",
+      "titre": "Pourquoi on peut s'aimer et se sentir mal aimé",
+      "html": "<p>L'intérêt du modèle est de mettre des mots sur un malentendu très courant : on a tendance à donner l'amour sous la forme où l'on aimerait le recevoir. Quelqu'un qui montre son affection en rendant service sera sincèrement dérouté qu'on lui reproche de « ne jamais rien dire ». De son point de vue, il le dit tous les jours, en vidant le lave-vaisselle.</p>\n        <p>Comprendre le langage de l'autre ne vous oblige pas à renoncer au vôtre. Le but est d'apprendre à traduire : reconnaître que le vélo réparé était une déclaration, et dire en retour ce dont vous avez besoin.</p>\n        <p>Un mot de prudence : le livre de Gary Chapman s'appuie sur son expérience de conseiller conjugal plutôt que sur des travaux de recherche. Prenez-le comme une grille de lecture utile, sans en faire une vérité figée ni une étiquette qui enferme.</p>"
+    },
+    {
+      "id": "en-rencontre",
+      "titre": "Repérer le love language d'un match dès les premiers échanges",
+      "html": "<p>Inutile de faire passer un questionnaire à votre premier rendez-vous. Le langage de quelqu'un se lit souvent dans ce qu'il remarque et dans ce dont il se plaint. Une personne qui raconte avec amertume qu'un ex « n'était jamais vraiment là » parle sans doute de moments de qualité. Celle qui s'attarde sur les petites attentions de ses amis valorise probablement les cadeaux ou les services.</p>\n        <p>Sur les applis, certains l'annoncent directement dans leur bio, parfois en une ligne. Si vous le faites, ajoutez un exemple concret (« le dimanche matin sans écran, café et longues discussions ») : une scène parle davantage qu'une étiquette, comme le rappelle notre guide pour <a href=\"/guide/profil-attractif/\">un profil attractif</a>.</p>\n        <p>Attention à une confusion fréquente : un flot de compliments démesuré dès les premiers jours n'indique pas forcément un langage de paroles valorisantes. Quand l'intensité brûle les étapes et s'accompagne de pression, il porte un autre nom, le <a href=\"/lexique/love-bombing/\">love bombing</a>.</p>"
+    },
+    {
+      "id": "en-pratique",
+      "titre": "En pratique",
+      "html": "<h3>Comment connaître son love language ?</h3>\n        <p>Observez ce qui vous blesse le plus quand il manque, et ce que vous offrez spontanément aux gens que vous aimez. Le livre de Gary Chapman propose aussi un questionnaire, qui peut servir de point de départ à une conversation à deux.</p>\n        <h3>Que faire si on n'a pas le même love language que son partenaire ?</h3>\n        <p>Rien d'inquiétant, c'est même l'occasion de mieux se connaître. Dites clairement ce qui vous touche, avec un exemple précis, et demandez la même chose à l'autre. Ensuite, faites l'effort de parler son langage de temps en temps, même s'il ne vous vient pas naturellement.</p>\n        <h3>Le love language peut-il changer avec le temps ?</h3>\n        <p>Oui, il peut évoluer selon les périodes de la vie. Après une naissance, les services rendus prennent souvent une place nouvelle ; pendant une relation à distance, les paroles et les appels comptent davantage. Mieux vaut en reparler de temps en temps que se fier à ce que l'autre disait il y a cinq ans.</p>"
+    }
+  ],
+  "conversation": {
+    "nom": "Sarah",
+    "legende": "Exemple de conversation sur les love languages",
+    "messages": [
+      {
+        "de": "recu",
+        "texte": "Mon love language, c'est clairement le temps de qualité. Mon ex était toujours sur son téléphone pendant nos dîners, ça me rendait folle."
+      },
+      {
+        "de": "envoye",
+        "texte": "Je comprends, dîner face à un écran, c'est frustrant. Moi je suis plutôt paroles : un message sincère me fait la journée. Un dîner téléphones au vestiaire, ça te dit ?"
+      }
+    ],
+    "apres": "en-rencontre",
+    "commentaire": "<p>Sarah livre son langage et l'expérience qui l'a forgé. La réponse en tient compte, partage le sien et transforme l'information en proposition concrète, ce qui vaut mieux qu'un long débat théorique.</p>"
+  },
+  "parti_pris": "Le love language fait un excellent point de départ pour une conversation et un très mauvais argument pour une dispute : « moi, mon langage, ce sont les services » n'excuse pas d'ignorer ce dont l'autre a besoin. Le plus beau geste reste d'apprendre à dire « je t'aime » dans une langue qui n'est pas la vôtre.",
+  "lies": [
+    "green-flag",
+    "love-bombing",
+    "talking-stage"
+  ],
+  "lire_aussi": [
+    "/guide/profil-attractif/",
+    "/guide/premier-message/"
+  ],
+  "auteur": "lucie",
+  "publie_le": "2026-11-10",
+  "modifie_le": "2026-11-10"
+}

@@ -1,0 +1,69 @@
+{
+  "slug": "match",
+  "mot": "Match",
+  "genre": "n. m.",
+  "etymologie": "de l'anglais <i>match</i>, paire assortie, correspondance",
+  "resume": "Intérêt réciproque sur une appli",
+  "definition_courte": "Mise en relation qui se produit quand deux utilisateurs d'une application de rencontre se sont likés mutuellement, et qui leur permet de discuter.",
+  "title": "Match : définition et que faire après un match sur une appli",
+  "description": "Un match, c'est un intérêt réciproque, et tout reste à faire. Ce qu'il signifie, quand et quoi écrire, et comment passer au premier rendez-vous.",
+  "h1": "Match : <em>le début de l'histoire, et seulement le début</em>",
+  "lede": "L'écran s'anime, deux photos côte à côte, une annonce triomphale. Le petit frisson est réel. Puis, très souvent, il ne se passe rien. Le <strong>match</strong> est la porte d'entrée de toute rencontre sur une appli, et la conversation qui doit suivre reste entièrement à écrire.",
+  "definition": "Un match se produit quand deux personnes se sont likées mutuellement sur une application de rencontre. Il signale un intérêt réciproque, au moins pour quelques photos et quelques lignes de profil, et il débloque en général la messagerie entre les deux.",
+  "sections": [
+    {
+      "id": "ce-que-ca-dit",
+      "titre": "Ce qu'un match veut dire, et ce qu'il ne dit pas",
+      "html": "<p>Un match dit une chose précise : à un moment donné, chacun a trouvé le profil de l'autre assez intéressant pour le liker. C'est un début d'attirance, et souvent une décision prise en quelques secondes, dans le métro ou devant la télé.</p>\n<p>Il ne dit rien de l'envie réelle de discuter. Certains likent beaucoup et trient ensuite parmi leurs matchs, d'autres collectionnent les matchs pour se rassurer sans jamais écrire. Ne lisez donc pas un match comme une promesse : c'est une invitation ouverte, qui se confirme ou non dans les premiers messages.</p>\n<p>Sur certains sites par abonnement, on peut écrire à quelqu'un sans match préalable. La notion y compte moins : l'intérêt se mesure aux réponses.</p>\n<p>Il arrive enfin qu'un match soit un accident : un pouce trop rapide, un swipe distrait dans une file d'attente. Si la personne ne répond jamais à un premier message soigné, inutile d'y lire un jugement sur vous.</p>"
+    },
+    {
+      "id": "apres-le-match",
+      "titre": "Que faire juste après un match",
+      "html": "<h3>Écrivez sans trop attendre</h3>\n<p>Un match qui reste muet plusieurs jours a tendance à s'éteindre : l'autre a eu d'autres matchs entre-temps, et le vôtre glisse vers le bas de la liste. Certaines applis font même expirer le match si personne n'écrit dans un délai donné. C'est le cas de Bumble, où, dans les matchs entre un homme et une femme, c'est à elle d'écrire en premier.</p>\n<h3>N'attendez pas que l'autre commence</h3>\n<p>La règle tacite selon laquelle c'est à l'autre d'écrire fait mourir beaucoup de matchs, souvent des deux côtés à la fois. Si le profil vous a plu, écrivez. Le pire scénario est un silence, que vous auriez eu de toute façon.</p>\n<h3>Écrivez quelque chose de précis</h3>\n<p>Un « Salut, ça va ? » est poli et vite oublié. Une question tirée de son profil montre que votre like n'était pas un réflexe. Notre <a href=\"/guide/premier-message/\">guide du premier message</a> détaille la méthode.</p>"
+    },
+    {
+      "id": "vers-le-rendez-vous",
+      "titre": "Du match au premier rendez-vous",
+      "html": "<p>Un match ne vaut que par ce qu'il devient. Une conversation fluide peut mener assez vite à une proposition de rendez-vous ; à l'inverse, des semaines d'échanges écrits finissent souvent par s'essouffler sans qu'on se soit jamais vus. Quand le courant passe, proposez un appel vidéo ou un verre dans un lieu public, à une date précise plutôt qu'un vague « un de ces jours ».</p>\n<p>Une formule simple fonctionne bien : « Je passe un bon moment à discuter avec toi, ça te dirait de continuer autour d'un café samedi ? ». Une date, un lieu, et une porte de sortie facile pour l'autre si ce n'est pas le bon moment.</p>\n<p>Avant la rencontre, quelques vérifications simples évitent les mauvaises surprises : des photos cohérentes entre elles, une personne qui accepte la visio, une histoire qui ne change pas d'un message à l'autre. Notre <a href=\"/guide/faux-profils/\">guide sur les faux profils</a> liste les signaux à surveiller.</p>"
+    },
+    {
+      "id": "en-pratique",
+      "titre": "En pratique",
+      "html": "<h3>Pourquoi a-t-on des matchs mais aucune réponse ?</h3>\n<p>Souvent parce que les premiers messages sont trop génériques pour se démarquer, ou parce que les matchs ont été obtenus en likant très large. Essayez des messages plus personnels et un tri plus sélectif. Si rien ne change, regardez vos photos : elles attirent peut-être des personnes qui ne cherchent pas la même chose que vous.</p>\n<h3>Combien de temps attendre avant d'écrire après un match ?</h3>\n<p>Aucune stratégie n'est nécessaire : écrivez quand vous avez quelque chose à dire, idéalement dans la journée ou le lendemain. Attendre exprès pour ne pas paraître trop intéressé fait surtout perdre des matchs.</p>\n<h3>Faut-il supprimer un match qui ne répond pas ?</h3>\n<p>Après une relance restée sans réponse, vous pouvez le laisser en bas de votre liste ou l'annuler pour y voir plus clair. Rien de vexant pour l'autre : sur la plupart des applis, la conversation disparaît simplement de son côté.</p>"
+    }
+  ],
+  "conversation": {
+    "nom": "Julien",
+    "legende": "Un premier message juste après le match",
+    "messages": [
+      {
+        "de": "envoye",
+        "texte": "Salut Julien ! Match validé, donc question obligatoire : le chien sur ta deuxième photo, il a un nom à la hauteur de sa tête de pirate ?"
+      },
+      {
+        "de": "recu",
+        "texte": "Ha ! Il s'appelle Barnabé, et il a toujours eu un œil à moitié fermé. Bien vu, peu de gens le remarquent."
+      },
+      {
+        "de": "envoye",
+        "texte": "Barnabé, parfait. J'ai un chat qui s'appelle Monsieur, on est à égalité niveau prénoms improbables."
+      }
+    ],
+    "apres": "apres-le-match",
+    "commentaire": "<p>Le premier message part d'un détail de la deuxième photo, que peu de gens prennent le temps de regarder. La réponse arrive avec une anecdote, et la conversation a déjà un sujet bien à elle.</p>"
+  },
+  "parti_pris": "Un match ne vaut rien tant que personne n'a écrit : mieux vaut en avoir moins et écrire à chacun. Si vous avez trop de matchs pour répondre à tous, c'est le signe qu'il faut liker moins.",
+  "lies": [
+    "like",
+    "opener",
+    "unmatch",
+    "ghosting"
+  ],
+  "lire_aussi": [
+    "/guide/premier-message/",
+    "/guide/faux-profils/"
+  ],
+  "auteur": "bastien",
+  "publie_le": "2026-10-27",
+  "modifie_le": "2026-10-27"
+}

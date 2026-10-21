@@ -1,0 +1,69 @@
+{
+  "slug": "quiet-quitting-amoureux",
+  "mot": "Quiet quitting amoureux",
+  "genre": "n. m.",
+  "etymologie": "calque de l'anglais <i>quiet quitting</i>, la démission silencieuse, expression venue du monde du travail",
+  "resume": "Se désengager sans le dire",
+  "definition_courte": "Fait de se désinvestir progressivement d'une relation sans l'annoncer, en ne faisant plus que le strict minimum.",
+  "title": "Quiet quitting amoureux : se désengager sans rien dire",
+  "description": "Moins de questions, plus de projets, le strict minimum : le quiet quitting amoureux, c'est quitter sans le dire. Comment le repérer et comment en parler.",
+  "h1": "Quiet quitting amoureux : <em>quand on reste sans vraiment être là</em>",
+  "lede": "Il répond toujours à vos messages, il vient aux dîners prévus, il ne refuse rien. Mais il ne propose plus rien non plus, ne pose plus de questions sur votre journée et accueille chaque projet d'un « on verra ». Le <strong>quiet quitting amoureux</strong> est cette façon de quitter une relation sans jamais la quitter.",
+  "definition": "Le quiet quitting amoureux désigne le fait de se désinvestir d'une relation sans l'annoncer, en assurant le strict minimum pour éviter le conflit. L'expression est empruntée au monde du travail, où le <em>quiet quitting</em> désigne le salarié qui s'en tient à sa fiche de poste et ne donne plus rien au-delà.",
+  "sections": [
+    {
+      "id": "signes",
+      "titre": "Les signes qui reviennent",
+      "html": "<p>Le quiet quitting se repère moins à ce qui se passe qu'à ce qui ne se passe plus. Pris isolément, chaque signe peut s'expliquer par la fatigue ou une période chargée. Leur accumulation, sur plusieurs semaines, doit en revanche retenir l'attention.</p>\n        <ul class=\"prose-list\"><li><strong>Les initiatives viennent toujours du même côté</strong> : c'est vous qui proposez les sorties, les week-ends, les appels.</li><li><strong>Les réponses rétrécissent</strong> : « ok », « cool », « je sais pas », là où il y avait des paragraphes.</li><li><strong>Le futur disparaît des conversations</strong> : les vacances de l'été, l'emménagement, la rencontre avec les parents sont repoussés sans date.</li><li><strong>Les disputes s'éteignent</strong>, ce qui ressemble à une bonne nouvelle. Souvent, on ne se dispute plus parce qu'on ne tient plus assez à l'issue pour défendre son point de vue.</li><li><strong>Les petits rituels disparaissent</strong> : le message du matin, le café du dimanche, le surnom affectueux.</li><li><strong>La présence devient purement physique</strong> : il est là au dîner, l'esprit ailleurs, souvent dans son téléphone.</li></ul>"
+    },
+    {
+      "id": "pourquoi",
+      "titre": "Pourquoi certains partent sans le dire",
+      "html": "<p>Rompre oblige à affronter la peine de l'autre, ses questions, parfois sa colère. Le quiet quitting repousse ce moment indéfiniment. Certains espèrent que l'autre finira par prendre la décision à leur place, ce qui leur épargnera le rôle de celui qui part.</p>\n        <p>D'autres ne savent pas eux-mêmes ce qu'ils veulent. Ils ne sont plus heureux, ils ne sont pas certains de vouloir partir, et le minimum devient un état d'attente. Il y a enfin ceux qui ont déjà la tête dans une autre histoire et gardent la relation actuelle comme filet de sécurité, une logique proche du <a href=\"/lexique/cushioning/\">cushioning</a>.</p>\n        <p>Le mécanisme ressemble à une version lente du <a href=\"/lexique/ghosting/\">ghosting</a> : la sortie a lieu, elle n'est simplement jamais prononcée. Une différence de taille complique tout : la personne reste physiquement là, ce qui rend le désengagement bien plus difficile à nommer.</p>"
+    },
+    {
+      "id": "en-parler",
+      "titre": "Comment aborder le sujet sans faire de procès",
+      "html": "<p>Face au retrait, la tentation est de redoubler d'efforts : plus d'attentions, plus de propositions, plus de questions. Cela creuse souvent l'écart, parce que vous portez désormais la relation pour deux.</p>\n        <h3>Décrire plutôt qu'accuser</h3>\n        <p>« Tu ne fais plus aucun effort » appelle une défense. « J'ai remarqué qu'on ne parle plus de nos projets, et ça m'inquiète » ouvre une conversation. Partez de faits précis et récents, et de ce que vous ressentez.</p>\n        <h3>Poser la question qui fâche</h3>\n        <p>À un moment, il faut demander clairement : « Est-ce que tu as encore envie d'être dans cette relation ? ». La réponse peut faire mal. Elle fait moins de dégâts que des mois de doute.</p>\n        <h3>Se regarder aussi</h3>\n        <p>Le quiet quitting se trouve parfois de votre côté. Si vous vous reconnaissez dans la liste des signes, le plus respectueux est de le dire, même sans avoir pris de décision : « Je ne vais pas bien dans notre couple, et je ne sais pas encore pourquoi. »</p>"
+    },
+    {
+      "id": "en-pratique",
+      "titre": "En pratique",
+      "html": "<h3>Comment savoir si mon partenaire se désintéresse de moi ?</h3>\n        <p>Observez la tendance sur plusieurs semaines plutôt qu'un jour sans. Qui propose, qui relance, qui parle d'avenir ? Si la réponse est systématiquement vous, la conversation devient nécessaire.</p>\n        <h3>Le quiet quitting amoureux annonce-t-il forcément une rupture ?</h3>\n        <p>Pas forcément. Il signale une crise, qui peut venir d'une fatigue, d'un stress extérieur ou d'un malaise dans le couple. Nommé à temps, il peut ouvrir une discussion qui relance la relation. Ignoré, il finit en général par une séparation que l'un des deux vivait déjà depuis longtemps.</p>\n        <h3>Que faire si je me rends compte que je fais du quiet quitting ?</h3>\n        <p>Commencez par vous demander ce que vous évitez : une conversation difficile, une décision, la peur de blesser. Puis parlez-en, même sans réponse définitive. Dire « j'ai besoin qu'on fasse le point sur nous » ouvre une porte que le silence garde fermée.</p>"
+    }
+  ],
+  "conversation": {
+    "nom": "Julien",
+    "legende": "Un soir de semaine, après plusieurs semaines de réponses courtes",
+    "messages": [
+      {
+        "de": "recu",
+        "texte": "ok cool. je suis crevé ce soir, on verra pour le week-end"
+      },
+      {
+        "de": "envoye",
+        "texte": "Je comprends que tu sois fatigué. J'ai quand même l'impression qu'on se parle moins depuis quelque temps, et ça me pèse. On peut en discuter samedi matin, tranquillement ?"
+      },
+      {
+        "de": "recu",
+        "texte": "si tu veux"
+      }
+    ],
+    "apres": "en-parler",
+    "commentaire": "<p>Le « si tu veux » final accepte sans s'engager, typique du strict minimum. La réponse conseillée reste calme, nomme un ressenti sans accuser et fixe un moment précis, ce qui empêche la discussion d'être repoussée sans fin.</p>"
+  },
+  "parti_pris": "Le quiet quitting coûte plus cher à celui qui le subit qu'une rupture franche, parce qu'il le fait douter de sa propre perception pendant des mois. Si vous sentez que vous partez, dites-le, même maladroitement : l'autre pourra enfin comprendre ce qu'il ressent depuis des semaines.",
+  "lies": [
+    "ghosting",
+    "breadcrumbing",
+    "phubbing",
+    "slow-fade"
+  ],
+  "lire_aussi": [
+    "/comparatif-relation-serieuse/",
+    "/avis/"
+  ],
+  "auteur": "patrice",
+  "publie_le": "2026-12-15",
+  "modifie_le": "2026-12-15"
+}

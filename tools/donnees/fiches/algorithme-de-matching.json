@@ -1,0 +1,49 @@
+{
+  "slug": "algorithme-de-matching",
+  "mot": "Algorithme de matching",
+  "genre": "n. m.",
+  "etymologie": "de l'anglais <i>to match</i>, assortir, mettre en correspondance",
+  "resume": "Le tri invisible des profils",
+  "definition_courte": "Ensemble des règles automatiques par lesquelles une application de rencontre choisit les profils qu'elle vous montre, et à qui elle montre le vôtre.",
+  "title": "Algorithme de matching : comment les applis trient les profils",
+  "description": "Critères, activité, réciprocité, localisation : ce que l'on sait du tri des profils sur les applis de rencontre, et comment en tirer parti.",
+  "h1": "Algorithme de matching : <em>ce qui décide des profils que vous voyez</em>",
+  "lede": "Deux personnes s'inscrivent le même soir sur la même appli, dans la même ville. Une semaine plus tard, l'une reçoit des propositions qui lui ressemblent, l'autre a l'impression de voir défiler toujours les mêmes visages. Entre les deux, il y a l'<strong>algorithme de matching</strong>, et la façon dont chacun l'a nourri sans le savoir.",
+  "definition": "L'algorithme de matching est l'ensemble des règles automatiques qui décident quels profils une application vous montre, dans quel ordre, et à qui votre propre profil est présenté. Il croise vos critères déclarés avec votre comportement réel sur l'appli, puis ajuste ses propositions au fil de votre usage.",
+  "sections": [
+    {
+      "id": "ingredients",
+      "titre": "Sur quoi une appli se base pour choisir les profils qu'elle vous montre",
+      "html": "<p>Chaque plateforme garde sa recette pour elle, et les réglages changent d'une mise à jour à l'autre. Les grands ingrédients, eux, sont connus et se retrouvent dans la plupart des applis.</p><ul class=\"prose-list\"><li><strong>Les critères déclarés</strong> : âge, distance, genre recherché, parfois enfants ou religion. Ce sont des filtres durs. Un profil hors de vos critères n'apparaît pas, quelles que soient ses qualités, et le vôtre n'apparaît pas chez quelqu'un dont vous sortez des critères.</li><li><strong>La localisation</strong> : sur les applis mobiles, elle est en général actualisée quand vous ouvrez l'appli. C'est pour cela que vos propositions changent quand vous partez en week-end ou que vous passez la journée dans un autre quartier.</li><li><strong>L'activité</strong> : un compte qui se connecte souvent est montré plus volontiers qu'un compte endormi. Une appli n'a aucun intérêt à vous présenter quelqu'un qui ne lira jamais votre message.</li><li><strong>La réciprocité probable</strong> : l'algorithme cherche des paires où l'intérêt a des chances d'aller dans les deux sens. Il observe qui vous likez, qui vous like, et ce qui rapproche les profils avec lesquels une conversation a vraiment démarré.</li></ul><p>Sur les sites orientés relation sérieuse, un questionnaire de personnalité vient souvent s'ajouter à ces signaux. C'est le principe d'<a href=\"/avis-edarling/\">eDarling</a>, qui propose des profils à partir d'une compatibilité calculée sur vos réponses, là où une appli de swipe s'appuie surtout sur vos gestes.</p>"
+    },
+    {
+      "id": "score-secret",
+      "titre": "Le fameux « score secret » existe-t-il ?",
+      "html": "<p>Une idée a longtemps circulé : chaque utilisateur aurait une note cachée de désirabilité, inspirée du classement Elo des joueurs d'échecs. Être liké par des profils eux-mêmes très likés ferait monter votre note, et l'appli vous montrerait ensuite des personnes « de votre niveau ». Tinder a reconnu publiquement avoir utilisé un mécanisme de ce genre, puis a annoncé s'en être éloigné au profit d'un système qui tient davantage compte de l'activité et de la proximité.</p>\n<p>Pour le reste, aucune appli ne publie sa formule exacte, et personne en dehors de ses équipes ne la connaît. Prenez donc avec recul les vidéos qui promettent de « hacker l'algorithme » avec une astuce précise : au mieux, elles décrivent une version périmée ; au pire, elles servent à vendre une formation. Les principes généraux sont stables, et ce sont eux qui vous donnent prise.</p>"
+    },
+    {
+      "id": "en-tirer-parti",
+      "titre": "Ce que vous pouvez faire pour que l'algorithme travaille pour vous",
+      "html": "<h3>Donnez-lui de la matière</h3>\n<p>Un profil complet offre plus de prise au tri : photos nettes, bio remplie, réponses aux questions proposées par l'appli. Un profil à moitié vide suscite moins de réactions, et un algorithme qui mesure les réactions le montre donc moins. Notre <a href=\"/guide/profil-attractif/\">guide pour un profil attractif</a> détaille les photos et les textes qui fonctionnent.</p>\n<h3>Likez sincèrement</h3>\n<p>Liker tout le monde pour ratisser large brouille le signal : l'appli ne sait plus ce que vous cherchez, et les matchs obtenus de cette façon mènent rarement à une conversation. Un like donné à quelqu'un qui vous plaît est une information utile ; une rafale de likes réflexes en est une autre, beaucoup moins flatteuse pour votre profil.</p>\n<h3>Répondez à vos conversations</h3>\n<p>Laisser des matchs sans réponse envoie un signal faible d'intérêt. Un compte qui écrit et répond est perçu comme actif, et l'activité fait partie des critères que la plupart des applis disent prendre en compte.</p>\n<h3>Revoyez vos filtres</h3>\n<p>Si vous voyez toujours les mêmes têtes, vos critères sont peut-être trop serrés pour le nombre de personnes inscrites autour de vous. Élargir un peu la distance ou la tranche d'âge renouvelle souvent davantage les propositions que n'importe quelle option payante.</p>"
+    },
+    {
+      "id": "en-pratique",
+      "titre": "En pratique",
+      "html": "<h3>Pourquoi voit-on toujours les mêmes profils sur une appli de rencontre ?</h3>\n<p>Le plus souvent, vous avez fait le tour des profils actifs qui correspondent à vos filtres dans votre zone. L'appli remet alors en circulation des profils déjà vus ou des comptes peu actifs. Élargissez légèrement vos critères, ou ouvrez l'appli à un autre moment de la journée, quand d'autres personnes sont connectées.</p>\n<h3>Supprimer son compte et le recréer relance-t-il l'algorithme ?</h3>\n<p>C'est une astuce très répandue, au bénéfice incertain et au risque réel. Les conditions d'utilisation de la plupart des applis encadrent les comptes multiples, et une suppression suivie d'une recréation rapide peut être vue comme un comportement suspect. Retravailler ses photos et sa bio donne un résultat plus durable.</p>\n<h3>Payer un abonnement améliore-t-il les propositions ?</h3>\n<p>Un abonnement donne surtout des outils : voir qui vous a liké, filtres supplémentaires, mises en avant ponctuelles. Il ne rend pas votre profil plus compatible avec les personnes qu'il croise. Si votre profil ne génère aucune conversation en version gratuite, payer amplifiera surtout ce constat.</p>"
+    }
+  ],
+  "parti_pris": "L'algorithme récompense surtout ce que vous feriez de toute façon si vous cherchiez vraiment quelqu'un : un profil soigné, des likes choisis, des réponses rapides. Les astuces pour le déjouer coûtent plus d'énergie qu'elles n'en rapportent, et cette énergie serait mieux placée dans vos conversations.",
+  "lies": [
+    "like",
+    "swipe",
+    "boost",
+    "match"
+  ],
+  "lire_aussi": [
+    "/guide/profil-attractif/",
+    "/avis/"
+  ],
+  "auteur": "bastien",
+  "publie_le": "2026-12-08",
+  "modifie_le": "2026-12-08"
+}

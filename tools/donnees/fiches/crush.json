@@ -1,0 +1,49 @@
+{
+  "slug": "crush",
+  "mot": "Crush",
+  "genre": "n. m.",
+  "etymologie": "de l'anglais <i>to have a crush on someone</i>, avoir le béguin pour quelqu'un ; <i>to crush</i> signifie écraser",
+  "resume": "Béguin, attirance naissante",
+  "definition_courte": "Attirance soudaine et souvent secrète pour quelqu'un, et par extension la personne qui en est l'objet.",
+  "title": "Crush : définition, origine et comment savoir si c'est réciproque",
+  "description": "Avoir un crush, c'est le béguin version applis. D'où vient le mot, comment savoir si c'est réciproque et comment faire le premier pas sans gêne.",
+  "h1": "Crush : <em>le béguin qui vous fait relire ses messages trois fois</em>",
+  "lede": "Vous vérifiez si son nom apparaît dans vos notifications. Vous relisez son dernier message en cherchant un sous-entendu. Une amie vous demande « C'est ton <strong>crush</strong> ? » et vous répondez « Mais non » un peu trop vite.",
+  "definition": "Le crush désigne une attirance soudaine, souvent intense et encore secrète, pour quelqu'un. Par extension, le mot nomme aussi la personne : « mon crush ». En français, il remplace le vieux « béguin » ou le « coup de cœur », avec une nuance de légèreté : on peut avoir un crush sans rien en faire.",
+  "sections": [
+    {
+      "id": "beguin-ou-plus",
+      "titre": "Crush, béguin, coup de foudre : quelle différence ?",
+      "html": "<p>Le mot recouvre exactement ce que nos grands-parents appelaient « avoir le béguin ». Il est entré dans le français courant par l'anglais des séries, de la musique et des réseaux sociaux, et il a gardé son ton de cour de récréation. Personne ne dit « mon crush » de son conjoint de dix ans.</p>\n        <ul class=\"prose-list\"><li><strong>Le crush</strong> est une attirance à sens unique tant qu'elle n'a pas été dite. Il peut viser un collègue, un voisin de salle de sport, un match à qui l'on n'a encore jamais parlé.</li><li><strong>Le coup de foudre</strong> suppose une rencontre et une évidence, souvent ressentie des deux côtés.</li><li><strong>Le sentiment amoureux</strong> vient avec le temps et la connaissance de l'autre. Un crush peut y mener, mais il commence presque toujours par une image partielle.</li></ul>\n        <p>Cette dernière nuance compte : on a un crush sur ce qu'on imagine de quelqu'un. C'est délicieux, et c'est aussi pour cela que la première vraie conversation surprend parfois, dans un sens ou dans l'autre.</p>"
+    },
+    {
+      "id": "en-ligne",
+      "titre": "Le crush à l'heure des applis de rencontre",
+      "html": "<p>Les applications ont récupéré le mot. Certaines l'emploient pour nommer le match lui-même, quand deux personnes se sont plu mutuellement. D'autres proposent un « super like » qui signale à l'autre que vous l'avez remarqué avant même qu'il ne vous ait vu passer. Le principe est flatteur pour celui qui le reçoit, mais il change la nature du crush : de secret, il devient un signal envoyé à quelqu'un qui ne vous connaît pas.</p>\n        <p>Les applis entretiennent aussi des crushs très particuliers, ceux qu'on a sur un profil. Trois photos bien choisies et une bio drôle suffisent à construire un personnage dans votre tête. D'où une règle de bon sens : une fois le match obtenu, engagez la conversation (notre <a href=\"/guide/premier-message/\">guide du premier message</a> aide à ne pas rester bloqué), puis passez assez vite à l'échange réel, un appel ou un verre, avant que le personnage imaginé ne prenne toute la place. Plus vous attendez, plus l'écart avec la vraie personne risque de décevoir.</p>"
+    },
+    {
+      "id": "reciproque",
+      "titre": "Comment savoir si votre crush est réciproque",
+      "html": "<p>Aucun signe n'est infaillible, mais certains comportements se cumulent quand l'intérêt est partagé.</p>\n        <ul class=\"prose-list\"><li><strong>L'initiative circule</strong> : la personne vous écrit aussi en premier, pas seulement quand vous la relancez.</li><li><strong>Elle se souvient</strong> du nom de votre chat, de votre entretien de mardi, du film dont vous parliez.</li><li><strong>Elle prolonge</strong> les conversations au lieu de les clore par un emoji.</li><li><strong>Elle cherche une occasion</strong> de vous voir, même maladroitement : « On pourrait aller tester ce resto un jour ».</li></ul>\n        <p>À l'inverse, des réponses polies mais courtes, jamais de question en retour et des propositions toujours repoussées sans contre-proposition dessinent plutôt une sympathie sans plus. Le plus fiable reste de poser la question, avec légèreté.</p>"
+    },
+    {
+      "id": "en-pratique",
+      "titre": "En pratique",
+      "html": "<h3>Comment avouer un crush sans se mettre dans l'embarras ?</h3>\n        <p>Proposez une action plutôt qu'une déclaration : « J'aimerais bien te voir en dehors du boulot, un verre jeudi ? ». La personne peut accepter ou décliner sans que personne ne perde la face. La déclaration enflammée par message, à minuit, met l'autre au pied du mur et vous expose plus que nécessaire.</p>\n        <h3>Que faire si votre crush ne répond pas ?</h3>\n        <p>Laissez quelques jours, puis acceptez le silence comme une réponse. Un crush non partagé pique, mais il se dissipe d'autant plus vite que vous arrêtez de surveiller ses stories. Si la personne vous laisse espérer sans jamais concrétiser, lisez notre fiche sur le <a href=\"/lexique/breadcrumbing/\">breadcrumbing</a>.</p>\n        <h3>Peut-on avoir un crush quand on est en couple ?</h3>\n        <p>Oui, et c'est très courant. Être attiré par quelqu'un d'autre ne dit pas grand-chose de votre couple tant que cela reste une rêverie. La question devient sérieuse quand vous commencez à organiser vos journées pour croiser la personne.</p>"
+    }
+  ],
+  "parti_pris": "Un crush gagne presque toujours à être confronté à la réalité, même au risque d'un refus, parce qu'un béguin entretenu des mois en silence finit par coûter plus cher qu'un « non » poli. Sur les applis, le meilleur moyen de vérifier un crush reste de proposer vite une rencontre.",
+  "lies": [
+    "match",
+    "date",
+    "friendzone",
+    "breadcrumbing"
+  ],
+  "lire_aussi": [
+    "/guide/premier-message/",
+    "/guide/profil-attractif/"
+  ],
+  "auteur": "marie",
+  "publie_le": "2026-10-27",
+  "modifie_le": "2026-10-27"
+}

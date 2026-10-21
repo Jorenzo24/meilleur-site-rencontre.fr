@@ -1,0 +1,65 @@
+{
+  "slug": "vu",
+  "mot": "Vu",
+  "genre": "n. m.",
+  "etymologie": "de la mention « Vu » affichée sous un message lu dans certaines messageries",
+  "resume": "Message lu, resté sans réponse",
+  "definition_courte": "Mention indiquant qu'un message a été lu ; « laisser en vu », c'est lire un message sans y répondre.",
+  "title": "Laissé en vu : que signifie un message lu sans réponse ?",
+  "description": "Votre message est marqué « Vu » et rien ne vient. Ce que disent vraiment les accusés de lecture, comment les désactiver et quand s'inquiéter d'un silence.",
+  "h1": "Vu : <em>lire un message et ne pas répondre</em>",
+  "lede": "Vous avez envoyé votre message à 19 h 12. À 19 h 14, la petite mention est apparue : « Vu ». Il est maintenant 23 h, et vous avez déjà rouvert la conversation une dizaine de fois. Être <strong>laissé en vu</strong> est l'une des petites angoisses les plus partagées de la messagerie moderne.",
+  "definition": "Le « vu » désigne l'accusé de lecture affiché par une messagerie quand le destinataire a ouvert un message. Laisser quelqu'un « en vu », c'est lire son message sans y répondre, volontairement ou non, en laissant l'expéditeur face à une preuve de lecture et à un silence.",
+  "sections": [
+    {
+      "id": "fonctionnement",
+      "titre": "Comment fonctionnent les accusés de lecture",
+      "html": "<p>Chaque messagerie a sa façon de signaler la lecture. Sur WhatsApp, les deux coches grises deviennent bleues. Sur Messenger, la petite photo de profil de l'autre apparaît sous votre message. Sur iMessage, le mot « Lu » s'affiche avec l'heure. Les applications de rencontre ont chacune leur système, et certaines n'en affichent aucun.</p>\n        <p>Ce que beaucoup ignorent, c'est que ces indicateurs se désactivent souvent. Sur WhatsApp, l'option se trouve dans les réglages de confidentialité, et la couper vous empêche aussi de voir quand les autres vous lisent. iMessage permet de les régler conversation par conversation. Une absence de mention ne prouve donc pas que votre message n'a pas été lu, et sa présence ne dit rien de ce que la personne en a pensé.</p>"
+    },
+    {
+      "id": "pourquoi",
+      "titre": "Pourquoi on laisse quelqu'un en vu",
+      "html": "<p>Le « vu » donne l'impression d'une décision, alors qu'il enregistre seulement un geste : l'ouverture d'une conversation. Entre ce geste et une réponse, beaucoup de choses peuvent s'interposer.</p>\n        <ul class=\"prose-list\"><li><strong>Le message lu en passant</strong> : dans une file d'attente, entre deux réunions, avec l'intention sincère de répondre plus tard, puis l'oubli.</li><li><strong>La réponse qui demande réflexion</strong> : une question délicate, une proposition de rendez-vous qu'on ne sait pas encore accepter.</li><li><strong>Rien à ajouter</strong> : un « haha » ou un message qui clôt naturellement l'échange n'appelle pas toujours de suite.</li><li><strong>Le désintérêt</strong> : parfois, oui, la personne n'a plus envie de poursuivre et choisit le silence.</li></ul>\n        <p>Le vu pèse d'autant plus qu'il arrive vite. Un message lu deux minutes après l'envoi donne l'impression que l'autre avait le téléphone en main et a choisi de se taire. C'est souvent exact, et cela ne dit rien de plus : on ouvre une notification par réflexe, sans être en mesure d'écrire à ce moment-là.</p>\n        <p>Seul le dernier cas relève du rejet, et il ne se distingue des autres qu'avec le temps. Un vu isolé ne veut presque rien dire. Une série de vus sans réponse, sur plusieurs jours, commence à ressembler à un <a href=\"/lexique/ghosting/\">ghosting</a>. Des réponses rares, juste assez fréquentes pour vous garder intéressé, relèvent plutôt du <a href=\"/lexique/breadcrumbing/\">breadcrumbing</a>.</p>"
+    },
+    {
+      "id": "reagir",
+      "titre": "Comment réagir quand vous êtes laissé en vu",
+      "html": "<h3>Résister à l'enquête</h3>\n        <p>Vérifier la dernière connexion, regarder si la personne publie des stories, comparer l'heure de lecture et l'heure de sa dernière activité : tout cela alimente l'anxiété sans rien vous apprendre de fiable. Fermez la conversation et passez à autre chose pour la soirée.</p>\n        <h3>Relancer une fois, avec légèreté</h3>\n        <p>Si plusieurs jours passent, un message court et sans reproche suffit. Évitez le « je vois que tu as lu mon message », qui met l'autre sur la défensive. Proposez plutôt quelque chose de concret, qui donne une raison simple de répondre. Notre <a href=\"/guide/premier-message/\">guide du premier message</a> donne des pistes pour écrire des messages qui appellent une réponse.</p>\n        <h3>Et si c'est vous qui laissez en vu</h3>\n        <p>Un « je te réponds ce soir, journée chargée » prend cinq secondes et évite des heures de doute à l'autre. Si vous ne souhaitez pas poursuivre, une phrase polie de clôture vaut mieux qu'une lecture muette. Sur une application de rencontre, l'option qui permet de retirer le match clôt aussi l'échange proprement.</p>"
+    },
+    {
+      "id": "en-pratique",
+      "titre": "En pratique",
+      "html": "<h3>Comment savoir si quelqu'un a lu mon message sans accusé de lecture ?</h3>\n        <p>Vous ne pouvez pas le savoir avec certitude, et c'est voulu. Les astuces qui circulent (surveiller la dernière connexion, guetter un changement de statut) donnent des indices peu fiables et entretiennent l'obsession. Attendez la réponse.</p>\n        <h3>Faut-il désactiver ses accusés de lecture ?</h3>\n        <p>Pour beaucoup, c'est un vrai soulagement : vous lisez à votre rythme, sans que l'autre attende une réponse immédiate. Sur WhatsApp, la contrepartie est que vous ne voyez plus non plus quand vos propres messages sont lus, ce qui peut se révéler reposant.</p>\n        <h3>Laisser en vu, est-ce impoli ?</h3>\n        <p>Ponctuellement, non. Tout le monde lit des messages auxquels il répond plus tard. Le vu répété, face à des questions directes, devient en revanche une façon de signifier un désintérêt sans avoir à le dire.</p>"
+    }
+  ],
+  "conversation": {
+    "nom": "Inès",
+    "legende": "Une réponse qui arrive après plusieurs jours de vu",
+    "messages": [
+      {
+        "de": "recu",
+        "texte": "Désolée, semaine de fou, je viens seulement de voir que je ne t'avais pas répondu !"
+      },
+      {
+        "de": "envoye",
+        "texte": "Pas de souci, ça arrive. L'expo photo dont je te parlais se termine dimanche : samedi après-midi, ça te tente ?"
+      }
+    ],
+    "apres": "reagir",
+    "commentaire": "<p>Un vu suivi d'une excuse spontanée relève le plus souvent de l'oubli. Inutile de relever le délai : rebondir directement sur une proposition concrète remet la conversation en mouvement.</p>"
+  },
+  "parti_pris": "Les accusés de lecture rendent plus de gens anxieux qu'ils n'en rassurent, et rien n'oblige à les garder pendant une période de rencontres. Désactivez-les quand l'application le permet : un message sans réponse fait beaucoup moins mal quand on ne sait pas qu'il a été lu.",
+  "lies": [
+    "ghosting",
+    "breadcrumbing",
+    "fizzling",
+    "unmatch"
+  ],
+  "lire_aussi": [
+    "/guide/premier-message/",
+    "/avis/"
+  ],
+  "auteur": "patrice",
+  "publie_le": "2026-11-17",
+  "modifie_le": "2026-11-17"
+}

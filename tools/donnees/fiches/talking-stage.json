@@ -1,0 +1,65 @@
+{
+  "slug": "talking-stage",
+  "mot": "Talking stage",
+  "genre": "n. m.",
+  "etymologie": "de l'anglais <i>talking</i>, le fait de parler, et <i>stage</i>, l'étape ; de l'expression <i>we're just talking</i>, « on se parle, c'est tout »",
+  "resume": "On se parle, sans être ensemble",
+  "definition_courte": "Période où deux personnes échangent régulièrement et se plaisent, sans être en couple ni avoir défini ce qu'elles sont l'une pour l'autre.",
+  "title": "Talking stage : définition, durée et comment en sortir",
+  "description": "Le talking stage, c'est la phase où l'on « se parle » sans être ensemble. Sa durée, les signes qu'il s'éternise et comment poser la question sans gêne.",
+  "h1": "Talking stage : <em>on se parle, mais on est quoi, au juste ?</em>",
+  "lede": "Vous vous écrivez tous les jours, vous vous êtes vus deux ou trois fois, une amie vous demande « Alors, vous êtes ensemble ? » et vous répondez « On se parle ». Ce flou a désormais un nom : le <strong>talking stage</strong>.",
+  "definition": "Le talking stage désigne la période où deux personnes échangent régulièrement, se plaisent et apprennent à se connaître, sans être en couple ni avoir défini ce qu'elles sont l'une pour l'autre. C'est l'étape entre le match et la relation. Elle n'implique en principe aucune exclusivité, et c'est justement ce qui la rend parfois inconfortable.",
+  "sections": [
+    {
+      "id": "a-quoi-ca-sert",
+      "titre": "À quoi sert cette phase entre le match et le couple",
+      "html": "<p>Le talking stage a mauvaise réputation, mais il répond à un besoin réel. Après un match, on ne sait presque rien de l'autre. Les premières semaines servent à vérifier que l'attirance tient, que l'humour fonctionne, que les projets de vie ne sont pas incompatibles. Les générations précédentes vivaient la même chose sans lui donner de nom : on se fréquentait.</p>\n        <p>Ce qui a changé, c'est la place du message écrit. Une grande partie du talking stage se passe aujourd'hui dans une conversation sur téléphone, avec ses codes : le bonjour du matin, le mème envoyé à minuit, la réponse attendue dans la journée. Ce fil quotidien crée une intimité rapide, parfois plus rapide que la connaissance réelle de l'autre.</p>"
+    },
+    {
+      "id": "quand-ca-coince",
+      "titre": "Quand le talking stage s'éternise",
+      "html": "<p>Tant que les deux avancent au même rythme, cette phase est agréable. Elle devient pesante quand elle dure sans que rien ne bouge.</p>\n        <ul class=\"prose-list\"><li><strong>Les messages sont nombreux, les rencontres rares</strong> : vous échangez beaucoup, mais les rendez-vous se comptent sur les doigts d'une main et sont toujours proposés par vous.</li><li><strong>Le sujet est évité</strong> : chaque allusion à la suite (« et nous, alors ? ») est esquivée par une blague ou un changement de conversation.</li><li><strong>Vous ne savez pas si l'autre voit d'autres personnes</strong>, et vous n'osez pas demander.</li><li><strong>L'appli est toujours là</strong> : son profil reste actif, le vôtre aussi, et chacun fait semblant de ne pas le remarquer.</li></ul>\n        <p>Un talking stage qui s'enlise peut glisser vers une <a href=\"/lexique/situationship/\">situationship</a>, une relation qui en a toutes les apparences sans en avoir le nom, ou vers un <a href=\"/lexique/benching/\">benching</a>, où l'un garde l'autre en réserve.</p>"
+    },
+    {
+      "id": "en-sortir",
+      "titre": "Comment poser la question sans tout gâcher",
+      "html": "<p>La peur est toujours la même : poser la question ferait fuir l'autre. En réalité, une personne intéressée est souvent soulagée qu'on clarifie les choses, et une personne qui fuit devant une question simple vous aurait fait perdre beaucoup plus de temps.</p>\n        <h3>Choisir le bon moment</h3>\n        <p>De vive voix si possible, ou par message dans un moment calme, pas à deux heures du matin après une soirée arrosée. Évitez aussi d'aborder le sujet juste après une déception, quand la question sonnerait comme un reproche.</p>\n        <h3>Parler de vous plutôt que de l'autre</h3>\n        <p>« J'ai envie de te voir davantage et d'arrêter de chercher ailleurs » est plus facile à entendre que « Tu me fais tourner en rond ». Dire ce que vous souhaitez laisse à l'autre la liberté de répondre sans se sentir accusé.</p>\n        <h3>Accepter toutes les réponses</h3>\n        <p>L'autre peut dire oui, demander un peu de temps, ou avouer qu'il ne cherche rien de sérieux. Les trois réponses vous servent. Un « je ne sais pas encore » mérite qu'on lui laisse quelques semaines : fixez-vous intérieurement une échéance, et reposez la question si rien n'a bougé.</p>"
+    },
+    {
+      "id": "en-pratique",
+      "titre": "En pratique",
+      "html": "<h3>Combien de temps dure un talking stage ?</h3>\n        <p>Aucune durée ne s'impose. Pour certains, la question de l'exclusivité se pose au bout de quelques rendez-vous, pour d'autres après plusieurs mois. Le bon repère reste votre ressenti : quand le flou commence à vous peser, il est temps d'en parler.</p>\n        <h3>Est-ce qu'on peut parler à plusieurs personnes pendant un talking stage ?</h3>\n        <p>Tant que rien n'a été convenu, oui, et beaucoup le font. Si cela vous dérange, ou si vous souhaitez l'inverse, c'est justement le signe qu'il faut en discuter. Ce qui pose problème, c'est de tenir pour acquis une exclusivité que personne n'a annoncée.</p>\n        <h3>Comment savoir si l'autre veut aller plus loin ?</h3>\n        <p>Il propose des rendez-vous, vous présente à ses amis, fait des projets à quelques semaines. Celui qui reste dans les messages et repousse sans cesse les rencontres envoie le signal inverse, même avec beaucoup de tendresse par écrit.</p>"
+    }
+  ],
+  "conversation": {
+    "nom": "Camille",
+    "legende": "Cinq semaines d'échanges quotidiens, trois rendez-vous",
+    "messages": [
+      {
+        "de": "recu",
+        "texte": "Trop bien hier soir 😊 on se refait ça vite ?"
+      },
+      {
+        "de": "envoye",
+        "texte": "Carrément ! Et j'avoue que j'aimerais bien savoir où on en est, toi et moi. De mon côté, j'ai plus trop envie de voir d'autres gens. Et toi ?"
+      }
+    ],
+    "apres": "en-sortir",
+    "commentaire": "<p>La question arrive dans un moment positif, part de ce que vous ressentez et laisse une vraie place à la réponse. C'est le meilleur cadre pour une conversation que beaucoup repoussent par peur.</p>"
+  },
+  "parti_pris": "Le talking stage est une étape normale, et il n'a rien de suspect tant qu'il mène quelque part. Au-delà de quelques semaines de flou qui vous pèse, une question simple vaut mieux que des mois de devinettes.",
+  "lies": [
+    "situationship",
+    "benching",
+    "exclusivite",
+    "slow-fade"
+  ],
+  "lire_aussi": [
+    "/guide/premier-message/",
+    "/comparatif-relation-serieuse/"
+  ],
+  "auteur": "marie",
+  "publie_le": "2026-11-03",
+  "modifie_le": "2026-11-03"
+}
