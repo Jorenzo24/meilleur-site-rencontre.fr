@@ -110,3 +110,47 @@
 /* Photos dans le texte : pleine largeur de colonne, en ouverture de partie */
 .gd-img { margin: 1.6rem 0 1.8rem; }
 .gd-img img { width: 100%; height: auto; aspect-ratio: 3 / 2; object-fit: cover; }
+
+/* Message recu (exemples d'arnaques) : bulle a gauche, blanche */
+.av-prose .ch-bulle--recu {
+  align-self: flex-start;
+  background: var(--bg-pure);
+  color: var(--text);
+  border: 1px solid var(--border);
+  border-radius: 1.15rem 1.15rem 1.15rem .3rem;
+}
+.ch--recu .ch-fil { gap: .7rem; }
+
+/* Check-list : de vraies cases a cocher, sans encadre */
+.gd-check { margin: 1.6rem 0 1.4rem; padding: 0; border: 0; }
+.gd-check legend { padding: 0; margin: 0 0 .8rem; font-family: var(--font-display); font-size: 1.25rem; font-weight: 600; color: var(--text); }
+.gd-check label {
+  display: flex;
+  gap: .85rem;
+  align-items: flex-start;
+  padding: .75rem 0;
+  border-bottom: 1px solid var(--border);
+  font-size: 1rem;
+  line-height: 1.55;
+  color: #3d3842;
+  cursor: pointer;
+}
+.gd-check input {
+  appearance: none;
+  -webkit-appearance: none;
+  flex: none;
+  width: 1.3rem;
+  height: 1.3rem;
+  margin: .12rem 0 0;
+  border: 1.5px solid var(--text-muted);
+  border-radius: 50%;
+  background: var(--bg-pure);
+  cursor: pointer;
+  transition: background-color .2s ease, border-color .2s ease;
+}
+.gd-check input:checked {
+  border-color: var(--brand);
+  background: var(--brand) url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='white' stroke-width='3' stroke-linecap='round' stroke-linejoin='round'><path d='M5 12.5l4.5 4.5L19 7.5'/></svg>") no-repeat center / 70%;
+}
+.gd-check input:focus-visible { outline: 2px solid var(--brand); outline-offset: 2px; }
+.gd-check input:checked + span { color: var(--text-muted); }
