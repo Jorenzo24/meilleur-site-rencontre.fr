@@ -26,12 +26,36 @@
       "definition": "Fait de créer et d'entretenir un profil au nom d'une personne qui n'existe pas, ou qui n'est pas celle qui écrit."
     },
     {
+      "slug": "crush",
+      "mot": "Crush",
+      "genre": "n. m.",
+      "etymologie": "de l'anglais <i>to have a crush on someone</i>, avoir le béguin pour quelqu'un ; <i>to crush</i> signifie écraser",
+      "resume": "Béguin, attirance naissante",
+      "definition": "Attirance soudaine et souvent secrète pour quelqu'un, et par extension la personne qui en est l'objet."
+    },
+    {
       "slug": "cushioning",
       "mot": "Cushioning",
       "genre": "n. m.",
       "etymologie": "de l'anglais <i>cushion</i>, le coussin",
       "resume": "Des plans B entretenus",
       "definition": "Fait d'entretenir des contacts de réserve pendant qu'on est déjà engagé dans une relation, pour amortir une éventuelle rupture."
+    },
+    {
+      "slug": "date",
+      "mot": "Date",
+      "genre": "n. m.",
+      "etymologie": "de l'anglais <i>date</i>, le rendez-vous galant ; se prononce « dèïte »",
+      "resume": "Rendez-vous amoureux",
+      "definition": "Rendez-vous entre deux personnes qui envisagent une relation amoureuse, en particulier après une rencontre en ligne."
+    },
+    {
+      "slug": "friendzone",
+      "mot": "Friendzone",
+      "genre": "n. f.",
+      "etymologie": "de l'anglais <i>friend</i>, l'ami, et <i>zone</i> ; popularisé par les séries américaines",
+      "resume": "Cantonné au rôle d'ami",
+      "definition": "Situation de quelqu'un qui éprouve une attirance amoureuse pour une personne qui ne le voit que comme un ami."
     },
     {
       "slug": "ghosting",
@@ -50,6 +74,14 @@
       "definition": "Fait de submerger quelqu'un d'attentions, de compliments et de promesses dès le début d'une relation, à un rythme qui laisse peu de place au recul."
     },
     {
+      "slug": "match",
+      "mot": "Match",
+      "genre": "n. m.",
+      "etymologie": "de l'anglais <i>match</i>, paire assortie, correspondance",
+      "resume": "Intérêt réciproque sur une appli",
+      "definition": "Mise en relation qui se produit quand deux utilisateurs d'une application de rencontre se sont likés mutuellement, et qui leur permet de discuter."
+    },
+    {
       "slug": "orbiting",
       "mot": "Orbiting",
       "genre": "n. m.",
@@ -58,12 +90,28 @@
       "definition": "Fait d'interrompre toute conversation avec quelqu'un tout en continuant à suivre son activité en ligne&nbsp;: vues de stories, likes, réactions."
     },
     {
+      "slug": "red-flag",
+      "mot": "Red flag",
+      "genre": "n. m.",
+      "etymologie": "de l'anglais <i>red flag</i>, le drapeau rouge, signal de danger",
+      "resume": "Signal d'alerte en amour",
+      "definition": "Comportement ou signe qui, dès le début d'une relation, laisse présager un danger, une manipulation ou une incompatibilité profonde."
+    },
+    {
       "slug": "situationship",
       "mot": "Situationship",
       "genre": "n. f.",
       "etymologie": "formé sur <i>situation</i> et <i>relationship</i>",
       "resume": "Relation sans statut défini",
       "definition": "Relation suivie et souvent intime, qui n'a fait l'objet d'aucune définition explicite."
+    },
+    {
+      "slug": "swipe",
+      "mot": "Swipe",
+      "genre": "n. m.",
+      "etymologie": "de l'anglais <i>to swipe</i>, balayer d'un geste",
+      "resume": "Glisser à droite ou à gauche",
+      "definition": "Geste qui consiste à faire glisser un profil vers la droite pour dire oui, ou vers la gauche pour passer, sur une application de rencontre."
     },
     {
       "slug": "zombieing",
