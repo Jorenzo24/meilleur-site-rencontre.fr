@@ -438,3 +438,13 @@
   .av-ouverture-grille { gap: 1.8rem; }
   .av-ouverture { padding-bottom: 2.5rem; }
 }
+
+/* Mentions legales : fiche d'identite, libelle a gauche, valeur a droite */
+.ml-fiche { margin: 1.4rem 0 1.6rem; border-top: 1px solid var(--border); }
+.ml-fiche > div { display: grid; gap: .15rem; padding: .8rem 0; border-bottom: 1px solid var(--border); }
+.ml-fiche dt { font-size: .82rem; color: var(--text-muted); }
+.ml-fiche dd { margin: 0; color: var(--text); }
+.ml-fiche a { color: var(--brand); }
+@media (min-width: 600px) {
+  .ml-fiche > div { grid-template-columns: 13rem 1fr; gap: 1.5rem; align-items: baseline; }
+}
