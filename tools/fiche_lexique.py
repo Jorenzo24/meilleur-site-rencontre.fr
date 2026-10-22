@@ -38,6 +38,7 @@ AUTEURS = {
 # Lectures complementaires possibles (toutes deja en ligne)
 LECTURES = {
     '/guide/premier-message/': ('Premier message : exemples et accroches', "Des accroches qui ouvrent vraiment la conversation, selon le profil.", '/assets/guides/guide-premier-message.webp'),
+    '/guide/premier-rendez-vous/': ('Le premier rendez-vous après une rencontre en ligne', "Quand se voir, où, et ce que deviennent ces rendez-vous, d'après les études.", '/assets/guides/guide-premier-rendez-vous.webp'),
     '/guide/profil-attractif/': ('Rédiger un profil qui attire', "Photos, bio, intentions : les leviers d'un profil qui donne envie d'écrire.", '/assets/guides/guide-profil-attractif.webp'),
     '/guide/faux-profils/': ('Reconnaître un faux profil', "Signaux d'alerte, arnaques sentimentales et vérifications simples.", '/assets/guides/guide-faux-profils.webp'),
     '/guide/site-fiable/': ('Choisir un site de rencontre fiable', "La check-list à dérouler avant de s'inscrire.", '/assets/guides/guide-site-fiable.webp'),

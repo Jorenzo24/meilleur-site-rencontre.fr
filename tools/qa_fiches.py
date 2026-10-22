@@ -17,7 +17,7 @@ from pathlib import Path
 RACINE = Path(__file__).resolve().parent.parent
 CHAMPS = ['slug', 'mot', 'genre', 'resume', 'definition_courte', 'title', 'description', 'h1',
           'lede', 'definition', 'sections', 'parti_pris', 'lies', 'lire_aussi', 'auteur', 'publie_le']
-LIENS_OK = {'/guide/premier-message/', '/guide/profil-attractif/', '/guide/faux-profils/', '/guide/site-fiable/',
+LIENS_OK = {'/guide/premier-message/', '/guide/premier-rendez-vous/', '/guide/profil-attractif/', '/guide/faux-profils/', '/guide/site-fiable/',
             '/comparatif-relation-serieuse/', '/comparatif-seniors/', '/comparatif-gay/', '/avis/',
             '/avis-meetic/', '/avis-edarling/', '/avis-infinite-rencontre/', '/avis-spiice/', '/lexique/'}
 TICS = [r"ce n'est pas [^.]{1,60}, c'est", r"il ne s'agit pas", r"n'est pas (?:un|une|le|la) [^.]{1,40}, mais",
