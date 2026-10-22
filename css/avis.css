@@ -402,7 +402,7 @@
    Une bande rose pale sous le bas des lettres, un trait fin juste dessous.
    Repete sur chaque ligne quand le titre passe a la ligne.
    ========================================================================== */
-.av-prose h2 .tt {
+.av-prose h2 .tt, .au-groupe-t .tt, .av-h2 .tt {
   padding: 0 .06em;
   background-image:
     linear-gradient(rgba(168, 30, 70, .14), rgba(168, 30, 70, .14)),
