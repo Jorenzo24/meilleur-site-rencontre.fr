@@ -1,0 +1,87 @@
+{
+  "lucie": {
+    "nom": "Lucie",
+    "job": "Rédactrice",
+    "role": "Rédactrice · web, modes de vie et relations",
+    "tags": [
+      "Qualité des profils",
+      "Sécurité",
+      "Simplicité d'usage"
+    ],
+    "bio": [
+      "J'écris depuis plusieurs années sur des sujets liés au web, aux modes de vie et aux relations humaines. Les sites de rencontre m'intéressent parce qu'ils en disent long sur notre façon de nous présenter, d'échanger et de créer du lien aujourd'hui.",
+      "Quand je teste une plateforme, je regarde ce qui compte vraiment pour l'utilisateur : la qualité des profils, l'ambiance générale, la simplicité d'utilisation, la sécurité et la clarté des abonnements. Mon objectif est d'aider chacun à choisir un site qui lui correspond vraiment, sans se laisser piéger par de belles promesses ou des fonctionnalités peu utiles."
+    ],
+    "description": "Lucie, rédactrice chez MeilleurSiteRencontre.fr : elle teste les sites de rencontre en regardant la qualité des profils, l'ambiance, la simplicité et la clarté des abonnements.",
+    "title": "Lucie, rédactrice | MeilleurSiteRencontre.fr",
+    "meta": "Lucie, rédactrice chez MeilleurSiteRencontre.fr : elle teste les sites de rencontre en regardant la qualité des profils, l'ambiance, la simplicité et la clarté des abonnements."
+  },
+  "marie": {
+    "nom": "Marie",
+    "job": "Rédactrice",
+    "role": "Rédactrice · célibat et usages numériques",
+    "tags": [
+      "Comparatifs",
+      "Clarté des offres",
+      "Profils sérieux"
+    ],
+    "bio": [
+      "J'ai longtemps travaillé dans la rédaction web et la communication, avec un intérêt particulier pour le célibat, les relations et les usages numériques.",
+      "J'aime comparer les plateformes avec un regard simple et concret : est-ce que l'inscription est agréable, est-ce que les profils semblent sérieux, est-ce qu'on comprend vite ce que l'on paie et ce que l'on obtient. Dans mes articles, j'essaie de rendre les comparatifs plus humains et moins froids, pour aider les lecteurs à trouver un site adapté à leur situation et à leur façon d'échanger."
+    ],
+    "description": "Marie, rédactrice chez MeilleurSiteRencontre.fr : elle compare les sites de rencontre avec un regard concret et cherche à rendre les avis plus humains.",
+    "title": "Marie, rédactrice | MeilleurSiteRencontre.fr",
+    "meta": "Marie, rédactrice chez MeilleurSiteRencontre.fr : elle compare les sites de rencontre avec un regard concret et cherche à rendre les avis plus humains."
+  },
+  "patrice": {
+    "nom": "Patrice",
+    "job": "Rédacteur",
+    "role": "Rédacteur · veille digitale et services en ligne",
+    "tags": [
+      "Fiabilité",
+      "Lisibilité des offres",
+      "Comparaison"
+    ],
+    "bio": [
+      "Mon parcours mêle rédaction, veille digitale et conseil autour des services en ligne. J'ai toujours aimé comprendre comment fonctionnent les plateformes, ce qu'elles promettent et surtout ce qu'elles apportent réellement une fois qu'on les utilise.",
+      "Sur les sites de rencontre, je m'intéresse à la fiabilité, à la lisibilité des offres, à la qualité des profils et aux différences concrètes entre les services. J'écris pour aider les lecteurs à gagner du temps, à éviter les mauvaises surprises et à choisir une plateforme sérieuse, sans se laisser guider uniquement par le marketing."
+    ],
+    "description": "Patrice, rédacteur chez MeilleurSiteRencontre.fr : il évalue la fiabilité, la lisibilité des offres et les différences concrètes entre les sites de rencontre.",
+    "title": "Patrice, rédacteur | MeilleurSiteRencontre.fr",
+    "meta": "Patrice, rédacteur chez MeilleurSiteRencontre.fr : il évalue la fiabilité, la lisibilité des offres et les différences concrètes entre les sites de rencontre."
+  },
+  "jeanne": {
+    "nom": "Jeanne",
+    "job": "Rédactrice",
+    "role": "Rédactrice · société et rencontres en ligne",
+    "tags": [
+      "Sécurité",
+      "Sincérité des profils",
+      "Communautés"
+    ],
+    "bio": [
+      "J'ai un parcours éditorial autour des contenus conseil, des sujets de société et des nouveaux usages du numérique. Les rencontres en ligne m'intéressent parce qu'elles touchent à quelque chose de très personnel : la confiance, les attentes, les hésitations, et parfois l'envie de recommencer autrement.",
+      "J'accorde beaucoup d'importance à la sécurité, à la sincérité des profils, à l'ambiance des communautés et à la place laissée à ceux qui veulent prendre leur temps. J'écris pour aider les lecteurs à comparer sans pression et à choisir un site sur lequel ils se sentent à l'aise."
+    ],
+    "description": "Jeanne, rédactrice chez MeilleurSiteRencontre.fr : elle attache de l'importance à la sécurité, à la sincérité des profils et à l'ambiance des communautés.",
+    "title": "Jeanne, rédactrice | MeilleurSiteRencontre.fr",
+    "meta": "Jeanne, rédactrice chez MeilleurSiteRencontre.fr : elle attache de l'importance à la sécurité, à la sincérité des profils et à l'ambiance des communautés."
+  },
+  "bastien": {
+    "nom": "Bastien",
+    "job": "Rédacteur",
+    "role": "Rédacteur · analyse de plateformes et SEO",
+    "tags": [
+      "Navigation",
+      "Messagerie",
+      "Rapport qualité-prix"
+    ],
+    "bio": [
+      "Je me suis formé à la rédaction web, au SEO et à l'analyse de plateformes numériques. Ce que j'aime, c'est décortiquer un site pour comprendre ce qui est vraiment utile : l'inscription, la navigation, la qualité des suggestions, la messagerie, la modération ou le rapport qualité-prix.",
+      "Dans l'univers des rencontres en ligne, je garde une approche très pratique : je cherche à savoir si une plateforme facilite réellement les échanges ou si elle complique inutilement l'expérience. Mon objectif est d'aider les utilisateurs à faire un choix clair, rapide et adapté à leur manière de rencontrer quelqu'un."
+    ],
+    "description": "Bastien, rédacteur chez MeilleurSiteRencontre.fr : il décortique les plateformes (inscription, navigation, messagerie, modération, rapport qualité-prix) avec une approche pratique.",
+    "title": "Bastien, rédacteur | MeilleurSiteRencontre.fr",
+    "meta": "Bastien, rédacteur chez MeilleurSiteRencontre.fr : il décortique les plateformes (inscription, navigation, messagerie, modération, rapport qualité-prix) avec une approche pratique."
+  }
+}
