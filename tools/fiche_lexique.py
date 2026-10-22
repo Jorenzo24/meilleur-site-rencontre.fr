@@ -28,11 +28,11 @@ AUTEURS = {
     'marie': ('Marie', 'Rédactrice · célibat et usages numériques',
               "Je compare les plateformes avec un regard concret et j'essaie de rendre les avis plus humains et moins froids."),
     'patrice': ('Patrice', 'Rédacteur · veille digitale et services en ligne',
-                "Je m'intéresse à la façon dont les usages numériques transforment nos manières de nous rencontrer."),
+                "Je m'intéresse à la fiabilité, à la lisibilité des offres et aux différences concrètes entre les services."),
     'jeanne': ('Jeanne', 'Rédactrice · société et rencontres en ligne',
                "J'attache de l'importance à la sécurité, à la sincérité des profils et à l'ambiance des communautés."),
-    'bastien': ('Bastien', 'Rédacteur · analyse de plateformes',
-                "Je décortique le fonctionnement des plateformes pour expliquer ce qui se passe derrière l'écran."),
+    'bastien': ('Bastien', 'Rédacteur · analyse de plateformes et SEO',
+                "Je décortique chaque plateforme avec une approche pratique : inscription, navigation, messagerie, modération, rapport qualité-prix."),
 }
 
 # Lectures complementaires possibles (toutes deja en ligne)

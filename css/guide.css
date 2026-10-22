@@ -262,3 +262,23 @@
 .mt-sources li::marker { color: var(--brand); font-weight: 600; }
 .mt-sources li:target { background: var(--sable); }
 .av-prose code { font-size: .9em; padding: .05em .35em; background: var(--bg-alt); border-radius: .3em; }
+
+/* ==========================================================================
+   Qui sommes-nous : la redaction en portraits en arche
+   ========================================================================== */
+.qs-equipe { padding: clamp(3rem, 6vw, 5rem) 0; background: var(--bg-pure); }
+.qs-intro { max-width: 40rem; color: var(--text-muted); font-size: 1.05rem; line-height: 1.65; margin: 0 0 2.5rem; }
+.qs-grille { list-style: none; margin: 0; padding: 0; display: grid; grid-template-columns: 1fr 1fr; gap: 2rem 1.25rem; }
+.qs-grille a { display: flex; flex-direction: column; color: var(--text); }
+.qs-grille a:hover { text-decoration: none; }
+.qs-photo { display: block; overflow: hidden; border-radius: 999px 999px 0 0; margin-bottom: .9rem; background: var(--bg-alt); }
+.qs-photo img { width: 100%; aspect-ratio: 4 / 5; object-fit: cover; filter: grayscale(1); transition: filter .4s ease, transform .6s ease; }
+.qs-grille a:hover .qs-photo img { filter: none; transform: scale(1.03); }
+.qs-nom { font-family: var(--font-display); font-size: 1.45rem; font-weight: 600; line-height: 1.15; transition: color .25s ease; }
+.qs-grille a:hover .qs-nom { color: var(--brand); }
+.qs-role { font-size: .84rem; font-weight: 600; color: var(--brand); margin: .2rem 0 .5rem; }
+.qs-bio { font-family: var(--font-display); font-style: italic; font-size: 1rem; line-height: 1.5; color: var(--text-muted); }
+.qs .qs-corps { grid-template-columns: minmax(0, 1fr); }
+.qs .av-corps .av-article { max-width: 44rem; margin: 0 auto; }
+@media (min-width: 760px) { .qs-grille { grid-template-columns: repeat(3, 1fr); } }
+@media (min-width: 1100px) { .qs-grille { grid-template-columns: repeat(5, 1fr); gap: 1.5rem; } .qs-grille li:nth-child(even) { margin-top: 2.5rem; } }
